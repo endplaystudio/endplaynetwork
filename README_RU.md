@@ -1,5 +1,5 @@
 # END PLAY Network (Russian/Русский)
-[English version](https://github.com/profitrollgame/endplaynetwork/README.md "Read in English") | [Английская версия](https://github.com/profitrollgame/endplaynetwork/README.md "Читать на Английском")
+[English version](../main/README.md "Read in English") | [Английская версия](../main/README.md "Читать на Английском")
 
 First of all this page is made to help people report bugs and malfuctions on our Minecraft servers instead of making helpdesk for a couple issues only. We don't think that publishing ongoing server's source code is a good idea so it'll be probably available to everyone after server's release.
 Прежде всего, эта страница предназначена для того, чтобы помочь людям сообщать об ошибках и неисправностях на наших серверах Minecraft, дабы не создавать целую службу поддержки только ради пары проблем. Мы не думаем, что публикация исходного кода текущего сервера - хорошая затея, поэтому он, вероятно, будет доступен всем после выпуска сервера.
