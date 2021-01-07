@@ -1,5 +1,5 @@
 # END PLAY Network (English/Английский)
-[Russian version](../blob/main/README_RU.md "Read in russian") | [Русская версия](../blob/main/README_RU.md "Читать на русском")
+[Russian version](../main/README_RU.md "Read in russian") | [Русская версия](../main/README_RU.md "Читать на русском")
 
 First of all this page is made to help people report bugs and malfuctions on our Minecraft servers instead of making helpdesk for a couple issues only. We don't think that publishing ongoing server's source code is a good idea so it'll be probably available to everyone after server's release.
 
