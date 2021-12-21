@@ -1,0 +1,510 @@
+#################################################################
+#																#
+#	This plugin was made by HyChrod(@Spigot: Flocrafter77)		#
+#	You're not authorised to re-publish or sell this plugin		#
+#																#
+#################################################################
+Friends:
+  Prefix: "&e Друзья &8|"
+  CheckForUpdates: false
+  
+  # This options are for server networks and enables BungeeCord
+  # To use BungeeMode you have to install "Friends - BungeeAddon" on your Proxy too
+  # You can find the Addon here:
+  # <https://www.spigotmc.org/resources/friends2-0-mc1-8-1-10-bungeecord-addon.28909/>
+  BungeeMode: false
+  # If this is enabled the server the player is currently on will be shown under their name in the GUI!
+  # Only available if BungeeMode is activated
+  ShowServer:
+    Enable: true
+    Lore: "&3Server: &f%SERVER%"
+    
+  FriendChat:
+    Enable: true
+    # The message have to start with this to write in the friend chat!
+    Code: "@f"
+    # This allows players to send private messages to their friends using command '/f msg <Player> <Message>'!
+    FriendMSG: true
+    # If this is enabled player with special permissions are able to see the friendchat of other players
+    # This can be used to control the friendchat by admins
+    # Permission:
+    # - Friends.Commands.SpyChat
+    SpyChat:
+      Enable: true
+      Format: "&3%PLAYER% &6[FRIENDCHAT] &f| %MESSAGE%"
+    
+  # These options are for an optional partysystem
+  # To use the partysystem you have to install my Party plugin on your Proxy too
+  # Make sure you also enabled bungeemode!
+  # You can find the plugin here:
+  # <https://www.spigotmc.org/resources/party.30609/>
+  PartySystem:
+    Enable: false
+  
+  Options:
+    MaxFriends:
+      # This is the amount of friends normal players can have
+      Normal: 25
+      # This is the amount of friends players with special permissions can have
+      # Permission: - Friends.FriendLimit.Extended
+      Extended: 50
+    # You can disable the jump function
+    EnableJumping: false
+    # If this is disabled, friends can't hit each other!
+    FriendCanPvP: true
+    # If this is enabled, players can hit others with the friend-item to send a request!
+    HitToRequest: false
+    # If this is enabled, players can drop the friend-item!
+    CanDropItem: false
+    # If this is enabled, players can place the friend-item!
+    CanPlaceItem: false
+    # If this is enabled, players can move the friend-item in their inventory!
+    CanMoveItem: false
+    # If this is enabled you get a notification when a friend joins or quits the server!
+    JoinQuitMessages: true
+    # If this is enabled the world the player is currently on will be shown under their name in the GUI!
+    # This only works if BungeeMode is disabled!
+    # If this is enabled the player gets notified on join if he has open friend requests
+    # The message can be changed in the messages.yml!
+    RequestNotification: true
+    ShowWorld:
+      Enable: true
+      Lore: "&3Сейчас в: &f%WORLD%"
+    LastOnline:
+      Enable: true
+      # Values: %days% %hours% %minutes% %seconds%
+      Format: "&cБыл в сети: &3%days% дней, %hours% часов и %minutes% минут назад"
+    Nicknames:
+      # If this is enabled, the name of your friends will be replaced in all messages to the nickname
+      ReplaceChatMessages: true
+      # If this is enabled, the real name of a nicked-player will be shown below his nick in the GUI
+      ShowRealName: true
+      Lore: "//&7&o(%NAME%)"
+    # The status players can set under their name in the gui
+    Status:
+      Delay:
+        # Enable or disbale the delay between changing your status
+        Enable: true
+        # Time in seconds
+        TimeStamp: 600
+    
+  FriendItem:
+    # If this is enabled, every player will get this item on join
+    GiveOnJoin: false
+    # If this is enabled, the firenditem will have your skin
+    PlayersHead: false
+    Item:
+      ItemID: "397:3"
+      Name: "&eFriends &7(Rightclick)"
+      # You can split the lines with "//"!
+      Lore: "&7Rightclick this item to open the GUI"
+      InventorySlot: 10
+      
+  GUI:
+    # If you disable this, all possibilities to open the gui will be removed
+    Enable: true
+    Title: "&eДрузья:"
+    # Available sizes are: 9, 18, 27, 36, 45, 54!
+    # WARNING! If you use another number as above, the gui will not work!!
+    InventorySize: 54
+    FriendHead:
+      # If this is enabled the players head in your friend-inventory will change to a skeleton if he turns offline!
+      ChangeHeadIfOffline: true
+      # If you are using PermissionsEx oder zPermissions, the placeholders %PREFIX% and %SUFFIX% will be replaced
+      NameOnline: "%PREFIX%%NAME%%SUFFIX% &a(В сети)"
+      NameOffline: "%PREFIX%%NAME%%SUFFIX% &8(Не в сети)"
+    Items:
+      RequestsItem:
+        ItemID: "388:0"
+        Name: "&2Запросы"
+        # You can split the lines with "//"!
+        Lore: "&7Нажми чтобы увидеть все запросы в друзья//&7Сейчас у тебя их: &a%REQUESTS%"
+        InventorySlot: 46
+      BlockedPlayers:
+        ItemID: "46:0"
+        Name: "&cЧёрный список"
+        # You can split the lines with "//"!
+        Lore: "&7Нажми чтобы увидеть игроков в твоём ЧС//&7Сейчас заблокировано: &a%BLOCKED%"
+        InventorySlot: 47
+      OptionsItem:
+        ItemID: "404:0"
+        Name: "&3Опции"
+        # You can split the lines with "//"
+        Lore: "&7Нажми чтобы поменять настройки"
+        InventorySlot: 48
+      NextPage:
+        ItemID: "262:0"
+        Name: "&6Следущая страница"
+        # You can split the lines with "//"!
+        Lore: "&7Нажми чтобы посмотреть след. страницу"
+        InventorySlot: 54
+      PreviousPage:
+        ItemID: "262:0"
+        Name: "&6Предыдущая страница"
+        # You can split the lines with "//"!
+        Lore: "&7Нажми чтобы посмотреть пред. страницу"
+        InventorySlot: 53
+      InventorySorting:
+        Enable: true
+        Item:
+          ItemID: "399:0"
+          Name: "&eСортировка: &3%SORTING%"
+          # You can split the lines with "//"!
+          Lore: "%SORTING_DESCRIPTION%////&7Нажми чтобы сменить сортировку"
+          InventorySlot: 50
+        # Available sortings: Nothing, Online_Offline, Favorites, Alphabetic
+        DefaultSorting: "Nothing"
+        SortingMethods:
+          Online_Offline:
+            Name: "&7Онлайн/Оффлайн"
+            # You can split the lines with "//"!
+            Description: "&7Друзья отсортированы по онлайну"
+          Favorites:
+            Name: "&7Избранное"
+            # You can split the lines with "//"!
+            Description: "&7Избранное вверху списка"
+          Nothing:
+            Name: "&7Нет"
+            # You can split the lines with "//"!
+            Description: "&7Нет сортировки"
+          Alphabetic:
+            Name: "&7Алфавитная"
+            # You can split the lines with "//"!
+            Description: "&7Сортировка в алфавитном порядке//&7по имени игроков"
+      Placeholders:
+        ItemID: "160:7"
+        Name: " "
+        Lore: ""
+        # Put in the number of slots, the placeholder should be placed on
+        InventorySlots:
+        - 49
+        - 51
+        - 52
+    FriendEditInventory:
+      InventorySize: 9
+      Items:
+        Nickname:
+          Enable: true
+          ItemID: "421:0"
+          Name: "&dПрозвище"
+          # You can split the lines with "//"!
+          Lore: "&7ЛКМ чтобы изменить, ПКМ чтобы удалить////&eТекущее прозвище: &f%NICKNAME%"
+          InventorySlot: 6
+        RemoveItem:
+          ItemID: "166:0"
+          Name: "&cУдалить"
+          # You can split the lines with "//"!
+          Lore: "&7Удалить игрока из списка друзей."
+          InventorySlot: 9
+        FavoriteItem:
+          ItemID: "399:0"
+          Name: "&6Избранное &7(%VALUE%&7)"
+          # You can split the lines with "//"!
+          Lore: "&7Добавить или удалить игрока из//&7вашего списка избранного."
+          InventorySlot: 7
+          Values:
+            Activated: "&aДа"
+            Deactivated: "&cНет"
+        JumpItem:
+          ItemID: "160:7"
+          Name: "&3Jump"
+          # You can split the lines with "//"!
+          Lore: "&7Jump to &a%NAME% &7position/server"
+          InventorySlot: 4
+        PartyItem:
+          ItemID: "401:0"
+          Name: "&dParty"
+          # You can split the lines with "//"!
+          Lore: "&7Invite &a%NAME% &7to your party"
+          InventorySlot: 3
+        BackItem:
+          ItemID: "330:0"
+          Name: "&7Назад"
+          # You can split the lines with "//"!
+          Lore: ""
+          InventorySlot: 1
+        Placeholders:
+          ItemID: "160:7"
+          Name: " "
+          # You can split the lines with "//"!
+          Lore: ""
+          # Put in the number of slots, the placeholder should be placed on
+          InventorySlots:
+          - 2
+          - 3
+          - 5
+          - 8
+    
+    RequestsInventory:
+      Title: "&3Запросы:"
+      InventorySize: 54
+      Items:
+        AcceptAll:
+          ItemID: "35:5"
+          Name: "&aПринять все запросы"
+          # You can split the lines with "//"!
+          Lore: "&7Принять все &a&3%REQUESTS% &7запросов!"
+          InventorySlot: 49
+        DenyAll:
+          ItemID: "35:14"
+          Name: "&cОтклонить все запросы"
+          # You can split the lines with "//"!
+          Lore: "&7Отклонить все &a&3%REQUESTS% &7запросов!"
+          InventorySlot: 50
+        BackItem:
+          ItemID: "330:0"
+          Name: "&7Назад"
+          # You can split the lines with "//"!
+          Lore: ""
+          InventorySlot: 46
+        NextPage:
+          ItemID: "262:0"
+          Name: "&6Следущая страница"
+          # You can split the lines with "//"!
+          Lore: ""
+          InventorySlot: 54
+        PreviousPage:
+          ItemID: "262:0"
+          Name: "&6Предыдущая страница"
+          # You can split the lines with "//"!
+          Lore: ""
+          InventorySlot: 53
+        Placeholders:
+          ItemID: "160:7"
+          Name: " "
+          # You can split the lines with "//"!
+          Lore: ""
+          # Put in the number of slots, the placeholder should be placed on
+          InventorySlots:
+          - 47
+          - 48
+          - 51
+          - 52
+      RequestEditInventory:
+        InventorySize: 9
+        Items:
+          AcceptItem:
+            ItemID: "35:5"
+            Name: "&aПрнять"
+            # You can split the lines with "//"!
+            Lore: "&7Принять запрос в друзья"
+            InventorySlot: 4
+          DenyItem:
+            ItemID: "35:14"
+            Name: "&cОтклонить"
+            # You can split the lines with "//"!
+            Lore: "&7Отклонить запрос в друзья"
+            InventorySlot: 6
+          BackItem:
+            ItemID: "330:0"
+            Name: "&7Назад"
+            # You can split the lines with "//"!
+            Lore: ""
+            InventorySlot: 1
+          Placeholders:
+            ItemID: "160:7"
+            Name: " "
+            # You can split the lines with "//"!
+            Lore: ""
+            InventorySlots:
+            - 2
+            - 3
+            - 5
+            - 7
+            - 8
+            - 9    
+          
+    BlockedInventory:
+      Title: "&cЗаблокированные:"
+      InventorySize: 54
+      Items:
+        UnblockAll:
+          ItemID: "35:5"
+          Name: "&aРазблокировать всех игроков"
+          # You can split the lines with "//"!
+          Lore: "&7Нажми чтобы разблокировать всех &a%BLOCKED% &7заблокированных!"
+          InventorySlot: 50
+        NextPage:
+          ItemID: "262:0"
+          Name: "&6Следущая страница"
+          # You can split the lines with "//"!
+          Lore: ""
+          InventorySlot: 54
+        PreviousPage:
+          ItemID: "262:0"
+          Name: "&6Предыдущая страница"
+          # You can split the lines with "//"!
+          Lore: ""
+          InventorySlot: 53
+        BackItem:
+          ItemID: "330:0"
+          Name: "&7Назад"
+          # You can split the lines with "//"!
+          Lore: ""
+          InventorySlot: 46
+        Placeholders:
+          ItemID: "160:7"
+          Name: " "
+          # You can split the lines with "//"!
+          Lore: ""
+          # Put in the number of slots, the placeholder should be placed on
+          InventorySlots:
+          - 47
+          - 48
+          - 49
+          - 51
+          - 52
+      BlockedEditInventory:
+        InventorySize: 9
+        Items:
+          UnblockItem:
+            ItemID: "35:5"
+            Name: "&aРазблокировать"
+            # You can split the lines with "//"!
+            Lore: "&7Нажми чтобы разблокировать &a%NAME%"
+            InventorySlot: 5
+          BackItem:
+            ItemID: "330:0"
+            Name: "&7Назад"
+            # You can split the lines with "//"!
+            Lore: ""
+            InventorySlot: 1
+          Placeholders:
+            ItemID: "160:7"
+            Name: " "
+            # You can split the lines with "//"!
+            Lore: ""
+            # Put in the number of slots, the placeholder should be placed on
+            InventorySlots:
+            - 2
+            - 3
+            - 4
+            - 6
+            - 7
+            - 8
+            - 9
+    OptionsInventory:
+      Title: "&3Настройки:"
+      # Available sizes are: 9, 18, 27, 36, 45, 54!
+      # WARNING! If you use another number as above, the gui will not work!!
+      InventorySize: 45
+      RequestsItems:
+        Name: "&aЗапросы"
+        ItemID: "397:3"
+        # You can separate the lines with "//"!
+        Lore: "&7Если выключено://&7Игроки не смогут отправлять запросы в друзья!"
+        InventorySlot: 11
+        ButtonInventorySlot: 20
+      MessagesItems:
+        Name: "&3Чат друзей"
+        ItemID: "339:0"
+        # You can separate the lines with "//"!
+        Lore: "&7Если выключено://&7Вы не будете видеть дружеский чат!"
+        InventorySlot: 12
+        ButtonInventorySlot: 21
+      JumpingItem:
+        Name: "&dJumping"
+        ItemID: "368:0"
+        # You can separate the lines with "//"!
+        Lore: "&7If this function is disabled//&7your friends can't jump to you!"
+        InventorySlot: 13
+        ButtonInventorySlot: 22
+      PrivateMessages:
+        Name: "&6Личные сообщения"
+        ItemID: "288:0"
+        # You can separate the lines with "//"!
+        Lore: "&7Если выключено://&7Вы не будете видеть личные//&7сообщения от ДРУЗЕЙ"
+        InventorySlot: 14
+        ButtonInventorySlot: 23
+      PartyInvites:
+        Name: "&9Party-Invites"
+        ItemID: "401:0"
+        # You can separate the lines with "//"!
+        Lore: "&7If this function is disabled//&7you can't receive any party invites"
+        InventorySlot: 15
+        ButtonInventorySlot: 24
+      PrivateModeItem:
+        Name: "&4Режим шпиона"
+        ItemID: "355:0"
+        # You can separate the lines with "//"!
+        Lore: "&7Если включено://&7Вы будете показаны как Оффлайн//&7всем вашим друзьям"
+        InventorySlot: 16
+        ButtonInventorySlot: 25
+      StatusItem:
+        Enable: true
+        Name: "&7Ваш текущий статус:"
+        ItemID: "421:0"
+        # You can separate the lines with "//"!
+        NoStatusLore: "&cСтатус не выставлен!"
+        InventorySlot: 37
+      ButtonOff:
+        Name: "&7Сейчас (&cВыключено&7)"
+        ItemID: "351:8"
+        # You can separate the lines with "//"!
+        Lore: ""
+      ButtonOn:
+        Name: "&7Сейчас (&aВключено&7)"
+        ItemID: "351:10"
+        # You can separate the lines with "//"!
+        Lore: ""
+      BackItem:
+        Name: "&8Назад!"
+        ItemID: "330:0"
+        # You can separate the lines with "//"!
+        Lore: "&7Вернуться в меню!"
+        InventorySlot: 45
+      Placeholders:
+        ItemID: "160:7"
+        Name: " "
+        # You can split the lines with "//"!
+        Lore: ""
+        # Put in the number of slots, the placeholder should be placed on
+        InventorySlots:
+        - 44
+        - 43
+        - 42
+        - 41
+        - 40
+        - 39
+        - 38
+        - 37
+        
+  # Put in the name of worlds where players should not use the friend-item!
+  # If this feature is enabled you have to disable 'EnabledWorlds'!
+  DisabledWorlds:
+    Enable: true
+    Worlds:
+    - world_nether
+    
+  # Put in the name of worlds where players can use the friend-item!
+  # The friend-item will be removed on all other worlds!
+  # If this feature is enabled you have to disable 'DisabledWorlds'!
+  EnabledWorlds:
+    Enable: false
+    Worlds:
+    - world_nether
+  
+  # Put in the name of servers players should not jump to
+  # This list has only affect to the jumping feature of the plugin
+  # Only works for BungeeMode!
+  # If you want to use this feature you have to disable "EnabledServers"!
+  DisabledServers:
+    Enable: true
+    Servers:
+    - silent_hub
+    - premium_lobby
+  
+  # Put in the name of servers players can jump to
+  # This list has only affect to the jumping feature of the plugin
+  # Only workds for BungeeMode!
+  # If you want to use this feature you have to disable "DisabledServer"!
+  EnabledServers:
+    Enable: false
+    Servers:
+    - lobby_1
+  
+#################################################################
+#																#
+#	All rigths reserved by HyChrod(@Spigot: Flocrafter77)		#
+#																#
+#################################################################

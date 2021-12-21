@@ -1,0 +1,99 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Банк'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bank-bank'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+deposit:
+  COMMAND: 'open:bank-dep-bank.yml'
+  NAME: '&cПоложить'
+  LORE:
+    - 'Положить деньги на счёт в банке'
+    - ' '
+    - 'Доступны варианты:'
+    - ' • 10 LND'
+    - ' • 50 LND'
+    - ' • 100 LND'
+    - ' • 500 LND'
+    - ' • 1000 LND'
+    - ' • Точная сумма'
+  ID: gold_ingot
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+withdraw:
+  COMMAND: 'open:bank-with-bank.yml'
+  NAME: '&aВывести'
+  LORE:
+    - 'Снять деньги со счёта в банке'
+    - ' '
+    - 'Доступны варианты:'
+    - ' • 10 LND'
+    - ' • 50 LND'
+    - ' • 100 LND'
+    - ' • 500 LND'
+    - ' • 1000 LND'
+    - ' • Точная сумма'
+  ID: iron_ingot
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+quests:
+  COMMAND: 'bank balance'
+  NAME: '&cБаланс'
+  LORE:
+    - 'Узнайте баланс банковского счёта &c{player}&7.'
+  ID: redstone
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+interest:
+  COMMAND: 'bank interest'
+  NAME: '&eПроценты'
+  LORE:
+    - 'Узнайте когда вам будут начислены'
+    - '&a0.1% &7от вашего банковского баланса' 
+  ID: 347
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true

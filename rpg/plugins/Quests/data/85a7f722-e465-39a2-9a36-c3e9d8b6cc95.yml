@@ -1,0 +1,16 @@
+currentQuests:
+- Водка "Столичная"
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Водка "Столичная":
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 32
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: ZaRRaZZa

@@ -1,0 +1,23 @@
+command-no-perms: "&cЭтой команды не существует О_о"
+command-missing-args: "&cNot enough arguments supplied!"
+unkown-command: "&cЭтой команды не существует О_о"
+
+nothing-to-cancel: "&cNothing to cancel here!"
+process-cancelled: "&dProcess cancelled!"
+process-already-in-action: "&cProcess already in action!"
+invalid-time: "&cNot a valid value for time!"
+time-not-positive: "&cTime must be a positive number!"
+
+time-format: "&7&l{minutes}&e&l:&7&l{seconds}"
+
+shutting-down: "Сервер будет выключен"
+restarting: "Сервер будет перезагружен"
+right-now: "00:00"
+
+ping-message: "&cБудет {action} через {time}"
+kick-message: "Server is {action}\n{reason}"
+
+actionbar-txt: "&c{action} через {time}"
+title-txt: "{time}"
+subtitle-txt: "&c&l{action}"
+chat-txt: " &6Система &8| &7{action}. Осталось ждать &c{time} &8| &a{reason}"

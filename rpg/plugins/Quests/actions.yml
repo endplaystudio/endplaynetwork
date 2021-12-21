@@ -1,0 +1,73 @@
+events:
+  ExampleEvent:
+    message: <red>Event happened!
+    potion-effect-types:
+    - Speed
+    - Jump
+    potion-effect-durations:
+    - 100
+    - 25
+    potion-effect-amplifiers:
+    - 3
+    - 2
+  GoodJob:
+    message: <green>Good job!
+  DeathFail:
+    fail-quest: true
+  FishingStart:
+    message: <yellow>Type 'rod' in chat to get a fishing rod!
+  TimerEvent:
+    timer: 40
+  CancelTimer:
+    cancel-timer: true
+  Door1:
+    commands:
+    - setblock 152 68 326 minecraft:stone
+  Door:
+    commands:
+    - setblock 152 68 326 minecraft:redstone_block
+  Адскиепроблемки:
+    commands:
+    - setblock -57 81 235 minecraft:redstone_block
+  Адскиепроблемки1:
+    commands:
+    - setblock -57 81 235 minecraft:netherrack
+  ВасилисаOpen:
+    commands:
+    - setblock 17 80 26 minecraft:redstone_block
+  ВасилисаClose:
+    commands:
+    - setblock 17 80 26 minecraft:cobblestone
+  leska:
+    items:
+    - name-STRING:amount-1:displayname-Леска
+  drova:
+    items:
+    - name-LOG:amount-2:data-1:displayname-Дрова
+  udilka:
+    items:
+    - name-STICK:amount-1:displayname-Удилище
+  RodEvent:
+    message: §aHere you go!
+    items:
+    - name-FISHING_ROD:amount-1:displayname-Удочка торговца:meta-type-UNSPECIFIC:Unbreakable-true
+  Rod:
+    items:
+    - name-FISHING_ROD:amount-1:displayname-Удочка торговца:meta-type-UNSPECIFIC:Unbreakable-true
+  tutorial4:
+    commands:
+    - pex user <player> group set main
+    - pex user <player> group remove tutorial
+    - ij remove fixer-8 <player>
+    - ij remove fixer-9 <player>
+  tutorial1:
+    commands:
+    - gps start Геральд Даниил <player>
+    - pex user <player> add -quest.tutorial
+  tutorial2:
+    commands:
+    - gps start Даниил Кинолог <player>
+    - give <player> cooked_porkchop 5
+  tutorial3:
+    commands:
+    - gps start Кинолог Даниил <player>

@@ -1,0 +1,5 @@
+#This is the default configuration file for CompassNavigator
+add-location-permission: compassnavigator.addlocation
+del-location-permission: compassnavigator.dellocation
+admin-add-location-permission: compassnavigator.admin
+show-player-locations: compassnavigator.admin

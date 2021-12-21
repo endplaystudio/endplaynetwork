@@ -1,0 +1,45 @@
+language: EN
+
+invmsg: true
+
+lang:
+  EN:
+    needop: You dont't have the right permissions for this command!
+    onlyingame: That command is for in-game players only!
+    usage: 'Usage: /inv <player>'
+    enderusage: 'Usage: /enderinv <player>'
+    armorusage: 'Usage: /armorinv <player>'
+    playernotonline: That player is not online!
+    lookedinyourinv:  is looking in your inventory!
+  NL:
+    needop: Je hebt niet genoeg rechten voor dit commando!
+    onlyingame: Dat commando is alleen voor in-game spelers!
+    usage: 'Doe: /inv <player>'
+    enderusage: 'Doe: /enderinv <player>'
+    armorusage: 'Doe: /armorinv <player>'
+    playernotonline: Die speler is niet online!
+    lookedinyourinv:  kijkt in je inventaris!
+  FR:
+    needop: Vous devez être OP pour cette commande!
+    onlyingame: Cette commande est seulement pour les joueurs!
+    usage: 'Faire: /inv <player>'
+    enderusage: 'Faire: /enderinv <player>'
+    armorusage: 'Faire: /armorinv <player>'
+    playernotonline: Ce joueurs n'est pas en ligne!
+    lookedinyourinv:  regarde dans votre inventaire!
+  DE:
+    needop: Du musst OP sein um diesen Befehl benutzen zu können!
+    onlyingame: Dieser Befehl ist nur für InGame Spieler!
+    usage: 'Benutzung: /inv <Spieler>'
+    enderusage: 'Benutzung: /enderinv <player>'
+    armorusage: 'Benutzung: /armorinv <player>'
+    playernotonline: Der Spieler ist nicht online!
+    lookedinyourinv:  schaut sich dein Inventar an!
+  DK:
+    needop: Du skal være OP for at bruge denne komando!
+    onlyingame: Denne komando er kun for in-game spillere!
+    usage: 'Usage: /inv <spiller>'
+    enderusage: 'Usage: /enderinv <spiller>'
+    armorusage: 'Usage: /armorinv <spiller>'
+    playernotonline: Denne spiller er ikke online!
+    lookedinyourinv:  kigger i din inventory!

@@ -1,0 +1,35 @@
+#███╗░░░███╗░█████╗░██╗███╗░░██╗
+#████╗░████║██╔══██╗██║████╗░██║
+#██╔████╔██║███████║██║██╔██╗██║
+#██║╚██╔╝██║██╔══██║██║██║╚████║
+#██║░╚═╝░██║██║░░██║██║██║░╚███║
+#╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝
+
+## Main branch
+main:
+    ## Sets the restart command after players have been kicked
+    execution: 'stop'
+    ## This will recalculate the restart countdown when using '/autore reload'
+    recalculate_onreload: false
+    ## Restart modes available 'interval', and 'timestamp'
+    restart_mode: 'timestamp'
+    ## Restart mode specific settings
+    modes:
+        ## Restart server in intervals
+        interval:
+            ## Set the multiplication factor
+            ## Options are 'hours' or 'days'
+            factor: 'days'
+            ## Set the value of the interval
+            ## Decimals are allowed
+            value: 3.0
+        ## Set the timestamp in 24 hour time format HH:MM
+        ## Multiple timestamps allowed
+        timestamp:
+            - '04:00'
+    ## Server wide prefix for all chat broadcasts
+    prefix: '&6 Система &8| &7'
+    ## Client restart message in game chat
+    kick_message: '&7Перезагрузка. Обычно это занимает &c2-3 &7минуты.'
+## DO NOT TOUCH!!
+version: 4

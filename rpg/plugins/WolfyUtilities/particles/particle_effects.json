@@ -1,0 +1,99 @@
+{
+  "flame_spiral_down": {
+    "particles": [
+      {
+        "namespacedKey": null,
+        "superParticle": null,
+        "particle": null,
+        "icon": null,
+        "dataClass": null,
+        "data": null,
+        "relativeX": null,
+        "relativeY": null,
+        "relativeZ": null,
+        "offsetX": null,
+        "offsetY": null,
+        "offsetZ": null,
+        "count": null,
+        "extra": 1.0E-7,
+        "scripts": [
+          "file=scripts/flame_spiral_down.js"
+        ],
+        "name": null,
+        "description": null
+      }
+    ],
+    "icon": null,
+    "name": "&6Flame Spiral &8[&7Down&8]",
+    "description": [
+      "&7A flame spiral that goes",
+      "&7downwards into the ground."
+    ],
+    "referencePath": "plugins/WolfyUtilities/particles",
+    "count": 0,
+    "duration": 20,
+    "cooldown": 1
+  },
+  "advanced_workbench": {
+    "particles": [
+      {
+        "namespacedKey": null,
+        "superParticle": null,
+        "particle": null,
+        "icon": null,
+        "dataClass": null,
+        "data": null,
+        "relativeX": null,
+        "relativeY": null,
+        "relativeZ": null,
+        "offsetX": null,
+        "offsetY": null,
+        "offsetZ": null,
+        "count": 2,
+        "extra": 0.5,
+        "scripts": null,
+        "name": "",
+        "description": null
+      }
+    ],
+    "icon": null,
+    "name": "&6Advanced Workbench",
+    "description": [
+      "&7Default Advanced Workbench particles"
+    ],
+    "referencePath": "plugins/WolfyUtilities/particles",
+    "count": 0,
+    "duration": 2,
+    "cooldown": 1
+  },
+  "green_redstone": {
+    "particles": [
+      {
+        "namespacedKey": null,
+        "superParticle": null,
+        "particle": null,
+        "icon": null,
+        "dataClass": null,
+        "data": null,
+        "relativeX": null,
+        "relativeY": null,
+        "relativeZ": null,
+        "offsetX": null,
+        "offsetY": null,
+        "offsetZ": null,
+        "count": null,
+        "extra": null,
+        "scripts": null,
+        "name": null,
+        "description": null
+      }
+    ],
+    "icon": null,
+    "name": "&aGreen Redstone",
+    "description": [],
+    "referencePath": "plugins/WolfyUtilities/particles",
+    "count": 0,
+    "duration": 3,
+    "cooldown": 0
+  }
+}

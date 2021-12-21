@@ -1,0 +1,115 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Разработчики и помощники'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'devs'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Profitroll:
+  COMMAND: ''
+  NAME: '&bProfitroll'
+  LORE:
+    - '• Системный администратор'
+    - ''
+    - 'Бог и основатель END PLAY.'
+    - 'Автор старых квестов, основной строитель'
+    - 'карт и локаций, создатель всех менюшек,'
+    - 'собиратель ресурспака и вообще мастер'
+    - 'на все лапы, так сказать.'
+  ID: skull:3
+  SKULL-OWNER: 'Profitroll'
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+Kusyaka:
+  COMMAND: ''
+  NAME: '&bKusyaka'
+  LORE:
+    - '• Автор квестов, тестер'
+    - ''
+    - 'Заместитель главы проекта.'
+    - 'Главный помощник в написании квестов,'
+    - 'строитель, тестер всех ошибок и просто'
+    - 'классный парень сидящий тут со старта.'
+  ID: skull:3
+  SKULL-OWNER: 'Kusyaka'
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+LOCKCHAS:
+  COMMAND: ''
+  NAME: '&bLOCKCHAS'
+  LORE:
+    - '• Строитель'
+    - ''
+    - 'Строитель и генератор идей проекта.'
+    - 'По сравнению с остальными тут новичок,'
+    - 'однако во многом превосходит остальных'
+    - 'в придумывании построек и мест.'
+  ID: skull:3
+  SKULL-OWNER: 'LOCKCHAS'
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+Knight:
+  COMMAND: ''
+  NAME: '&bKnight'
+  LORE:
+    - '• Строитель'
+    - ''
+    - 'Креативный строитель декораций.'
+    - 'Делает классный стафф ещё со старых времён,'
+    - 'но его декорации помнит каждый олд проекта.'
+  ID: skull:3
+  SKULL-OWNER: 'Knight'
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+back:
+  COMMAND: 'open: help.yml'
+  NAME: '&cВ меню помощи'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

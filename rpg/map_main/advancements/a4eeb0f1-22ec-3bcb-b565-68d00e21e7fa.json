@@ -1,0 +1,56 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2018-12-06 11:53:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2018-12-06 11:53:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2018-12-05 16:23:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2018-12-06 11:53:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2018-12-06 11:53:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2018-12-06 11:53:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2018-12-06 11:53:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-12-05 16:23:55 +0200",
+      "beaches": "2018-12-05 16:51:43 +0200",
+      "plains": "2018-12-05 16:48:11 +0200",
+      "ocean": "2018-12-05 16:50:54 +0200",
+      "extreme_hills": "2018-12-06 12:17:37 +0200",
+      "river": "2018-12-05 16:48:23 +0200",
+      "jungle": "2018-12-06 11:55:36 +0200"
+    },
+    "done": false
+  }
+}

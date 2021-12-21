@@ -1,0 +1,16 @@
+currentQuests:
+- Рыцарские делишки
+currentStages:
+- 1
+quest-points: 0
+questData:
+  Рыцарские делишки:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 24
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: EPRPG

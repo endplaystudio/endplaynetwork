@@ -1,0 +1,15 @@
+placeholders-loading: '&7&oPlaceholders загружены...'
+config-reload: '&7Конфигурация &aуспешно &7перезагржена.'
+config-reset: '&cConfiguration has been reset!'
+prefix: '&6 Префиксы &8| '
+prefix-error: '&6 Префиксы &8|  '
+list-page-range: '&cThe page can be from 1-{PAGES}!'
+invalid-arguments: '&cЭтой команды не существует О_о'
+no-permission: '&cЭтой команды не существует О_о'
+no-console: '&cThis command can only be used ingame'
+list-noitems: '&cNo items found!'
+placeholders-updating-1: Fetching available placeholder modules ...
+placeholders-updating-2: Fetching available updates ...
+placeholders-updating-3: Checking for updates ...
+placeholders-updating-error-1: Unable to fetch available placeholder modules!
+placeholders-updating-error-2: Unable to fetch available placeholder updates!

@@ -1,0 +1,112 @@
+# RPG Inventory
+# by OsipXD
+
+enabled: true
+language: en
+check-update: false
+worlds:
+  mode: BLACKLIST
+  list:
+  - cw_village
+  - cw_foxenstein
+  - cw_sand
+  - cw_clay
+  - cw_forest
+  - cw_castle
+  - bw_mines
+  - bw_mines_lobby
+  - survival
+level-system: EXP
+class-system: PERMISSIONS
+fill: DIAMOND_HOE:1
+items:
+  lore-pattern:
+  - _UNBREAKABLE_
+  - _DROP_
+  - _LEVEL_
+  - _CLASS_
+  - _SEPARATOR_
+  - _LORE_
+  - _SEPARATOR_
+  - _SKILLS_
+  - _SEPARATOR_
+  - _STATS_
+  separator: ''
+backpacks:
+  expiration-time: 30
+  limit: 1
+resource-pack:
+  enabled: false
+  delay: 10
+  url: https://www.end-play.xyz/minecraft/wp-content/uploads/2018/09/Default.zip
+  hash: 0764d3f1d6c40302d45c1e8e11ae972b5c547abd
+join-messages:
+  delay: 3
+  default:
+    enabled: false
+    title: '&l&2Welcome to server!'
+    text:
+    - '&6Glad to see you, &3%PLAYER%'
+    - '&6This server using &9RPGInventory'
+  rp-info:
+    enabled: false
+    title: '&l&4It is important!'
+    text:
+    - '&6You should &callow &6resource pack to play on this server'
+    - '&6This will allow you fully immerse in the RPG atmosphere'
+    - '&6But if you declined downloading of RP you can fix it...'
+    - '&6Select the server in list, click &e''Edit'' &6 and set &e''Resource-Pack:
+      Accept'''
+attack:
+  require-weapon: false
+  force-weapon: false
+  auto-held: false
+  own-pet: false
+armor-slots-action: default
+craft-slots-action: rpginv
+slots:
+  enabled: true
+  locked: DIAMOND_HOE:19
+  buyable: DIAMOND_HOE:18
+  free: 9
+  money:
+    enabled: true
+    cost:
+      line1: 10
+      line2: 20
+      line3: 30
+  level:
+    enabled: false
+    spend: false
+    required:
+      line1: 3
+      line2: 5
+      line3: 10
+craft:
+  enabled: true
+  workbench: true
+  extendable: DIAMOND_HOE:27
+  extensions:
+    journeyman:
+      name: '&aJourneyman slots'
+      lore:
+      - '&eYou must be a journeyman to use it'
+      slots:
+      - 8
+      - 9
+    master:
+      name: '&3Master slots'
+      lore:
+      - '&eYou must be a master to use it'
+      includes:
+      - journeyman
+      slots:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+auto-update: true
+version: 2.3.0-RC1

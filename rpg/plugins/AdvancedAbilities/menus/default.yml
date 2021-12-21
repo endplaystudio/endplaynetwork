@@ -1,0 +1,24 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#        Default menu configuration       #
+#                                         #
+#=========================================#
+
+# Item is displayed in menu as <ID>,<DATA>,<AMOUNT>.
+status_purchase_item: '95,4,1'
+# Item is displayed in menu as <ID>,<DATA>,<AMOUNT>.
+status_available_item: '95,5,1'
+# Item is displayed in menu as <ID>,<DATA>,<AMOUNT>.
+status_unavailable_item: '95,14,1'
+# Item is displayed in menu as <ID>,<DATA>,<AMOUNT>.
+status_disabled_item: '95,8,1'
+
+
+# Do not change anything of this, old file versions will be moved to 'outdated' folder.
+configuration_version: '1.0.1'

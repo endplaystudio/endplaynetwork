@@ -1,0 +1,124 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Меню гильдий'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'guilds menu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+guilds list:
+  COMMAND: 'g list'
+  NAME: '&3Список гильдий'
+  LORE:
+    - 'Увеличивай получаемый опыт в разы!'
+    - ' '
+    - 'Приобретая бустер вы получаете в N раз больше опыта.'
+    - 'Работает в том числе и для работ!'
+    - ' '
+    - 'Совет:'
+    - '&cНе тратьте бустеры на шахту. Убивайте мобов ночью!'
+    - 'Особенно эффективно использовать бустеры в аду <3'
+  ID: 384
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+friends:
+  COMMAND: 'friends'
+  NAME: '&fМеню друзей'
+  LORE:
+    - 'Общайся с любимыми игроками!.'
+  ID: skull:3
+  SKULL-OWNER: 'xBenji118x'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+hide:
+  COMMAND: 'aach list'
+  NAME: '&cСписок достижений'
+  LORE:
+    - 'Вам скучно? Получите ачивок :)'
+  ID: book
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+show:
+  COMMAND: 'aach stats'
+  NAME: '&2Прогресс всех достижений'
+  LORE:
+    - 'Узнайте насколько выполнены все достижения.'
+  ID: dye:10
+  POSITION-X: 8
+  POSITION-Y: 2
+
+guilds list:
+  COMMAND: 'g list'
+  NAME: '&bСписок гильдий'
+  LORE:
+    - 'Посмотрите список всех гильдий,'
+    - 'и полную информацию о них.'
+  ID: book
+  POSITION-X: 4
+  POSITION-Y: 2
+
+guild chat:
+  COMMAND: 'g chat'
+  NAME: '&bЧат гильдии'
+  LORE:
+    - 'Перейти в чат гильдии.'
+    - 'Можно войти в чат, и повторным нажатием'
+    - 'так же легко выйти.'
+    - 'Все сообщения отправленные так будут'
+    - 'отображены всей гильдии.'
+    - 'Для выключения/выключения вручную исп.:'
+    - '&c/g chat &7или &c/guild chat&7.'
+  ID: paper
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

@@ -1,0 +1,66 @@
+set:
+  warzone:
+    Clay:
+      info:
+        authors:
+        - Profitroll
+        teleport:
+          x: -47
+          y: 115
+          z: -58
+          yaw: 90
+        world: cw_clay
+        lobby:
+          orientation: south
+          world: cw_clay
+          materials:
+            floor:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLASS
+            outline:
+              ==: org.bukkit.inventory.ItemStack
+              type: WOOD
+            gate:
+              ==: org.bukkit.inventory.ItemStack
+              type: OBSIDIAN
+            light:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLOWSTONE
+        materials:
+          main:
+            ==: org.bukkit.inventory.ItemStack
+            type: OBSIDIAN
+          stand:
+            ==: org.bukkit.inventory.ItemStack
+            type: FENCE
+          light:
+            ==: org.bukkit.inventory.ItemStack
+            type: GLOWSTONE
+  team:
+    names:
+    - blue
+    - red
+    blue:
+      info:
+        spawns:
+        - x: -17
+          y: 60
+          z: -91
+          yaw: 45
+        flag:
+          x: -12
+          y: 60
+          z: -96
+          yaw: 47
+    red:
+      info:
+        spawns:
+        - x: -90
+          y: 60
+          z: -8
+          yaw: 226
+        flag:
+          x: -90
+          y: 60
+          z: -2
+          yaw: 358

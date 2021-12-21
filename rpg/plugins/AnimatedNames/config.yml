@@ -1,0 +1,148 @@
+# ------------------------------ #
+#
+#  AnimatedNames 6
+#  (c) Maxim Van de Wynckel
+#
+# ------------------------------ #
+
+# About: Everyone knows plugins that allow you to have your group name
+#		 in front of your name above your head. But this plugin does more then that
+#        with over 180+ placeholders and more to come every update this plugin not only
+#        allows placeholders in your name above your head but it also allows the name to
+#        be animated.
+
+# Permissions: To use the animatednames groups give them the permission
+#              animatednames.group.<group>  (ex. animatednames.group.default)
+#              Make sure to remove them from the other groupsd
+#              when giving a new permission.
+
+# Commands: List of all commands
+#           /animatednames reload     -  Reload the configuration
+#           /animatednames help       -  See all commands
+
+# Variables: These variables can be used in the TEXT section
+#            of both the header as the footer.
+#            
+#            {PLAYER}       - Player name
+#            {PLAYERNICK}   - Player nickname
+#            {PREFIX}       - Player prefix
+#            And lots lots more (see Spigot Page) (400+)
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# GENERAL PLUGIN SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## Config version (DO NOT EDIT)
+config: 4
+
+## Language file
+lang: 'en'
+
+## Debug mode
+debug: false
+
+## Log to file
+log:
+  enabled: true
+
+## Update checking
+update:
+  check: true # RECOMMENDED YOU LEAVE THIS TRUE
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN SPECIFIC SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+# Placeholder settings
+placeholder:
+  # Force install all placeholders (NOT RECOMMENDED)
+  force-all: false
+  # logs the memory usage of placeholders on startup
+  log-memory: false
+  # Clear unused placeholders that are not enabled.
+  clear-unused: true
+  # Config cache only
+  # This will only use placeholders in the config
+  # HOWEVER: IT WILL BREAK ALL CUSTOM PLACEHOLDERS!
+  # IT WILL ALSO PREVENT ANY HOOKS (PlaceholderAPI)
+  config-cache: false
+
+tweaks:
+  # If you have issues with non-legacy mode try this option. The option is more CPU intensive,
+  # but it is meant to detect problems
+  synchronized: false
+  # Setting this to true will keep tab names untouched
+  # Useful for those who do not want to change tab names but
+  # only the names above.
+  # NOTE: This shrinks the tab name by 2 chars
+  # so if you have a long name it becomes shorter
+  # This may also break nicknames in the tab
+  white-tabnames: false
+
+
+# WARNING: The recommended interval for this plugin
+#          is calculated at 15 ticks (recommended 20 ticks)
+#          You can experiment with lower ticks but this might
+#          cause a slight flicker.
+
+
+# AnimatedNames groups
+# THESE ARE NOT PERMISSION GROUPS. THE NAMES DO NOT NEED TO MATCH
+# YOUR PERMISSION GROUP.
+# An AnimatedNames group is a group you assign to a player (or permission group)
+# using animatednames.group.<GROUPNAME>
+groups:
+  main:
+    name-prefix:
+      text:
+      - ''
+      interval: 100
+    name-suffix:
+      text:
+      - ''
+      interval: 100
+  hypesquad:
+    name-prefix:
+      text:
+      - '&3✯ &f'
+      interval: 100
+    name-suffix:
+      text:
+      - ''
+      interval: 100
+  patron:
+    name-prefix:
+      text:
+      - '&6✯ &f'
+      interval: 100
+    name-suffix:
+      text:
+      - ''
+      interval: 100
+  helper:
+    name-prefix:
+      text:
+      - '&e✯ &f'
+      interval: 100
+    name-suffix:
+      text:
+      - ''
+      interval: 100
+  staff:
+    name-prefix:
+      text:
+      - '&c✯ &f'
+      interval: 100
+    name-suffix:
+      text:
+      - ''
+      interval: 100
+# Text below your name above your head
+name-below:
+  # Set to false to disable the scoreboard under name (REQUIRES RESTART)
+  enabled: true
+  # A list to create animations
+  text: # Make sure that the placeholder is numeric!
+  - '{health_percentage}&c❤'
+  # Animation interval in ticks (20 ticks = 1 sec)
+  interval: 5

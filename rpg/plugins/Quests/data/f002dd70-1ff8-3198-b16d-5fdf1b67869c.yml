@@ -1,0 +1,14 @@
+currentQuests:
+- Все женщины - ведьмы
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: Sasha629393

@@ -1,0 +1,17 @@
+## --------------------------------------- ##
+## Player Placeholders
+## --------------------------------------- ##
+
+## Do not edit this config version
+config: 2
+
+firstplayed: # %firstplayed% Date formatting
+  format: 'dd MMMM yyyy'
+  
+lastplayed: # %lastplayed% Date formatting
+  format: 'dd MMMM yyyy'
+  
+isplayeronline:
+  # use {player} to use the player using 
+  true: '{player}'
+  false: ''

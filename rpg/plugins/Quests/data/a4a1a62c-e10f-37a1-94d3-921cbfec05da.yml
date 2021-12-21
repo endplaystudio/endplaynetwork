@@ -1,0 +1,16 @@
+currentQuests:
+- Странная Просьба
+currentStages:
+- 1
+quest-points: 0
+questData:
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 26
+    - 31
+    has-talked-to:
+    - false
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: IIIakaL

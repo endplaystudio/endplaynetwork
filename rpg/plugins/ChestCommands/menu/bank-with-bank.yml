@@ -1,0 +1,128 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Вывести деньги'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bankwith-bank'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+10:
+  COMMAND: 'bank withdraw 10'
+  NAME: '&c&l10 LND'
+  LORE:
+    - 'Обналичить &a10 LND&7.'
+  ID: iron_ingot
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+50:
+  COMMAND: 'bank withdraw 50'
+  NAME: '&c&l50 LND'
+  LORE:
+    - 'Обналичить &a50 LND&7.'
+  ID: iron_ingot
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+100:
+  COMMAND: 'bank withdraw 100'
+  NAME: '&c&l100 LND'
+  LORE:
+    - 'Обналичить &a100 LND&7.'
+  ID: iron_ingot
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+500:
+  COMMAND: 'bank withdraw 500'
+  NAME: '&c&l500 LND'
+  LORE:
+    - 'Обналичить &a500 LND&7.'
+  ID: iron_ingot
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+1000:
+  COMMAND: 'bank withdraw 1000'
+  NAME: '&c&l1000 LND'
+  LORE:
+    - 'Обналичить &a1000 LND&7.'
+  ID: iron_ingot
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+another:
+  COMMAND: 'tell:&3 Банк &8| &7Введи &c/withdraw <СУММА> &7для вывода другой суммы.'
+  NAME: '&c&lДругая сумма'
+  LORE:
+    - 'Обналичить другую сумму.'
+    - ''
+    - 'Введи &c/withdraw <СУММА> &7для вывода.'
+  ID: iron_ingot
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+balance:
+  COMMAND: 'bank balance'
+  NAME: '&cБаланс'
+  LORE:
+    - 'Ваш текущий баланс'
+    - ''
+    - '&oПодсказка: &c&oСмотри в чат'
+  ID: redstone
+  POSITION-X: 6
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'bank-bank'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню банка'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 4
+  POSITION-Y: 6
+  KEEP-OPEN: true
+  

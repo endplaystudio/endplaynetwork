@@ -1,0 +1,6 @@
+enableUpdateChecking: true
+enableUpdateDownloading: false
+enableBlackList: false
+blacklisted_items:
+- ''
+debug: false

@@ -1,0 +1,48 @@
+Enable events: true
+Minimum amount of online players for event to trigger: 2
+Maximum amount of online players after which the event frequency won't increase: 100
+Minimum event frequency (minutes): 45
+Maximum event frequency (minutes): 10
+Enabled events:
+  Small treasure goblin: true
+  Dead moon: true
+  Kraken: true
+  Balrog: true
+  Fae: true
+Name of mob in Treasure Goblin events: '&eTreasure Goblin'
+Small treasure goblin event announcement text: "&7&m-----------------------------------------------------\n\
+  &7[&aEvent&7] &fA &ctreasure goblin &fhas appeared in&c $world &fat&c $location\
+  \ \n &fMake sure to take a hunting party with you!\n&7&m-----------------------------------------------------"
+Small treasure goblin killed by players message: A Treasure Goblin has been slain
+  by $player!
+Small treasure goblin nondescript death message: A Treasure Goblin has been slain!
+Treasure goblin extra loot drop amount: 10
+Dead Moon event announcement text: "&7&m-----------------------------------------------------\n\
+  &7[&aEvent&7] &fA &cZombie King &fhas appeared in&c $world &fat&c $location \n &fMake\
+  \ sure to take a hunting party with you!\n&7&m-----------------------------------------------------"
+Zombie King killed by players message: The Zombie King has been slain by $player!
+Zombie King nondescript death message: The Zombie King has been slain!
+Dead moon names:
+  Name of The Returned: '&2The Returned'
+  Name of the Zombie King: '&4Zombie King'
+Event weight:
+  Small treasure goblin: 40
+  Blood moon: 20
+Time before boss mob escapes the map: 30
+Message for when boss mobs gets culled: $bossmob has escaped!
+Number of hits before spirit walk gets activated: 15
+Time interval between zombie king flamethrower attacks: 20
+Time interval between zombie king unholy smite attacks: 20
+Time interval between zombie king minion summons: 20
+Time interval between treasure goblin gold shotgun shots: 20
+Time interval between treasure goblin radial explosions: 20
+Kraken on fish chance: 0.005
+Name of mob in Kraken event: '&1Kraken'
+Balrog chance on mine: 0.005
+Name of mob in Balrog event: '&cBalrog'
+Name of trash mobs in Balrog event: '&cRaug'
+Name of mob in Fae event: '&aFae'
+Fae chance on chop: 0.001
+Only broadcast event message in event world: false
+Deadmoon announcement message: A dead moon rises, and the undead with it...
+Deadmoon end message: Dawn rises, the Dead Moon wanes for those still alive...

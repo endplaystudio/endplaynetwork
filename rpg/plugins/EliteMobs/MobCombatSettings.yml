@@ -1,0 +1,46 @@
+Natural EliteMob spawning: true
+Spawners can spawn Elite Mobs: false
+Percentage of aggressive mobs that get converted to EliteMobs when they spawn: 20.0
+Aggressive mob stacking: true
+Elite mob stacking cap: 100
+Stack aggressive spawner mobs: true
+Stack aggressive natural mobs: false
+Range to stack aggressive mobs: 1
+Range to stack passive mobs: 15
+Natural elite mob level cap: 3000
+Target hits to kill Elite Mobs: 20
+Base damage dealt to players from Elite Mobs: 2
+SuperCreeper explosion nerf multiplier: 1.0
+Elite Mobs wear armor: true
+Elite Mobs wear helmets: true
+Turn on visual effects for natural or plugin-spawned EliteMobs: true
+Dangerous! Turn off visual effects for non-natural or non-plugin-spawned EliteMobs: true
+Turn on visual effects that indicate an attack is about to happen: true
+Levels between elite mob tiers: 10
+Enable EliteMobs death messages: true
+Player death messages cause by:
+  blazes: $player was lit ablaze by $entity!
+  creeper: $player was blasted away by $entity!
+  enderman: $entity sent $player into the void!
+  endermite: $player was glitched to death by $entity!
+  iron golem: $player messed with the wrong $entity!
+  polar bear: $player was clawed to death by $entity!
+  silverfish: $player mistook $entity for a stone block!
+  skeleton: $player became $entity's pin cushion!
+  spider: $player became entangled in $entity's web!
+  witch: $player became $entity's test subject!
+  zombie: $player was devoured by $entity!
+  husk: $player was hollowed out by $entity!
+  zombie pigman: $player was mobbed to death by $entity!
+  stray: $player was led astray by $entity!
+  wither skeleton: $entity's arrows withered away $player!
+  default: $player has been slain by $entity
+Display Elite Mob health on hit: true
+Display damage dealt to Elite Mobs on hit: true
+Only display health indicator for Elite Mobs: true
+Only display damage indicator for Elite Mobs: true
+Increase level of mobs spawned based on distance from world spawn: false
+Distance between increments: 100
+Amount of levels incremented per distance: 1
+Anti exploit message: '&c[EM AntiExploit] &7Nearby elite won''t drop special loot.'
+Hide mob powers until they are engaged: true

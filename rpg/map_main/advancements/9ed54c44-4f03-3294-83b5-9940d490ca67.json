@@ -1,0 +1,37 @@
+{
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2020-04-02 19:35:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_mutton": "2020-04-01 19:37:14 +0300"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2020-04-01 19:37:14 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-03-09 13:59:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-03-09 13:59:51 +0200",
+      "beaches": "2020-04-02 14:33:00 +0300",
+      "plains": "2020-03-09 14:13:55 +0200",
+      "ocean": "2020-04-02 14:34:02 +0300",
+      "river": "2020-04-01 19:38:03 +0300",
+      "desert": "2020-04-06 11:23:14 +0300"
+    },
+    "done": false
+  }
+}

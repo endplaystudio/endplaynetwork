@@ -1,0 +1,202 @@
+#=============================================================#
+# +---------------------------------------------------------+ #
+# | Advanced Achievements English translation by DarkPyves  | #
+# |             ~ Valid as of version 5.8.2 ~               | #
+# |   Newer plugin versions will automatically append new   | #
+# |     untranslated parameters to the end of the file.     | #
+# +---------------------------------------------------------+ #
+#=============================================================#
+
+no-permissions: "&cЭтой команды не существует О_о"
+statistic-cooldown: "Задержка достижений: подожди TIME секунд перед тем, как делать это действие ещё раз."
+category-does-not-exist: "The category and/or sub-category CAT does not exist."
+all-achievements-received: "Congratulations, you have received all the achievements!"
+
+# Related to /aach reload.
+configuration-successfully-reloaded: "Configuration successfully reloaded."
+configuration-reload-failed: "Errors while reloading configuration. Please view logs for more details."
+
+# Related to /aach top week and month.
+top-achievement: "Топ игроков:"
+player-rank: "Текущий ранг:"
+week-achievement: "Еженедельный топ:"
+month-achievement: "Ежемесячный топ:"
+not-ranked: "У вас ещё нету ранга за этот период."
+pagination-header: "&7> &5Страница PAGE/MAX"
+pagination-footer: "&7>"
+
+# Related to /aach stats.
+number-achievements: "Полученные достижения:"
+
+# Related to /aach book.
+book-received: "Книжка ачивок получена!"
+book-delay: "You must wait TIME seconds between each book reception!"
+book-name: "Книжка ачивок"
+book-date: "Книга создана DATE."
+book-not-received: "Вы ещё не получили ни одного достижения."
+
+# Related to /aach give.
+player-offline: "The player PLAYER is offline!"
+achievement-already-received: "The player PLAYER has already received this achievement!"
+achievement-not-found: "The specified achievement was not found in Commands category."
+achievement-given: "Achievement given!"
+
+# Related to /aach add.
+error-value: "The value VALUE must to be an integer!"
+statistic-increased: "Statistic ACH increased by AMOUNT for PLAYER!"
+
+# Related to achievement reception.
+achievement-received: "PLAYER received the achievement:"
+achievement-new: "Новое достижение:"
+
+# Related to /aach check.
+check-achievement-true: "PLAYER has received the achievement ACH!"
+check-achievements-false: "PLAYER has not received the achievement ACH!"
+
+# Related to /aach delete.
+delete-achievements: "The achievement ACH was deleted from PLAYER."
+
+# Related to achievement rewards.
+item-reward-received: "You received an item reward:"
+money-reward-received: "You received: AMOUNT!"
+command-reward: "Reward command carried out!"
+custom-command-reward: "You received your reward: MESSAGE"
+experience-reward-received: "You received: AMOUNT experience!"
+increase-max-health-reward-received: "Your max health has increased by AMOUNT!"
+increase-max-oxygen-reward-received: "Your max oxygen has increased by AMOUNT!"
+
+# Related to /aach help.
+aach-command-book: "Receive your achievements book."
+aach-command-book-hover: "RP items you can collect and exchange with others! Time-based listing."
+aach-command-stats: "Display amount of received achievements."
+aach-command-stats-hover: "Progress bar. Gotta catch 'em all!"
+aach-command-list: "Display received and missing achievements."
+aach-command-list-hover: "Fancy GUI to get an overview of all achievements and your progress!"
+aach-command-top: "Display personal and global rankings."
+aach-command-top-hover: "Who are the server's leaders and how do you compare to them?"
+aach-command-give: "Give achievement ACH to NAME."
+aach-command-give-hover: "Player must be online; only Commands achievements can be used."
+aach-command-add: "Increase a statistic."
+aach-command-add-hover: "Player must be online; mainly used for Custom Categories."
+aach-command-reload: "Reload the plugin's configuration."
+aach-command-reload-hover: "Reload most settings in config.yml, gui.yml and lang.yml files."
+aach-command-info: "Display information about the plugin."
+aach-command-info-hover: "Some extra info about the plugin and its awesome author!"
+aach-command-check: "Check if NAME has ACH."
+aach-command-check-hover: "Use the Name parameter specified in the config."
+aach-command-delete: "Delete ACH from NAME."
+aach-command-delete-hover: "Player must be online; does not reset any associated statistics."
+aach-command-week: "Display weekly rankings."
+aach-command-week-hover: "Best achievement hunters since the start of the week!"
+aach-command-month: "Display monthly rankings."
+aach-command-month-hover: "Best achievement hunters since the start of the month!"
+aach-command-toggle: "Toggle achievements of other players."
+aach-command-toggle-hover: "Your choice is saved until next server restart!"
+aach-command-reset: "Reset statistic for category CAT."
+aach-command-reset-hover: "Player must be online; example: reset Places.stone DarkPyves"
+aach-command-generate: "Generate advancements."
+aach-command-generate-hover: "Potentially slow command; use with care!"
+aach-tip: "&lHINT &8You can &7&n&ohover &8or &7&n&oclick &8on the commands!"
+
+# Related to /aach info.
+version-command-version: "Version:"
+version-command-website: "Website:"
+version-command-author: "Author:"
+version-command-description: "Description:"
+version-command-description-details: "Advanced Achievements enables unique and challenging achievements. Try to collect as many as you can, earn rewards, climb the rankings and receive RP books!"
+version-command-vault: "Vault integration:"
+version-command-petmaster: "Pet Master integration:"
+version-command-btlp: "BungeeTabListPlus integration:"
+version-command-essentials: "Essentials integration:"
+version-command-placeholderapi: "PlaceholderAPI integration:"
+version-command-database: "Database type:"
+
+# Related to /aach list.
+list-gui-title: "&5&lСписок достижений"
+list-delay: "You must wait TIME seconds between each list command!"
+list-description: "Описание:"
+list-goal: "Цель:"
+list-reception: "Дата выполнения:"
+list-progress: "Прогресс:"
+list-reward: "Награда(ы):"
+list-reward-money: "receive AMOUNT"
+list-reward-item: "receive AMOUNT ITEM"
+list-reward-command: "other"
+list-reward-experience: "receive AMOUNT experience"
+list-reward-increase-max-health: "increase max health by AMOUNT"
+list-reward-increase-max-oxygen: "increase max oxygen by AMOUNT"
+list-achievement-received: "&a\u2714&f "
+list-achievement-not-received: "&c\u2718 "
+list-category-not-unlocked: "You have not yet unlocked this category."
+list-back-message: "&7Назад"
+list-previous-message: "&7Пред. страница"
+list-next-message: "&7След. страница"
+list-achievements-in-category-singular: "AMOUNT achievement"
+list-achievements-in-category-plural: "AMOUNT achievements"
+
+# Related to category names in /aach list.
+# Set a parameter to "" to hide it from /aach list (but not disable the category).
+list-connections: "Connections"
+list-places: "Поставлены блоки"
+list-breaks: "Разрушены блоки"
+list-kills: "Убиты мобы"
+list-crafts: "Крафты"
+list-playercommands: "Команды"
+list-deaths: "Смерти"
+list-arrows: "Выстрелы из лука"
+list-snowballs: "Снежки"
+list-eggs: "Яйца"
+list-fish: "Поймано рыбы"
+list-treasure: "Поймано сокровищ"
+list-itembreaks: "Сломано вещей"
+list-eatenitems: "Съедено"
+list-shear: "Сострижено овец"
+list-milk: "Подоено коров"
+list-lavabuckets: "Buckets Filled with Lava"
+list-waterbuckets: "Buckets Filled with Water"
+list-trades: "Количество обменов"
+list-anvils: "Наковален использовано"
+list-enchantments: "Зачарования"
+list-beds: "Сон"
+list-maxlevel: "Уровни"
+list-potions: "Зелья"
+list-playedtime: "Время в игре"
+list-distance-foot: "Пройдено пешком"
+list-distance-pig: "Пройдено на свинье"
+list-distance-horse: "Пройдено верхом на коне"
+list-distance-minecart: "Проехал на вагонетке"
+list-distance-boat: "Проплыл на лодке"
+list-distance-gliding: "Distance Travelled with Elytra"
+list-distance-llama: "Distance Travelled on a Llama"
+list-itemdrops: "Выброшенные вещи"
+list-itempickups: "Поднято предмтов"
+list-hoeplowings: "Вспахано земли"
+list-fertilising: "Вырощено растений"
+list-taming: "Приручение животных"
+list-breeding: "Подкармливание животных"
+list-brewing: "Сварено зелий"
+list-fireworks: "Феерверки"
+list-musicdiscs: "Music Discs Played"
+list-enderpearls: "Teleportations with Ender Pearls"
+list-petmastergive: "Pets Given to Another Player"
+list-petmasterreceive: "Pets Received from Another Player"
+list-smelting: "Items Smelt"
+list-commands: "Другие достижения"
+list-custom: "Дополнительно"
+
+# Related to /aach toggle.
+toggle-displayed: "You will now be notified when other players get achievements."
+toggle-hidden: "You will no longer be notified when other players get achievements."
+
+# Related to /aach reset.
+reset-successful: " statistics were cleared for PLAYER."
+
+# Related to /aach generate.
+advancements-generated: "Advancements were successfully generated."
+minecraft-not-supported: "Advancements not supported in your Minecraft version. Please update to 1.12+."
+
+#============================================================#
+# +--------------------------------------------------------+ #
+# | Parameters in future plugin versions will  appear here | #
+# +--------------------------------------------------------+ #
+#============================================================#

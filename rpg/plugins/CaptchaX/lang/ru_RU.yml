@@ -1,0 +1,56 @@
+general:
+  updateAvailable: "%prefix% An update was found, click this message."
+  success: "%prefix% Вы успешно прошли капчу. Приятной игры."
+  underAttack: "&a&l&nPROTECTED&r  Now blocked &a%address% &ffor a total of &a%bots% &rbots blocked."
+  join: "&e%player% joined the game"
+  notifications:
+    complete: "%prefix% (&6%player%&f) &fsuccessfully completed the captcha."
+    fail: "%prefix% (&6%player%&f) &ffailed to complete the captcha."
+
+commands:
+  add:
+    success: "%prefix% Successfully verified (&6%player%&f)."
+    already: "%prefix% The specified player (&6%player%&f) is already verified."
+  remove:
+    success: "%prefix% Successfully unverified (&6%player%&f)."
+    already: "%prefix% The specified player (&6%player%&f) is not verified."
+  check:
+    found: "%prefix% The player specified player (&6%player%&f) is &6verified&f." 
+    notFound: "%prefix% The player specified player (&6%player%&f) is &6not verified&f."
+  test:
+    success: "%prefix% Successfully sent a captcha test to &6%player%&f."
+  list:
+    success: "%prefix% The available captcha types are:"
+    format: "  &f&l- &6%type% &f[&r&7%status%&f]"
+  reload:
+    success: "%prefix% Конфигурация капчи &aуспешно &7перезагружена."
+
+instructions:
+  map: "%prefix% Type the &6code &fthat is displayed in the map."
+  gui: "%prefix% Please click on the &6%item%&f."
+  different: "%prefix% Please click on the different item."
+  equation: "%prefix% Please solve the following equation: &6%equation%&f."
+  order: "%prefix% Place in order (&6%symbol%&f) the following numbers: &6%numbers%&f."
+  picture: "%prefix% Введите число с картинки в ваших руках."
+  code: "%prefix% Напишите в чате &6%code% &7для продолжения."
+  color: "%prefix% Type what (&r%color%THIS&r&f) color's name is."
+  sneak: "%prefix% Please &6sneak &f(usually using SHIFT key)."
+  jump: "%prefix% Please &6jump &f(usually using SPACE key)."
+  drop: "%prefix% Please &6drop &fthe item you're holding (usually using Q key)."
+  slot: "%prefix% Please move to the &6%slot%th &fslot of your hotbar."
+  reverse: "%prefix% Please reverse the letters of the following code: &6%code%&f."
+  
+kick:
+  restart: "&7The server has restarted please join again later"
+  locked: "&7Too many players are joining at the same time"
+  ip: "&7You can only have online up to &f3 &7accounts at the same time"
+  bot: "&7Your IP is linked to bot activity so we can not allow you to join"
+  abuse: "&7Your IP is linked to recent abuse, hence why you can not join"
+  risk: "&7Your IPs fraud score is too risky, hence why you can not join"
+  vpn: "&7VPNs or proxies are not allowed in this server"
+
+errors:
+  onlyPlayers: "%prefix% Only players can use this command."
+  noPermissions: "&cЭтой команды не существует О_о"
+  playerNull: "%prefix% The specified player does not seem to be valid or online."
+  wrongUsage: "%prefix% The right usage is &6%usage%"

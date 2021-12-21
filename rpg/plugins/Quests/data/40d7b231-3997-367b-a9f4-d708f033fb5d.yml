@@ -1,0 +1,12 @@
+currentQuests:
+- Доставка оружия
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Доставка оружия:
+    item-delivery-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: LOCKCHAS

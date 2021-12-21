@@ -1,0 +1,43 @@
+NPCS:
+  '60':
+    Commands:
+    - 1~~~st play TUT~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '66':
+    Commands:
+    - 1~~~bar~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '67':
+    Commands:
+    - 1~~~bar~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '0':
+    Commands:
+    - 1~~~bar~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '2':
+    Commands:
+    - 1~~~bar~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '91':
+    Commands:
+    - 1~~~bar~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '106':
+    Commands:
+    - 1~~~hotelmenu~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '138':
+    Commands:
+    - 1~~~movetoislands~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '141':
+    Commands:
+    - 1~~~movetocity~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '125':
+    Commands:
+    - 1~~~guilds list~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '146':
+    Commands:
+    - 1~~~movetoislandsport~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '172':
+    Commands:
+    - 1~~~rtp~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '173':
+    Commands:
+    - 1~~~cc open bank-bank.yml %name~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~1~~~false~~~false
+  '174':
+    Commands:
+    - 1~~~cc open bank-bank.yml %name~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~1~~~false~~~false

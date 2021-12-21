@@ -1,0 +1,15 @@
+currentQuests:
+- Адские проблемки
+currentStages:
+- 0
+quest-points: 1
+questData:
+  Адские проблемки:
+    citizen-ids-to-talk-to:
+    - 15
+    has-talked-to:
+    - false
+completed-Quests:
+- Все женщины - ведьмы
+hasJournal: false
+lastKnownName: lolik838

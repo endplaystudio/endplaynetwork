@@ -1,0 +1,58 @@
+AddedToAuctionHouse: ' Added the auction to the auction house.'
+AuctionEndedNoBids: ' Your %item% auction ended. No one bid.'
+InitialBuyItNow: '[OPTIONAL] Do you want a Buy-It-Now for your item? If so, type in
+  a valid the price.'
+InitialBiddingDurration: ' How long should the auction last? (Using the format hoursH
+  minutesM secondsS)'
+InitialIncreaseBidding: ' By how much will the bidding increase? (Min:$%min%, Max:$%max%)'
+InitialStarttingBid: ' What would be the starting bid?'
+CancelExistingAuctionBecauseItsUnfinished: ' Canceling existing auction.'
+CancelAuctionGeneralMessage: ' Canceling auction...'
+CancelBidBecauseItsThePlayers: ' You cant bid on your own auction!'
+CancelAuctionInvalidInput: ' Canceling Auction: Invalid input.'
+AddNewAuctionInvTitle: ' Which item would you like to auction off?'
+CancelAuctionInvTitle: ' Cancel which auction?'
+NoPerm: '&6 You do not have permission to use this command'
+MainTitle: §b[§fAuction House§b]
+BidderWonAuction: ' You have won the %item% Auction!'
+AuctionEndedSold: ' Your auction ended, earning you $%price%.'
+BidderMustCollectAuction: This auction will be held in the auction house till you
+  collect it.
+AlreadyPlacedBid: ' You are the highest bidder on this auction!'
+HighestBidder: ' Highest Bidder: %player%'
+MENU_Page_Suffix: ' Page: '
+NPCName: '&6[AuctionHouse]'
+OutBid: ' You have been outbid for the %item% auction!'
+someoneBid: '%player% has bid $%bid% ($%amount%) for your %item% auction'
+someoneBought: '%player% has bought your %item% auction for $%amount%.'
+youBid: You have bid $%bid% ($%amount%) for the %item% auction
+youBought: You have bought the %item% auction for $%amount%.
+refundCanceledAuction: The owner of the %item% auction canceled the auction. You have
+  been refunded $%amount%.
+PlayerRejoinRecievesMoney: ' Since the last time you were on, you have recieved $%amount%!'
+PlayerRejoinRecievesItems: ' The following auctions ended while you were offline: '
+PlayerClaimItems: ' Claiming auctions: '
+Prefix: §b[§fNPCAuctions§b]§f
+Item_AddItemToAuctionHouse: '&2[Create new Auction]'
+Item_CancelExisitngAuction: '&c[Cancel Auction]'
+Item_NextPage: '&2[Next Page]'
+Item_PrevPage: '&c[Previous Page]'
+Item_CollectAuctions: '&6[Collect Ended Auctions]'
+ItemLore_Buy_it_Now: '&a&lBuy-It-Now : [$%price%]'
+ItemLore_Buy_Ity_Now_Message: '&a&lRight click to Buy-It-Now'
+ItemLore_Created_By: 'Created by: '
+ItemLore_Time_Remaining: 'Time Remaining: '
+CancelCannotBidOwnAuction: '&c You cannot bid on your own auction!'
+Buy_It_Now_Optional_Say_No: 'If NOT, type in "No" '
+Buy_It_Now_Price_Set: ' Set the Buy-It_now to $%price%'
+ItemLore_Price: 'Price : [$%price%+%bid%]'
+BroacastAuctionOnSubmit: 'false'
+BroacastAuctionOnSubmitMessage: ' %player% is auctioning %amount% %material% starting
+  at %cost%'
+Max-Increase: '1000.0'
+Min-Increase: '1.0'
+BlacklistedMaterial: '&c %material% is not allowed to be auctioned!'
+MaximumHoursForBids: '24'
+EnableAuctionLimitPerPlayer: 'false'
+AuctionLimitReached: ' You cannot auction this many items at once! Wait till one of
+  your other auctions is finished.'

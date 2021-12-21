@@ -1,0 +1,51 @@
+# Configuration for RegionJukebox
+AutoUpdate: false
+Regions:
+  PIVO1:
+    Mode: 0
+    RecordNumber: 8
+    SpeakerID: 84
+    Loop: true
+    Length: 3060
+  TOILET:
+    Mode: 0
+    RecordNumber: 4
+    SpeakerID: 84
+    Loop: true
+    Length: 3760
+  PIVO:
+    Mode: 0
+    RecordNumber: 8
+    SpeakerID: 84
+    Loop: true
+    Length: 3060
+  SCARY:
+    Mode: 0
+    RecordNumber: 10
+    SpeakerID: 84
+    Loop: true
+    Length: 5080
+  DUNGEON:
+    Mode: 0
+    RecordNumber: 1
+    SpeakerID: 84
+    Loop: false
+    Length: 0
+  MAGIC:
+    Mode: 0
+    RecordNumber: 10
+    SpeakerID: 84
+    Loop: true
+    Length: 5080
+  ISLAND:
+    Mode: 0
+    RecordNumber: 1
+    SpeakerID: 84
+    Loop: true
+    Length: 3620
+  ABANDONED:
+    Mode: 0
+    RecordNumber: 1
+    SpeakerID: 84
+    Loop: true
+    Length: 3620

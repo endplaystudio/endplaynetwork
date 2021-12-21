@@ -1,0 +1,118 @@
+######################
+#+ 
+#   MENU SETTINGS 
+#+ 
+######################
+
+menu-settings:
+
+  name: '&0Название'
+
+  rows: 5
+
+  command: 'item-sample'
+
+  auto-refresh: 5
+
+bread-blank:
+  COMMAND: 'open: item-sample.yml'
+  NAME: '§rИмя предмета'
+  ID: ITEM
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+glass-1:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+glass-2:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+glass-3:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+glass-4:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+glass-5:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+glass-6:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+glass-7:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+glass-8:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+info:
+  COMMAND: ''
+  NAME: '&rО предмете'
+  LORE:
+    - 'Данный предмет можно получить'
+    - 'с помощью выпекания внутри пакарни.'
+  ID: FURNACE
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+get:
+  COMMAND: 'CONSOLE: give {player} minecraft:ITEM 1 0 {display:{Name:"§rИмя предмета"}}'
+  NAME: '&rПолучить предмет'
+  ID: chest
+  VIEW-PERMISSION: 'menus.staff'
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: items.yml'
+  NAME: '&rНазад'
+  LORE:
+    - 'В меню предметов'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true

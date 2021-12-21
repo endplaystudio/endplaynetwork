@@ -1,0 +1,24 @@
+# Deutsch
+# Navigator v1.5.2
+North: Norden
+East: Osten
+South: Süden
+West: Westen
+North_East: Nord-Osten
+North_West: Nord-Westen
+South_East: Süd-Osten
+South_West: Süd-Westen
+Start: Gehe die Route nach CARDINALDIR ab.
+End: Ziel erreicht.
+Go_Straight: Gehe gerade aus nach CARDINALDIR.
+Turn_Left: Biege links ab nach CARDINALDIR.
+Turn_Right: Biege rechts ab nach CARDINALDIR.
+Turn_Around: Dreh um, in Richtung CARDINALDIR.
+OffrouteA: Du weichst zu stark von der Route ab./nlFalschen Weg genommen?/nlMit "/nav compass" kannst du dich neu orientieren.
+OffrouteB: Du weichst zu stark von der Route ab./nlDie Navigation wird automatisch beendet./nlNutze "/nav compass" um dich neu zu orientieren/nloder nutze "/nav go <Ziel>" um weiter zu gehen.
+NoRoute: Keine Route nach/zu/zum DESTNAME ist gefunden.
+NavStart: Navigation gestartet nach/zu/zum DESTNAME.
+NoMapOfWorld: Keine Karte von "WORLDNAME" verfügbar, Navigation unmöglich.
+TooFarFromRoad: Du bist nicht auf einer kartierten Strasse.
+InGameOnlyCommand: Dieser Befehl kann nur innerhalb des Spiels benutzt werden.
+DestinationExists: Fehler! Destination DESTNAME existiert bereits. Keine Änderungen an der Karte.

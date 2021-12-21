@@ -1,0 +1,9 @@
+SURVIVAL: '{"potions":[],"inventory":{"size":41,"items":{}},"armour":{"size":4,"items":{}}}'
+ADVENTURE: '{"potions":[],"inventory":{"size":41,"items":{}},"armour":{"size":4,"items":{}}}'
+experience: 0
+level: 0
+exp: 0.0
+gameMode: ADVENTURE
+health: 20.0
+hunger: 20
+saturation: 4.0

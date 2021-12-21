@@ -1,0 +1,94 @@
+# Titlebar v1.3.2.7 by sn1cko
+# Time is set in milliseconds which means every 20 = 1 second
+# for example: 6000 = 5 minuntes OR 300 = 15 seconds
+# 
+# The announcer will never stop if the time is set to 0
+# Else it will stop after the amount of milliseconds you wish
+# 
+# There are currently 15 variables available which can be built in
+# for example %player% - will display the playername or %health% - will give out the health
+# all other variables can be found on the website
+# https://dev.bukkit.org/projects/titlebar/pages/variables
+# You can also add PlaceholderAPI to your server to get way more variables
+# Download-Link (with instructions):
+# https://www.spigotmc.org/resources/placeholderapi.6245/
+Titlebar:
+  Settings:
+    FirstJoin:
+      Toggle: true
+      Time: 5
+      Titles:
+      - '&8&lВве'
+      - '&1&lВвед'
+      - '&2&lВведи'
+      - '&3&lВведи п'
+      - '&4&lВведи па'
+      - '&5&lВведи пар'
+      - '&6&lВведи паро'
+      - '&2&lВведи парол'
+      - '&3&lВведи пароль'
+      - '&4&lВведи пароль'
+      - '&5&lВведи пароль'
+      Subtitles:
+      - '&7&o/reg пароль пароль'
+      - '&9&o/reg пароль пароль'
+      - '&a&o/reg пароль пароль'
+      - '&b&o/reg пароль пароль'
+      - '&c&o/reg пароль пароль'
+      - '&d&o/reg пароль пароль'
+      - '&e&o/reg пароль пароль'
+    Join:
+      Toggle: true
+      Time: 3
+      Titles:
+      - '&8&lE'
+      - '&1&lE'
+      - '&2&lE'
+      - '&3&lEN'
+      - '&4&lEND     '
+      - '&5&l    PLAY'
+      - '&6&lEND PLAY'
+      - '&3&lEND &6&lPLAY'
+      Subtitles:
+      - '&7Привет, %player%'
+      - '&9Привет, %player%'
+      - '&aПривет, %player%'
+      - '&bПривет, %player%'
+      - '&cПривет, %player%'
+      - '&dПривет, %player%'
+      - '&eПривет, %player%'
+      - '&aПривет, %player%'
+      - '&bПривет, %player%'
+      - '&cПривет, %player%'
+      - '&dПривет, %player%'
+    Time:
+      Fade-In: 0
+      Stay: 5
+      Fade-Out: 0
+    Staff:
+      Permission: titlebar.staff
+    ColorCodes:
+      Toggle: true
+    TitleMessage:
+      Toggle: true
+titlebar:
+  Settings:
+    ShowVanishedPlayerOnVariable:
+      Toggle: false
+      ChangeText:
+        Toggle: false
+        UsersSeeOnlineText: '%online%'
+        StaffsSeeOnlineText: '%online% | %vanished%'
+TitlebarAnnouncer:
+  Settings:
+    Toggle: true
+    StopTime: 0
+    Time: 6000
+    Messages:
+      Titles:
+      - ''
+      - ' '
+      - ' '
+      - ''
+      Subtitles:
+      - ' '

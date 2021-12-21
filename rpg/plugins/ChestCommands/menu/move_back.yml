@@ -1,0 +1,84 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Поехать'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'movetocity'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+ksiudeny:
+  COMMAND: 'st play Ksiudeny_Back'
+  NAME: '&bДольчедонна'
+  LORE:
+    - 'Дорога займёт &c1 мин.'
+    - 'Мы доберёмся на корабле до порта'
+    - 'Дольчедонны.'
+    - ''
+    - ' • Цена поездки: &aБесплатно'
+    - ''
+    - '&e► Нажмите чтобы поехать'
+  ID: chest
+  VIEW-PERMISSION: 'permissions.player'
+  PERMISSION: 'quests.completed.sample'
+  PERMISSION-MESSAGE: ' &6Путешествия &8| &7Для того, чтобы путешествовать за пределами Дольчедонны нужно пройти квест «&cНазвание квеста&7».'
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: false
+
+ksiudeny-fast:
+  COMMAND: 'console:warp {player} Порт'
+  PRICE: 24.99
+  NAME: '&bДольчедонна'
+  LORE:
+    - 'Дорога займёт &c0 секунд&7. При этом после покупки'
+    - 'Вы попадёте не на рынок, а в порт Дольчедонны. Опция'
+    - 'не бесплатна, но вы экономите время на дорогу.'
+    - 'Вас расщепят энергетическим кристаллом, и'
+    - 'восстановят тело в порту Дольчедонны рядом с дорогой.'
+    - ''
+    - ' • Цена покупки: &a24,99Ł'
+    - ''
+    - '&e► Нажмите чтобы купить поездку'
+  ID: chest
+  ENCHANTMENT: 'silk-touch'
+  VIEW-PERMISSION: 'permissions.player'
+  PERMISSION: 'quests.completed.sample'
+  PERMISSION-MESSAGE: ' &6Путешествия &8| &7Для того, чтобы путешествовать за пределами Дольчедонны нужно пройти квест «&cНазвание квеста&7».'
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: false

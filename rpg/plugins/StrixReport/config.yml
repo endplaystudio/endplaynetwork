@@ -1,0 +1,61 @@
+# =------------------------------------=
+# [      StrixReport by Sliide_        ]
+# =-------------------------------------
+# If you want to disable cooldown
+# write "0" in cooldown !
+# --------------------------------------
+# "%seconds%" are the cooldown seconds.
+# "%reason%" is the report message.
+# "%target%" is the reported player.
+# "%player%" is who reported.
+# "%prefix%" is the plugin prefix.
+# "%command%" is the command who player
+# is using, this can be aliases.
+# --------------------------------------
+# Don't change this.
+version: 1
+cooldown: 25
+toggle:
+  report-gui:
+    enabled: true
+  reminder:
+    enabled: true
+  self-report:
+    enabled: false
+  prefix:
+    enabled: true
+  click-teleport:
+    enabled: true
+permissions:
+  report:
+    main: report.use
+    receive: report.receive
+    admin: report.admin
+    toggle: report.toggle
+no-permissions: '&cЭтой команды не существует 0_О'
+prefix: '&c Жалобы &8|'
+reported: '%prefix% &aВы кинули жалобу на &c%target% &aза &c%reason%'
+reminder: '%prefix% &cНапоминание&c! &7Ложные запросы наказуемы.'
+not-found: '%prefix% &cИгрок &7%player% &cне найден.'
+self-report: '%prefix% &cНельзя телепортироваться к себе.'
+on-cooldown: '&c Жалобы &8| &cПодождите &f%seconds% &cсек. перед повторной жалобой.'
+click-teleport:
+  message: '&7» &cНажми для телепорта &7«'
+  hover: '&7ТП к &f» &c%target%'
+toggle-report:
+  usage: '%prefix% &cИспользование: /%command%'
+  enabled: '%prefix% &eYour toggle report has been &aEnabled'
+  disabled: '%prefix% &eYour toggle report has been &cDisabled'
+usage:
+- ''
+- '%prefix% &cИспользование: /%command% &7<игрок> <причина>'
+- ''
+report:
+- ''
+- '&4&m-----&c&m-----&4&m-----&c&m-----&4&m-----&c&m-----&4&m-----'
+- ''
+- ' &a%player% &7кинул жалобу на &c%target%'
+- '  &7Причина: &c%reason%'
+- ''
+- '&4&m-----&c&m-----&4&m-----&c&m-----&4&m-----&c&m-----&4&m-----'
+- ''

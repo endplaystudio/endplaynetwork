@@ -1,0 +1,16 @@
+## --------------------------------------- ##
+## Economy Placeholders
+## --------------------------------------- ##
+
+## Do not edit this config version
+config: 1
+
+# Formatted money settings
+money_formatted:
+  fix_thousands: true
+  fix_millions: true
+  thousands_format: k
+  millions_format: M
+  billions_format: B
+  trillions_format: T
+  quadrillions_format: Q

@@ -1,0 +1,14 @@
+currentQuests:
+- Доставка удочки
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: ____Sasuke____

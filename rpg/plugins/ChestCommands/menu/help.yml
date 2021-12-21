@@ -1,0 +1,165 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Помощь'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'help'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+gameplay:
+  COMMAND: ''
+  NAME: '&bГеймплей'
+  LORE:
+    - 'Помощь по геймплейным вопросам'
+    - ''
+  ID: bow
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+money:
+  COMMAND: ''
+  NAME: '&bФинансы'
+  LORE:
+    - 'Помощь по финансовым вопросам/командам:'
+    - ''
+    - 'Команды:'
+    - '• &c/money &7| &c/balance &7- баланс (наличные)'
+    - '• &c/pay <НИК> <СУММА> &7- отправить кому-то деньги'
+    - '• &c/bank &7- меню вашего банковского счёта'
+    - '• &c/bank balance &7- средства на банковском счёте'
+    - '• &c/withdraw <СУММА> &7- обналичить средства'
+    - '• &c/deposit <СУММА> &7- положить средства на счёт в банке'
+  ID: gold_nugget
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+links:
+  COMMAND: 'open: links.yml'
+  NAME: '&bСсылки'
+  LORE:
+    - '• Карта сервера: &cplay.end-play.xyz:8123'
+    - '• Вики и новости: &cwww.end-play.xyz/minecraft'
+    - '• Ресурспак: &crpg.end-play.xyz/resourcepack &7(&c&lВАЖНО&7)'
+    - '• Канал &3Telegram&7: &chttps://t.me/endplaynetwork'
+    - '• Instagram&7: &cinstagram.com/end.play/'
+    - '• &7Наш &fYou&cTube &7канал: &chttps://goo.gl/F87U8o'
+    - '• &3Discord &7сервер: &chttps://discord.gg/AXssU5Z'
+    - ''
+    - '&e► Открыть страницу ссылок'
+  ID: paper
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+developers:
+  COMMAND: 'open: developers.yml'
+  NAME: '&bРазработчики'
+  LORE:
+    - 'Над сервером трудилось много людей,'
+    - 'так что на этой странице можно найти'
+    - 'множество личностей помогавших или'
+    - 'активно принимавших участие в разработке'
+    - 'и жизни этого сервера и дочерних проектов.'
+    - ''
+    - '&e► Открыть список разработчиков'
+  ID: skull:3
+  SKULL-OWNER: 'Afinity'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+resourcepack:
+  COMMAND:
+    - 'tell: &7'
+    - 'tell: &8  | &fОбязательно установите ресурспак!'
+    - 'tell: &8  | &fБез него сервер выглядит неестественно,'
+    - 'tell: &8  | &fа инвентарь похож на склад мотыг.'
+    - 'tell: &8  |'
+    - 'tell: &8  | &fСсылка на страницу пакета ресурсов:'
+    - 'tell: &8  | &chttps://www.end-play.xyz/minecraft/resourcepack'
+    - 'tell: &7'
+  NAME: '&bРесурспак'
+  LORE:
+    - 'Пакет ресурсов очень важен для сервера'
+    - 'и содержит в себе не только текстуры,'
+    - 'но и важные игровые модели, аудиофайлы,'
+    - 'музыку, озвучки персонажей, и многое другое.'
+    - '&cОбязательно &7установите его, иначе ваш.'
+    - 'инвентарь будет выглядеть как непонятный'
+    - 'набор мотыг, а все персонажи квестов и мира'
+    - 'будут лишь глупыми болванчиками, к тому же'
+    - 'вы потеряете огромный пласт атмосферы вселенной.'
+    - ''
+    - 'Если вы нашли ошибку в паке, или у вас есть'
+    - 'интересная идея – пишите нам в ЦПП об этом.'
+    - 'Возможно, ваше предложение изменит сервер.'
+    - ''
+    - '&e► Получить ссылку'
+  ID: redstone_torch
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+items:
+  COMMAND: 'open: items.yml'
+  NAME: '&bПредметы'
+  LORE:
+    - 'В этом мире множество разных предметов,'
+    - 'продуктов, оружия, брони и всего прочего.'
+    - 'Используя это меню Вы можете узнать о'
+    - 'каждом предмете больше информации. Крафт,'
+    - 'свойства и источник получения.'
+    - 'Больше информации можно найти на страницах'
+    - 'нашего сайта с Вики по игровому миру.'
+    - ''
+    - '&e► Открыть список предметов'
+  ID: CHEST
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+back:
+  COMMAND: 'menu'
+  NAME: '&cВ главное меню'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

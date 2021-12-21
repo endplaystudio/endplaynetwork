@@ -1,0 +1,23 @@
+general:
+  name: reg7_sell
+  world: main_world
+  type: buy
+  signs:
+    '0':
+      location:
+        world: main_world
+        x: 63.0
+        y: 72.0
+        z: 446.0
+      facing: NORTH
+      signType: WALL_SIGN
+    '1':
+      location:
+        world: main_world
+        x: 75.0
+        y: 72.0
+        z: 456.0
+      facing: EAST
+      signType: WALL_SIGN
+buy:
+  price: 60000.0

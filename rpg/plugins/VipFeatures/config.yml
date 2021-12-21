@@ -1,0 +1,36 @@
+# Plugin by [andrei1058]
+# config.yml - Documentation
+# 
+# defaultLang: en - Default language iso code. Make sure messages_en.yml exists!
+# 
+# database.host: localhost - Database IP or DNS.
+# database.port: 3306 - Database port.
+# database.ssl: false - Set to true to use a https connection.
+# database.name: vipFeatures - Database name.
+# database.user: root - Database user.
+# database.pass: p4ss11 - User password.
+# 
+# disableChangesWhenPlaying: true - Set false to allow players select perks during the game.
+# 
+# perksItem.enable - true if you want to give the item on join.
+# perksItem.material - Item material.
+# perksItem.data - Material data.
+# perksItem.slot - The slot where to receive the item.
+# perksItem.enchant - true if you want to have an enchanted item.
+
+
+defaultLang: en
+database:
+  host: localhost
+  port: 3306
+  ssl: false
+  name: vipFeatures
+  user: root
+  pass: p4ss11
+disableChangesWhenPlaying: true
+perksItem:
+  material: CHEST
+  data: 0
+  enchanted: false
+  slot: 4
+  enable: true

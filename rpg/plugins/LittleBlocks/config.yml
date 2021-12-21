@@ -1,0 +1,22 @@
+# LittleBlocks by iAmGio
+messages:
+  set:
+    enabled: true
+    message: '&aPlaced &e%block% &aat &e%x% %y% %z%'
+  remove:
+    enabled: true
+    message: '&aRemoved &e%block% &aat &e%x% %y% %z%'
+    with-radius:
+      enabled: true
+      message: '&aRemoved &e%blocks% &a%blocks/block%'
+  move:
+    enabled: false
+    message: '&aMoved &e%block% &ato &e%x% %y% %z%'
+  littlemode:
+    enable: '&7LittleMode &aenabled'
+    disable: '&7LittleMode &cdisabled'
+  littlemodeplus:
+    enable: '&7LittleMode [+] &aenabled'
+    disable: '&7LittleMode [+] &cdisabled'
+only-owners-remove: false
+send-update-message: true

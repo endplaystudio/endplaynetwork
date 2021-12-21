@@ -1,0 +1,80 @@
+set:
+  warzone:
+    Foxenstein:
+      info:
+        authors:
+        - Profitroll
+        teleport:
+          x: 7
+          y: 63
+          z: -52
+          yaw: 90
+        world: cw_foxenstein
+        lobby:
+          orientation: south
+          world: cw_foxenstein
+          materials:
+            floor:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLASS
+            outline:
+              ==: org.bukkit.inventory.ItemStack
+              type: WOOD
+            gate:
+              ==: org.bukkit.inventory.ItemStack
+              type: OBSIDIAN
+            light:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLOWSTONE
+        materials:
+          main:
+            ==: org.bukkit.inventory.ItemStack
+            type: OBSIDIAN
+          stand:
+            ==: org.bukkit.inventory.ItemStack
+            type: FENCE
+          light:
+            ==: org.bukkit.inventory.ItemStack
+            type: GLOWSTONE
+        monument:
+          names:
+          - red
+          - blue
+          red:
+            x: -22
+            y: 51
+            z: -25
+            yaw: 99
+          blue:
+            x: -76
+            y: 51
+            z: -80
+            yaw: 144
+  team:
+    names:
+    - blue
+    - red
+    blue:
+      info:
+        spawns:
+        - x: -76
+          y: 51
+          z: -21
+          yaw: 226
+        flag:
+          x: -95
+          y: 60
+          z: -1
+          yaw: 269
+    red:
+      info:
+        spawns:
+        - x: -22
+          y: 51
+          z: -84
+          yaw: 46
+        flag:
+          x: -3
+          y: 60
+          z: -104
+          yaw: 90

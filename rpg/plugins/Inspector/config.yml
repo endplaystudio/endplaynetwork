@@ -1,0 +1,6 @@
+Reporter:
+  server: 88425a3a-3b26-49b0-8cf0-1214729c9a04
+  enabled: true
+  data:
+    core: true
+    plugins: true

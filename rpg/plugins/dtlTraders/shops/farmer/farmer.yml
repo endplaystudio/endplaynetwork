@@ -1,0 +1,119 @@
+farmer:
+  title: Фермер
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  logging-enabled: false
+  pages:
+    page-0:
+      size: 54
+      page-name: page-0_1955
+      page-permission: ''
+      buy-items:
+        item-10:
+          id: 60
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: MUTTON
+          show-description: false
+          description: []
+        item-12:
+          id: 61
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: MILK_BUCKET
+          show-description: false
+          description: []
+        item-13:
+          id: 52
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BEETROOT
+          show-description: false
+          description: []
+        item-14:
+          id: 53
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: POTATO_ITEM
+          show-description: false
+          description: []
+        item-15:
+          id: 54
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: CARROT_ITEM
+          show-description: false
+          description: []
+        item-16:
+          id: 62
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: EGG
+          show-description: false
+          description: []
+        item-19:
+          id: 63
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RAW_BEEF
+          show-description: false
+          description: []
+        item-28:
+          id: 55
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RAW_CHICKEN
+          show-description: false
+          description: []
+        item-29:
+          id: 56
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RABBIT
+          show-description: false
+          description: []
+        item-31:
+          id: 64
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: FEATHER
+          show-description: false
+          description: []
+        item-32:
+          id: 65
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RABBIT_FOOT
+          show-description: false
+          description: []
+        item-33:
+          id: 59
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RABBIT_HIDE
+          show-description: false
+          description: []
+        item-34:
+          id: 66
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: LEATHER
+          show-description: false
+          description: []

@@ -1,0 +1,22 @@
+waxcandle2:
+  name: '&cwaxcandle2'
+  system-ID: waxcandle2
+  material: 383
+  glow: false
+  lore: []
+  crafting:
+    disable: true
+    recipe: xxx,xxx,xxx
+    index:
+      x: '7'
+  ProjectModels:
+    ArmorStands:
+      '0': H4sIAAAAAAAAANVUvXLaQBBeDMZCnkzSxWWSSZMCjwADITMeBxsBYkDiH6TGc6ADJE4SIwljXKVNmSqP4Bdwb8dFJmWK9HmAPECKNDmB+Ek8eYCo2tv9vtXtt7vHAgRhX0QGbmuO1iMYwPNETpGDqwS53jkQhN2GgQhZxkJ5zfZhoaxtOD5DMC/WGSgjXEH2GNvLw16BWDPNHHpQFlh+SrCdNYcEs8CU+XzzvMwXwhDo3n74Xnjx7e05tWXwP2orKz8lh4p8Nudh7149/9XMRQ887F1kbSsrHqxyZ+uVRe7PnYMf76sXD3L7fi/3qZSTPexW/A/sVu5IXSgUN8m/fqp+/MKc/k042ST3CX6lJ/+odOVf/IJKik3XsucM7J4V+UYTQqIk8r4IDOxoKjw2NBP3bTRw3zjjKSEBCrWmphtgIeiiIQtPGhNtaLlFjNQqmQ41k4FQ33JcCHKHHAN7Lr50p7ShN3he4pTuiFO7JdKfCyl6bjY4Ign6JC2Y7XnvTEgJBo0Xs6nyPLOFTbqokyRyojRSzNq0Z7S5cqJOcLEe6xutC6mjjJVCfSzrI6J0WpeVTkmvXPFzJZcfyXFlLOrCpdyscaIhxER9GJcK+ZGiy3G52ZqJV3ldbo65it6KSbmSVmmOdKVQiwtmLDOoHR/TWkw6u8DWsfrsDJkqwQywE2wbmuNolglPR7Ru57BPJ3lIhTzUTBfbmmUvxQsmuAwDzCoKjOCHvSlteHJKMxN7YEGFlygZjydx7CiaTHPJ6FFsoEZ7/UQiGkdcPMP10jGcSlFe1bboBVwNOxFgfHUd1lsE2sY2ItP/VGsAqrb3UjwcKSrXnqo5E4LmEQiVLZt2gdYL+/fXr4W14kvyo/vr9KZbADsQziEDDTF9ROg4Svl8MSvmlpNOe1PJCuK2I0QXqLE+5HneX4r15RZ7b9GW0vaHgelGpcHAwe5myRjloUv2Xbc/3y1cuxCU0ez+xrN/Az2UGSsjBQAA
+    Block:
+      '0':
+        X-Offset: 0.0
+        Y-Offset: 0.0
+        Z-Offset: 0.0
+        Type: TORCH
+        Data: 5
+  PlaceAbleSide: TOP

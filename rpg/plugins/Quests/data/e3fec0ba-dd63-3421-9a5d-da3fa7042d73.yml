@@ -1,0 +1,38 @@
+currentQuests:
+- Странная Просьба
+- Пропитые яйца
+- Морковные дела
+- Доставка удочки
+currentStages:
+- 1
+- 0
+- 0
+- 0
+quest-points: 0
+questData:
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 31
+    has-talked-to:
+    - false
+  Пропитые яйца:
+    citizen-ids-to-talk-to:
+    - 14
+    has-talked-to:
+    - false
+  Морковные дела:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 13
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests:
+- Халявный ключик
+hasJournal: false
+lastKnownName: Yaneli_22

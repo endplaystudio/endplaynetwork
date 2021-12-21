@@ -1,0 +1,31 @@
+# This is the English language file that Navigator uses to formulate it's navigation instructions.
+# CARDINALDIR will get replaced with a cardinal direction. For example, "Go towards the CARDINALDIR" will become "Go towards the North".
+# DESTRNAME will be replaced by the name of the destination.
+# WORLDNAME will be replaced with, obviously, a world name.
+# Word replacment only applies to the sentences that currently contain a replaced world.
+# /nl creates a new line.
+# Compatible with Navigator v1.5.2
+North: North
+East: East
+South: South
+West: West
+North_East: North East
+North_West: North West
+South_East: South East
+South_West: South West
+Start: Start by heading CARDINALDIR.
+End: You have reached your destination!
+Go_Straight: Go straight, heading CARDINALDIR.
+Turn_Left: Turn left, heading CARDINALDIR.
+Turn_Right: Turn right, heading CARDINALDIR.
+Turn_Around: Turn around, heading CARDINALDIR.
+OffrouteA: You are slightly off-route/nldid you take a wrong turn?/nl This can also be caused by a map error. Report this to/nlthe person who made the map if you think it is./nlRemember, you can use /nl"/nav compass" to orient yourself.
+OffrouteB: You are off-route,/nlnavigation has been cancelled automatically./nlYou can now reuse "/nav go <destination>/nlif you wish to retry navigation./nlRemember, you can use /nlav compass to orient yourself.
+NoRoute: No route could be found to DESTNAME.
+NavStart: Starting navigation to DESTNAME.
+NoMapOfWorld: No map of "WORLDNAME" available, navigation impossible.
+TooFarFromRoad: You are not on a mapped road.
+InGameOnlyCommand: This command can only be used in-game.
+RouteCalc: Route is being calculated to DESTNAME.
+DestCoordsFarFromRoad: Warning! Your chosen coordinates are DISTANCE blocks from any mapped road./nl
+DestinationExists: Error! Destination DESTNAME already exists. No changes made to map.

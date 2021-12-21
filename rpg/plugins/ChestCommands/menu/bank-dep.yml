@@ -1,0 +1,127 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Внести вклад'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bankdep'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+10:
+  COMMAND: 'bank deposit 10'
+  NAME: '&c&l10 LND'
+  LORE:
+    - 'Положить деньги на счёт &a10 LND&7.'
+  ID: gold_ingot
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+50:
+  COMMAND: 'bank deposit 50'
+  NAME: '&c&l50 LND'
+  LORE:
+    - 'Положить деньги на счёт &a50 LND&7.'
+  ID: gold_ingot
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+100:
+  COMMAND: 'bank deposit 100'
+  NAME: '&c&l100 LND'
+  LORE:
+    - 'Положить деньги на счёт &a100 LND&7.'
+  ID: gold_ingot
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+500:
+  COMMAND: 'bank deposit 500'
+  NAME: '&c&l500 LND'
+  LORE:
+    - 'Положить деньги на счёт &a500 LND&7.'
+  ID: gold_ingot
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+1000:
+  COMMAND: 'bank deposit 1000'
+  NAME: '&c&l1000 LND'
+  LORE:
+    - 'Положить деньги на счёт &a1000 LND&7.'
+  ID: gold_ingot
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+another:
+  COMMAND: 'tell:&3 Банк &8| &7Введи &c/deposit <СУММА> &7для депозита другой суммы.'
+  NAME: '&c&lДругая сумма'
+  LORE:
+    - 'Положить деньги на счёт другую сумму.'
+    - ''
+    - 'Введи &c/deposit <СУММА> &7для депозита другой суммы.'
+  ID: gold_ingot
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'bank'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню банка'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 4
+  POSITION-Y: 6
+  KEEP-OPEN: true
+  
+balance:
+  COMMAND: 'bank balance'
+  NAME: '&cБаланс'
+  LORE:
+    - 'Ваш текущий баланс'
+    - ''
+    - '&oПодсказка: &c&oСмотри в чат'
+  ID: redstone
+  POSITION-X: 6
+  POSITION-Y: 6
+  KEEP-OPEN: true

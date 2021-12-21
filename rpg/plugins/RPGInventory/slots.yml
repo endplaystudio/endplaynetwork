@@ -1,0 +1,184 @@
+slots:
+  helmet:
+    type: ARMOR
+    slot: 4
+    holder:
+      item: DIAMOND_HOE:4
+      name: "&aСлот для шлема"
+      lore:
+      - "&7&oСюда можно поставить только шлем"
+    items:
+    - LEATHER_HELMET
+    - CHAINMAIL_HELMET
+    - IRON_HELMET
+    - GOLD_HELMET
+    - DIAMOND_HELMET
+  chestplate:
+    type: ARMOR
+    slot: 13
+    holder:
+      item: DIAMOND_HOE:5
+      name: "&aСлот для нагрудника"
+      lore:
+      - "&7&oСюда можно положить только нагрудник"
+    items:
+    - LEATHER_CHESTPLATE
+    - CHAINMAIL_CHESTPLATE
+    - IRON_CHESTPLATE
+    - GOLD_CHESTPLATE
+    - DIAMOND_CHESTPLATE
+  leggings:
+    type: ARMOR
+    slot: 22
+    holder:
+      item: DIAMOND_HOE:6
+      name: "&aСлот для поножей"
+      lore:
+      - "&7&oСюда можно положить только поножи"
+    items:
+    - LEATHER_LEGGINGS
+    - CHAINMAIL_LEGGINGS
+    - IRON_LEGGINGS
+    - GOLD_LEGGINGS
+    - DIAMOND_LEGGINGS
+    - 4555
+  boots:
+    type: ARMOR
+    slot: 31
+    holder:
+      item: DIAMOND_HOE:7
+      name: "&aСлот для ботинок"
+      lore:
+      - "&7&oСюда можно положить только ботинки"
+    items:
+    - LEATHER_BOOTS
+    - CHAINMAIL_BOOTS
+    - IRON_BOOTS
+    - GOLD_BOOTS
+    - DIAMOND_BOOTS
+  weapon:
+    type: ACTIVE
+    slot: 12
+    quickbar: 0
+    holder:
+      item: DIAMOND_HOE:9
+      name: "&aСлот для оружия"
+      lore:
+      - "&7&oСюда можно положить только оружие"
+    items:
+    - WOOD_SWORD
+    - STONE_SWORD
+    - IRON_SWORD
+    - GOLD_SWORD
+    - DIAMOND_SWORD
+    - WOOD_AXE
+    - STONE_AXE
+    - IRON_AXE
+    - GOLD_AXE
+    - DIAMOND_AXE
+    - BOW
+  gloves:
+    type: PASSIVE
+    slot: 14
+    holder:
+      item: DIAMOND_HOE:8
+      name: "&aСлот для перчаток"
+      lore:
+      - "&7&oСюда можно положить только перчатки"
+    items:
+    - DIAMOND_HOE:24
+  rings:
+    type: PASSIVE
+    slot: [10, 28]
+    holder:
+      item: DIAMOND_HOE:12
+      name: "&aСлот для кольца"
+      lore:
+      - "&7&oСюда можно положить только кольцо"
+    items:
+    - DIAMOND_HOE:23
+  amulet:
+    type: PASSIVE
+    slot: 19
+    cost:
+      required-level: 4
+      money: 1000
+    holder:
+      item: DIAMOND_HOE:13
+      name: "&aСлот для амулета"
+      lore:
+      - "&7&oСюда можно положить только амулет"
+    items:
+    - DIAMOND_HOE:25
+  artifacts:
+    type: PASSIVE
+    slot: [47, 48, 49, 50, 51]
+    holder:
+      item: DIAMOND_HOE:16
+      name: "&aСлот для артефакта"
+      lore:
+      - "&7&oСюда можно положить только артефакт"
+    items:
+    - DIAMOND_HOE:26
+  shield:
+    type: SHIELD
+    slot: 21
+    holder:
+      item: DIAMOND_HOE:10
+      name: "&aСлот для щита"
+      lore:
+      - "&7&oСюда можно положить только щит и факела"
+    items:
+    - SHIELD
+    - TORCH
+    - REDSTONE_TORCH
+  elytra:
+    type: ELYTRA
+    slot: 30
+    holder:
+      item: DIAMOND_HOE:11
+      name: "&aСлот для элитр"
+      lore:
+      - "&7&oСюда можно положить только элитры"
+  pet:
+    type: PET
+    slot: 33
+    holder:
+      item: DIAMOND_HOE:14
+      name: "&aСлот для питомца"
+      lore:
+      - "&7&oСюда можно положить только питомца"
+  backpack:
+    type: BACKPACK
+    slot: 34
+    drop: false
+    holder:
+      item: DIAMOND_HOE:15
+      name: "&aСлот для рюкзака"
+      lore:
+      - "&7&oСюда можно положить только рюкзак"
+  craft:
+    type: ACTION
+    slot: 16
+    gui: true
+    holder:
+      item: DIAMOND_HOE:2
+      name: "&aВерстак"
+      lore:
+      - "&7&oНажми сюда чтобы открыть его"
+    action: WORKBENCH
+  info:
+    type: INFO
+    slot: 5
+    holder:
+      item: DIAMOND_HOE:3
+      name: "&aСтатистика"
+      lore:
+        - "&7Здоровье: &c%player_health%&8/&c%player_max_health%"
+        - " "
+        - "&7Урон: &c%rpginv_damage_bonus% &8(Оружие) &7| &c%rpginv_bow_damage_bonus% &8(Лук) &7| &c%rpginv_hand_damage_bonus% &8(Рука)"
+        - "&7Крит урон: &6%rpginv_crit_damage_bonus% &7| Шанс крита: &6%rpginv_crit_chance%"
+        - "&3Броня: &7%rpginv_armor_bonus%"
+        - " "
+        - "&7Скорость: &9%rpginv_speed_bonus%"
+        - "&7Прыжок: &9%rpginv_jump_bonus%"

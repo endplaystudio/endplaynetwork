@@ -1,0 +1,45 @@
+# This is the main configuration file for Magma.
+# 
+# Site: https://magmafoundation.org
+# Discord: https://discord.gg/6rkqngA
+# 
+# Value: forge.blacklistedmods.enabled Default: false   # Enable blacklisting of mods
+# Value: debug.debugPrintBukkitBannerPatterns Default: false   # Prints the Forge Bukkit Banner Patterns
+# Value: fakeplayer.permissions Default:    # A list of permissions that fake players should have
+# Value: magma.advanced.override-brand Default: false   # Enables overriding the brand string
+# Value: forge.blacklistedmods.list Default:    # A list of mods to blacklist
+# Value: magma.advanced.override-brand-name Default: Spigot   # Value to use for new brand string
+# Value: debug.debugPrintCommandNode Default: false   # Prints out all Command Nodes for permissions
+# Value: magma.auto-update Default: true   # Auto updates the Magma jar
+# Value: experience-merge-max-value Default: -1   # Instructs the server put a maximum value on experience orbs, preventing them all from merging down into 1 single orb.
+# Value: forge.bukkitPermissionHandler.enable Default: true   # Let's Bukkit permission plugins handle forge/modded commands
+# Value: magma.advanced.server-type Default: FML   # Set to FML to show forge icon or BUKKIT to show bukkit icon (FML is default)
+# Value: debug.debugPrintBukkitMatterials Default: false   # Prints the Forge Bukkit Materials
+# Value: forge.blacklistedmods.kickmessage Default: Please Remove Blacklisted Mods   # Mod Blacklist kick message
+
+forge:
+  blacklistedmods:
+    enabled: false
+    list: []
+    kickmessage: Please Remove Blacklisted Mods
+  bukkitPermissionHandler:
+    enable: true
+  autoUnloadDimensions:
+  - '0'
+  - '1'
+  - '-1'
+debug:
+  debugPrintBukkitBannerPatterns: false
+  debugPrintCommandNode: false
+  debugPrintBukkitMatterials: false
+fakeplayer:
+  permissions: []
+magma:
+  advanced:
+    override-brand: false
+    override-brand-name: Spigot
+    server-type: FML
+  auto-update: false
+  auto-update-path: /magma-rpg.jar
+experience-merge-max-value: -1
+config-version: 2

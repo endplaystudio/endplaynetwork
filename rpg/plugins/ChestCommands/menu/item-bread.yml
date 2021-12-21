@@ -1,0 +1,145 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Хлеб'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'item-bread'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+bread-blank:
+  COMMAND: 'open: item-bread-blank.yml'
+  NAME: '§rЗаготовка хлеба'
+  ID: sugar
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+glass-1:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+glass-2:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+glass-3:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+glass-4:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+glass-5:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+glass-6:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+glass-7:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+glass-8:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+info:
+  COMMAND: ''
+  NAME: '&rО предмете'
+  LORE:
+    - 'Данный предмет можно получить'
+    - 'с помощью выпекания внутри пакарни.'
+  ID: FURNACE
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+get:
+  COMMAND: 'CONSOLE: give {player} minecraft:bread 1 0 {display:{Name:"§rХлеб"}}'
+  NAME: '&rПолучить предмет'
+  ID: chest
+  VIEW-PERMISSION: 'menus.staff'
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: bakery.yml'
+  NAME: '&rНазад'
+  LORE:
+    - 'В предметы выпечки'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true

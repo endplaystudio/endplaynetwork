@@ -1,0 +1,30 @@
+# This is the file to configure the bot attack protection settings
+
+antibot: #A variety of features to prevent bot attacks on your server
+  hardLock:
+    enabled: true
+    requiredLocks: 5
+    lockFor: 30
+    resetAfter: 45
+  joinLimiter: #Limits the connection of players to the server per a specified amount of seconds
+    enabled: true
+    seconds: 4
+    players: 1
+  ipLimiter: #Limits the same IPs that can be online at the same time
+    enabled: true
+    limit: 2
+  antiBadConnection: #Blocks any bad connection. A bad connection is based on the history of the IPs  
+    enabled: true
+    apiKey: "" #Create an account on https://www.ipqualityscore.com/create-account and then copy and paste your API key from https://www.ipqualityscore.com/documentation/proxy-detection/overview
+    blocks:
+      bot: true #Blocks IPs that are flagged as potential bots
+      abuse: true #Blocks IPs that are recorded to have an abuse history
+      vpn: true #Block any VPN connections
+      fraudScore: 85 #Blocks player whose IP's fraud score is above this value
+
+onAttack:
+  actionbar: true #If enabled and the server is under attack, an actionbar message will be shown to all admins
+  cleanConsole: true #If enabled and the server is under attack, the server console will remain mostly clean
+
+onBotDetect:
+  - "consolecmd banplayer"

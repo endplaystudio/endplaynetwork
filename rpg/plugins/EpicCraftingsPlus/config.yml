@@ -1,0 +1,216 @@
+# --------------------------------------------------
+# EpicCraftingsPlus by Ajneb97 
+# If you find bugs, please contact with me:
+# https://www.spigotmc.org/members/ajneb97.43796/
+# --------------------------------------------------
+# You can find tutorials on the plugin page.
+# https://www.spigotmc.org/resources/epiccraftingsplus-fully-configurable-crafts-1-8-1-11.39967/
+Config:
+  decorative-menu-item: STAINED_GLASS_PANE:3
+  menu-page-item: ARROW
+  click-to-craft-item: CHEST
+  craft-with-money-item: INK_SACK:10
+  firework-on-craft: true
+  new-version-reminder: true
+  block-ecraft-command: false
+  enable-categories: true
+  hide-craftings-with-permissions: true
+  hide-one-time-craftings: true
+  workbench-attach: false
+  block-player-crafting-inventory: false
+  cooldown-notification-messages: true
+  cooldown-notification-sound:
+    enabled: false
+    sound: NOTE_PLING;2;1.5
+  one-cooldown-at-the-time: false
+  previous-next-crafting: true
+  previous-next-crafting-item: STAINED_GLASS_PANE:14
+  log-file:
+    enabled: false
+    clear-log-time: 7
+  Crafts:
+    super_sword:
+      id: DIAMOND_SWORD
+      name: '&4&lSuper Sword'
+      lore:
+      - '&6This is one of the best'
+      - '&6swords on the server!'
+      - ''
+      - '&8[Created by: &c%player%&8]'
+      category: weapons_armor
+      enchants:
+      - DAMAGE_ALL;6
+      - FIRE_ASPECT;3
+      requires:
+      - DIAMOND;15;&bUnique Diamond;&7A legendary mineral;&7very hard to obtain..
+      - IRON_INGOT;10
+      permission: ecraft.supersword
+      one-time: true
+      cooldown: 1800
+      hide-flags:
+      - HIDE_ATTRIBUTES
+      extra-requires:
+      - level,15,take
+      extra-requires-message:
+      - '&6Extra Requirements:'
+      - '&7You need 15 levels to craft this.'
+      - '&9Status: &a%current_1%&8/&a%required_1%'
+      commands-when-crafted:
+      - broadcast &2&l%player% crafted a &4&lSUPER SWORD&2&l!
+    gold_helmet:
+      id: GOLD_HELMET
+      name: '&e&lKing Helmet'
+      lore:
+      - '&6Difficult to obtain, difficult to craft.'
+      - '&6The &eKing Helmet &6is one of the most'
+      - '&6wanted items on the server...'
+      category: weapons_armor
+      unbreakable: true
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;8
+      - THORNS;8
+      - OXYGEN;5
+      requires:
+      - GOLD_HELMET;10
+      - GOLDEN_APPLE;20
+      - GOLDEN_CARROT;20
+      - GOLD_INGOT;50
+      - GLOWSTONE_DUST;50
+      - INK_SACK:11;60
+    epic_bow:
+      id: BOW
+      name: '&aE&bP&cI&dC &6Bow'
+      amount: '2'
+      category: weapons_armor
+      enchants:
+      - ARROW_DAMAGE;4
+      - ARROW_INFINITE;1
+      requires:
+      - BOW;10;ENCHANTS:ARROW_DAMAGE,1;DONT_REMOVE
+      - IRON_INGOT;40
+      - DIAMOND;30
+    command_1:
+      id: GHAST_TEAR
+      name: '&2&lMoney Exchange'
+      lore:
+      - '&6When crafting this, you will get'
+      - '&2$500&6. You can use the money to buy'
+      - '&6items on the shop.'
+      category: others
+      requires:
+      - IRON_INGOT;10
+      command: eco give %player% 500
+      cooldown: 30
+    command_2:
+      id: GHAST_TEAR
+      name: '&4&lVIP &7Rank'
+      lore:
+      - '&6When crafting this, you will receive'
+      - '&6the &4&lVIP &6rank. Good luck getting'
+      - '&6the ingredients!'
+      category: others
+      requires:
+      - COMMAND;30
+      - BARRIER;30
+      - BEDROCK;30
+      - DEAD_BUSH;30
+      - MOB_SPAWNER;1
+      extra-requires:
+      - crafting,command_1,5
+      command: pex user %player% group set VIP
+    command_on_click:
+      id: STICK
+      name: '&5&lSpeed &d&lStick'
+      lore:
+      - '&6This stick have a little secret'
+      - '&bRight Click &6to know it ;)'
+      category: others
+      requires:
+      - STICK;64
+      - BLAZE_ROD;64
+      command-on-click:
+      - 'console: effect %player% 1 30 2'
+      - 'console: msg %player% &4You used the &5&lSpeed &d&lStick'
+      command-wait: 180
+    key_item:
+      id: LEVER
+      name: '&2&lMagic &d&lKey'
+      lore:
+      - '&6With this item you can open one'
+      - '&6of the mystery vaults on the spawn'
+      category: others
+      block-interaction: true
+      block-interaction-message: '&cThis is a special item, you can''t interact with
+        it'
+      block-use-in-crafting-tables: true
+      block-use-in-crafting-tables-message: '&cThis is a special item, you can''t
+        craft with it'
+      requires:
+      - GOLD_INGOT;30
+      success-rate: 25
+      success-rate-failed-message: '&cThe creation of the &2Magic &dKey &cfailed!
+        The Mystery Vaults can''t be opened yet...'
+      success-rate-failed-commands:
+      - eco take %player% 100
+    random:
+      id: EMERALD
+      name: '&c&lRandom Item'
+      lore:
+      - '&aCrafting this, you can get one of these items:'
+      - '&4Super Sword &7-> &220%'
+      - '&4King Helmet &7-> &230%'
+      - '&4Epic Bow    &7-> &250%'
+      - ''
+      - '&6Good luck! :)'
+      category: others
+      requires:
+      - BEACON;5
+      random:
+      - super_sword;20
+      - gold_helmet;30
+      - epic_bow;50
+    enchants_sword:
+      id: DIAMOND_SWORD
+      name: '&4&lAlpha Sword'
+      lore:
+      - '&aCrafting this, you can get a sword'
+      - '&awith Damage_All enchant from level 1 to 10'
+      category: weapons_armor
+      cooldown: 40
+      cooldown-bypass-cost: 500
+      enchants:
+      - DAMAGE_ALL;1-10
+      requires:
+      - DIAMOND;55
+    skull-with-texture:
+      id: SKULL_ITEM:3
+      skull-id: ec62ea75-402c-44fb-8f71-bef0015a4634
+      skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA4Yjc3MmVjYWVlNzA2MjM1ZDFhZGJmMGI5YTI5YjU4YmE5YzBlZDYwZGU2ZjEwZWZiMWE3Zjg2ZDllIn19fQ==
+      name: '&2&lChristmas Ornament'
+      amount: 16
+      category: others
+      requires:
+      - RAW_FISH;1
+    random-lore-stats:
+      id: IRON_BOOTS
+      name: '&6Magic Boots'
+      unbreakable: true
+      lore:
+      - '&8&m---------&7STATS&8&m---------'
+      - ''
+      - '&a+$random-120-170$ &7Health &4❤'
+      - '&a+$random-5-10$ &7Dexterity &f✸'
+      - ''
+      - '&8&m-----------------------'
+      ignore-required-items-lore: true
+      category: weapons_armor
+      requires:
+      - MELON_BLOCK;1
+      - IRON_BOOTS;1;&2Normal Boots;&7Level 1
+    workbench:
+      id: WORKBENCH
+      amount: 1
+      category: others
+      ignore-required-items-data-values: true
+      requires:
+      - WOOD;4

@@ -1,0 +1,24 @@
+currentQuests:
+- Странная Просьба
+- Пропитые яйца
+currentStages:
+- 1
+- 0
+quest-points: 0
+questData:
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 26
+    - 31
+    has-talked-to:
+    - false
+    - false
+  Пропитые яйца:
+    citizen-ids-to-talk-to:
+    - 14
+    has-talked-to:
+    - false
+completed-Quests:
+- Халявный ключик
+hasJournal: false
+lastKnownName: OZMO

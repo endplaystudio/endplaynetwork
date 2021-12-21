@@ -1,0 +1,46 @@
+# Main Config - CustomCrafting v0.0.9.141
+# -
+# PlaceholderAPI:
+# Identifier: customcrafting
+# Placeholders:
+#   - amount_crafted -> returns the number of crafted custom recipes!
+# -
+# -
+# Debug should be disabled! That are a lot of Messages!
+debug: false
+experimental_features: false
+language: en_US
+creator:
+  reset_after_save: true
+commands:
+  cc: true
+databank:
+  enabled: false
+  type: MYSQL
+  host: ''
+  port: 3306
+  database: ''
+  username: ''
+  password: ''
+workbench:
+  enable: true
+  reset_item: true
+  reset_recipe: true
+  craft_sound:
+    enable: false
+    sound: block.lava.extinguish
+  commands:
+    successful_craft: []
+    denied_craft: []
+data:
+  auto_save:
+    interval: 30
+    message: true
+recipes:
+  lockdown: false
+  vanilla_knowledgebook: true
+  pretty_printing: true
+  preferred_file_type: json
+  disabled_recipes: []
+knowledgebook:
+  workbench_filter: true

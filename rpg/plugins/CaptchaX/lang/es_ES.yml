@@ -1,0 +1,56 @@
+general:
+  updateAvailable: "%prefix% Se encontró una actualización, haga clic en este mensaje."
+  success: "%prefix% Has pasado la prueba del captcha."
+  underAttack: "&cEl servidor está bajo ataque y &4&l&n%bots%&r &cbots han sido bloqueados."
+  join: "&e%player% joined the game"
+  notificaciones:
+    complete: "%prefix% (&6%player%&f) &completó con éxito el captcha."
+    fail: "%prefix% (&6%player%&f) &fallaron para completar el captcha."
+
+comandos:
+  add:
+    success: "%prefix% Verificado con éxito (&6%player%)&f."
+    already: "%prefix% El reproductor especificado (&6%player%&f) ya está verificado."
+  remove:
+    success: "%prefix% Exitosamente no verificado (&6%player%&f)."
+    already: "%prefix% El reproductor especificado (&6%player%&f) no está verificado."
+  check:
+    found: "%prefix% El reproductor especificado (&6%player%&f) es &6verified&f." 
+    notFound: "%prefix% El reproductor especificado (&6%player%&f) es &6no verificado&f."
+  test:
+    success: "%prefix% Enviado con éxito una prueba de captcha a &6%player%&f."
+  list:
+    success: "%prefix% Los tipos de captcha disponibles son:"
+    format: " &f&l- &6%type% &f[&r&7%status%&f]"
+  reload:
+    success: "%prefix% Los archivos de configuración se recargaron con éxito."
+
+instrucciones:
+  map: "%prefix% Escribe el código &6 &f que se muestra en el mapa."
+  gui: "%prefix% Por favor, haga clic en el elemento &6%%&f."
+  diferent: "%prefix% Por favor, haga clic en los diferentes elementos."
+  equation: "%prefix% Por favor, resuelve la siguiente ecuación: &6% ecuación%&f."
+  order: "Poner en orden (&6%symbol%&f) los siguientes números: &6%number%&f."
+  picture: "%prefix% Escribe lo que estás viendo. Elige entre[&6%list%&f]."
+  code: "%prefix% Escriba &6%code% &encuentre el chat."
+  color: "%prefix% Type what (&r%color%THIS&r&f) color's name is."
+  sneak: "%prefix% Por favor &6sneak &f (normalmente usando la tecla SHIFT)."
+  jump: "%prefix% Por favor &6jump &f (normalmente usando la tecla SPACE)."
+  drop: "%prefix% Por favor &6drop &fdel artículo que tienes en la mano (normalmente usando la tecla Q)."
+  slot: "%prefix% Por favor, muévete al &6%slot%th &fslot de tu barra de acceso rápido."
+  reverse: "%prefix% Por favor, invierta las letras del siguiente código: &6%código%&f."
+  
+kick:
+  restart: "&7El servidor se ha reiniciado, por favor, únete de nuevo más tarde"
+  locked: "&7Too muchos jugadores se están uniendo al mismo tiempo"
+  ip: "&7Sólo puedes tener en línea hasta &f3 &7 cuentas al mismo tiempo"
+  bot: "&7Su IP está vinculada a la actividad del bot, por lo que no podemos permitirle unirse"
+  abuse: "&7Su IP está vinculada a un abuso reciente, de ahí que no pueda unirse"
+  risk: "&7Su puntaje de fraude de IP es demasiado arriesgado, por lo tanto, no puede unirse"
+  vpn: "&7Las VPN o proxies no están permitidas en este servidor"
+
+error:
+  onlyPlayers: "%prefix% Prefijo Sólo los jugadores pueden usar este comando."
+  noPermissions: "%prefix% No tienes suficientes permisos para hacer esto."
+  playerNull: "%prefix% El reproductor especificado no parece ser válido."
+  wrongUsage: "%prefix% El uso correcto es &6%usage%"

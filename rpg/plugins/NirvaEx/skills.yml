@@ -1,0 +1,96 @@
+Types:
+  Atk: '[ATK] '
+  Def: '[DEF] '
+  Vis: '[VIS] '
+  Zon: '[ZON] '
+  DefVis: '[DEF/VIS] '
+  DefZon: '[DEF/ZON] '
+  Cooldown: 20
+French:
+  use: 'Vous utilisez '
+  Atk:
+    One: Coup Puissant
+    Two: Tranché Explosif
+    Three: Renvoi
+    Four: Faucheuse Obscure
+    Five: Baiser Vampirique
+    Six: Jugement Dernier
+    Seven: Flèche Confuse
+    Eight: Flèche de Foudre
+    Nine: Flèche Dégénérative
+    Ten: Flèche Explosive
+    Eleven: Coup Etourdissant
+    Twelve: Vol de Vie
+    Thirteen: Lame Empoisonnée
+    Fourteen: Coup Traitre
+  Def:
+    Two: Saut Titanesque
+    Three: Vol du Jaguar
+    Four: Berseker
+    Six: Saut Eclair
+    Seven: ChauveSouris
+    Eight: Rage
+    Nine: Dopage
+    Ten: Invisibilité
+  Pass:
+    Nothing: Aucune capacité
+  Zon:
+    One: Etres Nocturnes
+    Two: Prison Temporelle
+    Three: Orage
+    Four: Embrasement
+    Six: Drainage
+    Seven: Revelation
+    Nine: Implosion
+  Vis:
+    One: Soin
+    Two: Prière
+    Three: Dissipation
+    Four: Luminos
+    Five: Malédiction
+    Six: Communion Elémentaire
+    Seven: Traque
+English:
+  use: 'You use '
+  Atk:
+    One: Powerful Blow
+    Two: Explode Sharp
+    Three: Poke
+    Four: Dark Reaper
+    Five: Vampire Kiss
+    Six: Last Judgment
+    Seven: Confused Arrow
+    Eight: Lightning Arrow
+    Nine: Degenerated Arrow
+    Ten: Explosive Arrow
+    Eleven: Stunning Punch
+    Twelve: Life Drain
+    Thirteen: Poisoned Blade
+    Fourteen: Treachery
+  Def:
+    Two: Titanic Jump
+    Three: Flight of Jaguar
+    Four: Berserker
+    Six: Flash
+    Seven: Bat
+    Eight: Fury
+    Nine: Doping
+    Ten: Invisibility
+  Pass:
+    Nothing: No ability
+  Zon:
+    One: Nocturnal Being
+    Two: Temporal Jail
+    Three: Storm
+    Four: Burning
+    Six: Drain
+    Seven: Revelation
+    Nine: Implosion
+  Vis:
+    One: Heal
+    Two: Prayer
+    Three: Total Dispersion
+    Four: Lighty
+    Five: Curse
+    Six: Elementary Communion
+    Seven: Track Down

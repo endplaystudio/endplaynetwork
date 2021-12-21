@@ -1,0 +1,6 @@
+mysql:
+  active: false
+  ip: ip
+  base: base
+  password: password
+  user: user

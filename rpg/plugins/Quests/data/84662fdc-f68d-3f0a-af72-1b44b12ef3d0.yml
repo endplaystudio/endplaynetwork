@@ -1,0 +1,14 @@
+currentQuests:
+- Пропитые яйца
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Пропитые яйца:
+    citizen-ids-to-talk-to:
+    - 14
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: _JackFlaut_YT

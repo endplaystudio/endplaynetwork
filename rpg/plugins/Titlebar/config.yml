@@ -1,0 +1,69 @@
+# Titlebar v1.3.2.7 by sn1cko
+# Time is set in milliseconds which means every 20 = 1 second
+# for example: 6000 = 5 minuntes OR 300 = 15 seconds
+# 
+# The announcer will never stop if the time is set to 0
+# Else it will stop after the amount of milliseconds you wish
+# 
+# There are currently 15 variables available which can be built in
+# for example %player% - will display the playername or %health% - will give out the health
+# all other variables can be found on the website
+# https://dev.bukkit.org/projects/titlebar/pages/variables
+# You can also add PlaceholderAPI to your server to get way more variables
+# Download-Link (with instructions):
+# https://www.spigotmc.org/resources/placeholderapi.6245/
+Titlebar:
+  Settings:
+    FirstJoin:
+      Toggle: true
+      Time: 5
+      Titles:
+      - '&cДобро пожаловать на &3END &6PLAY&c!'
+      - '&4Добро пожаловать на &3END &6PLAY&4!'
+      - '&fДобро пожаловать на &3END &6PLAY&f!'
+      Subtitles:
+      - '&6Хороших вам открытых выходных!'
+      - '&eХороших вам открытых выходных!'
+      - '&6Хороших вам открытых выходных!'
+    Join:
+      Toggle: true
+      Time: 4
+      Titles:
+      - '&cДобро пожаловать на &3END &6PLAY&c!'
+      - '&4Добро пожаловать на &3END &6PLAY&4!'
+      - '&fДобро пожаловать на &3END &6PLAY&f!'
+      Subtitles:
+      - '&6Хороших вам открытых выходных!'
+      - '&eХороших вам открытых выходных!'
+      - '&6Хороших вам открытых выходных!'
+    Time:
+      Fade-In: 2
+      Stay: 7
+      Fade-Out: 2
+    Staff:
+      Permission: titlebar.staff
+    ColorCodes:
+      Toggle: true
+    TitleMessage:
+      Toggle: true
+titlebar:
+  Settings:
+    ShowVanishedPlayerOnVariable:
+      Toggle: false
+      ChangeText:
+        Toggle: false
+        UsersSeeOnlineText: '%online%'
+        StaffsSeeOnlineText: '%online% | %vanished%'
+TitlebarAnnouncer:
+  Settings:
+    Toggle: true
+    StopTime: 0
+    Time: 6000
+    Messages:
+      Titles:
+      - ''
+      - ' '
+      - ' '
+      - ''
+      Subtitles:
+      - ' '

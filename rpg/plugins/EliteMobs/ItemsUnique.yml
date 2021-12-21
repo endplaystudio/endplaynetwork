@@ -1,0 +1,153 @@
+Enable unique items: true
+Show item worth: true
+Enable Mob Hunting set: true
+EliteMob percentual spawn chance increase per hunting set item: 10
+Enable Zombie King Axe: true
+Enable Depths Seeker Fishing Rod: true
+Enable Dwarven Greed pickaxe: true
+Enable The Feller: true
+Items:
+  Hunting Helmet:
+    Item Type: DIAMOND_HELMET
+    Item Name: '&4Elite Mob Hunting Helmet'
+    Drop Weight: dynamic
+    Scalability: dynamic
+    Item Lore:
+    - Only for the sharpest of eyes.
+    Enchantments:
+    - VANISHING_CURSE,1
+    - PROTECTION_ENVIRONMENTAL,1
+    - HUNTER,2
+    Potion Effects:
+    - NIGHT_VISION,1,self,continuous
+  Hunting Chestplate:
+    Item Type: DIAMOND_CHESTPLATE
+    Item Name: '&4Elite Mob Hunting Chestplate'
+    Drop Weight: dynamic
+    Scalability: dynamic
+    Item Lore:
+    - Only for the bravest souls.
+    Enchantments:
+    - VANISHING_CURSE,1
+    - PROTECTION_ENVIRONMENTAL,1
+    - HUNTER,2
+    Potion Effects:
+    - SATURATION,1,self,continuous
+  Hunting Leggings:
+    Item Type: DIAMOND_LEGGINGS
+    Item Name: '&4Elite Mob Hunting Leggings'
+    Drop Weight: dynamic
+    Scalability: dynamic
+    Item Lore:
+    - Only for those who aim the highest.
+    Enchantments:
+    - VANISHING_CURSE,1
+    - PROTECTION_ENVIRONMENTAL,1
+    - HUNTER,2
+    Potion Effects:
+    - JUMP,2,self,continuous
+  Hunting Boots:
+    Item Type: DIAMOND_BOOTS
+    Item Name: '&4Elite Mob Hunting Boots'
+    Drop Weight: dynamic
+    Scalability: dynamic
+    Item Lore:
+    - Only for those fleetest of foot.
+    Enchantments:
+    - VANISHING_CURSE,1
+    - PROTECTION_ENVIRONMENTAL,1
+    - HUNTER,2
+    Potion Effects:
+    - SPEED,2,self,continuous
+  Hunting Bow:
+    Item Type: BOW
+    Item Name: '&4Elite Mob Hunting Bow'
+    Drop Weight: dynamic
+    Scalability: dynamic
+    Item Lore:
+    - Only for natural-born hunters.
+    Enchantments:
+    - VANISHING_CURSE,1
+    - DAMAGE_ARROW,1
+    Potion Effects:
+    - SATURATION,1,self,continuous
+  Zombie Kings Axe:
+    Item Type: GOLD_AXE
+    Item Name: '&4Zombie Kings Axe'
+    Drop Weight: unique
+    Scalability: dynamic
+    Item Lore:
+    - The axe of the one Zombies
+    - call their king.
+    - The bloodlust is palpable.
+    Enchantments:
+    - DAMAGE_ALL,10
+    - DAMAGE_UNDEAD,5
+    - DIG_SPEED,5
+    - DURABILITY,5
+    - KNOCKBACK,3
+    - FIRE_ASPECT,4
+    - LOOT_BONUS_MOBS,5
+    - WATER_WORKER,5
+    - FLAMETHROWER,1
+    Potion Effects:
+    - FAST_DIGGING,1,self,onHit
+    - POISON,1,target,onHit
+    - GLOWING,1,target,onHit
+    - NIGHT_VISION,1,target,continuous
+    - WITHER,1,target,onHit
+  Depths Seeker:
+    Item Type: FISHING_ROD
+    Item Name: '&9Depths Seeker'
+    Drop Weight: unique
+    Scalability: limited
+    Item Lore:
+    - '&9Come from depths immeasurable'
+    - '&9and looted from monster most vile,'
+    - '&9there is no telling what horrors'
+    - '&9this fishing rod has seen.'
+    Enchantments:
+    - LURE,3
+    - LUCK,3
+    - DURABILITY,10
+    - FIRE_ASPECT,1
+    - VANISHING_CURSE,1
+    Potion Effects:
+    - WATER_BREATHING,1,self,continuous
+    - LUCK,1,self,continuous
+  Dwarven Greed:
+    Item Type: DIAMOND_PICKAXE
+    Item Name: '&4Dwarven Greed'
+    Drop Weight: unique
+    Scalability: limited
+    Item Lore:
+    - '&cThose who delve too greedily'
+    - '&cand too deep may wake ancient'
+    - '&chorrors of shadow and flame'
+    - '&cbest left undisturbed.'
+    Enchantments:
+    - LOOT_BONUS_BLOCKS,4
+    - DURABILITY,6
+    - DIG_SPEED,6
+    - VANISHING_CURSE,1
+    Potion Effects:
+    - FAST_DIGGING,2,self,continuous
+    - NIGHT_VISION,1,self,continuous
+  The Feller:
+    Item Type: DIAMOND_AXE
+    Item Name: '&2The Feller'
+    Drop Weight: unique
+    Scalability: dynamic
+    Item Lore:
+    - '&aEven in your sleep,'
+    - '&aYou can feel this axe''s'
+    - '&9saplust'
+    Enchantments:
+    - LOOT_BONUS_BLOCKS,4
+    - SILK_TOUCH,1
+    - DURABILITY,6
+    - DIG_SPEED,6
+    - VANISHING_CURSE,1
+    Potion Effects:
+    - FAST_DIGGING,2,self,continuous
+    - NIGHT_VISION,1,self,continuous

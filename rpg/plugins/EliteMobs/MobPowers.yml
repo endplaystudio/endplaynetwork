@@ -1,0 +1,37 @@
+Powers:
+  Offensive Powers:
+    AttackArrow: true
+    AttackBlinding: true
+    AttackConfusing: true
+    AttackFire: true
+    AttackFireball: true
+    AttackFreeze: true
+    AttackGravity: true
+    AttackPoison: true
+    AttackPush: true
+    AttackWeakness: true
+    AttackWeb: true
+    AttackWither: true
+    AttackVacuum: true
+  Defensive Powers:
+    Invisibility: true
+    InvulnerabilityArrow: true
+    InvulnerabilityFallDamage: true
+    InvulnerabilityFire: true
+    InvulnerabilityKnockback: true
+  Miscellaneous Powers:
+    BonusLoot: true
+    MovementSpeed: true
+    Taunt: true
+    Corpse: true
+    MoonWalk: true
+    Implosion: true
+  Major Powers:
+    SkeletonPillar: true
+    SkeletonTrackingArrow: true
+    ZombieBloat: true
+    ZombieFriends: true
+    ZombieNecronomicon: true
+    ZombieParents: true
+    ZombieTeamRocket: true
+Freeze power message: '&9You''ve been frozen!'

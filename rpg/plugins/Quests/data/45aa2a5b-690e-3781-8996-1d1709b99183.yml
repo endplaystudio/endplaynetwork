@@ -1,0 +1,15 @@
+currentQuests:
+- Жестокое заключение
+currentStages:
+- 0
+quest-points: 5
+questData:
+  Жестокое заключение:
+    citizen-ids-to-talk-to:
+    - 37
+    has-talked-to:
+    - false
+completed-Quests:
+- Морковные дела
+hasJournal: false
+lastKnownName: Shiyami

@@ -1,0 +1,24 @@
+Main:
+  enable-command: true
+  enable-npcs: true
+  offduty: false
+  uuid-support: true
+  language: en_us
+Messages:
+  welcome: Welcome to my little shop.
+  farewell: Thank you for your continued patronage.
+  denial: I'm afraid you are not a shop member. I am not authorized to do business
+    with you.
+  closed: I am sorry, I am closed for business at this time.
+  forHireMsg: I am ready to work!
+  rentalMsg: Rent this shop space, and I work as your clerk.
+PlayerShops:
+  default-rental-owner: server
+  npc-for-hire: true
+  npc-commission: 10.0
+  npc-rental-price: 100.0
+  right-click-player-shop: true
+  onduty-in-shop-only: true
+  npc-in-shop-only: true
+  manage-in-shop-only: false
+  max-npcs-per-player: 2

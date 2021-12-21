@@ -1,0 +1,83 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Статистика'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'difstats'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+cw:
+  COMMAND: ''
+  NAME: '&6Статистика сервера'
+  LORE:
+    - ' • Онлайн: &6%server_online%&7/&6%server_max_players%'
+    - ' • Уникальных игроков: &6%server_unique_joins%'
+    - ' • Текущий аптайм: &6%server_uptime%'
+  ID: skull:3
+  SKULL-OWNER: 'alistor'
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+bedwars:
+  COMMAND: ''
+  NAME: '&6Статистка Игрока'
+  LORE:
+    - ' • Пинг: &6%player_ping%'
+    - ' • ID: &6%player_uuid%  '
+    - ' • IP: &6%player_ip%'
+    - ' • Дата первого входа: &6%player_first_join_date%'
+    - ' • Убийств: &6%statistic_player_kills%'
+    - ' • Смертей: &6%statistic_deaths%'
+    - ' • Сытость: &6%player_food_level%'
+    - ' • Макс HP: &6%player_max_health%'
+    - ' • Вы играли у нас: &6%statistic_time_played%'
+  ID: skull:3
+  SKULL-OWNER: '{player}'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+back:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

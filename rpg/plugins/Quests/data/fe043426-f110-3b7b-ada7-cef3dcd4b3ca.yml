@@ -1,0 +1,33 @@
+currentQuests:
+- Странная Просьба
+- Костяные нужды
+- Доставка удочки
+currentStages:
+- 0
+- 1
+- 1
+quest-points: 0
+questData:
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+  Костяные нужды:
+    citizen-ids-to-talk-to:
+    - 24
+    - 30
+    has-talked-to:
+    - false
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    - 2
+    has-talked-to:
+    - false
+    - false
+completed-Quests:
+- Халявный ключик
+hasJournal: false
+lastKnownName: 6ypeBecTHuK

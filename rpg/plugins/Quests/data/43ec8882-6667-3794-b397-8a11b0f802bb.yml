@@ -1,0 +1,31 @@
+currentQuests:
+- Жестокое заключение
+- Все женщины - ведьмы
+- Странная Просьба
+currentStages:
+- 0
+- 0
+- 1
+quest-points: 5
+questData:
+  Жестокое заключение:
+    citizen-ids-to-talk-to:
+    - 37
+    has-talked-to:
+    - false
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 26
+    - 31
+    has-talked-to:
+    - false
+    - false
+completed-Quests:
+- Адские проблемки
+hasJournal: false
+lastKnownName: OPTEMIST_

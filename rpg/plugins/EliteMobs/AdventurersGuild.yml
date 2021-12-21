@@ -1,0 +1,5 @@
+Enable adventurer's guild: true
+Add max health when unlocking higher guild ranks: true
+Adventurer's Guild world name: EliteMobs_adventurers_guild
+Guild world coordinates: 208.5,88,236.5,-80,0
+Teleport players to the adventurers guild using /ag: true

@@ -1,0 +1,169 @@
+Default:
+  generators:
+    slot: 11
+    tier1:
+      displayItem:
+        material: FURNACE
+        data: 0
+        amount: 1
+        enchanted: false
+      currency: diamond
+      cost: 4
+      receive:
+        teamGenerator:
+          iron:
+            delay: 2
+            amount: 2
+            spawn-limit: 41
+          gold:
+            delay: 3
+            amount: 1
+            spawn-limit: 14
+    tier2:
+      displayItem:
+        material: FURNACE
+        data: 0
+        amount: 1
+        enchanted: false
+      currency: diamond
+      cost: 8
+      receive:
+        teamGenerator:
+          iron:
+            delay: 1
+            amount: 2
+            spawn-limit: 48
+          gold:
+            delay: 3
+            amount: 2
+            spawn-limit: 21
+    tier3:
+      displayItem:
+        material: FURNACE
+        data: 0
+        amount: 1
+        enchanted: false
+      currency: diamond
+      cost: 12
+      receive:
+        teamGenerator:
+          iron:
+            delay: 1
+            amount: 2
+            spawn-limit: 64
+          gold:
+            delay: 2
+            amount: 2
+            spawn-limit: 29
+          emerald:
+            delay: 10
+            amount: 1
+  maniacMiner:
+    slot: 12
+    tier1:
+      displayItem:
+        material: GOLD_AXE
+        data: 0
+        amount: 1
+        enchanted: false
+      currency: diamond
+      cost: 4
+      receive:
+        playerEffect:
+          haste1:
+            effect: FAST_DIGGING
+            amplifier: 0
+            apply: members
+  sharpSword:
+    slot: 13
+    tier1:
+      displayItem:
+        material: IRON_SWORD
+        data: 0
+        amount: 1
+        enchanted: false
+      currency: diamond
+      cost: 4
+      receive:
+        itemEnchantment:
+          sharp:
+            enchantment: DAMAGE_ALL
+            amplifier: 1
+            apply: sword
+  reinforced:
+    slot: 14
+    tier1:
+      displayItem:
+        material: IRON_CHESTPLATE
+        data: 0
+        amount: 1
+        enchanted: false
+      currency: diamond
+      cost: 2
+      receive:
+        itemEnchantment:
+          sharp:
+            enchantment: PROTECTION_ENVIRONMENTAL
+            amplifier: 1
+            apply: armor
+  trap:
+    slot: 15
+    tier1:
+      displayItem:
+        material: TRIPWIRE_HOOK
+        data: 0
+        amount: 1
+        enchanted: false
+      currency: diamond
+      cost: 1
+      receive:
+        enemyBaseEnter:
+          announce: title, subtitle, action, chat
+        playerEffect:
+          blindness:
+            effect: BLINDNESS
+            amplifier: 1
+            apply: enemyBaseEnter
+            duration: 20
+          slowness:
+            effect: SLOW
+            amplifier: 0
+            apply: enemyBaseEnter
+            duration: 20
+  miningFatigue:
+    slot: 20
+    tier1:
+      displayItem:
+        material: IRON_PICKAXE
+        data: 0
+        amount: 1
+        enchanted: false
+      currency: diamond
+      cost: 2
+      receive:
+        enemyBaseEnter:
+          announce: title, subtitle
+        playerEffect:
+          fatigue:
+            effect: SLOW_DIGGING
+            amplifier: 0
+            apply: enemyBaseEnter
+            duration: 30
+  healPool:
+    slot: 21
+    tier1:
+      displayItem:
+        material: BEACON
+        data: 0
+        amount: 1
+        enchanted: false
+      currency: diamond
+      cost: 1
+      receive:
+        playerEffect:
+          fatigue:
+            effect: REGENERATION
+            amplifier: 0
+            apply: base
+settings:
+  invSize: 36

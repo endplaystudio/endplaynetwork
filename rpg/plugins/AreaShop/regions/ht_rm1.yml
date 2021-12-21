@@ -1,0 +1,15 @@
+general:
+  name: ht_rm1
+  world: main_world
+  type: rent
+  signs:
+    '0':
+      location:
+        world: main_world
+        x: 220.0
+        y: 70.0
+        z: 359.0
+      facing: WEST
+      signType: WALL_SIGN
+rent:
+  price: 300.0

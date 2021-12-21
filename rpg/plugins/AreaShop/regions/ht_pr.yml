@@ -1,0 +1,22 @@
+general:
+  name: ht_pr
+  world: map_main
+  type: rent
+  signs:
+    '0':
+      location:
+        world: map_main
+        x: 214.0
+        y: 82.0
+        z: 361.0
+      facing: NORTH
+      signType: WALL_SIGN
+  teleportLocation:
+    world: map_main
+    x: 214.13571824187918
+    y: 77.0
+    z: 356.53558626617206
+    yaw: '-2.046875'
+    pitch: '11.399978'
+rent:
+  price: 3500.0

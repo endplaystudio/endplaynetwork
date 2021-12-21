@@ -1,0 +1,21 @@
+currentQuests:
+- Адские проблемки
+- Доставка удочки
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Адские проблемки:
+    citizen-ids-to-talk-to:
+    - 15
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: Mirrat555

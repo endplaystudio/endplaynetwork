@@ -1,0 +1,31 @@
+# Dit is het "Nederlands" taalbestand dat Navigator  gebruik voor het formuleren van zijn navigatie-instructies.
+# CARDINALDIR zal worden vervangen door een windstreek. Bijvoorbeeld: "Ga naar de CARDINALDIRen." wordt "Ga naar het Noorden.".
+# DESTRNAME wordt vervangen door de naam van de bestemming.
+# WORLDNAME zal worden vervangen door, uiteraard, de naam van de wereld in kwestie.
+# Woordvervanging zoals hierboven beschreven is niet van toepassing als er geen vervangen woorden in de oorspronkelijke tekst staan.
+# /nl creëert een nieuwe regel.
+# Compatibel met Navigator v1.4
+North: Noord
+East: Oost
+South: Zuid
+West: West
+North_East: Noord-Oost
+North_West: Noord-West
+South_East: Zuid-Oost
+South_West: Zuid-West
+Start: Begin door naar het CARDINALDIRen te gaan.
+End: U hebt uw bestemming bereikt!
+Go_Straight: Ga rechtdoor, naar het CARDINALDIRen.
+Turn_Left: Sla linksaf, richting het CARDINALDIRen.
+Turn_Right: Sla rechtsaf, richting het CARDINALDIRen.
+Turn_Around: Keer om, richting het CARDINALDIRen.
+OffrouteA: Je wijkt lichtelijk af van de route./nlEen verkeerde weg genomen?/nlGebruik "/nav compass" om jezelf te orienteeren.
+OffrouteB: Je bent sterk afgewijkt van de route./nlDe navigatie is automatisch beeindigd./nlGebruik "/nav compass" om jezelf te orienteeren./nlof "/nav go <bestemming>" om de navigatie te hervatten.
+NoRoute: Er is geen mogelijke weg naar DESTNAME gevonden.
+NavStart: Navigatie gestart naar DESTNAME.
+NoMapOfWorld: Er is geen kaart van "WORLDNAME" beschikbaar, navigatie onmogelijk.
+TooFarFromRoad: Je bent niet op een in-kaart-gebrachte weg.
+InGameOnlyCommand: Dit commando kan uitsluitent binnen het spel worden gebruikt.
+RouteCalc: De route wordt berekend naar DESTNAME.
+DestCoordsFarFromRoad: Waarschuwing! De gekozen coordinaten zijn DISTANCE blokken ver fan enige in-kaart-gebrachte weg../nl
+DestinationExists: Foutmelding! Bestemming "DESTNAME" bestaat al, bestemming niet toegevoegd.

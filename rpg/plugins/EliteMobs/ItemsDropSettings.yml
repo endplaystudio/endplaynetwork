@@ -1,0 +1,85 @@
+Enable plugin loot: true
+Elite Mobs can drop custom loot: true
+Item worth: Worth $worth $currencyName
+Item resale worth: $resale $currencyName resale value
+EliteMob base percentual plugin item drop chance: 25.0
+EliteMob plugin item percentual drop chance increase per tier: 5.0
+Procedurally generated item weight: 90
+Custom item weight: 10
+Custom dynamic item weight: 9
+Custom static item weight: 1
+Drop multiplied default loot from elite mobs spawned in spawners: true
+EliteMob default loot multiplier: 1.0
+Maximum level of the Elite Mob default multiplier: 200
+EliteMob xp multiplier: 1.0
+Maximum loot tier (REQUIRES INCREASING SHARPNESS AND PROTECTION ENCHANTMENTS TO WORK PROPERLY, READ GITHUB WIKI!): 5
+Enable custom echantment system (check the github wiki before changing): true
+Enchantment name:
+  ARROW_DAMAGE: Power
+  ARROW_FIRE: Flame
+  ARROW_INFINITE: Infinity
+  ARROW_KNOCKBACK: Punch
+  BINDING_CURSE: Curse of Binding
+  CHANNELING: Channeling
+  DAMAGE_ALL: Sharpness
+  DAMAGE_ARTHROPODS: Bane of Arthropods
+  DAMAGE_UNDEAD: Smite
+  DEPTH_STRIDER: Depth Strider
+  DIG_SPEED: Efficiency
+  DURABILITY: Unbreaking
+  FIRE_ASPECT: Fire Aspect
+  FROST_WALKER: Frost Walker
+  IMPALING: Impaling
+  KNOCKBACK: Knockback
+  LOOT_BONUS_BLOCKS: Fortune
+  LOOT_BONUS_MOBS: Looting
+  LOYALTY: Loyalty
+  LUCK: Luck of the Sea
+  LURE: Lure
+  MENDING: Mending
+  OXYGEN: Respiration
+  PROTECTION_ENVIRONMENTAL: Protection
+  PROTECTION_EXPLOSIONS: Blast Protection
+  PROTECTION_FALL: Feather Falling
+  PROTECTION_FIRE: Fire Protection
+  PROTECTION_PROJECTILE: Projectile Protection
+  RIPTIDE: Riptide
+  SILK_TOUCH: Silk Touch
+  SWEEPING_EDGE: Sweeping Edge
+  THORNS: Thorns
+  VANISHING_CURSE: Curse of Vanishing
+  WATER_WORKER: Aqua Affinity
+  FLAMETHROWER: Flamethrower
+  HUNTER: Hunter
+Potion effect name:
+  ABSORPTION: Absorption
+  BLINDNESS: Blindness
+  CONDUIT_POWER: Conduit Power
+  CONFUSION: Nausea
+  DAMAGE_RESISTANCE: Resistance
+  DOLPHINS_GRACE: Dolphin's grace
+  FAST_DIGGING: Haste
+  FIRE_RESISTANCE: Fire Resistance
+  GLOWING: Glowing
+  HARM: Instant Damage
+  HEAL: Instant Health
+  HEAL_BOOST: Health Boost
+  HUNGER: Hunger
+  INCREASE_DAMAGE: Strength
+  INVISIBILITY: Invisibility
+  JUMP: Jump Boost
+  LEVITATION: Levitation
+  LUCK: Luck
+  NIGHT_VISION: Night Vision
+  POISON: Poison
+  REGENERATION: Regeneration
+  SATURATION: Saturation
+  SLOW: Slowness
+  SLOW_DIGGING: Mining Fatigue
+  SLOW_FALLING: Slow Falling
+  SPEED: Speed
+  UNLUCK: Bad Luck
+  WATER_BREATHING: Water Breathing
+  WEAKNESS: Weakness
+  WITHER: Wither
+Enable rare drop visual effect: true

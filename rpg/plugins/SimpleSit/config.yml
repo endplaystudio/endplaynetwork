@@ -1,0 +1,18 @@
+# Check for updates:
+# It's recommended to keep 'check-for-updates' true, because updates fix many bugs and will help performance.
+# - true : When an operators joins or the server restarts SimpleSit will check for updates. Only operators are alerted when an update is found.
+# - false : SimpleSit will not check for updates.
+sitPermissionDefault: true
+sitDown: ' &6ℹ &8| &7Теперь вы сидите.'
+sitFail: ' &cℹ &8| &7Вы не можете сидеть в воздухе.'
+sitUp: ' &6ℹ &8| &7Вы больше не сидите.'
+check-for-updates: true
+sit-permission-default: true
+sitdown-message: ' &6ℹ &8| &7Теперь вы сидите.'
+situp-message: ' &6ℹ &8| &7Вы больше не сидите.'
+sitfail-message: ' &cℹ &8| &7Вы не можете сидеть в воздухе.'
+lay-permission-default: true
+laydown-message: ' &6ℹ &8| &7Теперь вы лежите.'
+layup-message: ' &6ℹ &8| &7Вы больше не лежите.'
+layfail-message: ' &cℹ &8| &7Вы не можете лежать в воздухе.'
+layoverlap-message: ' &cℹ &8| &7Кто-то уже лежит тут.'

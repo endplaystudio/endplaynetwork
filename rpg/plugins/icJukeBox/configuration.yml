@@ -1,0 +1,120 @@
+=====================================================
+=                    StatioCraft                    =
+=                      JukeBox                      =
+=---------------------------------------------------=
+=                Plugin Configuration               =
+=====================================================
+
+# The size of the musiclist GUI
+# NOTE: make sure the size is at least 9
+# also make sure the size can be divided by 9
+# (for instance: 9, 18, 27, 36, 45, 54, etc.)
+# The specified size does NOT include the top-row
+# containing navigation items
+# If the requirements above are not met, the plugin
+# will use it's default-value
+other_default_menu_size: 45
+
+# The action which will be performed when a player
+# joins the server
+# 3 = turn on server-radio
+# 2 = play random song
+# 1 = enable shuffle-mode
+# 0 = do nothing
+other_action_on_join: 0
+
+# The message shown in the music-list inventory title
+# Use #CURRENT to insert the current pagenumber
+# Use #TOTAL to insert the total amount of pages
+string_menu_title: &5Список музыки  -  Страница &d#CURRENT&5/#TOTAL
+
+# The message shown when someone disables a music track
+string_music_disable: &6 Музыка &8| &7Проигрывание музыки &cприостановлено&7.
+
+# The message shown when someone enables shuffle-mode
+string_music_shuffle: &6 Музыка &8| 7Режим случайного воспроизведения &aвключен&7.
+
+# The message shown when a new track is starting
+# Use #TRACK to insert the song name
+string_music_nowplaying: &6 Музыка &8| &7Сейчас играет трек:&a #TRACK
+
+# The message shown when someone enables radio-mode
+string_radio_enable: &6 Музыка &8| &7Радио было &aвключено &7.
+
+# The message shown when someone disables radio-mode
+string_radio_disable: &6 Музыка &8| &7Радио было &cвыключено&7.
+
+# The message shown when someone already has radio-mode enabled
+string_radio_alreadyenabled: &6 Музыка &8| &7Радио уже было включено.
+
+# The message shown when a radio-song is being skipped
+string_radio_skip: &6 Музыка &8| &7Трек по радио пропущен.
+
+# The message shown when someone enables shuffle-mode
+string_shuffle_enable: &6 Музыка &8| &7Режим случайного воспроизведения &aвключен&7.
+
+# The message shown when someone disables shuffle-mode
+string_shuffle_disable: &6 Музыка &8| &7Режим случайного воспроизведения &cвыключен&7.
+
+# The message shown when a someone skips a track in shuffle-mode
+string_shuffle_skip: &6 Музыка &8| &7Трек был пропущен. Играет следующий.
+
+# The message shown when an item is given
+# Use #ITEM to insert the item name
+# Use #PLAYER to insert the player name
+string_item_give: &aSuccesfully sent item &2#ITEM &ato player &2#PLAYER
+
+
+
+# The item used inside the GUI to move one page backward
+item_menu_page_backward: 368:0 1 name:&5Пред._страница 
+
+# The item used inside the GUI to move one page forward
+item_menu_page_forward: 381:0 1 name:&6След._страница 
+
+# The item used inside the GUI to close the page
+item_menu_page_close: 378:0 1 name:&4Закрыть 
+
+# The item used inside the GUI to disable music
+item_menu_music_disable: 341:0 1 name:&cВыключить _музыку 
+
+# The item used inside the GUI to enable the server radio
+item_menu_music_radio: 264:0 1 name:&3Радио 
+
+# The item used inside the GUI to enable a random song
+item_menu_music_random: 84:0 1 name:&2Случайное_воспроизведение 
+
+# The item used inside the GUI to enable shuffle-mode
+item_menu_music_shuffle: 30:0 1 name:&9Перемешать 
+
+# The item which can be held by a player and used to enable the server radio
+item_player_music_radio: 264:0 1 name:&3Переключить_радио 
+# Whether the item above is enabled
+other_item_radio_enabled: true
+# Whether the item above can be dropped
+other_item_radio_candrop: false
+
+# The item which can be held by a player and used to enable a random song
+item_player_music_random: 84:0 1 name:&6Проиграть_случайную_песню 
+# Whether the item above is enabled
+other_item_random_enabled: true
+# Whether the item above can be dropped
+other_item_random_candrop: false
+
+# The item which can be held by a player and used to enable shuffle-mode
+item_player_music_shuffle: 2256:0 1 name:&aПереключить_музыку 
+# Whether the item above is enabled
+other_item_shuffle_enabled: true
+# Whether the item above can be dropped
+other_item_shuffle_candrop: false
+
+# The item which can be held by a player and used to open the music GUI
+item_player_music_list: 339:0 1 name:&5&lMusic
+# Whether the item above is enabled
+other_item_list_enabled: true
+# Whether the item above can be dropped
+other_item_list_candrop: false
+
+# When set to true the plugin will use the name stored inside a song-file
+# When set to false the plugin will use the name of a song-file itself
+other_use_song_names_for_discs: true

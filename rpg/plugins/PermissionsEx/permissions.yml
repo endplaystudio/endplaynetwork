@@ -1,0 +1,779 @@
+groups:
+  main:
+    options:
+      default: 'false'
+      prefix: ''
+      weight: '6'
+    permissions:
+    - -permissions.manage
+    - -stocks.config
+    - deathmessagesprime.toggle
+    - essentials.suicide
+    - globalmarket.use
+    - furniture.player
+    - csm.skin.reset
+    - csm.skin.menu
+    - csm.skin.url
+    - csm.skin.player
+    - itemjoin.menu
+    - -itemjoin.tutorial
+    - -itemjoin.get
+    - -itemjoin.fixer-8
+    - -itemjoin.fixer-9
+    - itemjoin.map_main.menu
+    - tutorial.completed.all
+    - tutorial.completed.1
+    - tutorial.completed.2
+    - tutorial.completed.3
+    - gps.commands
+    - gps.commands.show
+    - gps.commands.start
+    - gps.commands.help
+    - gps.commands.toggle
+    - gps.commands.move
+    - gps.commands.show
+    - allow.outland.teleport
+    - permissions.player
+    - -permission.hypesquad
+    - allow.teleport
+    - parties.user.deny
+    - parties.user.create
+    - parties.user.color
+    - parties.user.chat
+    - parties.user.accept
+    - parties.user.desc
+    - parties.user.help
+    - parties.user.ignore
+    - parties.user.info
+    - parties.user.info.others
+    - parties.user.invite
+    - parties.user.join
+    - parties.user.joindefault
+    - parties.user.kick
+    - parties.user.leave
+    - parties.user.list
+    - parties.user.motd
+    - parties.user.mute
+    - parties.user.password
+    - parties.user.rank
+    - parties.user.rename
+    - parties.user.sendmessage
+    - parties.user.claim
+    - parties.user.protectiont
+    - parties.user.sethome
+    - parties.user.teleport
+    - gadgetsmenu.animations.holiday
+    - gadgetsmenu.animations.normal
+    - pixeljoins.main
+    - -pixeljoins.staff
+    - -pixeljoins.hypesquad
+    - mutechat.use
+    - chestcommands.marry-gend.yml
+    - chestcommands.marry-gender.yml
+    - chestcommands.marry-accept.yml
+    - chestcommands.marry.yml
+    - marry.marry
+    - marry.divorce
+    - marry.heal
+    - marry.chat
+    - marry.gift
+    - marry.seen
+    - marry.seen​
+    - marry.default
+    - MysqlEconomyBank.cmd.interest
+    - MysqlEconomyBank.cmd.balance
+    - essentials.warps.Clay
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.mysteryboxes.open.1
+    - g
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.2
+    - treasurechest.access.treasure
+    - treasurechest.treasure
+    - CustomArmors.wear.*
+    - islandworld.island.spawn
+    - chestcommands.open.is
+    - chestcommands.open.stats.yml
+    - islandworld.island.delhome
+    - islandworld.island.welcome
+    - islandworld.create.main
+    - islandworld.island.home
+    - islandworld.island.delete
+    - islandworld.island.create
+    - -multiinv.exempt
+    - essentials.silentquit
+    - essentials.silentjoin
+    - -essentials.silentjoin.vanish
+    - -essentials.chat.url
+    - animatednames.group.main
+    - CustomArmors.craft.*
+    - worldguard.region.remove.own.*
+    - dynmap.webchat
+    - dr.claim
+    - servertutorialplus.command.play
+    - pass.view
+    - trading.trade
+    - essentials.sethome.multiple
+    - skinme.help
+    - skinme.command
+    - changeskin.command.setskin
+    - essentials.info
+    - report.use
+    - report.use 
+    - customjoinitems.menu
+    - plhide
+    - playerhide.open
+    - skinsrestorer.playercmds
+    - skinsrestorer.playercmds.menu
+    - essentials.msg
+    - essentials.near
+    - essentials.list
+    - essentials.delhome
+    - applejoin.join
+    - class.бомбер
+    - class.поджигатель
+    - jobs.command.*
+    - commandsigns.create.regular
+    - authme.login
+    - authme.register
+    - authme.changepassword
+    - authme.unregister
+    - authme.logout
+    - authme.captcha
+    - ultracosmetics.gadgets.christmastree
+    - ultracosmetics.command.*
+    - cstm
+    - f
+    - menu
+    - chestcommands.open.help.yml
+    - chestcommands.open.move_back.yml
+    - chestcommands.open.quests.yml
+    - chestcommands.open.move.yml
+    - chestcommands.open.move_port.yml
+    - chestcommands.open.hotel.yml
+    - chestcommands.open.hotel_solo.yml
+    - chestcommands.open.hotel_duo.yml
+    - chestcommands.open.hotel_pres.yml
+    - chestcommands.open.marry.yml
+    - chestcommands.open.marry-choise.yml
+    - chestcommands.open.marry-accept.yml
+    - chestcommands.open.marry-gend.yml
+    - chestcommands.open.bank.yml
+    - chestcommands.open.bank-bank.yml
+    - chestcommands.open.bank-with.yml
+    - chestcommands.open.bank-with-bank.yml
+    - chestcommands.open.bank-dep.yml
+    - chestcommands.open.bank-dep-bank.yml
+    - chestcommands.open.menu.yml
+    - chestcommands.open.cw.yml
+    - chestcommands.open.settings.yml
+    - chestcommands.open.activity.yml
+    - chestcommands.open.player.yml
+    - chestcommands.open.quests.yml
+    - chestcommands.open.quests_d.yml
+    - chestcommands.open.warps.yml
+    - chestcommands.open.music.yml
+    - chestcommands.open.links.yml
+    - chestcommands.open.food.yml
+    - chestcommands.open.bar.yml
+    - chestcommands.open.boosters.yml
+    - chestcommands.open.1_5x.yml
+    - chestcommands.open.2_5x.yml
+    - chestcommands.open.5_0x.yml
+    - chestcommands.open.is.yml
+    - chestcommands.open.iscontrol.yml
+    - chestcommands.open.islandworld.yml
+    - chestcommands.open.developers.yml
+    - chestcommands.open.items.yml
+    - chestcommands.open.bakery.yml
+    - chestcommands.open.grocery.yml
+    - chestcommands.open.fruits.yml
+    - chestcommands.open.item-flour.yml
+    - chestcommands.open.item-flapjack.yml
+    - chestcommands.open.item-bread-blank.yml
+    - chestcommands.open.item-bread.yml
+    - chestcommands.open.item-baguette-blank.yml
+    - pass.pass
+    - pass
+    - automessage.receive.default
+    - music.list
+    - music.random
+    - music.shuffle
+    - music.shuffle.skip
+    - music.reload
+    - music.radio
+    - music.radio.skip
+    - me.user
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.pay
+    - lvlhearts.maxhealth.increaselevelup
+    - class.use
+    - class.рыцарь
+    - class.ассасин
+    - class.assassin
+    - essentials.worlds.main_world
+    - essentials.chat.shout
+    - essentials.help
+    - dtl.trader.use
+    - dtl.trader.buy
+    - ichat.main
+    - myhome.user
+    - essentials.home
+    - essentials.sethome
+    - simplesit.sit
+    - simplesit.lay
+    - jobs.command.join
+    - jobs.command.*
+    - chairs.sit
+    - essentials.chat.shout
+    - rules.view
+    - Signshop.Signs.*
+    - easywarp.command.warp
+    - essentials.keepxp
+    worlds:
+      islands:
+        permissions:
+        - -allow.outland.teleport
+      survival:
+        permissions:
+        - essentials.cancel
+        - essentials.tpaccept
+        - essentials.tpa
+        - featherboard.group.survival
+        - -featherboard.group.default
+        - rtp.tp
+      map_main:
+        permissions:
+        - -featherboard.group.survival
+  tutorial:
+    options:
+      default: 'true'
+      weight: '7'
+    permissions:
+    - itemjoin.tutorial
+    - itemjoin.fixer-9
+    - -itemjoin.menu
+    - servertutorialplus.command.play
+    - gps.commands
+    - gps.commands.show
+    - gps.commands.start
+    - gps.commands.help
+    - gps.commands.toggle
+    - gps.commands.move
+    - gps.commands.show
+    - easywarp.command.warp
+    - chestcommands.open.quests.yml
+    - quest.tutorial
+  Patron:
+    permissions:
+    - -pixeljoins.main
+    - -pixeljoins.staff
+    - -pixeljoins.helper
+    - -pixeljoins.hypesquad
+    - pixeljoins.patron
+    - -gjm.group3
+    - -animatednames.group.main
+    - essentials.chat.color
+    - gjm.group1
+    - -animatednames.group.Helper
+    - -animatednames.group.Staff
+    - -animatednames.group.main
+    - -animatednames.group.Hypesquad
+    - animatednames.group.Patron
+    - gadgetsmenu.cosmetics.*
+    options:
+      prefix: '&6✯'
+      weight: '5'
+  Hypesquad:
+    permissions:
+    - -pixeljoins.main
+    - -pixeljoins.staff
+    - -pixeljoins.helper
+    - pixeljoins.hypesquad
+    - -gjm.group3
+    - -animatednames.group.main
+    - essentials.chat.color
+    - gjm.group1
+    - -animatednames.group.Helper
+    - -animatednames.group.Staff
+    - -animatednames.group.main
+    - animatednames.group.Hypesquad
+    options:
+      prefix: '&3✯'
+      weight: '4'
+  Helper:
+    permissions:
+    - -multiinv.exempt
+    - dsb.staff
+    - pixeljoins.helper
+    - -pixeljoins.staff
+    - -pixeljoins.hypesquad
+    - -pixeljoins.main
+    - -pixeljoins.silent
+    - -dailybonus.exempt
+    - og.reload
+    - -animatednames.group.Staff
+    - -animatednames.group.Hypesquad
+    - -animatednames.group.main
+    - animatednames.group.Helper
+    - automessage.receive.helper
+    - -automessage.receive.default
+    - -itemjoin.tutorial
+    - -itemjoin.fixer-8
+    - -itemjoin.fixer-9
+    - itemjoin.menu
+    options:
+      weight: '3'
+      prefix: '&e✯'
+    worlds:
+      og.reload:
+        permissions:
+        - '-'
+  Builder:
+    permissions:
+    - littleblocks.remove
+    - littleblocks.*
+    - AWE.user.cancel
+    - AWE.user.purge
+    - AWE.user.jobs
+    - wesv.use
+    - wesv.toggle
+    - worldedit.selection.hpos
+    - worldedit.selection.pos
+    - allow.outland.teleport
+    - essentials.speed.walk
+    - essentials.speed.fly
+    - essentials.speed
+    - chestcommands.open.bwarps.yml
+    - operator.warps
+    - multiworld.command.move
+    - multiworld.command.list
+    - multiworld.command.goto
+    - worldedit.*
+    - itemjoin.builder-menu
+    - -multiinv.exempt
+    - dsb.staff
+    - pixeljoins.helper
+    - -pixeljoins.staff
+    - -pixeljoins.hypesquad
+    - -pixeljoins.main
+    - -pixeljoins.silent
+    - -dailybonus.exempt
+    - og.reload
+    - -animatednames.group.Staff
+    - -animatednames.group.Hypesquad
+    - -animatednames.group.main
+    - animatednames.group.Helper
+    - automessage.receive.helper
+    - -automessage.receive.default
+    - -itemjoin.tutorial
+    - -itemjoin.fixer-8
+    - -itemjoin.fixer-9
+    - -itemjoin.menu
+    - -itemjoin.bypass.inventorymodify
+    - builder.allow.gm
+    - chestcommands.open.bmenu.yml
+    - worldguard.region.claim
+    - worldguard.region.unlimited
+    - worldguard.region.list
+    - worldguard.region.list.own
+    - worldguard.region.define
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.remove.*
+    - featherboard.group.builder
+    - -featherboard.group.default
+    options:
+      weight: '3'
+      prefix: '&e✯'
+    worlds:
+      og.reload:
+        permissions:
+        - '-'
+      Building:
+        permissions:
+        - essentials.weather
+        - essentials.time
+        - essentials.time.set
+        - builder.allow.time
+      Air_Islands:
+        permissions:
+        - essentials.weather
+        - essentials.time
+        - essentials.time.set
+        - builder.allow.time
+  Staff:
+    permissions:
+    - -itemjoin.All
+    - -multiinv.exempt
+    - '*'
+    - dsb.staff
+    - -essentials.silentjoin.vanish
+    - -pixeljoins.silent
+    - -pixeljoins.hypesquad
+    - -pixeljoins.main
+    - -pixeljoins.helper
+    - pixeljoins.staff
+    - -minecraft.command.whitelist
+    - pex.*
+    - -minecraft.command.stop
+    - -bukkit.command.reload
+    - -minecraft.command.deop
+    - -minecraft.command.op
+    - animatednames.group.Staff
+    - -animatednames.group.Helper
+    - -animatednames.group.main
+    - -animatednames.group.Hypesquad
+    - -animatednames.group.Patron
+    - automessage.receive.helper
+    - -automessage.receive.default
+    - -itemjoin.tutorial
+    - -itemjoin.fixer-9
+    - featherboard.group.system
+    - -featherboard.group.default
+    - itemjoin.builder-menu
+    - -itemjoin.menu
+    options:
+      weight: '2'
+      prefix: '&c✯'
+  Fixer:
+    permissions:
+    - -multiinv.exempt
+    - -essentials.silentjoin.vanish
+    - -pixeljoins.silent
+    - -pixeljoins.hypesquad
+    - -pixeljoins.main
+    - -pixeljoins.helper
+    - -pixeljoins.patron
+    - pixeljoins.staff
+    - -minecraft.command.whitelist
+    - pex.*
+    - -minecraft.command.stop
+    - -bukkit.command.reload
+    - -minecraft.command.deop
+    - -minecraft.command.op
+    - animatednames.group.Staff
+    - -animatednames.group.Helper
+    - -animatednames.group.main
+    - -animatednames.group.Patron
+    - -animatednames.group.Hypesquad
+    - automessage.receive.helper
+    - -automessage.receive.default
+    - -itemjoin.tutorial
+    - -itemjoin.fixer-8
+    - -itemjoin.fixer-9
+    - -itemjoin.menu
+    - itemjoin.builder-menu
+    - itemjoin.use
+    - itemjoin.reload
+    - itemjoin.menu
+    - itemjoin.list
+    - itemjoin.updates
+    - itemjoin.autoupdate
+    - itemjoin.permissions
+    - itemjoin.get
+    - itemjoin.get.others
+    - itemjoin.remove
+    - itemjoin.remove.others
+    - itemjoin.enable
+    - itemjoin.enable.others
+    - itemjoin.disable
+    - itemjoin.disable.others
+    - itemjoin.purge
+    - -itemjoin.bypass.inventorymodify
+    - -itemjoin.*
+    options:
+      weight: '1'
+schema-version: 1
+users:
+  01a76abf-d7a6-3aa3-a8e2-40f48a187955:
+    options:
+      name: LOL
+    group:
+    - main
+  90de5009-8c56-35b1-81a6-dc25572d63e8:
+    permissions:
+    - ultracosmetics.hats.golem
+    - ultracosmetics.hats.elf
+    - ultracosmetics.gadgets.blackhole
+    - ultracosmetics.emotes.surprised
+    options:
+      name: KTWT
+    group:
+    - main
+  console:
+    permissions:
+    - ichat.CONSOLE
+  server:
+    permissions:
+    - ichat.CONSOLE
+  043ea290-202b-3662-855c-4da2bfc7aed8:
+    options:
+      name: Labrika
+    group:
+    - main
+  399c5ab6-9db3-3b36-9853-364182459ce9:
+    options:
+      name: GFM
+    group:
+    - main
+  1bd172c7-6b89-37fa-9936-80b6c2fbb789:
+    options:
+      name: Ragama_Lozkur
+    worlds:
+      DanikBell:
+        permissions:
+        - '*'
+      '[DanikBell]':
+        permissions:
+        - '*'
+    group:
+    - main
+    - Hypesquad
+  f05d7415-02b3-36e4-9259-475fb9c7e744:
+    options:
+      name: Labrikaa
+    group:
+    - main
+    - Hypesquad
+  255bbf87-0129-39bb-a8ac-c2332c96a0cd:
+    permissions:
+    - permissions.hypesquad
+    - -permissions.player
+    options:
+      name: Bin_V0l
+  281efa07-fff6-307b-9122-ff7bfa4a70af:
+    permissions:
+    - gadgetsmenu.pets.blacksheep
+    - gadgetsmenu.emotes.rip
+    - gadgetsmenu.pets.babycreamyhorse
+    options:
+      name: Ashmei
+  ba3fa38e-c679-3c37-be47-a00d138b8a49:
+    permissions:
+    - gadgetsmenu.gadgets.melonlauncher
+    - gadgetsmenu.pets.pinksheep
+    - gadgetsmenu.hats.miner
+    - gadgetsmenu.hats.letter_i
+    - gadgetsmenu.hats.blaze
+    - gadgetsmenu.gadgets.kookiefountain
+    - gadgetsmenu.hats.germany
+    - gadgetsmenu.gadgets.railgun
+    - gadgetsmenu.hats.france
+    - gadgetsmenu.hats.letter_f
+    options:
+      name: MarkGamesYT
+  adf5747e-1f9a-3b13-beb2-6119cf765e4a:
+    permissions:
+    - gadgetsmenu.pets.whitesheep
+    options:
+      name: guigui03
+  3e3841bb-71e9-3275-b92e-bc878207adec:
+    options:
+      name: Knight
+    group:
+    - Fixer
+    - Staff
+    permissions:
+    - -animatednames.group.Helper
+    - -animatednames.group.main
+    - -animatednames.group.Hypesquad
+    - animatednames.group.Staff
+  8916b800-83f7-3234-8a6d-1cb7b7fee6ff:
+    options:
+      name: Kostya_WoT
+    permissions:
+    - quests.completed.sample
+    group:
+    - main
+  '{player}':
+    permissions:
+    - -allow.teleport
+  33d74977-a7ca-3bfb-b7a1-9d4064e2838a:
+    group:
+    - main
+    options:
+      name: Kusyaka
+  9ed54c44-4f03-3294-83b5-9940d490ca67:
+    group:
+    - main
+    options:
+      name: ProfitrollG
+    permissions: []
+  e79fc93b-45da-315a-b9a5-825826c101df:
+    group:
+    - tutorial
+    options:
+      name: ilalayl
+  c9304ff6-b2fd-3963-8c4b-1190af75c6bc:
+    options:
+      name: Profitroll
+    group:
+    - Fixer
+    - Staff
+    permissions:
+    - example.perm.here
+    - menus.staff
+    - -quest.tutorial
+    - chestcommands.open.menu.yml
+    - itemjoin.menu
+    - tutorial.completed.1
+    worlds:
+      map_main:
+        permissions:
+        - rpginventory.craft.master
+        - rpginventory.craft.journeyman
+      Buildings:
+        permissions:
+        - rpginventory.craft.master
+        - rpginventory.craft.journeyman
+      Tavern:
+        permissions:
+        - rpginventory.craft.master
+        - rpginventory.craft.journeyman
+      Building:
+        permissions:
+        - rpginventory.craft.master
+        - rpginventory.craft.journeyman
+      islands:
+        permissions:
+        - rpginventory.craft.master
+        - rpginventory.craft.journeyman
+      Air_Islands:
+        permissions:
+        - rpginventory.craft.master
+        - rpginventory.craft.journeyman
+      Sky:
+        permissions:
+        - rpginventory.craft.master
+        - rpginventory.craft.journeyman
+  44a8ccba-365c-323a-bf8d-6905fa0fcf7e:
+    group:
+    - main
+    options:
+      name: Alek
+    permissions: []
+  5555b07d-fef2-3707-8e41-aa58ee11ba51:
+    group:
+    - main
+    options:
+      name: LOLXD1337
+    permissions: []
+  e0e2ff9e-7921-3bc4-8b2d-83ec0c63d754:
+    group:
+    - tutorial
+    options:
+      name: LLIOPOX_2_0
+    permissions:
+    - itemjoin.fixer-8
+    - chestcommands.open.menu.yml
+    - itemjoin.menu
+    - tutorial.completed.1
+  7069360a-f6c5-3aa0-877d-fa264bc6108d:
+    group:
+    - Fixer
+    - Staff
+    options:
+      name: PD_Flow_FzTv
+    permissions: []
+  f4735b28-14a5-35ff-b00d-38ea5d45244b:
+    group:
+    - main
+    options:
+      name: _nazar4045t_
+    permissions: []
+  cae4f3ae-2a44-35b6-b51e-0fd3669c6741:
+    group:
+    - main
+    options:
+      name: ProfitrollGGG
+    permissions:
+    - chestcommands.open.menu.yml
+    - itemjoin.menu
+    - tutorial.completed.1
+  b914f998-6d2d-3a1c-a271-6ea963a423c3:
+    group:
+    - main
+    options:
+      name: ProfitrollGG
+    permissions:
+    - chestcommands.open.menu.yml
+    - itemjoin.menu
+    - tutorial.completed.1
+  a56eb74a-6254-37bf-885a-56e4e13b40ea:
+    group:
+    - main
+    options:
+      name: Kusyska0565
+    permissions: []
+  b15afed3-05ce-33f6-897f-9ed570359295:
+    permissions:
+    - essentials.feed
+    group:
+    - Hypesquad
+    - main
+    options:
+      name: Kusyaka0565
+  ce4a5af1-c15d-3474-b0a4-cf1a59cbeae8:
+    permissions: []
+    options:
+      name: OselKek
+  04e962d3-191c-333c-aef5-d8d0f343bb8a:
+    options:
+      name: 2wer
+    group:
+    - main
+    permissions:
+    - market.place
+  6079a888-bc8c-3376-8b98-220fb0329ae6:
+    options:
+      name: ProfitrollIVKD
+    permissions: []
+  64c3963a-9105-3e71-bfab-5d60ac4f4b8a:
+    group:
+    - main
+    options:
+      name: ProfitrollIV
+    permissions:
+    - -quest.tutorial
+    - itemjoin.fixer-8
+    - chestcommands.open.menu.yml
+    - itemjoin.menu
+    - tutorial.completed.1
+  8dc9ad1e-bea9-3a28-a9c5-45a859e8b943:
+    group:
+    - main
+    - Builder
+    options:
+      name: Mr_Cronix
+    permissions:
+    - quests.completed.sample
+  a99e63b8-0907-3bf5-a8b0-900315667916:
+    group:
+    - Builder
+    - main
+    options:
+      name: ProfitrollTest
+    permissions:
+    - quests.completed.sample
+  d8cbc0f4-debe-3bbf-846a-7cccadaf79c2:
+    group:
+    - Builder
+    - main
+    options:
+      name: rrruslan
+    worlds:
+      Builder:
+        group:
+        - main
+    permissions: []
+  01c473b5-e7e4-32b4-bcda-7ccbb56216af:
+    group:
+    - Builder
+    - main
+    options:
+      name: TwinkForBilding

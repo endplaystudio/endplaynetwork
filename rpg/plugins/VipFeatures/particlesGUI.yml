@@ -1,0 +1,37 @@
+particlesGUI:
+  invSize: 27
+  spiralParticles:
+    material: REDSTONE
+    data: 0
+    slot: 10
+    permission: vipfeatures.particles.spiral
+  angryParticles:
+    material: GLOWSTONE_DUST
+    data: 0
+    slot: 11
+    permission: vipfeatures.particles.angryvillager
+  doubleWitchParticles:
+    material: ANVIL
+    data: 0
+    slot: 12
+    permission: vipfeatures.particles.doublewitch
+  notesParticles:
+    material: JUKEBOX
+    data: 0
+    slot: 14
+    permission: vipfeatures.particles.notes
+  magicParticles:
+    material: ENCHANTMENT_TABLE
+    data: 0
+    slot: 15
+    permission: vipfeatures.particles.magic
+  happyParticles:
+    material: EMERALD
+    data: 0
+    slot: 16
+    permission: vipfeatures.particles.happyvillager
+  backItem:
+    material: ARROW
+    data: 0
+    slot: 22
+    permission: vipfeatures.open.maingui

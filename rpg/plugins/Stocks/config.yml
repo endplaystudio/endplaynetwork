@@ -1,0 +1,174 @@
+#Set to false to disable auto-save. Only applies to flat file, MySQL saves instantly
+auto-save: true
+#How often to save in seconds, 900 = 15 minutes
+auto-save-interval: 150
+#Set this to true if you have a MySQL Database you'd like to use for saving players
+#WARNING: Do not switch from a database to a flat file back to a database or your player saves (in the database) may be outdated
+#NOTICE: If you use a database, your player saves will be overwritten with values from the database as the most recent player saves should be there
+use-mysql: true
+mysql-info:
+  #Don't confuse this with you Minecraft server ip
+  host: 127.0.0.1
+  #This is the default port for MySQL, if your port is different change it here
+  port: 3306
+  #This is the name of your database
+  database: minecraft_stocks
+  #This is the database account username
+  user: spigot
+  #This is the database account password
+  pass: $HNRGIIKVN
+#These stocks will displayed when players type /stocks popular
+#You can add and remove stocks as you please
+#WARNING: Do not make the slot bigger than 54 or it won't be added, also don't use slot 50 this is where the close button is
+popular-stocks:
+  sped:
+    slot: 10
+  tsla:
+    slot: 12
+  goog:
+    slot: 14
+  nflx:
+    slot: 16
+  dis:
+    slot: 18
+  aapl:
+#Trading settings
+trading-settings:
+  #Set to true if you don't want players to be able to trade when the stock market is closed in real life
+  disable-trading-when-closed: false
+  #Set to true if you don't want players to be able to trade on the weekend
+  #To disable weekend trading this must be true along with disable-trading-when-closed
+  disable-trading-on-weekends: false
+  #Cooldown is how long players have to wait to sell shares after they bought them
+  cooldown-enabled: true
+  #Cooldown in minutes, stock prices refresh every 15 minutes
+  cooldown: 15
+  #Set to true to enabled taxes, only taxes players when they sell shares
+  tax-enabled: false
+  #Percentage, 0.05 = 5%, 0.1 = 10%
+  tax: 0.05
+  #This is to adjust stock prices to fit your server's economy
+  #1.0 = original price, 0.5 = half priced, 2.0 = double the original
+  stock-price-multiplier: 1.0
+  #If whitelist-enabled is true the blacklist will be ignored
+  #Only allow players to buy certain stocks
+  whitelist-enabled: false
+  #Prevent players from buying certain stocks
+  blacklist-enabled: false
+  #List of stocks that players are only allowed to buy, whitelist-enabled must be set to true
+  whitelist: []
+  #List of stocks to prevent players from buying, blacklist-enabled must be set to true
+  blacklist: []
+#Messages
+messages:
+  #Some symbols won't display correctly. You can leave this blank ('$' to '') if need be.
+  money-symbol: '$'
+  #Prefixes apply to all messages unless stated otherwise
+  #Change to false if you don't want to use red/yellow/green prefixes
+  #you can include your own prefixes in each message, just be sure to set this to false or it will have two prefixes
+  enable-prefixes: true
+  #Prefix in response to command, negative result
+  red-prefix: "&6 Акции &8| "
+  #Prefix in response to command, notice
+  yellow-prefix: "&6 Акции &8| "
+  #Prefix in response to command, positive result
+  green-prefix: "&6 Акции &8| "
+  must-be-player: "You must be in-game to do that!"
+  player-not-found: "Player not found!"
+  stock-market-closed: "Stock market is closed!"
+  #If days was set to T cooldown would be like so: 0T0h0m0s instead of 0d0h0m0s
+  #Only one character allowed
+  cooldown-format:
+    days: 'd'
+    hours: 'h'
+    minutes: 'm'
+    seconds: 's'
+  #Available variables: %cooldown%, %stock%
+  cooldown-message: "You must wait %cooldown% to sell shares of %stock%!"
+  #Available variables: %usage%
+  stockbroker-usage: "Usage: %usage%"
+  stockbroker-spawned: "Successfully spawned stockbroker!"
+  stockbroker-removal-instructions: "Punch a stockbroker to remove it!"
+  stockbroker-removed: "Stockbroker removed!"
+  stockbroker-removal-expired: "Stockbroker removal expired!"
+  fetching-portfolio: "Fetching Portfolio . . ."
+  #Available variables: %shares%, %stock%
+  buy-attempt: "Attempting to buy %shares% share(s) of %stock% . . ."
+  #Available variables: %shares%, %stock%
+  sell-attempt: "Attempting to sell %shares% share(s) of %stock% . . ."
+  sell-all-attempt: "Attempting to sell all stocks . . ."
+  sell-all-partial-fail: "Failed to retrieve 1 or more of your stock's info and will remain in your portfolio!"
+  sell-all-canceled: "Sell all canceled!"
+  #Available variables: %shares%, %stock%, %price%
+  bought-shares: "Successfully bought %shares% share(s) of %stock% for %price%"
+  #Available variables: %player%, %shares%, %stock%
+  gave-shares: "Successfully gave %player% %shares% share(s) of %stock%"
+  #Available variables: %shares%, %stock%
+  #Prefixes don't apply
+  received-shares: "&a&l[&7Stocks&a&l]&7%shares% share(s) of %stock% have been added to your account!"
+  #Available variables: %shares%, %stock%, %player%
+  took-shares: "Successfully took %shares% share(s) of %stock% from %player%"
+  #Available variables: %shares%, %stock%
+  #Prefixes don't apply
+  shares-taken: "&c&l[&7Stocks&c&l]&7%shares% share(s) of %stock% have been taken from your account!"
+  #Available variables: %shares%, %stock%, %price%
+  sold-shares: "Successfully sold %shares% share(s) of %stock% for %price%"
+  #Available variables: %price%
+  sold-all-shares: "Successfully sold all shares for %price%"
+  config-reloaded: "&7Конфигурация &aуспешно &7перезагружена."
+  #Available variables: %price%
+  check-stock-price: "%stock% is worth %price%"
+  invalid-stock: "Invalid stock symbol!"
+  retrieval-error: "There was an error retrieving the stock price!"
+  #When trying to sell a stock they don't have
+  stocks-not-owned: "You don't own any shares of that stock!"
+  #When trying to sell all
+  #Can also be used if player's stocks have a cooldown
+  no-stocks-owned: "You don't own any stocks or your stock(s) have a cooldown!"
+  #When trying to take another player's stock
+  #Available variables: %player%
+  stock-not-owned: "%player% doesn't own that stock!"
+  #When trying to take another player's stock
+  #Available variables: %player%
+  take-not-enough-shares: "%player% only has %shares% share(s)!"
+  #When trying to sell stock/shares
+  sell-not-enough-shares: "You can't sell more shares than you own!"
+  not-enough-money: "&7Простите, &cне достаточно &7средств."
+  permission-denied: "&7Простите, Вам &cне разрешено &7использовать эту команду."
+  invalid-number: "Invalid number!"
+  #Available variables: %usage%
+  #%usage% includes the / before the command
+  command-usage: "&7Использование:&c %usage%"
+  #When trying to buy a stock that isn't whitelisted and whitelist-enabled is set to true
+  stock-not-whitelisted: "That stock isn't whitelisted!"
+  #When trying to buy a stock that is blacklisted and blacklist-enabled is set to true
+  stock-blacklisted: "That stock is blacklisted!"
+#This section is for translating the text to a different language
+#None of the below can have the same values, do not include color codes
+gui-text:
+  company-name: "Company Name"
+  price: "Price"
+  shares: "Shares"
+  invested: "Invested"
+  value: "Value"
+  open-price: "Open Price"
+  close-price: "Close Price"
+  high-price: "High Price"
+  low-price: "Low Price"
+  high-52: "52 Week High"
+  low-52: "52 Week Low"
+  stockbroker: "Stockbroker"
+  stockbroker-buy: "Buy Stocks"
+  stockbroker-portfolio: "View Portfolio"
+  close-button: "Close"
+  confirm-button: "Confirm"
+  cancel-button: "Cancel"
+  next-page-button: "Next Page -->"
+  previous-page-button: "<-- Previous Page"
+  subtract-shares-button: "Subtract %shares% shares"
+  add-shares-button: "Add %shares% share(s)"
+  #This will be displayed like so: '[player] - Portfolio', [player] will be replaced by the player's name
+  portfolio: "Portfolio"
+  popular-inventory-title: "Popular Stocks"
+  sell-menu-title: "Sell Menu"
+  buy-menu-title: "Buy Menu"

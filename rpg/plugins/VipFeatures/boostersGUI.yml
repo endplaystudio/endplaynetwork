@@ -1,0 +1,17 @@
+boostersGUI:
+  invSize: 27
+  boosterX2:
+    material: IRON_INGOT
+    data: 0
+    slot: 11
+    permission: vipfeatures.boosters.x2
+  boosterX3:
+    material: GOLD_INGOT
+    data: 0
+    slot: 15
+    permission: vipfeatures.boosters.x3
+  backItem:
+    material: ARROW
+    data: 0
+    slot: 22
+    permission: vipfeatures.open.maingui

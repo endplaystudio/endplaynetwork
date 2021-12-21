@@ -1,0 +1,75 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Бар'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bar'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+vodka:
+  COMMAND: 'console: effect {player} 9 180; op: effect {player} 4 240; op: effect {player} 2 240; op: effect {player} 15 120; op: effect {player} 18 240'
+  PRICE: 24.99
+  NAME: '&3Водка "ABSOLUT" &7(&f24.99L&7)'
+  LORE:
+    - 'Наслаждайся водярой 180 сек. :)'
+  ID: potion:8194
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: false
+
+rum:
+  COMMAND: 'console: effect {player} 9 120; op: effect {player} 4 180; op: effect {player} 2 180'
+  PRICE: 19.99
+  NAME: '&cРом "BundaberG" &7(&f19.99L&7)'
+  LORE:
+    - 'Наслаждайся качественным ромом 120 сек. :)'
+  ID: potion:8233
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: false
+
+tekila:
+  COMMAND: 'console: effect {player} 9 90; op: effect {player} 4 180; op: effect {player} 2 120;  op: effect {player} 15 90; op: effect {player} 18 120'
+  PRICE: 14.99
+  NAME: '&6Текила "Sierra" &7(&f14.99L&7)'
+  LORE:
+    - 'Наслаждайся качественной текилой 90 сек. :)'
+  ID: potion:8259
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: false

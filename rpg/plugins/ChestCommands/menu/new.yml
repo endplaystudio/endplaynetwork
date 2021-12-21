@@ -1,0 +1,143 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Главное меню'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'new'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+player:
+  COMMAND: 'open: player.yml'
+  NAME: '&cМеню игрока'
+  LORE:
+    - 'Меню управления персонажем'
+    - ''
+    - 'Тут можно:'
+    - ' • Посмотреть ачивки'
+    - ' • Активировать бустер'
+    - ' • Собрать ежедневный бонус'
+    - ' • Глянуть всякую статистику'
+    - ''
+    - 'Уровень: &6%player_level%'
+    - 'Баланс: &6%vault_eco_balance_fixed% LND'
+  ID: head:3
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+quests:
+  COMMAND: 'open: quests.yml'
+  NAME: '&bКвесты'
+  LORE:
+    - 'Меню выбора квестов'
+    - ''
+    - 'Проходите сюжетную кампанию,'
+    - 'или же выберите сайд-квесты, которые'
+    - 'будут интересны в первую очередь вам!'
+  ID: iron_sword
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+warps:
+  COMMAND: 'open: warps.yml'
+  NAME: '&6Места на сервере'
+  LORE:
+    - 'Меню варпов срвера'
+  ID: grass
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+activity:
+  COMMAND: 'open: activity.yml'
+  NAME: '&eАктивности'
+  LORE:
+    - 'Отправляйтесь в увлекательный мир'
+    - 'развлечений и чистого веселья!'
+  ID: diamond_pickaxe
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+radio:
+  COMMAND: 'open: music.yml'
+  NAME: '&9Музыка и радио'
+  LORE:
+    - 'Включи радио или поставь любимый трек'
+    - ''
+    - 'Тут много всего!'
+    - 'От современной музыки, до средневековых'
+    - 'маршей и гимнов для предания большей'
+    - 'атмосферности во время игры.'
+  ID: jukebox
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+customization:
+  COMMAND: 'uc menu main'
+  NAME: '&3Кастомизация'
+  LORE:
+    - 'Добавь шапку, включи эффекты, выбери гаджеты'
+    - 'Превратись в курицу, в конце то концов!'
+  ID: head
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true  
+
+links:
+  COMMAND: 'open: links.yml'
+  NAME: '&2Полезные сслыки'
+  LORE:
+    - 'Сайт, группы, карта...'
+  ID: map
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+food:
+  COMMAND: 'open: food.yml'
+  NAME: '&6Еда с доставкой'
+  LORE:
+    - 'Дороже чем на рынке, но быстро!'
+  ID: steak
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true

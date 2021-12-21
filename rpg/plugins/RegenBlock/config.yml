@@ -1,0 +1,27 @@
+settings:
+  monitorBreak: true
+  defaultSpawnBlocks:
+    '1': 80
+    '14': 5
+    '15': 15
+  feedbackString: This block will be restored to its original state in TIMEs.
+  defaultSpawnTime: 5
+  monitorPlace: true
+region:
+  mine1:
+    respawnTime: 5
+    left:
+      X: 400
+      Y: 48
+      Z: 230
+    right:
+      X: 427
+      Y: 51
+      Z: 221
+    world: map_main
+    feedbackID: 0
+    type: 0
+    sync: 0
+    alarmTime: 0
+    alarmRadius: 100
+    alarmMessage: This area is about to respawn. Please move away.

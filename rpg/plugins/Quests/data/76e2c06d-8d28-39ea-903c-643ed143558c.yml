@@ -1,0 +1,30 @@
+currentQuests:
+- Морковные дела
+- Все женщины - ведьмы
+- Доставка удочки
+currentStages:
+- 0
+- 0
+- 0
+quest-points: 0
+questData:
+  Морковные дела:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 13
+    has-talked-to:
+    - false
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: moderlikar

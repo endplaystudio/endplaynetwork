@@ -1,0 +1,522 @@
+blocksToRegen:
+  map_main:
+    x408y49z230:
+      X: 408
+      Y: 49
+      Z: 230
+      TypeID: 16
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180707166
+    x409y49z230:
+      X: 409
+      Y: 49
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180707715
+    x408y49z229:
+      X: 408
+      Y: 49
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180708214
+    x409y49z229:
+      X: 409
+      Y: 49
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180709064
+    x413y49z230:
+      X: 413
+      Y: 49
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180818134
+    x413y49z229:
+      X: 413
+      Y: 49
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180822236
+    x414y49z230:
+      X: 414
+      Y: 49
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180822687
+    x414y49z229:
+      X: 414
+      Y: 49
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180822743
+    x414y49z228:
+      X: 414
+      Y: 49
+      Z: 228
+      TypeID: 21
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180822938
+    x413y49z228:
+      X: 413
+      Y: 49
+      Z: 228
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180823135
+    x414y49z227:
+      X: 414
+      Y: 49
+      Z: 227
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180823285
+    x415y49z230:
+      X: 415
+      Y: 49
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180823487
+    x415y49z229:
+      X: 415
+      Y: 49
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180823638
+    x415y49z228:
+      X: 415
+      Y: 49
+      Z: 228
+      TypeID: 16
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180823842
+    x415y49z227:
+      X: 415
+      Y: 49
+      Z: 227
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180824046
+    x413y49z227:
+      X: 413
+      Y: 49
+      Z: 227
+      TypeID: 16
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180824585
+    x415y49z226:
+      X: 415
+      Y: 49
+      Z: 226
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180825337
+    x415y48z229:
+      X: 415
+      Y: 48
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180825547
+    x415y48z230:
+      X: 415
+      Y: 48
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180825738
+    x414y48z229:
+      X: 414
+      Y: 48
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180825888
+    x414y48z228:
+      X: 414
+      Y: 48
+      Z: 228
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180826141
+    x414y48z227:
+      X: 414
+      Y: 48
+      Z: 227
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180826337
+    x415y48z228:
+      X: 415
+      Y: 48
+      Z: 228
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180827047
+    x413y48z229:
+      X: 413
+      Y: 48
+      Z: 229
+      TypeID: 16
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180827387
+    x413y48z228:
+      X: 413
+      Y: 48
+      Z: 228
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180827638
+    x414y48z230:
+      X: 414
+      Y: 48
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180828049
+    x413y48z227:
+      X: 413
+      Y: 48
+      Z: 227
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180828338
+    x413y48z226:
+      X: 413
+      Y: 48
+      Z: 226
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180828739
+    x412y49z227:
+      X: 412
+      Y: 49
+      Z: 227
+      TypeID: 15
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180829144
+    x412y49z230:
+      X: 412
+      Y: 49
+      Z: 230
+      TypeID: 16
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180841440
+    x412y48z230:
+      X: 412
+      Y: 48
+      Z: 230
+      TypeID: 15
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180841640
+    x413y48z230:
+      X: 413
+      Y: 48
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180841988
+    x412y48z229:
+      X: 412
+      Y: 48
+      Z: 229
+      TypeID: 14
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180842240
+    x412y49z229:
+      X: 412
+      Y: 49
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180842391
+    x411y49z229:
+      X: 411
+      Y: 49
+      Z: 229
+      TypeID: 16
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180842553
+    x411y49z228:
+      X: 411
+      Y: 49
+      Z: 228
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180842690
+    x412y49z228:
+      X: 412
+      Y: 49
+      Z: 228
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180842895
+    x412y48z228:
+      X: 412
+      Y: 48
+      Z: 228
+      TypeID: 16
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180843740
+    x412y48z227:
+      X: 412
+      Y: 48
+      Z: 227
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180844141
+    x411y49z227:
+      X: 411
+      Y: 49
+      Z: 227
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180844940
+    x411y48z228:
+      X: 411
+      Y: 48
+      Z: 228
+      TypeID: 21
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180851551
+    x411y48z227:
+      X: 411
+      Y: 48
+      Z: 227
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180851940
+    x411y48z229:
+      X: 411
+      Y: 48
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180852291
+    x415y48z227:
+      X: 415
+      Y: 48
+      Z: 227
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180877054
+    x416y48z230:
+      X: 416
+      Y: 48
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180896949
+    x416y48z229:
+      X: 416
+      Y: 48
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180897799
+    x416y49z230:
+      X: 416
+      Y: 49
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180899250
+    x409y48z230:
+      X: 409
+      Y: 48
+      Z: 230
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180918501
+    x409y48z229:
+      X: 409
+      Y: 48
+      Z: 229
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180919955
+    x409y49z228:
+      X: 409
+      Y: 49
+      Z: 228
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180920401
+    x409y48z228:
+      X: 409
+      Y: 48
+      Z: 228
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180920703
+    x409y49z227:
+      X: 409
+      Y: 49
+      Z: 227
+      TypeID: 16
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180921103
+    x409y48z227:
+      X: 409
+      Y: 48
+      Z: 227
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180921305
+    x409y49z226:
+      X: 409
+      Y: 49
+      Z: 226
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180925062
+    x409y48z226:
+      X: 409
+      Y: 48
+      Z: 226
+      TypeID: 16
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180925653
+    x409y49z225:
+      X: 409
+      Y: 49
+      Z: 225
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180925803
+    x409y48z225:
+      X: 409
+      Y: 48
+      Z: 225
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180926155
+    x409y49z224:
+      X: 409
+      Y: 49
+      Z: 224
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180926503
+    x409y48z224:
+      X: 409
+      Y: 48
+      Z: 224
+      TypeID: 15
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180926902
+    x409y49z223:
+      X: 409
+      Y: 49
+      Z: 223
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180927328
+    x409y48z223:
+      X: 409
+      Y: 48
+      Z: 223
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180927607
+    x409y49z222:
+      X: 409
+      Y: 49
+      Z: 222
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180928403
+    x409y48z222:
+      X: 409
+      Y: 48
+      Z: 222
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180928754
+    x409y49z221:
+      X: 409
+      Y: 49
+      Z: 221
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180929204
+    x409y48z221:
+      X: 409
+      Y: 48
+      Z: 221
+      TypeID: 1
+      Data: 0
+      RegionName: mine1
+      RespawnTime: 1581180929603

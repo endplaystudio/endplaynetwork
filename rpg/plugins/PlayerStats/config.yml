@@ -1,0 +1,53 @@
+##############################################################
+
+                      # Stats Plugin   
+                      # ============ 
+
+##############################################################
+
+
+#if the permission is equals at false all of the permission of the plugin are disabled
+#else all of permission are enabled for help of the permission check.
+#To have all the permissions look at the bottom of the page.
+permission: false
+
+#Allows to send a message when the statue is consulted
+sendmessage: false
+
+#Hide the line 7
+ratio: true
+
+#This is the string to replace in the chat for show the level of the player
+replace: '[LEVEL]'
+
+#The format of the chat stats
+1: ''
+second1: ''
+2: '&e-------- &bСтатистика&e --------'
+3: ' &7> &fНикнейм: &a&n[PLAYER]'
+4: ''
+5: ' &7| &6У/С соотношение: &f[RATIO]'
+6: ' &7| &6Убито мобов: &f[MOBKILLS]'
+7: ' &7| &6Убийств: &f[KILLS]'
+8: ' &7| &6Череда убийств: &f[KILLSSTREAK]'
+9: ' &7| &6Смертей: &f[DEATH]'
+10: ' &7| &7Другой игрок - &c/stats НИК'
+11: '&e----------------------------'
+
+alertmessage: ' &a[PLAYER] &7смотрит вашу статистику. Хотите посмотреть его?'
+toolipalert: '&2Показать статистику &e[PLAYER] '
+
+leveladd: '&aYou are mounted at level &e[LEVEL]'
+tooliplevel: '&aRefresh'
+
+#you can use the option foramout for set the number of kill to do for mount a level
+formount: 10
+
+#When someone change level this execute a command
+execommandactive: false
+execommand: 'tell [PLAYER] you have [KILLS] kills and [DEATH] deaths.'
+
+#Permission
+#==========
+#/stats : statsplugin.stats
+#/stats <player> : statsplugin.stats.other

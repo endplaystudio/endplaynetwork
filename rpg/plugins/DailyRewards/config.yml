@@ -1,0 +1,34 @@
+cooldown: 86400000
+savetoip: true
+loginclaim:
+  enabled: false
+  delay: 3
+claim:
+  sound:
+    enabled: false
+    type: ENTITY_PLAYER_LEVELUP
+    volume: 1
+    pitch: 1
+noreward:
+  sound:
+    enabled: false
+    type: BLOCK_ANVIL_LAND
+    volume: 1
+    pitch: 1
+rewards:
+  basic:
+    name: Basic
+    permission: false
+    random: false
+    claim-message: '&a Награды &8| &7Вы получили ежедневную награду за вход в игру.'
+    broadcast: ''
+    commands:
+    - eco give %player 25
+  advanced:
+    name: Advanced
+    permission: true
+    random: true
+    claim-message: ''
+    broadcast: ''
+    commands:
+    - eco give %player 50

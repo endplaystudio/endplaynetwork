@@ -1,0 +1,101 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Ресепшн'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'hotelmenu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+solo:
+  COMMAND: 'open: hotel_solo.yml'
+  NAME: '&aНомера для одного'
+  LORE:
+    - 'Такие отельные номера хорошо подходят'
+    - 'для одного игрока с некоторыми предметами.'
+    - ' '
+    - 'В номер входит:'
+    - ' &c• 81/54 стака места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 20/12² метров пространства'
+    - ' &c• 1/2 печки'
+    - ' '
+  ID: stone
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+duo:
+  COMMAND: 'open: hotel_duo.yml'
+  NAME: '&aНомера для двоих'
+  LORE:
+    - 'Такие отельные номера хорошо подходят'
+    - 'для двух игроков с некоторыми предметами.'
+    - ' '
+    - 'В номер входит:'
+    - ' &c• 162/54 стака места в сундуках'
+    - ' &c• 2 кровати'
+    - ' &c• 20/16² метров пространства'
+    - ' &c• 4/2 печки'
+    - ' '
+  ID: stone
+  AMOUNT: 2
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+pres:
+  COMMAND: 'open: hotel_pres.yml'
+  NAME: '&aПрезидентский номер'
+  LORE:
+    - 'Такие отельные номера хорошо подходят'
+    - 'для компаний людей, или для одного богатого игрока.'
+    - 'Номер имеет огромное количество места для предметов,'
+    - 'а также занимает весь этаж под крышей отеля.'
+    - ' '
+    - 'В номер входит:'
+    - ' &c• 540 стаков места в сундуках'
+    - ' &c• 7 кроватей'
+    - ' &c• 238² метров пространства'
+    - ' &c• 8 печек'
+    - ' &c• 2 наковальни'
+    - ' &c• 2 варочных стойки'
+    - ' '
+  ID: gold_block
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true

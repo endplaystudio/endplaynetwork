@@ -1,0 +1,38 @@
+icons: {
+    }
+sets:
+    Маркеры:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Маркеры
+        markers:
+            marker_1:
+                world: map_main
+                markup: false
+                x: 54.0
+                icon: church
+                y: 100.0
+                z: 643.0
+                label: Храм Ширы
+        lines: {
+            }
+        layerprio: 0
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Markers
+        markers: {
+            }
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

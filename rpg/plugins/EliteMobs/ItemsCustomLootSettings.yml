@@ -1,0 +1,36 @@
+Use MMORPG colors for custom items: true
+Show item value on lore: true
+Show item tier on lore: true
+Prevent players from placing pleaceable Elite custom items: true
+Lore Structure:
+- $enchantments
+- $potionEffect
+- §m----------------------
+- ' $customLore '
+- ' $itemValue '
+- §m----------------------
+- ' Tier $tier '
+Default potion effect duration (seconds, on hit):
+  ABSORPTION: 2
+  BLINDNESS: 5
+  CONFUSION: 10
+  DAMAGE_RESISTANCE: 30
+  FAST_DIGGING: 30
+  FIRE_RESISTANCE: 15
+  GLOWING: 60
+  HEALTH_BOOST: 90
+  HUNGER: 30
+  INCREASE_DAMAGE: 30
+  INVISIBILITY: 3
+  LEVITATION: 10
+  LUCK: 5
+  NIGHT_VISION: 30
+  POISON: 20
+  REGENERATION: 20
+  SLOW: 15
+  SLOW_DIGGING: 10
+  SPEED: 30
+  UNLUCK: 30
+  WATER_BREATHING: 30
+  WEAKNESS: 15
+  WITHER: 15

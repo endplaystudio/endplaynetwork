@@ -1,0 +1,184 @@
+######################
+#+
+#   MENU SETTINGS
+#+
+######################
+
+menu-settings:
+
+  name: '&0Предмет'
+
+  rows: 5
+
+  command: 'item-flour'
+
+  auto-refresh: 5
+
+
+ingredient-1:
+  COMMAND: ''
+  NAME: '§rИнгредиент'
+  ID: ITEM
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+glass-1:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+glass-2:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 3
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+glass-3:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+glass-4:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+glass-5:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+glass-6:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+glass-7:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+glass-8:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+glass-9:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-10:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-11:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-12:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-13:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-14:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+glass-15:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+glass-16:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+info:
+  COMMAND: ''
+  NAME: '&rО предмете'
+  LORE:
+    - 'Данный предмет можно получить'
+    - 'с помощью крафта внутри пакарни'
+    - 'или ближайшей мельницы.'
+  ID: WORKBENCH
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+get:
+  COMMAND: 'CONSOLE: give {player} minecraft:ITEM 1 0 {display:{Name:"§rИмя предмета"}}'
+  NAME: '&rПолучить предмет'
+  ID: chest
+  VIEW-PERMISSION: 'menus.staff'
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: items.yml'
+  NAME: '&rНазад'
+  LORE:
+    - 'В меню предметов'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true

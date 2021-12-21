@@ -1,0 +1,29 @@
+currentQuests:
+- Доставка оружия
+- Морковные дела
+- Доставка удочки
+currentStages:
+- 0
+- 0
+- 1
+quest-points: 0
+questData:
+  Доставка оружия:
+    item-delivery-amounts:
+    - 0
+  Морковные дела:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 13
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    has-talked-to:
+    - false
+completed-Quests:
+- Халявный ключик
+hasJournal: true
+lastKnownName: Akemi_Kimiko

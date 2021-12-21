@@ -1,0 +1,69 @@
+currentQuests:
+- Водка "Столичная"
+- Морковные дела
+- Все женщины - ведьмы
+- Костяные нужды
+- Адские проблемки
+- Рыцарские делишки
+- Пропитые яйца
+- Странная Просьба
+currentStages:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 1
+- 0
+quest-points: 0
+questData:
+  Водка "Столичная":
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 32
+    has-talked-to:
+    - false
+  Морковные дела:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 13
+    has-talked-to:
+    - false
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+  Костяные нужды:
+    citizen-ids-to-talk-to:
+    - 30
+    has-talked-to:
+    - false
+  Адские проблемки:
+    citizen-ids-to-talk-to:
+    - 15
+    has-talked-to:
+    - false
+  Рыцарские делишки:
+    citizen-ids-to-talk-to:
+    - 24
+    has-talked-to:
+    - false
+  Пропитые яйца:
+    citizen-ids-to-talk-to:
+    - 4
+    - 14
+    has-talked-to:
+    - false
+    - false
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: Kefirchikk

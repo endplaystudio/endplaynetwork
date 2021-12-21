@@ -1,0 +1,568 @@
+set:
+  war:
+    config:
+      buildinzonesonly: false
+      disablebuildmessage: false
+      disablepvpmessage: false
+      keepoldzoneversions: true
+      maxzones: 12
+      pvpinzonesonly: false
+      tntinzonesonly: false
+      resetspeed: 10000
+      maxsize: 750
+      language: ru
+      autojoin: ''
+      tpwarmup: 0
+    info:
+      warzones:
+      - Foxenstein
+      - Castle
+      - Clay
+      - Desert
+      - Forest
+      zonemakers:
+      - Profitroll
+      - Kusyaka
+      commandwhitelist:
+      - who
+    killstreak:
+      '3':
+        message: '&a{0} &fсовершил &cсерию убийств&f! 3 убийства за текущую жизнь.'
+        privmsg: Получены очки здоровья (&c8 HP️&f) за классную серию убийств.
+        reward:
+          health: 8
+      '4':
+        reward:
+          xp: 3
+      '10':
+        message: '&a{0} &fсовершил &cсерию убийств&f! 10 убийств за текущую жизнь.'
+        privmsg: Получены награды (&715 стрел&f; &eAirstrike&f) за серию убийств.
+        reward:
+          points: 1
+          airstrike: true
+          items:
+          - ==: org.bukkit.inventory.ItemStack
+            type: ARROW
+            amount: 15
+          - ==: org.bukkit.inventory.ItemStack
+            type: EGG
+          effect: GHAST_SHRIEK
+      '7':
+        reward:
+          items:
+          - ==: org.bukkit.inventory.ItemStack
+            type: STONE_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: EXCALIBUR
+              lore:
+              - Медленный, но опасный
+              enchants:
+                DAMAGE_ALL: 2
+                KNOCKBACK: 1
+    mysql:
+      enabled: false
+      host: localhost
+      port: 3306
+      database: war
+      username: root
+      password: meow
+      logging:
+        enabled: false
+        autoclear: WHERE `date` < NOW() - INTERVAL 7 DAY
+  warzone:
+    default:
+      config:
+        autoassign: false
+        blockheads: true
+        deathmessages: true
+        disabled: false
+        friendlyfire: false
+        glasswalls: true
+        instabreak: false
+        minteams: 2
+        minplayers: 1
+        monumentheal: 5
+        nocreatures: false
+        nodrops: false
+        pvpinzone: true
+        realdeaths: false
+        resetonempty: true
+        resetonconfigchange: false
+        resetonload: true
+        resetonunload: true
+        unbreakable: false
+        joinmidbattle: true
+        autojoin: false
+        scoreboard: none
+        xpkillmeter: false
+        souphealing: false
+        allowender: true
+        resetblocks: true
+  team:
+    default:
+      config:
+        flagmustbehome: true
+        flagpointsonly: false
+        flagreturn: both
+        lifepool: 30
+        maxscore: 10
+        nohunger: false
+        playerloadoutasdefault: false
+        respawntimer: 5
+        saturation: 10
+        spawnstyle: small
+        teamsize: 5
+        permission: war.player
+        xpkillmeter: true
+        killstreak: true
+        blockwhitelist: all
+        placeblock: true
+        applypotion: ''
+        ecoreward: 0.0
+        inventorydrop: false
+      loadout:
+        knight:
+          slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 100
+          - 5
+          - 101
+          - 6
+          - 102
+          - 7
+          - 103
+          - 8
+          - 9
+          - 10
+          - 11
+          - 12
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: STONE_SWORD
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: WOOD_PICKAXE
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: COOKED_BEEF
+            amount: 32
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: HARD_CLAY
+            amount: 64
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strong_healing
+          '100':
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_BOOTS
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:regeneration
+          '101':
+            ==: org.bukkit.inventory.ItemStack
+            type: CHAINMAIL_LEGGINGS
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strength
+          '102':
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_CHESTPLATE
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: SPLASH_POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:slowness
+          '103':
+            ==: org.bukkit.inventory.ItemStack
+            type: LEATHER_HELMET
+            meta:
+              ==: ItemMeta
+              meta-type: LEATHER_ARMOR
+              color:
+                ==: Color
+                RED: 176
+                BLUE: 38
+                GREEN: 46
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '9':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '10':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '11':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '12':
+            ==: org.bukkit.inventory.ItemStack
+            type: SHIELD
+            meta:
+              ==: ItemMeta
+              meta-type: TILE_ENTITY
+              lore:
+              - Положи этот щит в соответствующий слот RPG инвентаря.
+              blockMaterial: SHIELD
+        archer:
+          slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 100
+          - 5
+          - 101
+          - 6
+          - 102
+          - 7
+          - 8
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: BOW
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: STONE_PICKAXE
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: ARROW
+            amount: 32
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: COOKED_BEEF
+            amount: 32
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: HARD_CLAY
+            amount: 64
+          '100':
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_BOOTS
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strong_swiftness
+          '101':
+            ==: org.bukkit.inventory.ItemStack
+            type: CHAINMAIL_LEGGINGS
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '102':
+            ==: org.bukkit.inventory.ItemStack
+            type: CHAINMAIL_CHESTPLATE
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+        shaman:
+          slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 100
+          - 5
+          - 101
+          - 6
+          - 102
+          - 7
+          - 8
+          - 9
+          - 10
+          - 11
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: GOLD_SWORD
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: STONE_PICKAXE
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: GOLDEN_APPLE
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: COOKED_BEEF
+            amount: 32
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: HARD_CLAY
+            amount: 64
+          '100':
+            ==: org.bukkit.inventory.ItemStack
+            type: GOLD_BOOTS
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: SPLASH_POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strong_poison
+          '101':
+            ==: org.bukkit.inventory.ItemStack
+            type: LEATHER_LEGGINGS
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: SPLASH_POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strong_harming
+          '102':
+            ==: org.bukkit.inventory.ItemStack
+            type: GOLD_CHESTPLATE
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strong_regeneration
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '9':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '10':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '11':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+        assassin:
+          slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 100
+          - 5
+          - 101
+          - 6
+          - 102
+          - 7
+          - 8
+          - 9
+          - 10
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: WOOD_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                DAMAGE_ALL: 2
+                DURABILITY: 2
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: HARD_CLAY
+            amount: 32
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: COOKED_BEEF
+            amount: 32
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strong_swiftness
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:long_swiftness
+          '100':
+            ==: org.bukkit.inventory.ItemStack
+            type: CHAINMAIL_BOOTS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_FALL: 3
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:long_night_vision
+          '101':
+            ==: org.bukkit.inventory.ItemStack
+            type: CHAINMAIL_LEGGINGS
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strength
+          '102':
+            ==: org.bukkit.inventory.ItemStack
+            type: CHAINMAIL_CHESTPLATE
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: ELYTRA
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              lore:
+              - Положите элитры в соответствующий слот RPG инвентаря.
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '9':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '10':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+        bomber:
+          slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 100
+          - 5
+          - 101
+          - 6
+          - 102
+          - 7
+          - 8
+          - 9
+          - 10
+          - 11
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: WOOD_SWORD
+          '1':
+            ==: org.bukkit.inventory.ItemStack
+            type: STONE_PICKAXE
+          '2':
+            ==: org.bukkit.inventory.ItemStack
+            type: TNT
+            amount: 2
+          '3':
+            ==: org.bukkit.inventory.ItemStack
+            type: REDSTONE
+            amount: 16
+          '4':
+            ==: org.bukkit.inventory.ItemStack
+            type: REDSTONE_TORCH_ON
+            amount: 3
+          '100':
+            ==: org.bukkit.inventory.ItemStack
+            type: LEATHER_BOOTS
+            meta:
+              ==: ItemMeta
+              meta-type: LEATHER_ARMOR
+              enchants:
+                PROTECTION_FALL: 1
+                PROTECTION_EXPLOSIONS: 3
+          '5':
+            ==: org.bukkit.inventory.ItemStack
+            type: COOKED_BEEF
+            amount: 32
+          '101':
+            ==: org.bukkit.inventory.ItemStack
+            type: CHAINMAIL_LEGGINGS
+          '6':
+            ==: org.bukkit.inventory.ItemStack
+            type: HARD_CLAY
+            amount: 64
+          '102':
+            ==: org.bukkit.inventory.ItemStack
+            type: LEATHER_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: LEATHER_ARMOR
+              enchants:
+                PROTECTION_EXPLOSIONS: 3
+          '7':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:long_leaping
+          '8':
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strong_leaping
+          '9':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '10':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+          '11':
+            ==: org.bukkit.inventory.ItemStack
+            type: AIR
+            amount: 0
+        names:
+        - knight
+        - archer
+        - shaman
+        - assassin
+        - bomber
+      reward:
+        default:
+          slots:
+          - 0
+          '0':
+            ==: org.bukkit.inventory.ItemStack
+            type: CAKE

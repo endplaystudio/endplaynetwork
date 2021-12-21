@@ -1,0 +1,26 @@
+currentQuests:
+- Все женщины - ведьмы
+- Рыцарские делишки
+currentStages:
+- 1
+- 3
+quest-points: 11
+questData:
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 36
+    - 26
+    has-talked-to:
+    - false
+    - false
+  Рыцарские делишки:
+    citizen-ids-to-talk-to:
+    - 24
+    has-talked-to:
+    - false
+completed-Quests:
+- Странная Просьба
+- Морковные дела
+- Немножко угля
+hasJournal: false
+lastKnownName: 3GREENINDEX

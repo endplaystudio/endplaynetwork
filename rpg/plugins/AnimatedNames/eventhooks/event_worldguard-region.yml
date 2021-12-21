@@ -1,0 +1,20 @@
+#----------------------------------------
+# WorldGuard Region
+# WorldGuard region triggers
+# http://dev.bukkit.org/bukkit-plugins/worldguard/
+#----------------------------------------
+
+# DO NOT EDIT THIS CONFIG VERSION!
+config: 2
+
+
+# Do you want to enable this event hook?
+# Enabling this hook will trigger
+# when the player enters/leaves a region
+# for the player that enters the region
+enabled: false
+
+# What do you want to trigger?
+trigger: "default"
+
+

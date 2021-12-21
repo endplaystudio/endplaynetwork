@@ -1,0 +1,33 @@
+all-the-possible-nodes:
+  name: '&eГлавное меню'
+  id: 347
+  slot: 5
+  data-value: 0
+  lore:
+    - '&7Открывает главное меню сервера.'
+    - '&7Тут можно найти много полезного.'
+  command: 'menu'
+  permission: 'customjoinitems.menu'
+  cooldown-seconds: 0
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: false
+  disabled-worlds: world_nether, world_the_end, Asteroids, bw_wait, Forest, KINGDOMSA, Treenan, Rooftop, mordor, Mordor, Tropics, islandworld, is_lobby
+  give-on-world-change: true
+opmenu:
+  name: '&eМеню оператора'
+  id: 347
+  slot: 9
+  data-value: 0
+  lore:
+    - '&7Открывает главное меню оператора.'
+  command: 'opmenu'
+  permission: 'customjoinitems.opmenu'
+  cooldown-seconds: 0
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: false
+  disabled-worlds: 
+  give-on-world-change: true

@@ -1,0 +1,2299 @@
+# This file stores all the GPS Points/Locations.
+# 
+# It is advised that you use the in-game configurator when editing your setup.
+# The in-game configurator lets you visually see what you are changing and avoids typing/input errors.
+
+
+Points:
+  map_main, 227, 65, 391:
+    connections:
+    - map_main, 227, 65, 374
+  map_main, 285, 67, 383:
+    connections:
+    - map_main, 282, 67, 374
+  map_main, 179, 68, 374:
+    connections:
+    - map_main, 167, 68, 370
+    - map_main, 197, 68, 374
+  map_main, 167, 68, 370:
+    connections:
+    - map_main, 179, 68, 374
+    - map_main, 167, 70, 361
+    - map_main, 167, 68, 375
+    - map_main, 176, 69, 367
+  map_main, 167, 68, 375:
+    connections:
+    - map_main, 164, 68, 377
+    - map_main, 167, 68, 370
+  map_main, 164, 68, 377:
+    connections:
+    - map_main, 167, 68, 375
+    - map_main, 150, 67, 377
+  map_main, 150, 67, 377:
+    connections:
+    - map_main, 164, 68, 377
+    - map_main, 137, 67, 377
+    - map_main, 150, 67, 404
+  map_main, 137, 67, 377:
+    connections:
+    - map_main, 150, 67, 377
+    - map_main, 128, 66, 368
+  map_main, 128, 66, 368:
+    connections:
+    - map_main, 137, 67, 377
+    - map_main, 109, 66, 368
+  map_main, 109, 66, 368:
+    connections:
+    - map_main, 128, 66, 368
+    - map_main, 105, 66, 363
+    - map_main, 104, 66, 371
+    - map_main, 112, 66, 368
+  map_main, 105, 66, 363:
+    connections:
+    - map_main, 109, 66, 368
+    - map_main, 105, 66, 358
+    - map_main, 94, 66, 364
+  map_main, 105, 66, 358:
+    connections:
+    - map_main, 105, 66, 363
+    - map_main, 96, 66, 353
+  map_main, 96, 66, 353:
+    connections:
+    - map_main, 105, 66, 358
+    - map_main, 88, 66, 353
+  map_main, 88, 66, 353:
+    connections:
+    - map_main, 96, 66, 353
+    - map_main, 70, 66, 353
+    - map_main, 84, 66, 370
+    - map_main, 85, 66, 364
+    - map_main, 84, 66, 327
+  map_main, 70, 66, 353:
+    connections:
+    - map_main, 88, 66, 353
+    - map_main, 69, 66, 362
+    - map_main, 70, 66, 345
+  map_main, 69, 66, 362:
+    connections:
+    - map_main, 70, 66, 353
+    - map_main, 61, 67, 362
+  map_main, 61, 67, 362:
+    connections:
+    - map_main, 69, 66, 362
+    - map_main, 53, 67, 357
+  map_main, 53, 67, 357:
+    connections:
+    - map_main, 61, 67, 362
+    - map_main, 49, 66, 342
+  map_main, 49, 66, 342:
+    connections:
+    - map_main, 53, 67, 357
+    - map_main, 43, 66, 338
+  map_main, 43, 66, 338:
+    connections:
+    - map_main, 49, 66, 342
+    - map_main, 31, 66, 338
+    - map_main, 74, 66, 335
+  map_main, 31, 66, 338:
+    connections:
+    - map_main, 43, 66, 338
+    - map_main, 29, 66, 349
+    - map_main, 30, 69, 324
+  map_main, 29, 66, 349:
+    connections:
+    - map_main, 31, 66, 338
+    - map_main, 32, 66, 353
+  map_main, 32, 66, 353:
+    connections:
+    - map_main, 29, 66, 349
+    - map_main, 30, 66, 361
+  map_main, 30, 66, 361:
+    connections:
+    - map_main, 32, 66, 353
+    - map_main, 21, 66, 372
+  map_main, 21, 66, 372:
+    connections:
+    - map_main, 30, 66, 361
+    - map_main, 21, 70, 392
+  map_main, 21, 70, 392:
+    connections:
+    - map_main, 21, 66, 372
+    - map_main, 23, 71, 419
+  map_main, 23, 71, 419:
+    connections:
+    - map_main, 21, 70, 392
+    - map_main, 13, 70, 455
+    - map_main, 41, 70, 419
+  map_main, 13, 70, 455:
+    connections:
+    - map_main, 23, 71, 419
+    - map_main, 25, 70, 464
+  map_main, 25, 70, 464:
+    connections:
+    - map_main, 13, 70, 455
+    - map_main, 33, 70, 468
+  map_main, 33, 70, 468:
+    connections:
+    - map_main, 25, 70, 464
+    - map_main, 39, 70, 469
+  map_main, 39, 70, 469:
+    connections:
+    - map_main, 33, 70, 468
+    - map_main, 39, 67, 476
+    - map_main, 44, 68, 489
+  map_main, 39, 67, 476:
+    connections:
+    - map_main, 21, 67, 484
+    - map_main, 39, 70, 469
+    - map_main, 44, 68, 489
+    - map_main, 48, 68, 482
+  map_main, 21, 67, 484:
+    connections:
+    - map_main, 39, 67, 476
+    - map_main, 3, 65, 484
+  map_main, 3, 65, 484:
+    connections:
+    - map_main, 21, 67, 484
+    - map_main, -1, 65, 481
+  map_main, -1, 65, 481:
+    connections:
+    - map_main, 3, 65, 484
+    - map_main, 2, 67, 476
+  map_main, 2, 67, 476:
+    connections:
+    - map_main, -1, 65, 481
+    - map_main, 7, 70, 479
+  map_main, 7, 70, 479:
+    connections:
+    - map_main, 2, 67, 476
+    - map_main, 0, 73, 482
+  map_main, 0, 73, 482:
+    connections:
+    - map_main, 7, 70, 479
+    - map_main, 0, 76, 471
+  map_main, 0, 76, 471:
+    connections:
+    - map_main, 0, 73, 482
+    - map_main, 6, 77, 471
+  map_main, 6, 77, 471:
+    connections:
+    - map_main, 0, 76, 471
+    - map_main, 3, 77, 483
+  map_main, 3, 77, 483:
+    connections:
+    - map_main, 6, 77, 471
+  map_main, 44, 68, 489:
+    connections:
+    - map_main, 39, 70, 469
+    - map_main, 38, 67, 503
+    - map_main, 39, 67, 476
+    - map_main, 48, 68, 482
+  map_main, 38, 67, 503:
+    connections:
+    - map_main, 44, 68, 489
+    - map_main, 37, 64, 510
+    - map_main, 58, 67, 504
+  map_main, 37, 64, 510:
+    connections:
+    - map_main, 38, 67, 503
+    - map_main, 32, 64, 514
+  map_main, 32, 64, 514:
+    connections:
+    - map_main, 37, 64, 510
+    - map_main, 35, 64, 518
+  map_main, 35, 64, 518:
+    connections:
+    - map_main, 32, 64, 514
+    - map_main, 32, 64, 524
+  map_main, 32, 64, 524:
+    connections:
+    - map_main, 35, 64, 518
+    - map_main, 32, 64, 532
+    - map_main, 19, 64, 524
+  map_main, 32, 64, 532:
+    connections:
+    - map_main, 32, 64, 524
+    - map_main, 39, 64, 536
+  map_main, 39, 64, 536:
+    connections:
+    - map_main, 32, 64, 532
+    - map_main, 49, 64, 546
+  map_main, 49, 64, 546:
+    connections:
+    - map_main, 39, 64, 536
+    - map_main, 55, 64, 547
+  map_main, 55, 64, 547:
+    connections:
+    - map_main, 49, 64, 546
+    - map_main, 54, 64, 573
+    - map_main, 64, 64, 543
+  map_main, 54, 64, 573:
+    name: Храм
+    connections:
+    - map_main, 55, 64, 547
+  map_main, 64, 64, 543:
+    connections:
+    - map_main, 55, 64, 547
+    - map_main, 89, 64, 539
+  map_main, 89, 64, 539:
+    connections:
+    - map_main, 64, 64, 543
+    - map_main, 89, 64, 515
+  map_main, 89, 64, 515:
+    connections:
+    - map_main, 89, 64, 539
+    - map_main, 90, 67, 501
+    - map_main, 114, 64, 498
+  map_main, 90, 67, 501:
+    connections:
+    - map_main, 107, 67, 493
+    - map_main, 78, 67, 498
+    - map_main, 89, 64, 515
+  map_main, 107, 67, 493:
+    connections:
+    - map_main, 90, 67, 501
+    - map_main, 113, 67, 482
+  map_main, 113, 67, 482:
+    connections:
+    - map_main, 107, 67, 493
+    - map_main, 112, 70, 453
+    - map_main, 128, 66, 453
+    - map_main, 101, 67, 479
+    - map_main, 114, 67, 489
+  map_main, 112, 70, 453:
+    name: Лобби
+    connections:
+    - map_main, 113, 67, 482
+    - map_main, 128, 66, 453
+    - map_main, 101, 70, 456
+    - map_main, 101, 70, 450
+    - map_main, 137, 64, 479
+    - map_main, 131, 66, 439
+  map_main, 128, 66, 453:
+    connections:
+    - map_main, 113, 67, 482
+    - map_main, 112, 70, 453
+    - map_main, 137, 64, 479
+    - map_main, 131, 66, 439
+  map_main, 101, 70, 456:
+    connections:
+    - map_main, 112, 70, 453
+    - map_main, 101, 70, 450
+    - map_main, 100, 70, 466
+  map_main, 101, 70, 450:
+    connections:
+    - map_main, 112, 70, 453
+    - map_main, 101, 70, 456
+    - map_main, 101, 70, 439
+    - map_main, 61, 70, 424
+  map_main, 101, 70, 439:
+    connections:
+    - map_main, 101, 70, 450
+    - map_main, 108, 70, 430
+  map_main, 108, 70, 430:
+    connections:
+    - map_main, 101, 70, 439
+    - map_main, 106, 70, 422
+  map_main, 106, 70, 422:
+    connections:
+    - map_main, 108, 70, 430
+    - map_main, 97, 70, 409
+    - map_main, 114, 66, 421
+  map_main, 97, 70, 409:
+    connections:
+    - map_main, 106, 70, 422
+    - map_main, 86, 70, 395
+  map_main, 86, 70, 395:
+    connections:
+    - map_main, 97, 70, 409
+    - map_main, 80, 70, 390
+  map_main, 80, 70, 390:
+    connections:
+    - map_main, 86, 70, 395
+    - map_main, 71, 70, 406
+  map_main, 71, 70, 406:
+    connections:
+    - map_main, 80, 70, 390
+    - map_main, 67, 70, 411
+  map_main, 67, 70, 411:
+    connections:
+    - map_main, 71, 70, 406
+    - map_main, 61, 70, 424
+    - map_main, 51, 70, 400
+  map_main, 61, 70, 424:
+    connections:
+    - map_main, 67, 70, 411
+    - map_main, 41, 70, 419
+    - map_main, 101, 70, 450
+    - map_main, 52, 71, 439
+  map_main, 41, 70, 419:
+    connections:
+    - map_main, 61, 70, 424
+    - map_main, 22, 70, 402
+    - map_main, 23, 71, 419
+    - map_main, 36, 71, 445
+    - map_main, 44, 71, 405
+    - map_main, 52, 71, 439
+  map_main, 22, 70, 402:
+    connections:
+    - map_main, 41, 70, 419
+    - map_main, 32, 70, 392
+  map_main, 36, 71, 445:
+    name: Банк
+    connections:
+    - map_main, 41, 70, 419
+  map_main, 51, 70, 400:
+    connections:
+    - map_main, 67, 70, 411
+    - map_main, 61, 68, 398
+    - map_main, 42, 70, 393
+    - map_main, 44, 71, 405
+  map_main, 61, 68, 398:
+    connections:
+    - map_main, 51, 70, 400
+    - map_main, 70, 66, 393
+  map_main, 70, 66, 393:
+    connections:
+    - map_main, 61, 68, 398
+    - map_main, 81, 66, 383
+  map_main, 81, 66, 383:
+    connections:
+    - map_main, 70, 66, 393
+    - map_main, 86, 66, 375
+    - map_main, 87, 66, 379
+  map_main, 86, 66, 375:
+    connections:
+    - map_main, 81, 66, 383
+    - map_main, 92, 66, 373
+    - map_main, 87, 66, 379
+    - map_main, 84, 66, 370
+  map_main, 92, 66, 373:
+    connections:
+    - map_main, 86, 66, 375
+    - map_main, 98, 66, 370
+    - map_main, 97, 66, 374
+    - map_main, 91, 66, 365
+  map_main, 98, 66, 370:
+    connections:
+    - map_main, 92, 66, 373
+    - map_main, 104, 66, 371
+    - map_main, 97, 66, 364
+    - map_main, 97, 66, 374
+    - map_main, 97, 66, 373
+  map_main, 104, 66, 371:
+    connections:
+    - map_main, 98, 66, 370
+    - map_main, 104, 66, 378
+    - map_main, 109, 66, 368
+    - map_main, 112, 66, 368
+  map_main, 104, 66, 378:
+    connections:
+    - map_main, 104, 66, 371
+    - map_main, 112, 66, 378
+    - map_main, 97, 66, 378
+  map_main, 112, 66, 378:
+    connections:
+    - map_main, 104, 66, 378
+    - map_main, 112, 66, 368
+    - map_main, 115, 66, 385
+  map_main, 112, 66, 368:
+    name: Рынок
+    connections:
+    - map_main, 112, 66, 378
+    - map_main, 118, 66, 372
+    - map_main, 104, 66, 371
+    - map_main, 109, 66, 368
+  map_main, 97, 66, 378:
+    connections:
+    - map_main, 97, 66, 388
+    - map_main, 97, 66, 374
+    - map_main, 104, 66, 378
+    - map_main, 96, 66, 381
+  map_main, 97, 66, 388:
+    connections:
+    - map_main, 97, 66, 378
+    - map_main, 107, 66, 393
+  map_main, 97, 66, 374:
+    connections:
+    - map_main, 92, 66, 373
+    - map_main, 97, 66, 378
+    - map_main, 98, 66, 370
+  map_main, 96, 66, 381:
+    connections:
+    - map_main, 97, 66, 378
+    - map_main, 97, 66, 382
+    - map_main, 87, 66, 379
+  map_main, 97, 66, 382:
+    connections:
+    - map_main, 96, 66, 381
+  map_main, 87, 66, 379:
+    connections:
+    - map_main, 96, 66, 381
+    - map_main, 86, 66, 375
+    - map_main, 81, 66, 383
+  map_main, 84, 66, 370:
+    connections:
+    - map_main, 86, 66, 375
+    - map_main, 88, 66, 353
+    - map_main, 85, 66, 364
+  map_main, 94, 66, 353:
+    connections:
+    - map_main, 94, 66, 364
+  map_main, 53, 70, 466:
+    connections:
+    - map_main, 39, 71, 468
+    - map_main, 67, 70, 465
+    - map_main, 48, 71, 462
+  map_main, 39, 71, 468:
+    connections:
+    - map_main, 53, 70, 466
+    - map_main, 48, 71, 462
+  map_main, 67, 70, 465:
+    connections:
+    - map_main, 53, 70, 466
+    - map_main, 81, 70, 473
+    - map_main, 73, 70, 468
+  map_main, 81, 70, 473:
+    connections:
+    - map_main, 67, 70, 465
+    - map_main, 94, 70, 473
+    - map_main, 73, 70, 468
+  map_main, 94, 70, 473:
+    connections:
+    - map_main, 81, 70, 473
+    - map_main, 100, 70, 466
+  map_main, 100, 70, 466:
+    connections:
+    - map_main, 94, 70, 473
+    - map_main, 101, 70, 456
+    - map_main, 101, 67, 479
+  map_main, 101, 67, 479:
+    connections:
+    - map_main, 113, 67, 482
+    - map_main, 100, 70, 466
+    - map_main, 87, 67, 480
+  map_main, 87, 67, 480:
+    connections:
+    - map_main, 101, 67, 479
+    - map_main, 73, 68, 477
+    - map_main, 79, 68, 479
+  map_main, 73, 68, 477:
+    connections:
+    - map_main, 87, 67, 480
+    - map_main, 73, 70, 468
+    - map_main, 62, 68, 477
+    - map_main, 79, 68, 479
+  map_main, 73, 70, 468:
+    connections:
+    - map_main, 73, 68, 477
+    - map_main, 81, 70, 473
+    - map_main, 67, 70, 465
+  map_main, 62, 68, 477:
+    connections:
+    - map_main, 73, 68, 477
+    - map_main, 48, 68, 482
+  map_main, 48, 68, 482:
+    connections:
+    - map_main, 62, 68, 477
+    - map_main, 44, 68, 489
+    - map_main, 39, 67, 476
+  map_main, 58, 67, 504:
+    connections:
+    - map_main, 38, 67, 503
+    - map_main, 71, 67, 497
+  map_main, 71, 67, 497:
+    connections:
+    - map_main, 58, 67, 504
+    - map_main, 78, 67, 498
+  map_main, 78, 67, 498:
+    connections:
+    - map_main, 71, 67, 497
+    - map_main, 90, 67, 501
+    - map_main, 79, 68, 479
+  map_main, 79, 68, 479:
+    connections:
+    - map_main, 78, 67, 498
+    - map_main, 87, 67, 480
+    - map_main, 73, 68, 477
+  map_main, 114, 64, 498:
+    connections:
+    - map_main, 89, 64, 515
+    - map_main, 114, 67, 489
+    - map_main, 137, 64, 479
+  map_main, 114, 67, 489:
+    connections:
+    - map_main, 114, 64, 498
+    - map_main, 113, 67, 482
+  map_main, 137, 64, 479:
+    connections:
+    - map_main, 114, 64, 498
+    - map_main, 128, 66, 453
+    - map_main, 195, 64, 474
+    - map_main, 112, 70, 453
+  map_main, 195, 64, 474:
+    connections:
+    - map_main, 137, 64, 479
+    - map_main, 221, 64, 462
+  map_main, 221, 64, 462:
+    connections:
+    - map_main, 195, 64, 474
+    - map_main, 238, 64, 473
+  map_main, 238, 64, 473:
+    connections:
+    - map_main, 221, 64, 462
+    - map_main, 258, 63, 494
+  map_main, 258, 63, 494:
+    connections:
+    - map_main, 238, 64, 473
+    - map_main, 363, 63, 494
+  map_main, 363, 63, 494:
+    connections:
+    - map_main, 258, 63, 494
+    - map_main, 396, 66, 494
+    - map_main, 363, 63, 489
+  map_main, 396, 66, 494:
+    connections:
+    - map_main, 363, 63, 494
+    - map_main, 395, 64, 476
+  map_main, 395, 64, 476:
+    connections:
+    - map_main, 396, 66, 494
+    - map_main, 399, 64, 469
+  map_main, 399, 64, 469:
+    connections:
+    - map_main, 395, 64, 476
+    - map_main, 402, 64, 458
+  map_main, 425, 66, 457:
+    connections:
+    - map_main, 426, 66, 446
+    - map_main, 402, 64, 458
+  map_main, 426, 66, 446:
+    connections:
+    - map_main, 425, 66, 457
+    - map_main, 426, 64, 440
+  map_main, 426, 64, 440:
+    connections:
+    - map_main, 426, 66, 446
+    - map_main, 443, 64, 439
+    - map_main, 430, 64, 421
+    - map_main, 407, 64, 440
+  map_main, 443, 64, 439:
+    connections:
+    - map_main, 426, 64, 440
+    - map_main, 455, 64, 426
+  map_main, 455, 64, 426:
+    connections:
+    - map_main, 443, 64, 439
+    - map_main, 465, 64, 426
+    - map_main, 468, 64, 403
+  map_main, 465, 64, 426:
+    connections:
+    - map_main, 455, 64, 426
+    - map_main, 470, 64, 431
+  map_main, 470, 64, 431:
+    connections:
+    - map_main, 465, 64, 426
+    - map_main, 475, 64, 445
+  map_main, 475, 64, 445:
+    connections:
+    - map_main, 470, 64, 431
+  map_main, 468, 64, 403:
+    connections:
+    - map_main, 455, 64, 426
+    - map_main, 470, 64, 392
+  map_main, 470, 64, 392:
+    connections:
+    - map_main, 468, 64, 403
+  map_main, 430, 64, 421:
+    connections:
+    - map_main, 426, 64, 440
+  map_main, 407, 64, 440:
+    connections:
+    - map_main, 426, 64, 440
+    - map_main, 402, 64, 458
+  map_main, 363, 63, 489:
+    connections:
+    - map_main, 363, 63, 494
+    - map_main, 357, 63, 461
+  map_main, 131, 66, 439:
+    connections:
+    - map_main, 128, 66, 453
+    - map_main, 134, 66, 423
+    - map_main, 128, 66, 431
+    - map_main, 133, 66, 429
+    - map_main, 112, 70, 453
+    - map_main, 135, 67, 442
+    - map_main, 134, 66, 434
+  map_main, 134, 66, 423:
+    connections:
+    - map_main, 131, 66, 439
+    - map_main, 131, 66, 416
+    - map_main, 133, 66, 429
+    - map_main, 124, 66, 418
+    - map_main, 138, 66, 419
+  map_main, 131, 66, 416:
+    connections:
+    - map_main, 134, 66, 423
+    - map_main, 128, 66, 411
+  map_main, 128, 66, 411:
+    connections:
+    - map_main, 131, 66, 416
+    - map_main, 122, 66, 406
+  map_main, 122, 66, 406:
+    connections:
+    - map_main, 128, 66, 411
+    - map_main, 118, 66, 394
+    - map_main, 118, 66, 409
+    - map_main, 124, 66, 418
+  map_main, 118, 66, 394:
+    connections:
+    - map_main, 122, 66, 406
+    - map_main, 115, 66, 385
+  map_main, 115, 66, 385:
+    connections:
+    - map_main, 118, 66, 394
+    - map_main, 118, 66, 381
+    - map_main, 112, 66, 378
+    - map_main, 107, 66, 393
+  map_main, 118, 66, 381:
+    connections:
+    - map_main, 115, 66, 385
+    - map_main, 118, 66, 372
+  map_main, 118, 66, 372:
+    connections:
+    - map_main, 118, 66, 381
+    - map_main, 112, 66, 368
+  map_main, 107, 66, 393:
+    connections:
+    - map_main, 115, 66, 385
+    - map_main, 109, 66, 406
+    - map_main, 97, 66, 388
+  map_main, 109, 66, 406:
+    connections:
+    - map_main, 107, 66, 393
+    - map_main, 111, 66, 409
+  map_main, 111, 66, 409:
+    connections:
+    - map_main, 109, 66, 406
+    - map_main, 110, 66, 412
+    - map_main, 118, 66, 409
+  map_main, 110, 66, 412:
+    connections:
+    - map_main, 111, 66, 409
+    - map_main, 112, 66, 418
+  map_main, 112, 66, 418:
+    connections:
+    - map_main, 110, 66, 412
+    - map_main, 114, 66, 421
+  map_main, 114, 66, 421:
+    connections:
+    - map_main, 112, 66, 418
+    - map_main, 119, 66, 429
+    - map_main, 106, 70, 422
+  map_main, 119, 66, 429:
+    connections:
+    - map_main, 114, 66, 421
+    - map_main, 128, 66, 431
+    - map_main, 124, 66, 418
+  map_main, 128, 66, 431:
+    connections:
+    - map_main, 119, 66, 429
+    - map_main, 131, 66, 439
+    - map_main, 133, 66, 429
+  map_main, 133, 66, 429:
+    connections:
+    - map_main, 128, 66, 431
+    - map_main, 134, 66, 423
+    - map_main, 131, 66, 439
+    - map_main, 134, 66, 434
+  map_main, 118, 66, 409:
+    connections:
+    - map_main, 122, 66, 406
+    - map_main, 111, 66, 409
+  map_main, 124, 66, 418:
+    connections:
+    - map_main, 122, 66, 406
+    - map_main, 134, 66, 423
+    - map_main, 119, 66, 429
+  map_main, 91, 66, 365:
+    connections:
+    - map_main, 92, 66, 373
+    - map_main, 94, 66, 364
+  map_main, 94, 66, 364:
+    connections:
+    - map_main, 91, 66, 365
+    - map_main, 94, 66, 353
+    - map_main, 105, 66, 363
+    - map_main, 97, 66, 364
+  map_main, 97, 66, 364:
+    connections:
+    - map_main, 94, 66, 364
+    - map_main, 98, 66, 370
+  map_main, 97, 66, 373:
+    connections:
+    - map_main, 98, 66, 370
+    - map_main, 85, 66, 364
+  map_main, 85, 66, 364:
+    connections:
+    - map_main, 97, 66, 373
+    - map_main, 88, 66, 353
+    - map_main, 84, 66, 370
+  map_main, 32, 70, 392:
+    connections:
+    - map_main, 22, 70, 402
+    - map_main, 42, 70, 393
+  map_main, 42, 70, 393:
+    connections:
+    - map_main, 32, 70, 392
+    - map_main, 51, 70, 400
+  map_main, 44, 71, 405:
+    connections:
+    - map_main, 51, 70, 400
+    - map_main, 41, 70, 419
+  map_main, 84, 66, 327:
+    connections:
+    - map_main, 88, 66, 353
+    - map_main, 87, 66, 317
+    - map_main, 74, 66, 335
+  map_main, 87, 66, 317:
+    connections:
+    - map_main, 84, 66, 327
+    - map_main, 112, 69, 317
+    - map_main, 80, 69, 301
+  map_main, 112, 69, 317:
+    connections:
+    - map_main, 87, 66, 317
+    - map_main, 147, 69, 317
+  map_main, 147, 69, 317:
+    connections:
+    - map_main, 112, 69, 317
+    - map_main, 167, 71, 317
+    - map_main, 148, 70, 304
+  map_main, 167, 71, 317:
+    connections:
+    - map_main, 147, 69, 317
+    - map_main, 167, 70, 326
+    - map_main, 170, 71, 308
+    - map_main, 172, 71, 317
+  map_main, 167, 70, 326:
+    connections:
+    - map_main, 167, 71, 317
+    - map_main, 167, 70, 361
+    - map_main, 156, 74, 326
+  map_main, 167, 70, 361:
+    connections:
+    - map_main, 167, 70, 326
+    - map_main, 167, 68, 370
+  map_main, 150, 67, 404:
+    connections:
+    - map_main, 150, 67, 377
+    - map_main, 151, 68, 412
+  map_main, 151, 68, 412:
+    connections:
+    - map_main, 150, 67, 404
+    - map_main, 165, 74, 413
+  map_main, 165, 74, 413:
+    connections:
+    - map_main, 151, 68, 412
+  map_main, 70, 66, 345:
+    connections:
+    - map_main, 70, 66, 353
+    - map_main, 74, 66, 341
+  map_main, 74, 66, 341:
+    connections:
+    - map_main, 70, 66, 345
+    - map_main, 74, 66, 335
+  map_main, 74, 66, 335:
+    connections:
+    - map_main, 74, 66, 341
+    - map_main, 84, 66, 327
+    - map_main, 43, 66, 338
+  map_main, 30, 69, 324:
+    connections:
+    - map_main, 31, 66, 338
+    - map_main, 21, 71, 322
+  map_main, 21, 71, 322:
+    connections:
+    - map_main, 30, 69, 324
+    - map_main, 17, 73, 323
+  map_main, 17, 73, 323:
+    connections:
+    - map_main, 21, 71, 322
+    - map_main, 18, 74, 331
+  map_main, 18, 74, 331:
+    connections:
+    - map_main, 17, 73, 323
+    - map_main, 18, 77, 335
+  map_main, 18, 77, 335:
+    connections:
+    - map_main, 18, 74, 331
+    - map_main, 18, 76, 347
+  map_main, 18, 76, 347:
+    connections:
+    - map_main, 18, 77, 335
+    - map_main, 15, 76, 357
+  map_main, 15, 76, 357:
+    connections:
+    - map_main, 18, 76, 347
+    - map_main, 16, 76, 364
+  map_main, 16, 76, 364:
+    connections:
+    - map_main, 15, 76, 357
+    - map_main, 14, 77, 365
+  map_main, 14, 77, 365:
+    connections:
+    - map_main, 16, 76, 364
+    - map_main, 14, 79, 362
+  map_main, 14, 79, 362:
+    connections:
+    - map_main, 14, 77, 365
+    - map_main, 17, 79, 363
+  map_main, 17, 79, 363:
+    connections:
+    - map_main, 14, 79, 362
+    - map_main, 15, 81, 366
+  map_main, 15, 81, 366:
+    connections:
+    - map_main, 17, 79, 363
+    - map_main, 13, 82, 363
+  map_main, 13, 82, 363:
+    connections:
+    - map_main, 15, 81, 366
+    - map_main, 16, 83, 363
+  map_main, 16, 83, 363:
+    connections:
+    - map_main, 13, 82, 363
+    - map_main, 16, 84, 365
+  map_main, 16, 84, 365:
+    connections:
+    - map_main, 16, 83, 363
+    - map_main, 13, 85, 365
+  map_main, 13, 85, 365:
+    connections:
+    - map_main, 16, 84, 365
+    - map_main, 15, 87, 362
+  map_main, 15, 87, 362:
+    connections:
+    - map_main, 13, 85, 365
+    - map_main, 16, 88, 365
+  map_main, 16, 88, 365:
+    connections:
+    - map_main, 15, 87, 362
+    - map_main, 14, 89, 365
+  map_main, 14, 89, 365:
+    connections:
+    - map_main, 16, 88, 365
+    - map_main, 14, 90, 363
+  map_main, 14, 90, 363:
+    connections:
+    - map_main, 14, 89, 365
+    - map_main, 16, 92, 365
+  map_main, 16, 92, 365:
+    connections:
+    - map_main, 14, 90, 363
+    - map_main, 12, 94, 366
+  map_main, 12, 94, 366:
+    connections:
+    - map_main, 16, 92, 365
+    - map_main, 13, 94, 364
+    - map_main, 7, 93, 366
+  map_main, 13, 94, 364:
+    connections:
+    - map_main, 12, 94, 366
+    - map_main, 17, 96, 364
+  map_main, 17, 96, 364:
+    connections:
+    - map_main, 13, 94, 364
+    - map_main, 15, 97, 365
+  map_main, 15, 97, 365:
+    connections:
+    - map_main, 17, 96, 364
+    - map_main, 14, 98, 364
+  map_main, 14, 98, 364:
+    connections:
+    - map_main, 15, 97, 365
+    - map_main, 17, 100, 364
+  map_main, 17, 100, 364:
+    connections:
+    - map_main, 14, 98, 364
+    - map_main, 15, 101, 365
+  map_main, 15, 101, 365:
+    connections:
+    - map_main, 17, 100, 364
+    - map_main, 16, 104, 363
+  map_main, 16, 104, 363:
+    connections:
+    - map_main, 15, 101, 365
+    - map_main, 15, 105, 366
+  map_main, 15, 105, 366:
+    connections:
+    - map_main, 16, 104, 363
+    - map_main, 14, 106, 364
+  map_main, 14, 106, 364:
+    connections:
+    - map_main, 15, 105, 366
+    - map_main, 17, 108, 364
+  map_main, 17, 108, 364:
+    connections:
+    - map_main, 14, 106, 364
+    - map_main, 15, 109, 365
+  map_main, 15, 109, 365:
+    connections:
+    - map_main, 17, 108, 364
+    - map_main, 14, 110, 364
+  map_main, 14, 110, 364:
+    connections:
+    - map_main, 15, 109, 365
+    - map_main, 15, 111, 361
+  map_main, 15, 111, 361:
+    connections:
+    - map_main, 14, 110, 364
+    - map_main, 13, 109, 358
+  map_main, 13, 109, 358:
+    connections:
+    - map_main, 15, 111, 361
+    - map_main, 4, 109, 359
+  map_main, 4, 109, 359:
+    connections:
+    - map_main, 13, 109, 358
+    - map_main, 2, 110, 360
+  map_main, 2, 110, 360:
+    connections:
+    - map_main, 4, 109, 359
+    - map_main, 1, 111, 360
+  map_main, 1, 111, 360:
+    connections:
+    - map_main, 2, 110, 360
+    - map_main, 4, 112, 358
+  map_main, 4, 112, 358:
+    connections:
+    - map_main, 1, 111, 360
+    - map_main, 1, 114, 361
+  map_main, 1, 114, 361:
+    connections:
+    - map_main, 4, 112, 358
+    - map_main, 1, 115, 360
+  map_main, 1, 115, 360:
+    connections:
+    - map_main, 1, 114, 361
+    - map_main, 3, 116, 358
+  map_main, 3, 116, 358:
+    connections:
+    - map_main, 1, 115, 360
+    - map_main, 0, 118, 360
+  map_main, 0, 118, 360:
+    connections:
+    - map_main, 3, 116, 358
+    - map_main, 0, 119, 359
+  map_main, 0, 119, 359:
+    connections:
+    - map_main, 0, 118, 360
+    - map_main, 3, 121, 361
+  map_main, 3, 121, 361:
+    connections:
+    - map_main, 0, 119, 359
+    - map_main, 0, 122, 360
+  map_main, 0, 122, 360:
+    name: Библиотека
+    connections:
+    - map_main, 3, 121, 361
+    - map_main, 1, 123, 358
+    - map_main, 0, 122, 361
+  map_main, 1, 123, 358:
+    connections:
+    - map_main, 0, 122, 360
+    - map_main, 4, 124, 359
+  map_main, 4, 124, 359:
+    connections:
+    - map_main, 1, 123, 358
+    - map_main, 2, 125, 360
+  map_main, 2, 125, 360:
+    connections:
+    - map_main, 4, 124, 359
+    - map_main, 4, 127, 359
+  map_main, 4, 127, 359:
+    connections:
+    - map_main, 2, 125, 360
+    - map_main, 1, 128, 361
+  map_main, 1, 128, 361:
+    connections:
+    - map_main, 4, 127, 359
+    - map_main, 0, 131, 355
+  map_main, 0, 131, 355:
+    connections:
+    - map_main, 1, 128, 361
+    - map_main, 3, 133, 355
+  map_main, 3, 133, 355:
+    connections:
+    - map_main, 0, 131, 355
+    - map_main, 4, 133, 361
+  map_main, 4, 133, 361:
+    connections:
+    - map_main, 3, 133, 355
+    - map_main, -3, 133, 361
+  map_main, -3, 133, 361:
+    connections:
+    - map_main, 4, 133, 361
+    - map_main, -3, 136, 356
+  map_main, -3, 136, 356:
+    connections:
+    - map_main, -3, 133, 361
+    - map_main, -1, 137, 356
+  map_main, -1, 137, 356:
+    connections:
+    - map_main, -3, 136, 356
+    - map_main, -1, 137, 359
+  map_main, -1, 137, 359:
+    name: Адольф
+    connections:
+    - map_main, -1, 137, 356
+  map_main, 80, 69, 301:
+    connections:
+    - map_main, 87, 66, 317
+    - map_main, 81, 69, 297
+  map_main, 81, 69, 297:
+    connections:
+    - map_main, 80, 69, 301
+    - map_main, 75, 69, 292
+    - map_main, 85, 69, 294
+    - map_main, 73, 69, 297
+  map_main, 75, 69, 292:
+    connections:
+    - map_main, 81, 69, 297
+    - map_main, 75, 69, 241
+  map_main, 75, 69, 241:
+    connections:
+    - map_main, 75, 69, 292
+    - map_main, 72, 69, 235
+  map_main, 72, 69, 235:
+    connections:
+    - map_main, 75, 69, 241
+    - map_main, 68, 69, 230
+    - map_main, 75, 69, 230
+  map_main, 68, 69, 230:
+    connections:
+    - map_main, 72, 69, 235
+    - map_main, 67, 70, 226
+  map_main, 67, 70, 226:
+    connections:
+    - map_main, 68, 69, 230
+    - map_main, 65, 70, 222
+  map_main, 65, 70, 222:
+    connections:
+    - map_main, 67, 70, 226
+    - map_main, 60, 70, 214
+  map_main, 60, 70, 214:
+    connections:
+    - map_main, 65, 70, 222
+    - map_main, 56, 70, 202
+  map_main, 56, 70, 202:
+    connections:
+    - map_main, 60, 70, 214
+    - map_main, 54, 70, 198
+  map_main, 54, 70, 198:
+    connections:
+    - map_main, 56, 70, 202
+    - map_main, 56, 70, 184
+    - map_main, 47, 71, 195
+  map_main, 56, 70, 184:
+    connections:
+    - map_main, 54, 70, 198
+    - map_main, 58, 71, 175
+  map_main, 58, 71, 175:
+    connections:
+    - map_main, 56, 70, 184
+    - map_main, 63, 73, 166
+  map_main, 63, 73, 166:
+    connections:
+    - map_main, 58, 71, 175
+    - map_main, 67, 73, 156
+  map_main, 67, 73, 156:
+    connections:
+    - map_main, 63, 73, 166
+    - map_main, 74, 73, 154
+    - map_main, 57, 73, 150
+  map_main, 74, 73, 154:
+    connections:
+    - map_main, 67, 73, 156
+    - map_main, 84, 72, 150
+  map_main, 84, 72, 150:
+    connections:
+    - map_main, 74, 73, 154
+    - map_main, 97, 70, 135
+  map_main, 97, 70, 135:
+    connections:
+    - map_main, 84, 72, 150
+    - map_main, 104, 69, 129
+  map_main, 104, 69, 129:
+    connections:
+    - map_main, 97, 70, 135
+    - map_main, 105, 69, 121
+  map_main, 105, 69, 121:
+    connections:
+    - map_main, 104, 69, 129
+    - map_main, 111, 69, 115
+  map_main, 111, 69, 115:
+    connections:
+    - map_main, 105, 69, 121
+    - map_main, 118, 68, 110
+  map_main, 118, 68, 110:
+    connections:
+    - map_main, 111, 69, 115
+    - map_main, 127, 68, 104
+  map_main, 127, 68, 104:
+    connections:
+    - map_main, 118, 68, 110
+    - map_main, 140, 67, 90
+  map_main, 140, 67, 90:
+    connections:
+    - map_main, 127, 68, 104
+    - map_main, 144, 67, 89
+  map_main, 201, 65, 89:
+    connections:
+    - map_main, 211, 65, 88
+    - map_main, 201, 67, 68
+    - map_main, 195, 65, 89
+  map_main, 211, 65, 88:
+    connections:
+    - map_main, 201, 65, 89
+    - map_main, 222, 65, 88
+  map_main, 222, 65, 88:
+    connections:
+    - map_main, 211, 65, 88
+    - map_main, 245, 64, 66
+  map_main, 245, 64, 66:
+    connections:
+    - map_main, 222, 65, 88
+    - map_main, 255, 64, 84
+    - map_main, 268, 64, 56
+    - map_main, 261, 64, 59
+  map_main, 201, 67, 68:
+    connections:
+    - map_main, 201, 65, 89
+    - map_main, 201, 68, 45
+  map_main, 201, 68, 45:
+    connections:
+    - map_main, 201, 67, 68
+    - map_main, 201, 66, 40
+  map_main, 201, 66, 40:
+    connections:
+    - map_main, 201, 68, 45
+    - map_main, 210, 64, 40
+  map_main, 210, 64, 40:
+    connections:
+    - map_main, 201, 66, 40
+    - map_main, 220, 66, 40
+  map_main, 220, 66, 40:
+    connections:
+    - map_main, 210, 64, 40
+  map_main, 47, 71, 195:
+    connections:
+    - map_main, 54, 70, 198
+    - map_main, 33, 71, 194
+  map_main, 33, 71, 194:
+    connections:
+    - map_main, 47, 71, 195
+    - map_main, 24, 71, 199
+  map_main, 24, 71, 199:
+    connections:
+    - map_main, 33, 71, 194
+    - map_main, 19, 71, 199
+    - map_main, 15, 71, 210
+  map_main, 19, 71, 199:
+    connections:
+    - map_main, 24, 71, 199
+  map_main, 15, 71, 210:
+    connections:
+    - map_main, 24, 71, 199
+    - map_main, 13, 71, 217
+  map_main, 13, 71, 217:
+    connections:
+    - map_main, 15, 71, 210
+    - map_main, 18, 71, 223
+    - map_main, 5, 72, 222
+  map_main, 18, 71, 223:
+    connections:
+    - map_main, 13, 71, 217
+    - map_main, 21, 71, 239
+  map_main, 21, 71, 239:
+    connections:
+    - map_main, 18, 71, 223
+  map_main, 5, 72, 222:
+    connections:
+    - map_main, 13, 71, 217
+    - map_main, -8, 72, 233
+  map_main, -8, 72, 233:
+    connections:
+    - map_main, 5, 72, 222
+  map_main, 75, 69, 230:
+    connections:
+    - map_main, 72, 69, 235
+    - map_main, 74, 70, 223
+  map_main, 74, 70, 223:
+    connections:
+    - map_main, 75, 69, 230
+    - map_main, 76, 71, 217
+    - map_main, 69, 71, 217
+  map_main, 76, 71, 217:
+    connections:
+    - map_main, 74, 70, 223
+    - map_main, 92, 71, 217
+  map_main, 92, 71, 217:
+    name: Ферма
+    connections:
+    - map_main, 76, 71, 217
+  map_main, 69, 71, 217:
+    connections:
+    - map_main, 74, 70, 223
+    - map_main, 68, 71, 209
+  map_main, 68, 71, 209:
+    connections:
+    - map_main, 69, 71, 217
+    - map_main, 79, 71, 196
+  map_main, 79, 71, 196:
+    connections:
+    - map_main, 68, 71, 209
+    - map_main, 87, 71, 190
+  map_main, 87, 71, 190:
+    connections:
+    - map_main, 79, 71, 196
+  map_main, 85, 69, 294:
+    connections:
+    - map_main, 81, 69, 297
+    - map_main, 85, 69, 290
+  map_main, 85, 69, 290:
+    connections:
+    - map_main, 85, 69, 294
+    - map_main, 89, 69, 288
+  map_main, 89, 69, 288:
+    connections:
+    - map_main, 85, 69, 290
+    - map_main, 94, 71, 288
+  map_main, 94, 71, 288:
+    connections:
+    - map_main, 89, 69, 288
+    - map_main, 97, 71, 285
+  map_main, 97, 71, 285:
+    connections:
+    - map_main, 94, 71, 288
+    - map_main, 104, 70, 285
+  map_main, 104, 70, 285:
+    connections:
+    - map_main, 97, 71, 285
+    - map_main, 111, 68, 285
+  map_main, 111, 68, 285:
+    connections:
+    - map_main, 104, 70, 285
+    - map_main, 113, 68, 283
+  map_main, 113, 68, 283:
+    connections:
+    - map_main, 111, 68, 285
+    - map_main, 122, 68, 287
+    - map_main, 110, 68, 278
+  map_main, 122, 68, 287:
+    connections:
+    - map_main, 113, 68, 283
+    - map_main, 126, 68, 288
+  map_main, 126, 68, 288:
+    connections:
+    - map_main, 122, 68, 287
+    - map_main, 131, 68, 292
+  map_main, 131, 68, 292:
+    connections:
+    - map_main, 126, 68, 288
+    - map_main, 140, 70, 293
+    - map_main, 137, 68, 287
+  map_main, 140, 70, 293:
+    connections:
+    - map_main, 131, 68, 292
+    - map_main, 142, 70, 298
+  map_main, 142, 70, 298:
+    connections:
+    - map_main, 140, 70, 293
+    - map_main, 146, 70, 300
+  map_main, 146, 70, 300:
+    connections:
+    - map_main, 142, 70, 298
+    - map_main, 148, 70, 304
+  map_main, 148, 70, 304:
+    connections:
+    - map_main, 146, 70, 300
+    - map_main, 147, 69, 317
+    - map_main, 151, 70, 305
+  map_main, 137, 68, 287:
+    connections:
+    - map_main, 131, 68, 292
+    - map_main, 137, 68, 281
+  map_main, 137, 68, 281:
+    connections:
+    - map_main, 137, 68, 287
+    - map_main, 144, 69, 276
+  map_main, 144, 69, 276:
+    connections:
+    - map_main, 137, 68, 281
+    - map_main, 152, 69, 270
+  map_main, 152, 69, 270:
+    connections:
+    - map_main, 144, 69, 276
+    - map_main, 152, 69, 262
+  map_main, 152, 69, 262:
+    connections:
+    - map_main, 152, 69, 270
+    - map_main, 150, 69, 259
+  map_main, 150, 69, 259:
+    connections:
+    - map_main, 152, 69, 262
+    - map_main, 151, 69, 254
+  map_main, 151, 69, 254:
+    connections:
+    - map_main, 150, 69, 259
+    - map_main, 153, 69, 250
+  map_main, 153, 69, 250:
+    connections:
+    - map_main, 151, 69, 254
+    - map_main, 163, 67, 247
+  map_main, 163, 67, 247:
+    name: Разбойник
+    connections:
+    - map_main, 153, 69, 250
+    - map_main, 157, 67, 244
+    - map_main, 160, 67, 258
+  map_main, 157, 67, 244:
+    connections:
+    - map_main, 163, 67, 247
+    - map_main, 152, 67, 243
+  map_main, 152, 67, 243:
+    connections:
+    - map_main, 157, 67, 244
+    - map_main, 146, 67, 247
+  map_main, 146, 67, 247:
+    connections:
+    - map_main, 152, 67, 243
+    - map_main, 137, 67, 255
+  map_main, 137, 67, 255:
+    connections:
+    - map_main, 146, 67, 247
+    - map_main, 127, 67, 257
+  map_main, 127, 67, 257:
+    connections:
+    - map_main, 137, 67, 255
+    - map_main, 115, 67, 255
+  map_main, 115, 67, 255:
+    connections:
+    - map_main, 127, 67, 257
+    - map_main, 111, 67, 263
+  map_main, 111, 67, 263:
+    connections:
+    - map_main, 115, 67, 255
+    - map_main, 104, 67, 268
+  map_main, 104, 67, 268:
+    connections:
+    - map_main, 111, 67, 263
+    - map_main, 110, 68, 278
+    - map_main, 97, 67, 282
+  map_main, 110, 68, 278:
+    connections:
+    - map_main, 104, 67, 268
+    - map_main, 113, 68, 283
+  map_main, 97, 67, 282:
+    connections:
+    - map_main, 104, 67, 268
+    - map_main, 98, 67, 288
+  map_main, 98, 67, 288:
+    connections:
+    - map_main, 97, 67, 282
+    - map_main, 102, 67, 291
+  map_main, 102, 67, 291:
+    connections:
+    - map_main, 98, 67, 288
+    - map_main, 107, 67, 293
+  map_main, 107, 67, 293:
+    connections:
+    - map_main, 102, 67, 291
+    - map_main, 107, 67, 302
+  map_main, 107, 67, 302:
+    connections:
+    - map_main, 107, 67, 293
+    - map_main, 103, 67, 306
+  map_main, 103, 67, 306:
+    connections:
+    - map_main, 107, 67, 302
+    - map_main, 98, 67, 306
+  map_main, 98, 67, 306:
+    connections:
+    - map_main, 103, 67, 306
+    - map_main, 96, 67, 301
+  map_main, 96, 67, 301:
+    connections:
+    - map_main, 98, 67, 306
+    - map_main, 94, 67, 298
+  map_main, 94, 67, 298:
+    connections:
+    - map_main, 96, 67, 301
+    - map_main, 92, 67, 296
+  map_main, 92, 67, 296:
+    connections:
+    - map_main, 94, 67, 298
+    - map_main, 92, 63, 291
+  map_main, 92, 63, 291:
+    connections:
+    - map_main, 92, 67, 296
+    - map_main, 93, 63, 292
+  map_main, 93, 63, 292:
+    connections:
+    - map_main, 92, 63, 291
+    - map_main, 93, 63, 297
+  map_main, 93, 63, 297:
+    connections:
+    - map_main, 93, 63, 292
+    - map_main, 95, 63, 300
+  map_main, 95, 63, 300:
+    connections:
+    - map_main, 93, 63, 297
+    - map_main, 96, 63, 302
+  map_main, 96, 63, 302:
+    connections:
+    - map_main, 95, 63, 300
+    - map_main, 100, 63, 304
+  map_main, 100, 63, 304:
+    connections:
+    - map_main, 96, 63, 302
+    - map_main, 104, 63, 306
+  map_main, 104, 63, 306:
+    connections:
+    - map_main, 100, 63, 304
+    - map_main, 106, 63, 305
+  map_main, 106, 63, 305:
+    connections:
+    - map_main, 104, 63, 306
+    - map_main, 106, 63, 298
+  map_main, 106, 63, 298:
+    connections:
+    - map_main, 106, 63, 305
+    - map_main, 106, 63, 292
+  map_main, 106, 63, 292:
+    connections:
+    - map_main, 106, 63, 298
+    - map_main, 99, 63, 290
+  map_main, 99, 63, 290:
+    connections:
+    - map_main, 106, 63, 292
+    - map_main, 97, 63, 288
+  map_main, 97, 63, 288:
+    connections:
+    - map_main, 99, 63, 290
+    - map_main, 97, 63, 282
+  map_main, 97, 63, 282:
+    connections:
+    - map_main, 97, 63, 288
+    - map_main, 100, 63, 276
+  map_main, 100, 63, 276:
+    connections:
+    - map_main, 97, 63, 282
+    - map_main, 97, 65, 281
+  map_main, 97, 65, 281:
+    connections:
+    - map_main, 100, 63, 276
+  map_main, 170, 71, 308:
+    connections:
+    - map_main, 167, 71, 317
+  map_main, 172, 71, 317:
+    connections:
+    - map_main, 167, 71, 317
+  map_main, 160, 67, 258:
+    connections:
+    - map_main, 163, 67, 247
+    - map_main, 159, 69, 266
+  map_main, 159, 69, 266:
+    connections:
+    - map_main, 160, 67, 258
+    - map_main, 162, 69, 272
+  map_main, 162, 69, 272:
+    connections:
+    - map_main, 159, 69, 266
+    - map_main, 173, 69, 275
+    - map_main, 163, 69, 283
+  map_main, 173, 69, 275:
+    connections:
+    - map_main, 162, 69, 272
+    - map_main, 177, 69, 284
+  map_main, 177, 69, 284:
+    connections:
+    - map_main, 173, 69, 275
+    - map_main, 182, 69, 290
+    - map_main, 165, 69, 284
+  map_main, 182, 69, 290:
+    connections:
+    - map_main, 177, 69, 284
+    - map_main, 187, 69, 290
+  map_main, 187, 69, 290:
+    connections:
+    - map_main, 182, 69, 290
+    - map_main, 200, 69, 304
+  map_main, 200, 69, 304:
+    connections:
+    - map_main, 187, 69, 290
+    - map_main, 205, 69, 312
+  map_main, 205, 69, 312:
+    connections:
+    - map_main, 200, 69, 304
+    - map_main, 204, 69, 323
+  map_main, 204, 69, 323:
+    connections:
+    - map_main, 205, 69, 312
+    - map_main, 184, 69, 343
+  map_main, 184, 69, 343:
+    connections:
+    - map_main, 204, 69, 323
+    - map_main, 179, 69, 351
+  map_main, 179, 69, 351:
+    connections:
+    - map_main, 184, 69, 343
+    - map_main, 180, 69, 361
+  map_main, 180, 69, 361:
+    connections:
+    - map_main, 179, 69, 351
+    - map_main, 176, 69, 367
+  map_main, 176, 69, 367:
+    connections:
+    - map_main, 180, 69, 361
+    - map_main, 167, 68, 370
+  map_main, 163, 69, 283:
+    connections:
+    - map_main, 162, 69, 272
+    - map_main, 165, 69, 284
+  map_main, 165, 69, 284:
+    connections:
+    - map_main, 163, 69, 283
+    - map_main, 177, 69, 284
+  map_main, 156, 74, 326:
+    connections:
+    - map_main, 167, 70, 326
+    - map_main, 153, 76, 329
+  map_main, 153, 76, 329:
+    connections:
+    - map_main, 156, 74, 326
+    - map_main, 154, 76, 332
+  map_main, 154, 76, 332:
+    connections:
+    - map_main, 153, 76, 329
+    - map_main, 160, 78, 333
+  map_main, 7, 93, 366:
+    name: Замок
+    connections:
+    - map_main, 12, 94, 366
+    - map_main, 7, 91, 377
+    - map_main, 7, 93, 357
+  map_main, 7, 91, 377:
+    connections:
+    - map_main, 7, 93, 366
+    - map_main, 7, 90, 396
+  map_main, 7, 90, 396:
+    connections:
+    - map_main, 7, 91, 377
+    - map_main, -16, 89, 396
+  map_main, -16, 89, 396:
+    connections:
+    - map_main, 7, 90, 396
+    - map_main, -19, 89, 393
+  map_main, -19, 89, 393:
+    connections:
+    - map_main, -16, 89, 396
+    - map_main, -26, 89, 394
+  map_main, -26, 89, 394:
+    connections:
+    - map_main, -19, 89, 393
+    - map_main, -27, 89, 397
+  map_main, -27, 89, 397:
+    connections:
+    - map_main, -26, 89, 394
+    - map_main, -27, 89, 441
+  map_main, -27, 89, 441:
+    connections:
+    - map_main, -27, 89, 397
+    - map_main, -27, 88, 448
+  map_main, -27, 88, 448:
+    connections:
+    - map_main, -27, 89, 441
+  map_main, 7, 93, 357:
+    connections:
+    - map_main, 7, 93, 366
+  map_main, 52, 71, 439:
+    connections:
+    - map_main, 61, 70, 424
+    - map_main, 51, 71, 453
+    - map_main, 41, 70, 419
+  map_main, 51, 71, 453:
+    connections:
+    - map_main, 52, 71, 439
+    - map_main, 48, 71, 462
+  map_main, 48, 71, 462:
+    connections:
+    - map_main, 51, 71, 453
+    - map_main, 39, 71, 468
+    - map_main, 53, 70, 466
+  map_main, 19, 64, 524:
+    connections:
+    - map_main, 32, 64, 524
+    - map_main, 8, 63, 529
+  map_main, 8, 63, 529:
+    connections:
+    - map_main, 19, 64, 524
+  map_main, 135, 67, 442:
+    connections:
+    - map_main, 131, 66, 439
+    - map_main, 135, 71, 449
+  map_main, 135, 71, 449:
+    connections:
+    - map_main, 135, 67, 442
+    - map_main, 138, 72, 452
+  map_main, 138, 72, 452:
+    connections:
+    - map_main, 135, 71, 449
+    - map_main, 143, 73, 450
+  map_main, 143, 73, 450:
+    connections:
+    - map_main, 138, 72, 452
+    - map_main, 144, 77, 442
+  map_main, 144, 77, 442:
+    connections:
+    - map_main, 143, 73, 450
+    - map_main, 147, 78, 439
+  map_main, 147, 78, 439:
+    connections:
+    - map_main, 144, 77, 442
+    - map_main, 152, 79, 437
+  map_main, 152, 79, 437:
+    connections:
+    - map_main, 147, 78, 439
+    - map_main, 152, 79, 444
+  map_main, 152, 79, 444:
+    connections:
+    - map_main, 152, 79, 437
+    - map_main, 154, 79, 446
+  map_main, 154, 79, 446:
+    connections:
+    - map_main, 152, 79, 444
+    - map_main, 152, 79, 448
+  map_main, 152, 79, 448:
+    connections:
+    - map_main, 154, 79, 446
+    - map_main, 152, 79, 454
+  map_main, 152, 79, 454:
+    connections:
+    - map_main, 152, 79, 448
+    - map_main, 153, 79, 469
+  map_main, 153, 79, 469:
+    connections:
+    - map_main, 152, 79, 454
+    - map_main, 157, 79, 471
+  map_main, 157, 79, 471:
+    connections:
+    - map_main, 153, 79, 469
+    - map_main, 164, 79, 473
+  map_main, 164, 79, 473:
+    connections:
+    - map_main, 157, 79, 471
+    - map_main, 174, 79, 472
+  map_main, 174, 79, 472:
+    connections:
+    - map_main, 164, 79, 473
+    - map_main, 182, 79, 470
+  map_main, 182, 79, 470:
+    connections:
+    - map_main, 174, 79, 472
+    - map_main, 189, 79, 469
+  map_main, 189, 79, 469:
+    connections:
+    - map_main, 182, 79, 470
+    - map_main, 192, 79, 472
+  map_main, 192, 79, 472:
+    connections:
+    - map_main, 189, 79, 469
+    - map_main, 194, 79, 477
+  map_main, 194, 79, 477:
+    connections:
+    - map_main, 192, 79, 472
+    - map_main, 197, 79, 479
+  map_main, 197, 79, 479:
+    connections:
+    - map_main, 194, 79, 477
+    - map_main, 205, 79, 477
+  map_main, 205, 79, 477:
+    connections:
+    - map_main, 197, 79, 479
+    - map_main, 213, 79, 474
+  map_main, 213, 79, 474:
+    connections:
+    - map_main, 205, 79, 477
+    - map_main, 220, 79, 470
+  map_main, 220, 79, 470:
+    connections:
+    - map_main, 213, 79, 474
+    - map_main, 226, 79, 470
+  map_main, 226, 79, 470:
+    connections:
+    - map_main, 220, 79, 470
+    - map_main, 229, 79, 472
+  map_main, 229, 79, 472:
+    connections:
+    - map_main, 226, 79, 470
+    - map_main, 231, 79, 477
+  map_main, 231, 79, 477:
+    connections:
+    - map_main, 229, 79, 472
+    - map_main, 232, 79, 482
+  map_main, 232, 79, 482:
+    connections:
+    - map_main, 231, 79, 477
+    - map_main, 233, 79, 489
+  map_main, 233, 79, 489:
+    connections:
+    - map_main, 232, 79, 482
+    - map_main, 235, 79, 493
+  map_main, 235, 79, 493:
+    connections:
+    - map_main, 233, 79, 489
+    - map_main, 237, 79, 498
+  map_main, 237, 79, 498:
+    connections:
+    - map_main, 235, 79, 493
+    - map_main, 240, 79, 501
+  map_main, 240, 79, 501:
+    connections:
+    - map_main, 237, 79, 498
+    - map_main, 245, 79, 504
+  map_main, 245, 79, 504:
+    connections:
+    - map_main, 240, 79, 501
+    - map_main, 250, 79, 506
+  map_main, 250, 79, 506:
+    connections:
+    - map_main, 245, 79, 504
+    - map_main, 254, 79, 508
+  map_main, 254, 79, 508:
+    connections:
+    - map_main, 250, 79, 506
+    - map_main, 255, 79, 511
+  map_main, 255, 79, 511:
+    connections:
+    - map_main, 254, 79, 508
+    - map_main, 257, 79, 515
+  map_main, 257, 79, 515:
+    connections:
+    - map_main, 255, 79, 511
+    - map_main, 259, 78, 520
+  map_main, 259, 78, 520:
+    connections:
+    - map_main, 257, 79, 515
+    - map_main, 259, 78, 526
+  map_main, 259, 78, 526:
+    connections:
+    - map_main, 259, 78, 520
+    - map_main, 263, 80, 526
+  map_main, 263, 80, 526:
+    connections:
+    - map_main, 259, 78, 526
+    - map_main, 263, 82, 519
+  map_main, 263, 82, 519:
+    connections:
+    - map_main, 263, 80, 526
+    - map_main, 265, 83, 517
+  map_main, 265, 83, 517:
+    connections:
+    - map_main, 263, 82, 519
+    - map_main, 272, 83, 517
+  map_main, 272, 83, 517:
+    connections:
+    - map_main, 265, 83, 517
+    - map_main, 272, 84, 497
+  map_main, 272, 84, 497:
+    connections:
+    - map_main, 272, 83, 517
+    - map_main, 272, 84, 477
+  map_main, 272, 84, 477:
+    connections:
+    - map_main, 272, 84, 497
+    - map_main, 271, 84, 470
+  map_main, 271, 84, 470:
+    connections:
+    - map_main, 272, 84, 477
+    - map_main, 268, 84, 467
+  map_main, 268, 84, 467:
+    connections:
+    - map_main, 271, 84, 470
+    - map_main, 264, 84, 465
+  map_main, 264, 84, 465:
+    connections:
+    - map_main, 268, 84, 467
+  map_main, 138, 66, 419:
+    connections:
+    - map_main, 134, 66, 423
+    - map_main, 143, 66, 422
+  map_main, 143, 66, 422:
+    connections:
+    - map_main, 138, 66, 419
+    - map_main, 145, 66, 426
+  map_main, 145, 66, 426:
+    connections:
+    - map_main, 143, 66, 422
+    - map_main, 150, 67, 425
+    - map_main, 145, 66, 432
+  map_main, 150, 67, 425:
+    connections:
+    - map_main, 145, 66, 426
+  map_main, 134, 66, 434:
+    connections:
+    - map_main, 131, 66, 439
+    - map_main, 138, 66, 436
+    - map_main, 133, 66, 429
+  map_main, 138, 66, 436:
+    connections:
+    - map_main, 134, 66, 434
+    - map_main, 145, 66, 432
+  map_main, 145, 66, 432:
+    connections:
+    - map_main, 138, 66, 436
+    - map_main, 145, 66, 426
+  map_main, 57, 73, 150:
+    connections:
+    - map_main, 67, 73, 156
+    - map_main, 53, 74, 143
+  map_main, 53, 74, 143:
+    connections:
+    - map_main, 57, 73, 150
+    - map_main, 51, 76, 133
+  map_main, 51, 76, 133:
+    connections:
+    - map_main, 53, 74, 143
+    - map_main, 54, 77, 129
+  map_main, 54, 77, 129:
+    connections:
+    - map_main, 51, 76, 133
+    - map_main, 57, 80, 122
+  map_main, 57, 80, 122:
+    connections:
+    - map_main, 54, 77, 129
+    - map_main, 52, 81, 114
+  map_main, 52, 81, 114:
+    connections:
+    - map_main, 57, 80, 122
+    - map_main, 46, 82, 110
+  map_main, 46, 82, 110:
+    connections:
+    - map_main, 52, 81, 114
+    - map_main, 33, 74, 97
+  map_main, 33, 74, 97:
+    connections:
+    - map_main, 46, 82, 110
+    - map_main, 26, 74, 89
+  map_main, 26, 74, 89:
+    connections:
+    - map_main, 33, 74, 97
+    - map_main, 23, 72, 85
+  map_main, 23, 72, 85:
+    connections:
+    - map_main, 26, 74, 89
+    - map_main, 23, 73, 76
+  map_main, 23, 73, 76:
+    connections:
+    - map_main, 23, 72, 85
+    - map_main, 36, 73, 64
+  map_main, 36, 73, 64:
+    connections:
+    - map_main, 23, 73, 76
+    - map_main, 41, 73, 62
+  map_main, 41, 73, 62:
+    connections:
+    - map_main, 36, 73, 64
+    - map_main, 42, 73, 59
+  map_main, 42, 73, 59:
+    connections:
+    - map_main, 41, 73, 62
+    - map_main, 42, 71, 53
+  map_main, 42, 71, 53:
+    connections:
+    - map_main, 42, 73, 59
+    - map_main, 42, 70, 48
+  map_main, 42, 70, 48:
+    connections:
+    - map_main, 42, 71, 53
+    - map_main, 42, 66, 38
+  map_main, 42, 66, 38:
+    connections:
+    - map_main, 42, 70, 48
+    - map_main, 42, 66, 30
+  map_main, 42, 66, 30:
+    connections:
+    - map_main, 42, 66, 38
+  map_main, 335, 63, 419:
+    connections:
+    - map_main, 300, 63, 409
+    - map_main, 345, 63, 439
+  map_main, 300, 63, 409:
+    connections:
+    - map_main, 335, 63, 419
+    - map_main, 273, 63, 396
+  map_main, 273, 63, 396:
+    connections:
+    - map_main, 300, 63, 409
+    - map_main, 267, 63, 375
+  map_main, 267, 63, 375:
+    connections:
+    - map_main, 273, 63, 396
+    - map_main, 289, 63, 349
+  map_main, 289, 63, 349:
+    connections:
+    - map_main, 267, 63, 375
+    - map_main, 296, 63, 270
+  map_main, 296, 63, 270:
+    connections:
+    - map_main, 289, 63, 349
+    - map_main, 313, 63, 229
+    - map_main, 311, 63, 250
+  map_main, 313, 63, 229:
+    connections:
+    - map_main, 296, 63, 270
+    - map_main, 322, 63, 248
+    - map_main, 311, 63, 250
+    - map_main, 304, 63, 210
+  map_main, 322, 63, 248:
+    connections:
+    - map_main, 313, 63, 229
+    - map_main, 311, 63, 250
+    - map_main, 336, 63, 259
+  map_main, 311, 63, 250:
+    connections:
+    - map_main, 322, 63, 248
+    - map_main, 296, 63, 270
+    - map_main, 313, 63, 229
+  map_main, 336, 63, 259:
+    connections:
+    - map_main, 322, 63, 248
+    - map_main, 354, 63, 268
+  map_main, 354, 63, 268:
+    connections:
+    - map_main, 336, 63, 259
+    - map_main, 383, 63, 263
+  map_main, 383, 63, 263:
+    connections:
+    - map_main, 354, 63, 268
+    - map_main, 394, 63, 248
+  map_main, 394, 63, 248:
+    connections:
+    - map_main, 383, 63, 263
+    - map_main, 395, 63, 238
+  map_main, 395, 63, 238:
+    connections:
+    - map_main, 394, 63, 248
+    - map_main, 394, 63, 232
+  map_main, 304, 63, 210:
+    connections:
+    - map_main, 313, 63, 229
+    - map_main, 293, 63, 181
+  map_main, 293, 63, 181:
+    connections:
+    - map_main, 304, 63, 210
+    - map_main, 285, 63, 163
+  map_main, 285, 63, 163:
+    connections:
+    - map_main, 293, 63, 181
+    - map_main, 276, 63, 153
+  map_main, 276, 63, 153:
+    connections:
+    - map_main, 285, 63, 163
+    - map_main, 275, 63, 150
+  map_main, 275, 63, 150:
+    connections:
+    - map_main, 276, 63, 153
+    - map_main, 278, 64, 133
+  map_main, 278, 64, 133:
+    connections:
+    - map_main, 275, 63, 150
+    - map_main, 275, 64, 122
+  map_main, 275, 64, 122:
+    connections:
+    - map_main, 278, 64, 133
+    - map_main, 273, 64, 118
+  map_main, 273, 64, 118:
+    connections:
+    - map_main, 275, 64, 122
+    - map_main, 265, 64, 115
+  map_main, 265, 64, 115:
+    connections:
+    - map_main, 273, 64, 118
+    - map_main, 260, 64, 107
+  map_main, 260, 64, 107:
+    connections:
+    - map_main, 265, 64, 115
+    - map_main, 257, 64, 99
+  map_main, 257, 64, 99:
+    connections:
+    - map_main, 260, 64, 107
+    - map_main, 255, 64, 84
+  map_main, 255, 64, 84:
+    connections:
+    - map_main, 257, 64, 99
+    - map_main, 245, 64, 66
+    - map_main, 261, 64, 82
+  map_main, 261, 64, 82:
+    connections:
+    - map_main, 255, 64, 84
+    - map_main, 261, 64, 73
+  map_main, 261, 64, 73:
+    connections:
+    - map_main, 261, 64, 82
+    - map_main, 268, 64, 56
+    - map_main, 261, 64, 59
+  map_main, 268, 64, 56:
+    connections:
+    - map_main, 261, 64, 73
+    - map_main, 245, 64, 66
+    - map_main, 261, 64, 59
+    - map_main, 286, 64, 47
+  map_main, 261, 64, 59:
+    name: Порт
+    connections:
+    - map_main, 268, 64, 56
+    - map_main, 245, 64, 66
+    - map_main, 261, 64, 45
+    - map_main, 261, 64, 73
+  map_main, 261, 64, 45:
+    connections:
+    - map_main, 261, 64, 59
+    - map_main, 261, 64, 35
+    - map_main, 267, 64, 45
+    - map_main, 261, 64, 41
+  map_main, 261, 64, 35:
+    connections:
+    - map_main, 261, 64, 45
+    - map_main, 261, 64, 25
+    - map_main, 267, 64, 35
+    - map_main, 261, 64, 41
+  map_main, 261, 64, 25:
+    connections:
+    - map_main, 261, 64, 35
+    - map_main, 267, 64, 24
+    - map_main, 261, 64, 14
+  map_main, 267, 64, 35:
+    connections:
+    - map_main, 261, 64, 35
+    - map_main, 273, 64, 35
+    - map_main, 267, 64, 45
+    - map_main, 267, 64, 24
+  map_main, 273, 64, 35:
+    connections:
+    - map_main, 267, 64, 35
+    - map_main, 288, 64, 35
+    - map_main, 273, 64, 45
+    - map_main, 273, 64, 24
+  map_main, 288, 64, 35:
+    connections:
+    - map_main, 273, 64, 35
+    - map_main, 286, 64, 47
+    - map_main, 286, 64, 24
+  map_main, 286, 64, 47:
+    connections:
+    - map_main, 288, 64, 35
+    - map_main, 268, 64, 56
+    - map_main, 273, 64, 45
+  map_main, 273, 64, 45:
+    connections:
+    - map_main, 286, 64, 47
+    - map_main, 267, 64, 45
+    - map_main, 273, 64, 35
+  map_main, 267, 64, 45:
+    connections:
+    - map_main, 273, 64, 45
+    - map_main, 261, 64, 45
+    - map_main, 267, 64, 35
+  map_main, 273, 64, 24:
+    connections:
+    - map_main, 273, 64, 35
+    - map_main, 286, 64, 24
+    - map_main, 267, 64, 24
+  map_main, 286, 64, 24:
+    connections:
+    - map_main, 273, 64, 24
+    - map_main, 288, 64, 35
+    - map_main, 284, 64, 14
+  map_main, 261, 64, 41:
+    connections:
+    - map_main, 256, 64, 42
+    - map_main, 261, 64, 35
+    - map_main, 261, 64, 45
+  map_main, 267, 64, 24:
+    connections:
+    - map_main, 267, 64, 35
+    - map_main, 273, 64, 24
+    - map_main, 261, 64, 25
+  map_main, 256, 64, 42:
+    connections:
+    - map_main, 261, 64, 41
+  map_main, 261, 64, 14:
+    connections:
+    - map_main, 261, 64, 25
+    - map_main, 284, 64, 14
+  map_main, 284, 64, 14:
+    connections:
+    - map_main, 261, 64, 14
+    - map_main, 286, 64, 24
+  map_main, 0, 122, 361:
+    connections:
+    - map_main, 0, 122, 360
+  map_main, 402, 64, 458:
+    name: Кифбург
+    connections:
+    - map_main, 399, 64, 469
+    - map_main, 425, 66, 457
+    - map_main, 407, 64, 440
+  map_main, 357, 63, 461:
+    connections:
+    - map_main, 363, 63, 489
+    - map_main, 345, 63, 439
+  map_main, 345, 63, 439:
+    connections:
+    - map_main, 357, 63, 461
+    - map_main, 335, 63, 419
+  map_main, 394, 63, 232:
+    connections:
+    - map_main, 395, 63, 238
+    - map_main, 389, 64, 229
+  map_main, 389, 64, 229:
+    connections:
+    - map_main, 394, 63, 232
+    - map_main, 380, 64, 222
+  map_main, 380, 64, 222:
+    connections:
+    - map_main, 389, 64, 229
+    - map_main, 374, 65, 221
+  map_main, 374, 65, 221:
+    connections:
+    - map_main, 380, 64, 222
+    - map_main, 374, 65, 224
+  map_main, 374, 65, 224:
+    name: Шахты
+    connections:
+    - map_main, 374, 65, 221
+  map_main, 156, 70, 305:
+    name: Геральд
+    connections:
+    - map_main, 151, 70, 305
+  map_main, 151, 70, 305:
+    connections:
+    - map_main, 148, 70, 304
+    - map_main, 156, 70, 305
+  map_main, 73, 69, 297:
+    connections:
+    - map_main, 81, 69, 297
+    - map_main, 69, 68, 297
+  map_main, 69, 68, 297:
+    name: Обучение
+    connections:
+    - map_main, 73, 69, 297
+  map_main, 282, 67, 374:
+    connections:
+    - map_main, 285, 67, 383
+    - map_main, 269, 67, 374
+  map_main, 269, 67, 374:
+    connections:
+    - map_main, 282, 67, 374
+    - map_main, 258, 67, 374
+  map_main, 258, 67, 374:
+    connections:
+    - map_main, 269, 67, 374
+    - map_main, 251, 64, 374
+  map_main, 251, 64, 374:
+    connections:
+    - map_main, 258, 67, 374
+    - map_main, 234, 64, 374
+  map_main, 234, 64, 374:
+    connections:
+    - map_main, 251, 64, 374
+    - map_main, 230, 65, 374
+  map_main, 230, 65, 374:
+    connections:
+    - map_main, 234, 64, 374
+    - map_main, 227, 65, 374
+  map_main, 227, 65, 374:
+    connections:
+    - map_main, 230, 65, 374
+    - map_main, 227, 65, 391
+    - map_main, 211, 65, 374
+  map_main, 211, 65, 374:
+    connections:
+    - map_main, 227, 65, 374
+    - map_main, 208, 66, 374
+  map_main, 208, 66, 374:
+    connections:
+    - map_main, 211, 65, 374
+    - map_main, 204, 66, 374
+  map_main, 204, 66, 374:
+    connections:
+    - map_main, 208, 66, 374
+    - map_main, 201, 67, 374
+  map_main, 201, 67, 374:
+    connections:
+    - map_main, 204, 66, 374
+    - map_main, 199, 67, 374
+  map_main, 199, 67, 374:
+    connections:
+    - map_main, 201, 67, 374
+    - map_main, 197, 68, 374
+  map_main, 197, 68, 374:
+    connections:
+    - map_main, 199, 67, 374
+    - map_main, 179, 68, 374
+  map_main, 144, 67, 89:
+    connections:
+    - map_main, 140, 67, 90
+    - map_main, 155, 67, 89
+  map_main, 155, 67, 89:
+    connections:
+    - map_main, 144, 67, 89
+    - map_main, 158, 66, 89
+  map_main, 158, 66, 89:
+    connections:
+    - map_main, 155, 67, 89
+    - map_main, 188, 66, 89
+  map_main, 188, 66, 89:
+    connections:
+    - map_main, 158, 66, 89
+    - map_main, 193, 66, 89
+    - map_main, 188, 67, 92
+  map_main, 193, 66, 89:
+    connections:
+    - map_main, 188, 66, 89
+    - map_main, 195, 65, 89
+  map_main, 195, 65, 89:
+    connections:
+    - map_main, 193, 66, 89
+    - map_main, 201, 65, 89
+  map_main, 188, 67, 92:
+    connections:
+    - map_main, 188, 66, 89
+    - map_main, 188, 67, 109
+  map_main, 188, 67, 109:
+    connections:
+    - map_main, 188, 67, 92
+    - map_main, 186, 67, 109
+    - map_main, 185, 67, 109
+  map_main, 186, 67, 109:
+    connections:
+    - map_main, 188, 67, 109
+  map_main, 185, 67, 109:
+    name: Кинолог
+    connections:
+    - map_main, 188, 67, 109
+  map_main, 160, 78, 333:
+    connections:
+    - map_main, 154, 76, 332
+    - map_main, 161, 78, 339
+  map_main, 161, 78, 339:
+    connections:
+    - map_main, 161, 78, 340
+    - map_main, 160, 78, 333
+  map_main, 161, 78, 340:
+    name: Даниил
+    connections:
+    - map_main, 161, 78, 339

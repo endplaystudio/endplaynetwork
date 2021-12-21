@@ -1,0 +1,100 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Servers'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'opserver'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+stop:
+  COMMAND: 'shutdown 10 Технические работы'
+  NAME: '&bОстановка сервера'
+  LORE:
+    - 'Остановка сервера по таймеру в 10 секунд'
+  ID: barrier
+  POSITION-X: 4
+  POSITION-Y: 2
+
+kick:
+  COMMAND: 'kickall'
+  NAME: '&bКикнуть всех'
+  LORE:
+    - 'Выгнать всех  текущих игроков сервера'
+  ID: dye:5
+  POSITION-X: 3
+  POSITION-Y: 2  
+
+reload:
+  COMMAND: 'reload'
+  NAME: '&bReload'
+  LORE:
+    - 'Рекомендуется использовать "Остановку сервера" вместо этого.'
+  ID: dye:1
+  POSITION-X: 5
+  POSITION-Y: 2
+
+whitelist-on:
+  COMMAND: 'whitelist on'
+  NAME: '&bВрубаем тех. работы'
+  LORE:
+    - 'Вайтлист не даст тебе пройти :)'
+  ID: dye:8
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+whitelist-off:
+  COMMAND: 'whitelist off'
+  NAME: '&bВырубаем тех. работы'
+  LORE:
+    - 'Вайтлист даст тебе пройти :)'
+  ID: dye:10
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+back:
+  COMMAND: 'open: op-menu.yml'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню управления.'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

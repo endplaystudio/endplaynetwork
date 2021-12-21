@@ -1,0 +1,15 @@
+general:
+  name: reg9_sell
+  world: main_world
+  type: buy
+  signs:
+    '0':
+      location:
+        world: main_world
+        x: 47.0
+        y: 70.0
+        z: 240.0
+      facing: NORTH
+      signType: SIGN_POST
+buy:
+  price: 80000.0

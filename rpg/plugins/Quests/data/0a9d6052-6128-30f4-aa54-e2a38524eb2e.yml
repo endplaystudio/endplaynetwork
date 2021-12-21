@@ -1,0 +1,40 @@
+currentQuests:
+- Все женщины - ведьмы
+- Морковные дела
+- Пропитые яйца
+- Доставка удочки
+currentStages:
+- 0
+- 0
+- 0
+- 1
+quest-points: 0
+questData:
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+  Морковные дела:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 13
+    has-talked-to:
+    - false
+  Пропитые яйца:
+    citizen-ids-to-talk-to:
+    - 14
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    - 2
+    has-talked-to:
+    - false
+    - true
+completed-Quests:
+- Халявный ключик
+hasJournal: false
+lastKnownName: __kPaCaB4uK___

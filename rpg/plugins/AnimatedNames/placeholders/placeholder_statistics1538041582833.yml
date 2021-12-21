@@ -1,0 +1,15 @@
+## --------------------------------------- ##
+## Statistics Placeholders
+## --------------------------------------- ##
+
+## Do not edit this config version
+config: 1
+
+blocksmined:
+  blocks: # Names: http://minecraft-ids.grahamedgecombe.com/
+  - 'STONE'
+  - 'IRON_ORE'
+  - 'DIAMOND_ORE'
+  - 'REDSTONE_ORE'
+  - 'GOLD_ORE'
+  - 'COAL_ORE'

@@ -1,0 +1,20 @@
+# Added these features from Skellett.
+# By LimeGlass
+
+# If you want to use mysql, enable it here
+MySQL: false
+# Use SQLite
+SQLite: false
+# Adjust your JDBC driver class path
+# If you're using SQLite it would be "jdbc:sqlite://" 
+ClassPath: "jdbc:mysql://"
+# Allow multiple queries
+allowMultiQueries: true
+# This is disabled for security, but it's up to you if you want to enable it.
+PasswordSyntax: false
+MySQLSetup:
+  Host: "localhost"
+  Port: 3306
+  Username: "root"
+  Password: "root"
+  Database: "_repuska"

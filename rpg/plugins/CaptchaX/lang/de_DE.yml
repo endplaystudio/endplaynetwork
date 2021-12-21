@@ -1,0 +1,56 @@
+genearl:
+  updateAvailable: "%prefix% Ein Update wurde gefunden, klicken Sie auf diese Nachricht."
+  success: "%prefix% Du hast jetzt den Captcha-Test bestanden."
+  underAttack: "&cDer Server wird angegriffen und &4&l&n%bots%&r &cbots wurden blockiert."
+  join: "&e%player% joined the game"
+  notifications:
+    complete: "%prefix% (&6%player%&f) & hat das Captcha erfolgreich abgeschlossen."
+    fail: "%prefix% (&6%player%&f) &ffailed to complete the captcha."
+
+commands:
+  add:
+    success: "%prefix% Erfolgreich verifiziert (&6%player%&f)."
+    already: "%prefix% Der angegebene Spieler (&6%player%&f) ist bereits verifiziert."
+  remove:
+    success: "%prefix% Erfolgreich unverifiziert (&6%player%&f)."
+    already: "%prefix% Der angegebene Spieler (&6%player%&f) ist nicht verifiziert."
+  check:
+    found: "%prefix% Der vom Spieler angegebene Spieler (&6%player%&f) ist &6verifiziert&f." 
+    notFound: "%prefix% Der vom Spieler angegebene Spieler (&6%player%&f) ist &6nicht verifiziert&f."
+  test:
+    success: "%prefix% Erfolgreich einen Captcha-Test an &6%player%&f."
+  list:
+    success: "%prefix% Die verfügbaren Captcha-Typen sind:"
+    format: " &f&l- &6%type% &f[&r&7%status%&f]"
+  reload:
+    success: "%prefix% Die Konfigurationsdateien wurden erfolgreich neu geladen."
+
+instructions:
+  map: "%prefix% Geben Sie den &6code &fein, der in der Karte angezeigt wird."
+  gui: "%prefix% Bitte klicken Sie auf den &6%item%&f."
+  different: "%prefix% Bitte klicken Sie auf den jeweiligen Artikel."
+  equation: "%prefix% Bitte lösen Sie die folgende Gleichung: &6%equation%&f."
+  order: "%prefix% Platzieren Sie in der Reihenfolge (&6%symbol%&f) die folgenden Zahlen: &6%numbers%&f."
+  picture: "%prefix% Gib ein, was du siehst. Wählen Sie aus [&6%Liste%&f]."
+  code: "%prefix% Typ &6%code% &finde den Chat."
+  color: "%prefix% Geben Sie an, was (&r%color%THIS&r&f) der Name der Farbe ist."
+  sneak: "%prefix% Bitte &6schleichen &f(normalerweise mit SHIFT-Taste)."
+  jump: "%prefix% Bitte &6springen &f(normalerweise mit Leertaste)."
+  drop: "%Präfix% Bitte &6ablassen &der Gegenstand, den du besitzt (normalerweise mit der Q-Taste)."
+  slot: "%prefix% Bitte gehen Sie zum &6%slot%th &fslot Ihrer Hotbar."
+  reverse: "%prefix% Bitte kehren Sie die Buchstaben des folgenden Codes um: &6%code%&f."
+  
+kick:
+  restart: "&7Der Server ist neu gestartet, bitte melden Sie sich später wieder an."
+  locked: "&7Zu viele Spieler kommen zur gleichen Zeit dazu"
+  bot: "&7Ihre IP-Adresse ist mit Bot-Aktivitäten verknüpft, sodass wir Ihnen nicht erlauben können, sich anzumelden"
+  abuse: "&7Ihre IP ist mit dem Missbrauch der letzten Zeit verknüpft, weshalb Sie nicht beitreten können"
+  risk: "&7Ihre IP ist mit dem Missbrauch der letzten Zeit verknüpft, weshalb Sie nicht beitreten können"
+  vpn: "&7VPNs oder Proxys sind auf diesem Server nicht zulässig"
+  ip: "&7Sie können nur online bis zu &f3 &7Konten zur gleichen Zeit haben"
+
+errors:
+  onlyPlayersr: "%prefix% Nur Spieler können diesen Befehl verwenden."
+  noPermissions: "%prefix% Du hast nicht genug Berechtigungen, um das zu tun."
+  playerNull: "%prefix% Der angegebene Spieler scheint nicht gültig zu sein."
+  wrongUsage: "%prefix% Die richtige Verwendung ist &6%usage%"

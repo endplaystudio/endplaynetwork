@@ -1,0 +1,11 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&6 Рыбалка &8|&7'
+  nopermission: '&cЭтой команды не существует О_о'
+  reload: '&7Модуль &aуспешно &7перезагружен.'
+rewards:
+  list:
+    header: '&dLoaded &d&lCustom Fishing &drewards:'
+    item: '&d&l* &d%reward%'

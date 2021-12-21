@@ -1,0 +1,8 @@
+SURVIVAL: '{"potions":[],"inventory":{"size":41,"items":{"0":{"item":"DIAMOND_HOE","quantity":1,"durability":9,"nbttags":"NM#Nwqdh0KHQu9C+0YIg0LTQu9GPINC+0YDRg9C20LjRjw==#Lwqc3wqdv0KHRjtC00LAg0LzQvtC20L3QviDQv9C+0LvQvtC20LjRgtGMINGC0L7Qu9GM0LrQviDQvtGA0YPQttC40LU=#R0","enchantments":{}},"8":{"item":"SKULL_ITEM","quantity":1,"durability":3,"nbttags":"NM#Nwqdl0JPQu9Cw0LLQvdC+0LUg0LzQtdC90Y4=#LIMKnN9Cj0YDQvtCy0LXQvdGMOiDCpzY5-IMKnN9CR0LDQu9Cw0L3RgTogwqc2Ni44OSBMTkQ=-IMKnN9Cf0YvQu9GMOiDCpzY0--wqdl4pa6INCe0YLQutGA0YvRgtGMINCz0LvQsNCy0L3QvtC1INC80LXQvdGO#OProfitroll#I9bbadbe9-0600-4c97-ba97-d44490b3ce44#TewogICJ0aW1lc3RhbXAiIDogMTU5NDk4NDE4MDQ3OSwKICAicHJvZmlsZUlkIiA6ICI5YmJhZGJlOTA2MDA0Yzk3YmE5N2Q0NDQ5MGIzY2U0NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcm9maXRyb2xsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0NDg1MGY1MDc4ZWQyYThlZjkyMDk1ZjIxNDIyZDFkOTU4MWMyYTliZDgzZTEyYmZkZjMzNGU1MjMzYjgxODkiCiAgICB9CiAgfQp9#R0","enchantments":{}}}},"armour":{"size":4,"items":{}}}'
+experience: 0
+level: 9
+exp: 0.07999999
+gameMode: ADVENTURE
+health: 18.0
+hunger: 20
+saturation: 7.0

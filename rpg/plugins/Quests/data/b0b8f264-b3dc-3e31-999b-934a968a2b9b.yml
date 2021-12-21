@@ -1,0 +1,18 @@
+currentQuests:
+- Жестокое заключение
+currentStages:
+- 1
+quest-points: 6
+questData:
+  Жестокое заключение:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 37
+    has-talked-to:
+    - false
+completed-Quests:
+- Все женщины - ведьмы
+- Адские проблемки
+hasJournal: false
+lastKnownName: Ninja49

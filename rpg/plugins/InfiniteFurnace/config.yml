@@ -1,0 +1,14 @@
+#the name of the infinite furnace. Supports color codes (&4, &l, &r, etc..)       http://minecraft.gamepedia.com/Formatting_codes
+
+#WARNING if you change the name, other infinite furnaces with the old name will still work, but will lose the fuel protection.
+Name: "Печка"
+
+#messages on placed/broken infinite furnace
+Placed: "&6 Печь &8| &7Бесконечная печь &aустановлена&7."
+Broken: "&6 Печь &8| &7Бесконечная печь &cубрана&7."
+
+#message when typed '/infinitefurnace count'
+Count: "&6 Печь &8| &7Сейчас установлено&a %count &7бесконечных печек."
+
+#message when typed '/infinitefurnace reload'
+Reload: "&6 Печь &8| &7Конфигурация модуля &aуспешно &7перезагружена."

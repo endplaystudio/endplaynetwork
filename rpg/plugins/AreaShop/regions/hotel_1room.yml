@@ -1,0 +1,16 @@
+general:
+  name: hotel_1room
+  world: map_main
+  type: rent
+  signs:
+    '0':
+      location:
+        world: map_main
+        x: 126.0
+        y: 71.0
+        z: 380.0
+      facing: WEST
+      signType: WALL_SIGN
+rent:
+  duration: 1 day
+  price: 700.0

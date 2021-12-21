@@ -1,0 +1,62 @@
+database:
+  type: file
+  host: localhost
+  port: 3306
+  database: xpboost
+  user: root
+  password: root
+settings:
+  config_version: 1
+  language: ENG
+  debug: 0
+  enable_factions: false
+  metrics: true
+  xpbottlemode: 1
+  disablevanillaxp: false
+  globalboost:
+    multiplier: 1.2
+    notification: true
+  doublexpmsg: true
+  actiondelay: 100
+  motdon: true
+  actionbarmsg: true
+  bossbar:
+    bossbarmsg: true
+    color: BLUE
+    style: NOTCHED_20
+  itemmaterial: POTION
+  sign:
+    line1: '&a[XPBoost]'
+    line2: '&cOpen'
+    line3: ''
+    line4: ''
+  day:
+    monday: false
+    teusday: false
+    wednesday: false
+    thursday: false
+    friday: false
+    saturday: false
+    sunday: false
+  disabledcommands:
+    enabled: true
+    list:
+    - /give
+    - /test
+  periodicalDayCheck: false
+  mcmmo:
+    msg:
+      enabled: true
+      msg: '&aGained &c%newexp% &aXP instead of &c%oldexp%&a. Skill: &c%skill%'
+  rpgme:
+    msg:
+      enabled: true
+      msg: '&aGained &c%newexp% &aXP instead of &c%oldexp%&a. Skill: &c%skill%'
+  heroes:
+    msg:
+      enabled: true
+      msg: '&aGained &c%newexp% &aXP instead of &c%oldexp%&a. Source: &c%source%'
+  jobs:
+    msg:
+      enabled: true
+      msg: '&fПолучено &a%newexp% опыта &fвместо &a%oldexp% опыта&f. Работа: &c%job%&f.'

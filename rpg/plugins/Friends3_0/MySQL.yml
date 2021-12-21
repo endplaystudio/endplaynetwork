@@ -1,0 +1,8 @@
+# If you want to use MySQL, you have to fill this out with your informations
+MySQL:
+  Enable: false
+  Host: yourHost
+  Database: yourDatabase
+  Port: '3306'
+  Username: yourUsername
+  Password: yourPassword

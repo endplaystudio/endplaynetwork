@@ -1,0 +1,26 @@
+# Mute Chat Plugin
+# By - Yugie
+Prefix: '&7[&dMute Chat&7] '
+Permission: '&cYou do not have permission to do this command'
+ChatEnabled: '&aYour chat has been enabled'
+ChatDisabled: '&cYour Chat has been disabled'
+ClearGlobalChatMessage: '&bGlobal chat has been cleared'
+ClearPlayerChatMessage: '&bPlayer chat has been cleared'
+GlobalMuteMessage: '&cChat is disabled please try again later'
+GlobalMuteEnabled: '&aGlobal chat is now enabled'
+GlobalMuteDisabled: '&cGlobal chat is now disabled'
+BannedWordMessage: '&cYou are not allowed to say this word in chat'
+AntiSpamTime: 3
+AntiSpamMessage: '&cPlease do not spam in chat'
+BannedWords:
+- fuck
+- shit
+- dick
+- pussy
+- fanny
+- sex
+- porn
+- sex
+- anal
+- www.pornhub.com
+- play.cornhub.com

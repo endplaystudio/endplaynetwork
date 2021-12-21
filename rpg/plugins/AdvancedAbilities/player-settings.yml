@@ -1,0 +1,220 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#      Player settings configuration      #
+#                                         #
+#=========================================#
+
+# Set the system type, systems: MAX_ABILITIES, CLASSES, NONE.
+# If you don't want one of these systems use 'NONE'.
+secondary_abilities_system: NONE
+
+
+# Set to true to players that don't have selected the correct amount of abilities have to re-select.
+# You can add custom limits in the 'max_abilities_system_limits' section.
+max_abilities_system_force_selection: true
+
+# Set to true to players can select minor amount of max_abilities limit, otherwise players have to select 'max_abilities' amount.
+max_abilities_system_amount_selection: true
+
+# Add here your custom limit.
+max_abilities_system_limits:
+  # This is the max abilities for players without permissions.
+  default:
+    # This is the limit, players can't have more abilities than this limit.
+    max_abilities: 5
+  # Don't repeat the name section, you can name this as you want.
+  '1':
+    # Players need this permission to have this.
+    permission: advancedabilities.mvp
+    # This is the limit, players can't have more abilities than this limit. Use '*' to all abilities.
+    max_abilities: '*'
+  '2':
+    # Players need this permission to have this.
+    permission: advancedabilities.vip
+    # This is the limit, players can't have more abilities than this limit. Use '*' to all abilities.
+    max_abilities: 8
+
+
+# Set to true to players can select their class, otherwise players will need the permission to have one.
+classes_system_selector: true
+
+# Set to true to add class prefix in chat.
+classes_system_class_prefix_chat: true
+
+# Add here your custom class.
+classes_system_abilities:
+  # Don't repeat the name section, you can name this as you want.
+  knight:
+    # This name will replace the variable symbol in the title.
+    name: Knight
+    # This name will be displayed in menu, if this is 'none' then menu will use original name.
+    name_in_menu: "NONE"
+    # Classes selector will represent this class with this icon. Format <ID>,<DATA>,<AMOUNT>.
+    icon: 267,0,1
+    # This is the description of the class.
+    description: []
+    # If select system isn't enabled, players need this permission to have this.
+    permission: advancedabilities.class.knight
+    # Players that selected this class will have these abilities.
+    abilities:
+    - aggressive_mode
+    - vampire_mode
+    - sword_push
+    - antidote
+  tank:
+    # This name will replace the variable symbol in the title.
+    name: Tank
+    # This name will be displayed in menu, if this is 'none' then menu will use original name
+    name_in_menu: "NONE"
+    # Classes selector will represent this class with this icon. Format <ID>,<DATA>,<AMOUNT>.
+    icon: 307,0,1
+    # This is the description of the class.
+    description: []
+    # If select system isn't enabled, players need this permission to have this.
+    permission: advancedabilities.class.tank
+    # Players that selected this class will have these abilities.
+    abilities:
+    - vampire_mode
+    - feather_weight
+    - fire_resistance
+    - legendary_protection
+    - arrow_tank_skin
+    - explosive_arrow
+  farmer:
+    # This name will replace the variable symbol in the title.
+    name: Farmer
+    # This name will be displayed in menu, if this is 'none' then menu will use original name
+    name_in_menu: "NONE"
+    # Classes selector will represent this class with this icon. Format <ID>,<DATA>,<AMOUNT>.
+    icon: 294,0,1
+    # This is the description of the class.
+    description: []
+    # If select system isn't enabled, players need this permission to have this.
+    permission: advancedabilities.class.farmer
+    # Players that selected this class will have these abilities.
+    abilities:
+    - pirate
+    - mining_luck
+    - woodchopping_luck
+    - adrenaline_boost
+  archer:
+    # This name will replace the variable symbol in the title.
+    name: Archer
+    # This name will be displayed in menu, if this is 'none' then menu will use original name
+    name_in_menu: "NONE"
+    # Classes selector will represent this class with this icon. Format <ID>,<DATA>,<AMOUNT>.
+    icon: 261,0,1
+    # This is the description of the class.
+    description: []
+    # If select system isn't enabled, players need this permission to have this.
+    permission: advancedabilities.class.archer
+    # Players that selected this class will have these abilities.
+    abilities:
+    - triple_arrow_shot
+    - explosive_arrow
+    - feather_weight
+    - adrenaline_boost
+  ninja:
+    # This name will replace the variable symbol in the title.
+    name: Ninja
+    # This name will be displayed in menu, if this is 'none' then menu will use original name
+    name_in_menu: "NONE"
+    # Classes selector will represent this class with this icon. Format <ID>,<DATA>,<AMOUNT>.
+    icon: 298,0,1
+    # This is the description of the class.
+    description: []
+    # If select system isn't enabled, players need this permission to have this.
+    permission: advancedabilities.class.ninja
+    # Players that selected this class will have these abilities.
+    abilities:
+    - feather_weight
+    - antidote
+    - adrenaline_boost
+    - sword_push
+    - fire_resistance
+
+
+# Do discounts to some players, this is nice for VIP players.
+system_money_discounts_enable: true
+
+# Add here custom discount.
+system_money_discounts_types:
+  # Don't repeat the name section, you can name this as you want.
+  '1':
+    # Players need this permission to have this discount.
+    permission: advancedabilities.mvp
+    # This percentage will be discounted from the price. example, normal price is 5000, with the discount = 2500.
+    discount_percentage: 50
+  '2':
+    # Players need this permission to have this discount.
+    permission: advancedabilities.vip
+    # This percentage will be discounted from the price. example, normal price is 5000, with the discount = 1500.
+    discount_percentage: 30
+
+
+# Add custom booster to players to they can level up faster, this is nice for VIP players.
+system_rpg_boosters_enable: true
+
+# Add here your custom booster.
+system_rpg_boosters_types:
+  # Don't repeat the name section, you can name this as you want.
+  '1':
+    # Players need this permission to have this booster.
+    permission: advancedabilities.mvp
+    # This number will be multiplied by the exp amount.
+    multiplier: 2.0
+  '2':
+    # Players need this permission to have this booster.
+    permission: advancedabilities.vip
+    # This number will be multiplied by the exp amount.
+    multiplier: 1.5
+
+# Add here your custom mana for players.
+mana_system_groups:
+  # Don't repeat the name section, you can name this as you want.
+  default:
+    # This will be the max amount of mana for players without any permission.
+    max: 20.0
+    # Players will regenerate this amount of mana.
+    regeneration: 1.5
+  '1':
+    # Players need this permission to have this max mana.
+    permission: advancedabilities.mvp
+    # This will be the max amount of mana for players have this permission.
+    max: 30.0
+    # Players will regenerate this amount of mana.
+    regeneration: 2.0
+  '2':
+    # Players need this permission to have this max mana.
+    permission: advancedabilities.vip
+    # This will be the max amount of mana for players have this permission.
+    max: 25.0
+    # Players will regenerate this amount of mana.
+    regeneration: 1.8
+
+# Set to true if you want to the plugin restores all player abilities when player re-selects.
+selection_reset_abilities_reselect: false
+
+# Set to true to players have to pay to re-select.
+selection_buy_enable: false
+
+# This depends on 'selection_buy_enable'. Players have to pay this price to re-select.
+# Conditions:
+# - permission: Set a permission to buy this level, example: 'permission=example.example'.
+# - price: Set a price to buy this level, example: 'price=1000'
+# - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+# - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+# - by_level: Set a player xp level like price, example: 'by_level=50'.
+selection_buy_options:
+- price=7500
+- currency=vault
+
+
+# Do not change anything of this, old file versions will be moved to 'outdated' folder.
+configuration_version: '1.0.7'

@@ -1,0 +1,15 @@
+SuperMob (passive EliteMobs) stack amount: 50
+Use MMORPG colors for item ranks: true
+Prevent creepers from killing passive mobs: true
+Use titles to warn players they are missing a permission: true
+Use scoreboards to display mob powers using permissions: false
+Always show Elite Mob name tags: false
+Hide enchantment attributes on plugin-generated items: false
+Prevent item pickup for elite mobs: true
+Make aggressive named mobs unable to become Elite Mobs: true
+Strict spawning rules mode for better compatibility with other plugins: false
+Prevent Minecraft living entity mount exploit for Elite Mobs: true
+Prevent tower exploit: true
+Prevent dark room spawner exploit: true
+Prevent enderman height exploit: true
+Use a skull for signature item: true

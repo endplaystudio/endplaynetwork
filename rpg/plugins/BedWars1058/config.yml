@@ -1,0 +1,166 @@
+# BedWars1058 by andrei1058. https://www.spigotmc.org/members/39904/
+# Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/home
+
+serverType: MULTIARENA
+language: ru
+disabled-languages:
+- your language iso here
+storeLink: https://www.spigotmc.org/resources/authors/39904/
+lobbyServer: hub
+globalChat: false
+formatChat: true
+debug: false
+lobby-scoreboard: false
+allow-parties: true
+rejoin-time: 300
+bungee-settings:
+  games-before-restart: 30
+  restart-cmd: restart
+  lobby-servers:
+  - 0.0.0.0:2019
+countdowns:
+  game-start-regular: 40
+  game-start-half-arena: 25
+  game-start-shortened: 10
+  next-event-beds-destroy: 360
+  next-event-dragon-spawn: 600
+  next-event-game-end: 120
+shout-cmd-cooldown: 30
+server-ip: yourServer.Com
+server-name: bw1
+database:
+  enable: false
+  host: localhost
+  port: 3306
+  database: bedwars1058
+  user: root
+  pass: cheese
+  ssl: false
+performance-settings:
+  rotate-generators: true
+  disable-armor-packets: false
+  disable-respawn-packets: false
+inventories:
+  disable-crafting-table: true
+  disable-enchanting-table: true
+  disable-furnace: true
+  disable-brewing-stand: true
+  disable-anvil: true
+arena-gui:
+  settings:
+    inv-size: 27
+    show-playing: true
+    use-slots: 10,11,12,13,14,15,16
+  waiting:
+    material: CONCRETE
+    data: 5
+    enchanted: false
+  starting:
+    material: CONCRETE
+    data: 4
+    enchanted: true
+  playing:
+    material: CONCRETE
+    data: 14
+    enchanted: false
+  skipped-slot:
+    material: STAINED_GLASS_PANE
+    data: 15
+    enchanted: false
+stats-gui:
+  inv-size: 27
+  wins:
+    material: DIAMOND
+    data: 0
+    slot: 10
+  losses:
+    material: REDSTONE
+    data: 0
+    slot: 11
+  kills:
+    material: IRON_SWORD
+    data: 0
+    slot: 12
+  deaths:
+    material: SKULL_ITEM
+    data: 0
+    slot: 13
+  final-kills:
+    material: DIAMOND_SWORD
+    data: 0
+    slot: 14
+  final-deaths:
+    material: SKULL_ITEM
+    data: 1
+    slot: 15
+  beds-destroyed:
+    material: BED
+    data: 0
+    slot: 16
+  first-play:
+    material: STAINED_GLASS_PANE
+    data: 0
+    slot: 21
+  games-played:
+    material: CHEST
+    data: 0
+    slot: 22
+  last-play:
+    material: STAINED_GLASS_PANE
+    data: 0
+    slot: 23
+start-items-per-group:
+  Default:
+  - WOOD_SWORD
+allowed-commands:
+- shout
+- bw
+- leave
+lobby-items:
+  stats:
+    command: bw stats
+    material: SKULL_ITEM
+    data: 3
+    enchanted: false
+    slot: 0
+  arena-selector:
+    command: bw gui
+    material: CHEST
+    data: 5
+    enchanted: true
+    slot: 4
+  leave:
+    command: bw leave
+    material: BED
+    data: 0
+    enchanted: false
+    slot: 8
+pre-game-items:
+  stats:
+    command: bw stats
+    material: SKULL_ITEM
+    data: 3
+    enchanted: false
+    slot: 0
+  leave:
+    command: bw leave
+    material: BED
+    data: 0
+    enchanted: false
+    slot: 8
+spectator-items:
+  teleporter:
+    command: bw teleporter
+    material: SKULL_ITEM
+    data: 3
+    enchanted: false
+    slot: 0
+  leave:
+    command: bw leave
+    material: BED
+    data: 0
+    enchanted: false
+    slot: 8
+lobbyLoc: -240.5209208389682,112.0,50.409256897671085,133.1011962890625,-3.5875773429870605,bw_mines_lobby
+arenaGroups:
+- 3v3v3v3

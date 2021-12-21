@@ -1,0 +1,109 @@
+# Auto-Save feature automatically saves
+# playerdata (class, level, etc.) and
+# guild data (guild names, members, etc.)
+# at a set interval.
+auto-save:
+    enabled: true
+    # In seconds (1800 = 30 minutes)
+    interval: 1800
+
+# MySQL Support
+mysql:
+  enabled: false
+  database: minecraft
+  host: localhost
+  port: 3306
+  user: mmolover
+  pass: ILoveAria
+  flags: "?allowReconnect=true"
+
+# The list of all conditions which must be met for the
+# BLOCK REGEN and BLOCK RESTRICTIONS to apply.
+# Set to 'custom-mine-conditions: []' for no condition.
+custom-mine-conditions:
+- 'world{name="world1,world2,world_nether,world_the_end"}'
+- 'region{name="region1,region2,__global__"}'
+
+# Offset is the distance traveled on X and Y coordinates
+# Height is the Y velocity coordinate. Lootsplosions
+# only trigger with MythicMobs monsters.
+# Requires a SERVER reload when changed.
+lootsplosion:
+    enabled: true
+    mmoitems-color: true
+    offset: .2
+    height: .6
+
+# Settings for the default action bar
+action-bar:
+    # Whether or not to use the default action bar. (This doesn't change any other action bars provided by MMOCore.)
+    enabled: true
+    # The decimal format for stats (not including stat formats in stats.yml)
+    decimal: "0.#"
+    # The amount of ticks before updating the info
+    ticks-to-update: 5
+    # How to display the data.
+    format: "&c❤ {health}/{max_health} &f| &9⭐ {mana}/{max_mana} &f| &7⛨ {armor}"
+
+party:
+
+    # Edit party buffs here. You may
+    # add as many stats as you want.
+    buff:
+        health-regeneration: 3%
+        additional-experience: 5%
+    
+    # Prefix you need to put in the chat
+    # to talk in the party chat.
+    chat-prefix: '@'
+
+# Enable this open to override vanilla EXP and display
+# level progress on the vanilla experience bar.
+# Requires a SERVER reload when changed.
+override-vanilla-exp: true
+
+# Requires a SERVER reload when changed.
+death-exp-loss:
+    enabled: false
+    
+    # Percentage of current EXP you lose when dying.
+    percent: 30
+
+# Edit general plugin number formatting here.
+number-format:
+    decimal-separator: .
+
+# Allows to scale health up/down to a specific
+# amount so extra health does not fill up the screen.
+# Requires a SERVER reload when changed.
+health-scale:
+    enabled: true
+    scale: 20
+
+# Allows to toggle exp hologram from gaining experiences
+display-exp-holograms: true
+
+# Players can swap their hotbar with the 9 inventory slots
+# right above it by pressing [swap items] while crouching.
+hotbar-swap: true
+
+# Use this option if you're having issue with Anvil GUIs.
+# This replaces anvil inputs by chat inputs.
+use-chat-input: true
+
+# Prevents mobs spawned from spawners from giving XP points.
+prevent-spawner-xp: true
+
+#Timer for combat log to expire (in seconds)
+combat-log:
+    timer: 10
+
+# Change this to the name of the color you want for
+# the different resource bar placeholders
+resource-bar-colors:
+    mana-whole: 'BLUE'
+    mana-half: 'AQUA'
+    mana-empty: 'WHITE'
+    stamina-whole: 'GREEN'
+    stamina-half: 'DARK_GREEN'
+    stamina-empty: 'WHITE'

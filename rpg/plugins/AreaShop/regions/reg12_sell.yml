@@ -1,0 +1,20 @@
+general:
+  name: reg12_sell
+  world: main_world
+  type: buy
+  signs:
+    '0':
+      location:
+        world: main_world
+        x: 92.0
+        y: 65.0
+        z: 534.0
+      facing: WEST
+      signType: WALL_SIGN
+  friends:
+  - 424b76e8-0e6b-3de6-b3f0-8a85b5d7ec17
+  lastActive: 1537463366711
+buy:
+  buyer: f05d7415-02b3-36e4-9259-475fb9c7e744
+  buyerName: Labrikaa
+  price: 150000.0

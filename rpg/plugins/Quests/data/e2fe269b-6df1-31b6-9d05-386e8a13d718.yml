@@ -1,0 +1,14 @@
+currentQuests:
+- Странная Просьба
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: VladikTiger

@@ -1,0 +1,35 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#          Hologram configuration         #
+#                                         #
+#=========================================#
+
+# Set to false to disable holograms.
+enable: true
+
+# Holograms can be created by Advanced Abilities and Holographic Displays.
+# Set a hologram type, holograms can be created by HolographicDisplays instead of AdvancedAbilities.
+# Types: default (AdvancedAbilities), hd (HolographicDisplays).
+type: default
+
+# Holograms will have these lines.
+description:
+- '&6&m+------------------------------------------------+'
+- '%title%:'
+- '%stats%'
+- '&6&m+------------------------------------------------+'
+
+# Set to true if you want to hide abilities that were disabled by the server.
+hide_disabled_abilities: true
+
+# Add here an ability ID to remove it from the stats.
+black_list: []
+
+# Do not change anything of this, old file versions will be moved to 'outdated' folder.
+configuration_version: '1.0.1'

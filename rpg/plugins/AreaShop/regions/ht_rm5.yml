@@ -1,0 +1,15 @@
+general:
+  name: ht_rm5
+  world: map_main
+  type: rent
+  signs:
+    '0':
+      location:
+        world: map_main
+        x: 217.0
+        y: 70.0
+        z: 365.0
+      facing: EAST
+      signType: WALL_SIGN
+rent:
+  price: 250.0

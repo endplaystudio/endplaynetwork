@@ -1,0 +1,268 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#              Ability file               #
+#                                         #
+#=========================================#
+# The ability ID is the file name!
+# Set to false if you don't want this ability enabled, if you don't want to remove your ability file you can disable it.
+enable: true
+
+# Set the name of ability, this is not the id (ID is the file name).
+name: 'Fire resistance'
+
+# Set the max level to this ability.
+max_level: 8
+
+# Item is displayed in the menu as <MATERIAL_ID>,<MATERIAL_DATA>,<MATERIAL_AMOUNT>,<ENCHANTMENT_BOOLEAN>.
+logo_item: '259,0,1,false'
+
+# Add here custom locations to disable RPG events.
+# Format: '<LOCATION>=<ID>,<ID_2>,<ID_3>...'
+# Locations [Special locations]:
+# - world [].
+# - worldguard_region [not_pvp, not_exploitable, not_buildable, *].
+# - faction [WarZone, SafeZone, *].
+# - towny [wilderness, WarZone, not_pvp, *].
+disabled_locations: []
+
+# This will be the ability logo description.
+description:
+- '{messages_file.fire_resistance.description}'
+
+
+level:
+  '1':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 2100
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=50
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.fire_resistance.level_description=10}'
+  '2':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 4200
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=100
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.fire_resistance.level_description=20}'
+  '3':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 6300
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=200
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.fire_resistance.level_description=30}'
+  '4':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 8400
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=1000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.fire_resistance.level_description=40}'
+  '5':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 10500
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=2000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.fire_resistance.level_description=50}'
+  '6':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 12600
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=5000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.fire_resistance.level_description=60}'
+  '7':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 14700
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=10000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.fire_resistance.level_description=70}'
+  '8':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 16800
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=20000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.fire_resistance.level_description=80}'
+
+
+# # ==============================
+# #        TUTORIAL (v1.0.3)
+# # ==============================
+# #
+# # - Format: 'LEVEL=<level_number>:<condition/effect/option>=<condition/effect/option_value>'
+# # - Set TARGET: You can set the target(entity) using "TARGET=<TARGET_ENTITY>" read supported targets in 'Events' section, default target is 'SELF' ('SELF' is the player that casted the ability).
+# # - Set LOCATION: You can set location if you want to modify current target location, use: "LOCATION=<LEFT_RIGHT>,<BACK_FORWARD>,<UP_DOWN>,<ANGLE>" (ex: 'triple_arrow_shot' ability).
+# # - Set PROJECTILE_TRAIL: You can set projectile trail using: "PROJECTILE_TRAIL=<PARTICLE_TYPE>,<TICKS>" (ex: 'explosive_arrow' ability).
+# # - Set CHANCE_TO_RUN: You can set chance to run a condition, option, effect: "CHANCE_TO_RUN=<NUMBER>" (ex: 'vampire_mode' ability).
+# # - Set RANDOM: You can create a ID list and the plugin will choose a condition, option, effect randomly: "RANDOM=<ID>" (ex: 'pirate' ability).
+# # - Set CONDITION: You can set a condition to run a condition, option, effect: "CONDITION=<CONDITION_FROM_LIST=CONDITION_VALUES>" (ex: 'mining_luck' ability).
+# # - Set CONDITION_OR: You can use this when you want to get a 'true' value in many conditions, example checking blocks or player hand items: "CONDITION_OR=<ID>" (ex: 'aggressive_mode' ability).
+# # - Use custom variables/placeholders to get a specific value:
+# #   * {SELF_NAME}.
+# #   * {SELF_HEALTH}.
+# #   * {SELF_MAX_HEALTH}.
+# #   * {ENTITY_NAME}.
+# #   * {ENTITY_HEALTH}.
+# #   * {ENTITY_MAX_HEALTH}.
+# #   * {BOW_POWER}.
+# #   * {EVENT_DAMAGE}.
+# #   * {BLOCK_TYPE}.
+# #   * {DROP_TYPE}.
+# #   * {BLOCK_DROP_SIZE}.
+# #   * {RANDOM_NUMBER;<MAX_NUMBER>}.
+# #   * {RANDOM_NUMBER;<MIN_NUMBER>_<MAX_NUMBER>}.
+# #   * {STORAGE_<ID>}. | This is the global ability storage
+# #   * {PLAYER_STORAGE_<ID>}. | This storage is only for the player but it will never be removed.
+# #   * {PLAYER_UNIQUE_STORAGE_<ID>}. | This storage is only for the player but it will be removed when ability ends.
+# # - Use !INVERSE to inverse the condition, example if you are using 'HEARTS' condition then plugin will check if the entity has
+# #   more hearts than the condition value, but if you add !INVERSE, plugin checks if the entity has less hearts than the condition value.
+# #   Example: LEVEL=1:HEARTS=5!INVERSE
+# # - Use !IGNORE_CHECK to skip value verification! (example: "GREATER_THAN=1,{PLAYER_UNIQUE_STORAGE_TEST}!IGNORE_CHECK", because "{PLAYER_UNIQUE_STORAGE_TEST}" isn't a number.
+# # - Use !INSTANT_EVENT_CALL to call the event instantly instead of wait current event ends.
+# # - Use "Arithmetic Operators symbols":
+# #   * Addition: 2 + 2
+# #   * Subtraction: 2 - 2
+# #   * Multiplication: 2 * 2
+# #   * Division: 2 / 2
+# #   * Exponentiation: 2 ^ 2
+# #   * Unary Minus, Plus(Sign Operators): +2 - (-2)
+# #   * Modulo: 2 % 2
+# #   Example: LEVEL=1:HEARTS=({ENTITY_HEALTH}/5)*2
+# # - Be careful adding 'condition/effect/option' with big values, this can affect the server performance!
+# # - Use "/abilities creator info" to see all DAMAGE_CAUSES, SPECIAL_PARTICLES, PARTICLES, SOUNDS, POTION_EFFECTS available in your server version!
+# # - See all events, conditions, effects, options using "/abilities creator <events/conditions/effects/options>".
+# #
+# #
+# # WIKI: https://www.spigotmc.org/wiki/advancedabilities-creator/
+# #
+# # ==============================
+
+
+# Create custom ability events here!
+creator:
+  # Add here main events you will want to use.
+  events:
+    '1':
+      # Set the event name.
+      event: DamageEvent
+      # Add here conditions.
+      conditions:
+        - 'LEVEL=ALL:CONDITION_OR=CAUSE:CAUSE=LAVA'
+        - 'LEVEL=ALL:CONDITION_OR=CAUSE:CAUSE=FIRE'
+        - 'LEVEL=ALL:CONDITION_OR=CAUSE:CAUSE=FIRE_TICK'
+        - 'LEVEL=1:CHANCE=10'
+        - 'LEVEL=2:CHANCE=20'
+        - 'LEVEL=3:CHANCE=30'
+        - 'LEVEL=4:CHANCE=40'
+        - 'LEVEL=5:CHANCE=50'
+        - 'LEVEL=6:CHANCE=60'
+        - 'LEVEL=7:CHANCE=70'
+        - 'LEVEL=8:CHANCE=80'
+        - 'LEVEL=ALL:API_EVENT_CANCELLED=API_LOCATION_SUPPORT!INVERSE'
+      # Add here effects.
+      effects:
+        - 'LEVEL=ALL:EVENT_DAMAGE={EVENT_DAMAGE}/2'
+      # Add here options.
+      options:
+        - 'LEVEL=ALL:ACTION_BAR_MESSAGE'
+        - 'LEVEL=ALL:SOUND=false,BLOCK_FIRE_EXTINGUISH,0.6,2'
+      # Add here secondary events you want to use, secondary events will be called if the main event was called.
+      secondary_events: []

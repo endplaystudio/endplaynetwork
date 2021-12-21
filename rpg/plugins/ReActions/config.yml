@@ -1,0 +1,33 @@
+general:
+  language: english
+  check-updates: true
+  debug: false
+  player-self-variable-file: false
+  player-asynch-save-self-variable-file: false
+  player-move-event:
+    use-task: false
+    task-tick: 5
+reactions:
+  activators:
+    god:
+      enable: true
+      recheck-ticks: 10
+  save-empty-actions-and-flags-sections: false
+  show-messages-for-actions: tp,grpadd,grprmv,townset,townkick,itemrmv,itemgive,moneypay,moneygive
+  center-player-teleport: true
+  region-recheck-delay: 2
+  item-hold-recheck-delay: 2
+  item-wear-recheck-delay: 2
+  horizontal-pushback-action: false
+  default-chat-line-length: 55
+actions:
+  shoot:
+    break-block: GLASS,THIN_GLASS,STAINED_GLASS,STAINED_GLASS_PANE,GLOWSTONE,REDSTONE_LAMP_OFF,REDSTONE_LAMP_ON
+    penetrable: FENCE,FENCE_GATE,IRON_BARDING,IRON_FENCE,NETHER_FENCE
+MySQL:
+  server: localhost
+  port: '3306'
+  database: ReActions
+  username: root
+  password: password
+  codepage: ''

@@ -1,0 +1,40 @@
+# DO NOT CHANGE THIS!
+config-version: 3
+
+# Use symbols: https://github.com/montlikadani/TabList/wiki/Symbols
+
+# Player custom prefixes and suffixes.
+# Unlimited players.
+players:
+  Profitroll:
+    prefix: '&c✯ &f'
+    suffix: ''
+    sort-priority: 1
+  Kusyaka:
+    prefix: '&c✯ &f'
+    suffix: ''
+    sort-priority: 2
+
+# Group prefixes and suffixes. (Requires a permission system.)
+# Unlimited group.
+groups:
+  '1':
+    prefix: '&f'
+    suffix: ''
+    # This permission must be in the permission system.
+    permission: tablist.main
+  '2':
+    prefix: '&3✯ &f'
+    suffix: ''
+    # This permission must be in the permission system.
+    permission: tablist.hypesquad
+  '3':
+    prefix: '&e✯ &f'
+    suffix: ''
+    # This permission must be in the permission system.
+    permission: tablist.helper
+  '4':
+    prefix: '&c✯ &f'
+    suffix: ''
+    # This permission must be in the permission system.
+    permission: tablist.staff

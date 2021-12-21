@@ -1,0 +1,28 @@
+Main:
+
+  # The chance of finding a custom reward while fishing
+  # can be a decimal number.
+  Reward Chance: 30.0
+
+  # Amount of experience to give the player when they HAVEN'T found a reward
+  Exp Reward: 6
+
+Title:
+
+  # Ticks for a title to fade in
+  Fade In: 5
+
+  # Ticks for a title to stay on screen
+  Display: 40
+
+  # Ticks for a title to fade out
+  Fade Out: 5
+
+System:
+
+  # The language file to use for the plugin
+  # More language files (if available) can be found in the plugins locale folder.
+  Language Mode: en_US
+
+  # Seconds to autosave and load the updated config
+  Autosave Interval: 60

@@ -1,0 +1,21 @@
+currentQuests:
+- Пропитые яйца
+- Доставка удочки
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Пропитые яйца:
+    citizen-ids-to-talk-to:
+    - 14
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: j5e6k6a5

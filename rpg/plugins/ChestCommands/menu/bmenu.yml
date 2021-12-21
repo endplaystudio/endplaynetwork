@@ -1,0 +1,235 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Меню строителя'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bmenu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 1
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+building:
+  COMMAND: 'CONSOLE: mw move {player} Building; tell: &7Телепортирую в мир строительства...'
+  NAME: '&bМир строительства'
+  LORE:
+    - 'Мир специально выделен для'
+    - 'экспериментов и стройки.'
+    - 'Для постройки в другом мире'
+    - 'можно копировать кусочки оттуда,'
+    - 'вставлять сюда и редактировать.'
+    - 'Об этом и другом читайте в документации.'
+  ID: grass
+  ENCHANTMENT: FORTUNE
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+stats:
+  COMMAND: ''
+  NAME: '&bИнформация'
+  LORE:
+    - '- Регион:&6 %mvdw_worldguard_region_id%'
+    #- '- Владелец:&6 %mvdw_worldguard_region_owner%'
+    - ''
+    - '- Игровой мир:&6 %player_world%'
+    - '- Время в мире:&6 %player_world_time_24%'
+  ID: paper
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+
+creative:
+  COMMAND: 'CONSOLE: gm 1 {player}; tell: &6 Система &8| &7Игровой режим изменён на &aТворческий&7.'
+  NAME: '&bТворческий режим'
+  LORE:
+    - 'Переключить игровой режим на'
+    - 'творческий (creative).'
+  ID: iron_pickaxe
+  PERMISSION: builder.allow.gm
+  PERMISSION-MESSAGE: '&6 Система &8| &7В этом мире не разрешено изменение игрового режима.'
+  POSITION-X: 2
+  POSITION-Y: 3
+
+adventure:
+  COMMAND: 'CONSOLE: gm 2 {player}; tell: &6 Система &8| &7Игровой режим изменён на &aПриключение&7.'
+  NAME: '&bПриключение'
+  LORE:
+    - 'Переключить игровой режим на'
+    - 'приключение (adventure).'
+  PERMISSION: builder.allow.gm
+  PERMISSION-MESSAGE: '&6 Система &8| &7В этом мире не разрешено изменение игрового режима.'
+  ID: iron_sword
+  POSITION-X: 3
+  POSITION-Y: 3
+  
+survival:
+  COMMAND: 'CONSOLE: gm 0 {player}; tell: &6 Система &8| &7Игровой режим изменён на &aВыживание&7.'
+  NAME: '&bРежим выживания'
+  LORE:
+    - 'Переключить игровой режим на'
+    - 'выживание (survival).'
+  ID: apple
+  PERMISSION: builder.allow.gm
+  PERMISSION-MESSAGE: '&6 Система &8| &7В этом мире не разрешено изменение игрового режима.'
+  POSITION-X: 2
+  POSITION-Y: 4
+  
+spectator:
+  COMMAND: 'CONSOLE: gm 3 {player}; tell: &6 Система &8| &7Игровой режим изменён на &aНаблюдение&7.'
+  NAME: '&bРежим наблюдателя'
+  LORE:
+    - 'Переключить игровой режим на'
+    - 'наблюдателя (spectator).'
+  ID: feather
+  PERMISSION: builder.allow.gm
+  PERMISSION-MESSAGE: '&6 Система &8| &7В этом мире не разрешено изменение игрового режима.'
+  POSITION-X: 3
+  POSITION-Y: 4
+  
+time-day:
+  COMMAND: 'time set day'
+  NAME: '&bУстановить День'
+  LORE:
+    - 'Переключить время в текущем мире'
+    - 'на &c06&7:&c00 &7часов утра (&c6&7:&c00 AM&7)'
+  ID: wool:3
+  PERMISSION: builder.allow.time
+  PERMISSION-MESSAGE: '&6 Система &8| &7В этом мире не разрешено изменение времени.'
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+time-night:
+  COMMAND: 'time set night'
+  NAME: '&bУстановить Ночь'
+  LORE:
+    - 'Переключить время в текущем мире'
+    - 'на &c20&7:&c00 &7часов утра (&c8&7:&c00 PM&7)'
+  ID: wool:15
+  PERMISSION: builder.allow.time
+  PERMISSION-MESSAGE: '&6 Система &8| &7В этом мире не разрешено изменение времени.'
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+  
+weather-sun:
+  COMMAND: 'weather sun'
+  NAME: '&bУстановить Солнце'
+  LORE:
+    - 'Минус дождь'
+    - 'В этом мире'
+  ID: double_plant:0
+  PERMISSION: builder.allow.time
+  PERMISSION-MESSAGE: '&6 Система &8| &7В этом мире не разрешено изменение погоды.'
+  POSITION-X: 7
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+weather-storm:
+  COMMAND: 'weather storm'
+  NAME: '&bУстановить Дождь'
+  LORE:
+    - 'Плюс дождь'
+    - 'В этом мире'
+  ID: ghast_tear
+  PERMISSION: builder.allow.time
+  PERMISSION-MESSAGE: '&6 Система &8| &7В этом мире не разрешено изменение погоды.'
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+wand:
+  COMMAND: '/wand'
+  NAME: '&bТопорик'
+  LORE:
+    - 'Инструмент выбора и управления'
+    - 'местностью WorldEdit.'
+  ID: 271
+  #PERMISSION: builder.allow.time
+  #PERMISSION-MESSAGE: '&6 Система &8| &7В этом мире не разрешено изменение времени.'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: false
+
+hub:
+  COMMAND: 'hub; tell: &7Телепортирую на &aЛобби&7...'
+  NAME: '&bТелепорт в лобби'
+  LORE:
+    - 'Телепортироваться в лобби.'
+  ID: minecart
+  POSITION-X: 9
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+wesv:
+  COMMAND: 'wesv toggle'
+  NAME: '&bОтображение выбора'
+  LORE:
+    - 'Эта опция позволяет переключить'
+    - 'видимость выбираемой зоны деревянным топором.'
+  ID: redstone
+  POSITION-X: 3
+  POSITION-Y: 6
+  KEEP-OPEN: true
+  
+warps-pro:
+  COMMAND: 'open: bwarps.yml'
+  NAME: '&bТелепортатор &6PRO'
+  LORE:
+    - 'Отправься к абсолютно любым местам сервера'
+    - 'Шахты, ферма, порт, хаб и многое другое'
+    - ''
+    - '&e► Открыть телепортатор'
+  ID: compass
+  ENCHANTMENT: 'silk touch'
+  PERMISSION: 'operator.warps'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Это меню для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 7
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: menu.yml'
+  NAME: '&cВ обычное меню'
+  LORE:
+    - 'В главное меню игрока.'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

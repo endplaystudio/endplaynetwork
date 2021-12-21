@@ -1,0 +1,96 @@
+##########################################################
+# EXAMPLE BOOST (And all possible values you can change) #
+##########################################################
+#
+#boost:
+#  boost1:
+#   enabled: true #|Enable or disable boost option *REQUIRED*
+#   boost: 2.0 #|XP multiplier *REQUIRED*
+#   cost: 500.0 #|Currency cost *REQUIRED*
+#   time: 300 #|Duration of the effect in seconds *REQUIRED*
+#   title: '&4%boost%x XPBoost &f(%money% $) Custom Title' #|You can specify custom titles for different boosts if title is not present default preset will be used Placeholders: %boost%,%money%,%time% *OPTIONAL*
+#   item_type: SLIME_BALL #|*OPTIONAL*
+#   glowing: true #|Do you want this boost to appear enchanted/glowing? *OPTIONAL*
+#   lore: #|Yep, you can set custom lore for the boost, this is optional. If lore is not set, default preset will be used.
+#   - 'Boost with custom lore'
+#   - '%boost%x for %time% Seconds' #| %boost%, %money% and %time% placeholders are avaliable inside lore.
+#   permissons: #|*OPTIONAL*
+#     required_permission: 'xpboost.guest' #|Permission that is required to buy this boost
+#     fail_message: '&cNo permission' #|Message when player does not have a permission
+#   behaviour:  #|You can specify a 'behaviour' of each boost and set which XP will be affected, this is optional. Default everything is true *OPTIONAL*
+#     VANILLA: true  #|This XP Boost will be only viable for vanilla xp.
+#     SKILLAPI: false #|This XP boost will be disabled for skillapi if you've got one.
+#     MCMMO: false #|Same but for mcmmo
+#     RPGME: false #|Same but for rgme
+#     HEROES: false #|Same but for heroes
+#     JOBS: false #|Same but for JobsReborn
+#   advanced: *OPTIONAL*
+#    //Here you can set specifically what kind of exp you want to be affected for each supported plugin. 
+#    //The format is:
+#
+#    // PLUGIN: | The name of the plugin SKILLAPI/MCMMO/RPGME etc.
+#    //   default: true/false | Default setting for every experience type
+#    //   experience_type: true/false | Individual setting for each experience type
+#
+#    //If nothing is set here, all experience will be affected otherwise it will affect only the ones that are listed below.
+#    //If you wish to block some type of experience just add ' block' at the end.
+#    //example for MCMMO, this boost will affect only MCMMO swords experience
+#    MCMMO:
+#      default: false //disabling everyhting by default
+#      swords: true //enabling swords experience
+#
+
+boost1:
+  enabled: true
+  boost: 2.5
+  cost: 1000.0
+  time: 240
+  behaviour:
+    VANILLA: true
+    SKILLAPI: false
+    MCMMO: true
+    RPGME: false
+boost12:
+  enabled: true
+  boost: 2.5
+  cost: 1500.0
+  time: 480
+  behaviour:
+    VANILLA: true
+    SKILLAPI: false
+    MCMMO: true
+    RPGME: false
+boost2:
+  enabled: true
+  boost: 2.5
+  cost: 2000.0
+  time: 240
+  lore: 
+    - '&c2.5x бустер опыта, но действует ещё и для работ'
+    - '&cВремя работы: 240 секунд'
+    - '&aСтоимость: &f2000.0L'
+  behaviour:
+    VANILLA: true
+    SKILLAPI: false
+    JOBS: true
+    RPGME: false
+boost3:
+  enabled: true
+  boost: 3.0
+  cost: 3000.0
+  time: 240
+boost31:
+  enabled: true
+  boost: 3.0
+  cost: 4000.0
+  time: 480
+boost4:
+  enabled: true
+  boost: 3.5
+  cost: 5500.0
+  time: 240
+boost41:
+  enabled: true
+  boost: 3.5
+  cost: 7500.0
+  time: 480

@@ -1,0 +1,8 @@
+SURVIVAL: '{"potions":[],"inventory":{"size":41,"items":{"8":{"item":"SKULL_ITEM","quantity":1,"durability":3,"nbttags":"NM#Nwqdl0JPQu9Cw0LLQvdC+0LUg0LzQtdC90Y4=#LIMKnN9Cj0YDQvtCy0LXQvdGMOiDCpzYw-IMKnN9CR0LDQu9Cw0L3RgTogwqc2MCBMTkQ=-IMKnN9Cf0YvQu9GMOiDCpzYw--wqdl4pa6INCe0YLQutGA0YvRgtGMINCz0LvQsNCy0L3QvtC1INC80LXQvdGO#Ooselkek#R0","enchantments":{}}}},"armour":{"size":4,"items":{}}}'
+experience: 0
+level: 0
+exp: 0.0
+gameMode: ADVENTURE
+health: 20.0
+hunger: 20
+saturation: 5.0

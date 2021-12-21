@@ -1,0 +1,302 @@
+## --------------------------------------- ##
+## Adding armor information placeholders Placeholders
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {armor_helmet_isburnable} returns
+armor_helmet_isburnable:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_helmet_isflammable} returns
+armor_helmet_isflammable:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_helmet_issolid} returns
+armor_helmet_issolid:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_leggings_isedible} returns
+armor_leggings_isedible:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_helmet_isoccluding} returns
+armor_helmet_isoccluding:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_helmet_istransparent} returns
+armor_helmet_istransparent:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_boots_isblock} returns
+armor_boots_isblock:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_leggings_isrecord} returns
+armor_leggings_isrecord:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_leggings_issolid} returns
+armor_leggings_issolid:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_helmet_isblock} returns
+armor_helmet_isblock:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_leggings_hasgravity} returns
+armor_leggings_hasgravity:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_chestplate_isoccluding} returns
+armor_chestplate_isoccluding:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_helmet_isedible} returns
+armor_helmet_isedible:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_leggings_isoccluding} returns
+armor_leggings_isoccluding:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_leggings_isblock} returns
+armor_leggings_isblock:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_chestplate_issolid} returns
+armor_chestplate_issolid:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_boots_isrecord} returns
+armor_boots_isrecord:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_chestplate_isedible} returns
+armor_chestplate_isedible:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_boots_isflammable} returns
+armor_boots_isflammable:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_boots_isoccluding} returns
+armor_boots_isoccluding:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_chestplate_isrecord} returns
+armor_chestplate_isrecord:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_boots_hasgravity} returns
+armor_boots_hasgravity:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_leggings_isburnable} returns
+armor_leggings_isburnable:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_chestplate_isflammable} returns
+armor_chestplate_isflammable:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_boots_isburnable} returns
+armor_boots_isburnable:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_chestplate_hasgravity} returns
+armor_chestplate_hasgravity:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_helmet_hasgravity} returns
+armor_helmet_hasgravity:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_leggings_isflammable} returns
+armor_leggings_isflammable:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_leggings_istransparent} returns
+armor_leggings_istransparent:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_chestplate_isburnable} returns
+armor_chestplate_isburnable:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_boots_isedible} returns
+armor_boots_isedible:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_chestplate_isblock} returns
+armor_chestplate_isblock:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_boots_issolid} returns
+armor_boots_issolid:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_chestplate_istransparent} returns
+armor_chestplate_istransparent:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_boots_istransparent} returns
+armor_boots_istransparent:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {armor_helmet_isrecord} returns
+armor_helmet_isrecord:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+

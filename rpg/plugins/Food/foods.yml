@@ -1,0 +1,20 @@
+foods:
+  burger:
+    name: Burger
+    description:
+    - Burgers
+    - From McDonalds!
+    link: http://textures.minecraft.net/texture/a6ef1c25f516f2e7d6f7667420e33adcf3cdf938cb37f9a41a8b35869f569b
+    feed-amount: 6
+    cost: 100
+    sound: ENTITY_PLAYER_BURP
+    enabled: true
+    commands:
+    - tell %player% You ate food!
+    permission-to-buy: foodmc.buy.burger
+    permission-to-eat: foodmc.eat.burger
+    material: STONE
+    cookable: true
+    cooked-feed-amount: 10
+    potionEffects:
+    - SPEED|5|1

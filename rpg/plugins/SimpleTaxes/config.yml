@@ -1,0 +1,16 @@
+# SimpleTaxes Config File 2.1.0
+period: 1800
+prefix-message: '§2 Налоги §8| '
+player-message: §a%amountŁ §7было снято с вашего баланса.
+taxes:
+  global-taxes:
+    enabled: true
+    name: global taxes
+    on-bank-account: true
+    bank-account-percentage: 0.5
+    on-player-account: true
+    player-account-percentage: 0.5
+    deposit-on-bank-account: true
+    deposit-on-bank-account-named: taxes
+    deposit-on-player-account: false
+    deposit-on-player-account-named: Aztorius

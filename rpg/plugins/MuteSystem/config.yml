@@ -1,0 +1,25 @@
+#########################
+#						#
+#		Mute System		#
+#						#
+#########################
+
+MySQL:
+  #The MySQL username with which it should login
+  Username: 'username'
+  #The MySQL password it should use to try and login with the username
+  Password: 'password'
+  #The ip of the MySQL server
+  Host: '127.0.0.1'
+  #The port of the MySQL server
+  Port: '3306'
+  #The Database it should connect to
+  Database: 'database'
+  #The table it saves the mute data in, please notice that you do not want to change this 
+  #if multiple instances of the MuteSystem should get the same data, if you want separate 
+  #data for each MuteSystem instance(for example different servers) connecting to the same
+  #database change this
+  Table: 'mutesystem'
+  
+#Chose the language that the plugin should use, these are saved in the languages folder
+Language: 'lang_en'

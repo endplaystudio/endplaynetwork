@@ -1,0 +1,108 @@
+#
+# The rewards able to be caught.
+# Copy a reward and modify to add a new reward.
+#
+Rewards:
+  Nothing:
+    # Commands to run when they've caught this reward.
+    Commands:
+    - msg %player% sorry
+    # Messages to send when they've caught this reward.
+    Messages:
+    - '&c&l(!) &cYou found NOTHING!'
+    # Should we broadcast a message to all players when this reward
+    # is found?
+    Broadcast: false
+    # Messages to broadcast when they've caught this reward.
+    Broadcasts:
+    - ''
+    # Should we send a title to the player when this reward
+    # is found?
+    Title Enabled: true
+    # Title message to send.
+    Title: '&a&lYou found a reward!'
+    # Subtitle message to send.
+    Sub Title: ''
+    # The chance of this reward being caught.
+    Chance: 50
+    # Should we give them normal vanilla rewards when
+    # they find this? For example enchanted books, fish etc.
+    Vanilla Rewards: false
+    # Amount of exp to give player when they find this reward.
+    Exp Amount: 6
+    # Sound to play when they find this reward.
+    Sound: ENTITY_FIREWORK_LAUNCH
+    Requirements:
+      # Required permission to find this reward. The node is customfishing.<value>,
+      # so here it would be customfishing.default.
+      Permission: default
+      # Worlds the reward can be caught in. Set to 'all' for every world
+      Worlds:
+      - all
+      # Region the player has to be in to catch the reward. Requires
+      # WorldGuard in order to work. Set to 'global' for all regions
+      Regions:
+      - global
+  Golden Apples:
+    Commands:
+    - give %player% golden_apple 5
+    Messages:
+    - '&a&l(!) &aYou found &a&l5 Golden Apples!'
+    Broadcast: false
+    Broadcasts:
+    - ''
+    Title Enabled: true
+    Title: '&a&lYou found a reward!'
+    Sub Title: ''
+    Chance: 50
+    Vanilla Rewards: false
+    Exp Amount: 6
+    Sound: ENTITY_FIREWORK_LAUNCH
+    Requirements:
+      Permission: default
+      Worlds:
+      - all
+      Regions:
+      - global
+  Food:
+    Commands:
+    - give %player% cooked_beef 1
+    Messages:
+    - '&6 Рыбалка &8| &7Вы нашли &aСтейк'
+    Broadcast: false
+    Broadcasts:
+    - ''
+    Title Enabled: true
+    Title: '&7Вы получили &aСтейк&7!'
+    Sub Title: ''
+    Chance: 5
+    Vanilla Rewards: false
+    Exp Amount: 6
+    Sound: ENTITY_FIREWORK_LAUNCH
+    Requirements:
+      Permission: default
+      Worlds:
+      - all
+      Regions:
+      - global
+  Golden Apple:
+    Commands:
+    - give %player% golden_apple 1
+    Messages:
+    - '&6 Рыбалка &8| &7Вы нашли &aЗолотое яблоко&7.'
+    Broadcast: false
+    Broadcasts:
+    - ''
+    Title Enabled: true
+    Title: '&7Вы получили &aЯблочко&7!'
+    Sub Title: ''
+    Chance: 3
+    Vanilla Rewards: false
+    Exp Amount: 6
+    Sound: ENTITY_FIREWORK_LAUNCH
+    Requirements:
+      Permission: default
+      Worlds:
+      - all
+      Regions:
+      - global

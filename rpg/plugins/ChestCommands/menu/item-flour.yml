@@ -1,0 +1,218 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Мука'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'item-flour'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+wheat-1:
+  COMMAND: ''
+  NAME: '§rПшеница'
+  ID: wheat
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+wheat-2:
+  COMMAND: ''
+  NAME: '§rПшеница'
+  ID: wheat
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+glass-1:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+glass-2:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 3
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+glass-3:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+glass-4:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+glass-5:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+glass-6:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+glass-7:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+glass-8:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+glass-9:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 6
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-10:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-11:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 4
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-12:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-13:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+glass-14:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+glass-15:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+glass-16:
+  COMMAND: ''
+  NAME: ''
+  ID: stained_glass_pane:14
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+info:
+  COMMAND: ''
+  NAME: '&rО предмете'
+  LORE:
+    - 'Данный предмет можно получить'
+    - 'с помощью крафта внутри пакарни'
+    - 'или ближайшей мельницы.'
+  ID: WORKBENCH
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+get:
+  COMMAND: 'CONSOLE: give {player} minecraft:sugar 1 0 {display:{Name:"§rМука"}}'
+  NAME: '&rПолучить предмет'
+  ID: chest
+  VIEW-PERMISSION: 'menus.staff'
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: bakery.yml'
+  NAME: '&rНазад'
+  LORE:
+    - 'В предметы выпечки'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true

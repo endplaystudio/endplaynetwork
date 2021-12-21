@@ -1,0 +1,32 @@
+trailsGUI:
+  invSize: 27
+  fireTrails:
+    material: BLAZE_POWDER
+    data: 0
+    slot: 11
+    permission: vipfeatures.tails.fire
+  slimeTrail:
+    material: SLIME_BALL
+    data: 0
+    slot: 12
+    permission: vipfeatures.trails.slime
+  waterTrail:
+    material: WATER_BUCKET
+    data: 0
+    slot: 13
+    permission: vipfeatures.trails.water
+  notesTrail:
+    material: JUKEBOX
+    data: 0
+    slot: 14
+    permission: vipfeatures.trails.notes
+  crystalTrail:
+    material: GLASS
+    data: 0
+    slot: 15
+    permission: vipfeatures.trails.crystal
+  backItem:
+    material: ARROW
+    data: 0
+    slot: 22
+    permission: vipfeatures.open.maingui

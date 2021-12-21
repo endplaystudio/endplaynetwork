@@ -1,0 +1,45 @@
+currentQuests:
+- Жестокое заключение
+- Все женщины - ведьмы
+- Адские проблемки
+- Рыцарские делишки
+- Странная Просьба
+currentStages:
+- 0
+- 0
+- 0
+- 1
+- 0
+quest-points: 1
+questData:
+  Жестокое заключение:
+    citizen-ids-to-talk-to:
+    - 37
+    has-talked-to:
+    - false
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+  Адские проблемки:
+    citizen-ids-to-talk-to:
+    - 15
+    has-talked-to:
+    - false
+  Рыцарские делишки:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 24
+    has-talked-to:
+    - false
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+completed-Quests:
+- Немножко угля
+hasJournal: false
+lastKnownName: AndrikeGame821

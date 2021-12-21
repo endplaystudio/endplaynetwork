@@ -1,0 +1,13 @@
+currentQuests:
+- Обучение
+currentStages:
+- 2
+quest-points: 0
+questData:
+  Обучение:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- Обучение
+hasJournal: false
+lastKnownName: Kusyaka0565

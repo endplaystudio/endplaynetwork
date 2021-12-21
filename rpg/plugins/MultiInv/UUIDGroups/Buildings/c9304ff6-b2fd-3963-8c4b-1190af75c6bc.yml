@@ -1,0 +1,8 @@
+SURVIVAL: '{"potions":[],"inventory":{"size":41,"items":{"0":{"item":"RED_ROSE","quantity":1,"durability":6,"nbttags":null,"enchantments":{}},"1":{"item":"FLOWER_POT_ITEM","quantity":3,"durability":0,"nbttags":null,"enchantments":{}},"2":{"item":"CARPET","quantity":64,"durability":14,"nbttags":null,"enchantments":{}},"3":{"item":"CARPET","quantity":39,"durability":14,"nbttags":null,"enchantments":{}},"4":{"item":"BIRCH_DOOR_ITEM","quantity":7,"durability":0,"nbttags":null,"enchantments":{}},"5":{"item":"TORCH","quantity":4,"durability":0,"nbttags":null,"enchantments":{}},"6":{"item":"RED_ROSE","quantity":4,"durability":4,"nbttags":null,"enchantments":{}},"7":{"item":"SIGN","quantity":6,"durability":0,"nbttags":null,"enchantments":{}}}},"armour":{"size":4,"items":{}}}'
+experience: 0
+level: 9
+exp: 0.07999999
+gameMode: CREATIVE
+health: 17.0
+hunger: 16
+saturation: 6.8

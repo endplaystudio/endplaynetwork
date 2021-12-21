@@ -1,0 +1,117 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Бакалея'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'grocery'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+egg:
+  COMMAND: 'CONSOLE: give {player} minecraft:egg 1 0 {display:{Name:"§rЯйцо третьей категории"}}'
+  NAME: '§rЯйцо третьей категории'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: egg
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cЯйцо третьей категории &7не имеет крафта для просмотра.'
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+egg_second:
+  COMMAND: 'CONSOLE: give {player} minecraft:egg 1 0 {display:{Name:"§rЯйцо второй категории"}}'
+  NAME: '§rЯйцо второй категории'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: egg
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cЯйцо второй категории &7не имеет крафта для просмотра.'
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+egg_first:
+  COMMAND: 'CONSOLE: give {player} minecraft:egg 1 0 {display:{Name:"§rЯйцо первой категории"}}'
+  NAME: '§rЯйцо первой категории'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: egg
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cЯйцо первой категории &7не имеет крафта для просмотра.'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+bread_blank:
+  COMMAND: 'CONSOLE: give {player} minecraft:egg 1 0 {display:{Name:"§rЯйцо отборное"}}'
+  NAME: '§rЯйцо отборное'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: egg
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cЯйцо отобрное &7не имеет крафта для просмотра.'
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: items.yml'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню предметов'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

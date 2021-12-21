@@ -1,0 +1,77 @@
+#########################
+#						#
+#		Mute System		#
+#						#
+#########################
+
+###########################################################################
+#																		  #
+# 							Imporant									  #
+# 																		  #
+# If the Variables = / that means that there are not variables supported! #
+#																		  #
+###########################################################################
+
+#All relevant messages used in the time unit system
+TimeUnit:
+  #How the time unit day is displayed. [Colour Code Support: Yes ,Variables: /]
+  Day: 'Day(s)'
+  #How the time unit hour is displayed. [Colour Code Support: Yes ,Variables: /]
+  Hour: 'Hour(s)'
+  #How the time unit minute is displayed. [Colour Code Support: Yes ,Variables: /]
+  Minute: 'Minute(s)'
+  #How the time unit second is displayed. [Colour Code Support: Yes ,Variables: /]
+  Second: 'Second(s)'
+#All relevant messages used in the commands
+Commands:
+  #The message that is displayed if the player enters the wrong argument amount for the command /mute [Colour Code Support: Yes ,Variables: /]
+  InvalidArgumentAmountMute: '&c/mute <Player> <Reason>'
+  #The message that is displayed if the player enters the wrong argument amount for the command /tempmute Colour [Colour Code Support: Yes ,Variables: /]
+  InvalidArgumentAmountTempmute: '&c/tempmute <Player> <Number> <TimeUnit> <Reason>'
+  #The message that is displayed if the player enters the wrong argument amount for the command /unmute [Colour Code Support: Yes ,Variables: /]
+  InvalidArgumentAmountUnmute: '&c/unmute <Player>'
+  #The message that is displayed if the player enters the wrong argument amount for the command /mutestatus [Colour Code Support: Yes ,Variables: /]
+  InvalidArgumentAmountMutestatus: '&c/mutestatus <Player>'
+  #The message that is displayed if the player doesn't have the permissions to execute a command. [Colour Code Support: Yes ,Variables: /]
+  InvalidPermissions: '&cYou are not allowed to execute this command.'
+  #The message that is displayed if the player is already muted. [Colour Code Support: Yes ,Variables: %p = player name]
+  PlayerIsMuted: '&6%p &fis already muted.'
+  #The message that is displayed if the player isn't muted. [Colour Code Support: Yes ,Variables: %p = player name]
+  PlayerIsNotMuted: '&6%p &fisn''t muted.'
+  #The message that is displayed if you mute a player permanent. [Colour Code Support: Yes ,Variables: %p = player name; %r = reason]
+  ExecutePermanentMute: 'You muted &6%p &fpermantly with the reason &6%r&f.'
+  #The message that is displayed if you mute a player temporary. [Colour Code Support: Yes ,Variables: %p = player name; %n = time amount; %t = time unit; %r = reason]
+  ExecuteTemporaryMute: 'You muted &6%p &ftemporary for %n%t with the reason &6%r&f.'
+  #The message that is displayed if you unmute a player. [Colour Code Support: Yes ,Variables: %p = player name]
+  ExecuteUnMute: 'You unmuted &6%p&f.'
+  #The message that is displayed if the time amount isn't a valid number(int). [Colour Code Support: Yes ,Variables: /]
+  TimeAmountNoNumber: '&cThe input value number must be a number.'
+  #The message that is displayed if the time amount is a to high int. [Colour Code Support: Yes ,Variables: /]
+  TimeAmountToHigh: '&cThe input number is to high. It must be under 5001.'
+  #The message that is displayed if the time unit isn't a valid time unit. [Colour Code Support: Yes ,Variables: /]
+  InvalidTimeUnit: '&cThe input time unit isn''t valid. Valid time units: s, m, h, d'
+  #The value that is displayed if the player is muted. [Colour Code Support: Yes ,Variables: /]
+  MutedStatusTrue: 'Yes'
+  #The value that is displayed if the player isn't muted. [Colour Code Support: Yes ,Variables: /]
+  MutedStatusFalse: 'No'
+  #The fist message that is displayed when executing /mutestatus. [Colour Code Support: Yes ,Variables: %p = player name]
+  MuteHeader: '----- &6%p &f-----'
+  #The message that is displayed if the command /mutestatus is executed. [Colour Code Support: Yes ,Variables: %m = mute status]
+  MuteStatus: 'Muted: &6%m'
+  #The message that is displayed if the command /mutestatus is executed and the player is muted. [Colour Code Support: Yes ,Variables: %r = reason]
+  MuteReason: 'Reason: &6%r'
+  #The message that is displayed if the command /mutestatus is executed and the player is muted. [Colour Code Support: Yes ,Variables: %t = time]
+  MuteTime: 'Time: &6%t'
+#All relevant messages used in the chat
+Chat:
+  #The message that gets displayed if you try to chat while being muted
+  MutedTrue: '&cYou are muted. See more information with /mutestatus'
+#All relevant messages used in the mute manager
+MuteManager:
+  #The value that is displayed if the player is muted but isn''t muted permanent. [Colour Code Support: Yes ,Variables: %dT = time in day(s); %d = day unit; %hT = time int hour(s); %h = hour unit; %mT = time in minute(s); %m = minute unit; %sT = second unit; %s = second unit]
+  RestTime: '%dT %d, %hT %h, %mT %m, %sT %s'
+  #The value that is displayed if the player is muted permanent. [Colour Code Support: Yes ,Variables: /]
+  Permanent: 'Permanent'
+  #The value that is displayed if the player has no mute time remaining, normaly never gets triggerd. [Colour Code Support: Yes ,Variables: /]
+  NoTime: '/'
+

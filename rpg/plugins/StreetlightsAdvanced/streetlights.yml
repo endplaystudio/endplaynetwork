@@ -1,0 +1,18 @@
+Streetlights:
+  General:
+    Activate at level: 7
+    Delay: 3
+    Play OFF Effect: true
+    Play ON Effect: true
+    Protect block break: true
+    Clean on start up: false
+    Auto save: true
+  Daylight Sensor:
+  - ==: SerializableLocation
+    world: f62742a5-b1a4-4d08-b7a1-63534b7afe32
+    vector:
+      ==: Vector
+      x: 142.0
+      y: 93.0
+      z: 340.0
+  Locations: []

@@ -1,0 +1,43 @@
+currentQuests:
+- Жестокое заключение
+- Рыцарские делишки
+- Доставка удочки
+- Странная Просьба
+currentStages:
+- 0
+- 4
+- 1
+- 3
+quest-points: 24
+questData:
+  Жестокое заключение:
+    citizen-ids-to-talk-to:
+    - 37
+    has-talked-to:
+    - false
+  Рыцарские делишки:
+    item-delivery-amounts:
+    - 1
+    citizen-ids-to-talk-to:
+    - 24
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    has-talked-to:
+    - false
+  Странная Просьба:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- Водка "Столичная"
+- Немножко угля
+- Морковные дела
+- Пропитые яйца
+- Все женщины - ведьмы
+- Доставка оружия
+- Адские проблемки
+- Костяные нужды
+hasJournal: false
+lastKnownName: Max_Kemper

@@ -1,0 +1,348 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#              Ability file               #
+#                                         #
+#=========================================#
+# The ability ID is the file name!
+# Set to false if you don't want this ability enabled, if you don't want to remove your ability file you can disable it.
+enable: true
+
+# Set the name of ability, this is not the id (ID is the file name).
+name: 'Explosive arrow'
+
+# Set the max level to this ability.
+max_level: 8
+
+# Item is displayed in the menu as <MATERIAL_ID>,<MATERIAL_DATA>,<MATERIAL_AMOUNT>,<ENCHANTMENT_BOOLEAN>.
+logo_item: '261,0,1,false'
+
+# Add here custom locations to disable RPG events.
+# Format: '<LOCATION>=<ID>,<ID_2>,<ID_3>...'
+# Locations [Special locations]:
+# - world [].
+# - worldguard_region [not_pvp, not_exploitable, not_buildable, *].
+# - faction [WarZone, SafeZone, *].
+# - towny [wilderness, WarZone, not_pvp, *].
+disabled_locations:
+- 'worldguard_region=*'
+- 'towny=*'
+- 'faction=*'
+
+# This will be the ability logo description.
+description:
+- '{messages_file.explosive_arrow.description}'
+
+
+level:
+  '1':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 2100
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=50
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.explosive_arrow.level_description=7}'
+  '2':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 4200
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=100
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.explosive_arrow.level_description=12}'
+  '3':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 6300
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=200
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.explosive_arrow.level_description=16}'
+  '4':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 8400
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=1000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.explosive_arrow.level_description=18}'
+  '5':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 10500
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=2000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.explosive_arrow.level_description=22}'
+  '6':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 12600
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=5000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.explosive_arrow.level_description=27}'
+  '7':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 14700
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=10000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.explosive_arrow.level_description=35}'
+  '8':
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 16800
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, example: 'permission=example.example'.
+    # - price: Set a price to buy this level, example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, example: 'by_level=50'.
+    buying_options:
+    - price=20000
+    - currency=vault
+
+    # This will be the ability level description.
+    description:
+    - '{messages_file.explosive_arrow.level_description=39}'
+
+
+# # ==============================
+# #        TUTORIAL (v1.0.3)
+# # ==============================
+# #
+# # - Format: 'LEVEL=<level_number>:<condition/effect/option>=<condition/effect/option_value>'
+# # - Set TARGET: You can set the target(entity) using "TARGET=<TARGET_ENTITY>" read supported targets in 'Events' section, default target is 'SELF' ('SELF' is the player that casted the ability).
+# # - Set LOCATION: You can set location if you want to modify current target location, use: "LOCATION=<LEFT_RIGHT>,<BACK_FORWARD>,<UP_DOWN>,<ANGLE>" (ex: 'triple_arrow_shot' ability).
+# # - Set PROJECTILE_TRAIL: You can set projectile trail using: "PROJECTILE_TRAIL=<PARTICLE_TYPE>,<TICKS>" (ex: 'explosive_arrow' ability).
+# # - Set CHANCE_TO_RUN: You can set chance to run a condition, option, effect: "CHANCE_TO_RUN=<NUMBER>" (ex: 'vampire_mode' ability).
+# # - Set RANDOM: You can create a ID list and the plugin will choose a condition, option, effect randomly: "RANDOM=<ID>" (ex: 'pirate' ability).
+# # - Set CONDITION: You can set a condition to run a condition, option, effect: "CONDITION=<CONDITION_FROM_LIST=CONDITION_VALUES>" (ex: 'mining_luck' ability).
+# # - Set CONDITION_OR: You can use this when you want to get a 'true' value in many conditions, example checking blocks or player hand items: "CONDITION_OR=<ID>" (ex: 'aggressive_mode' ability).
+# # - Use custom variables/placeholders to get a specific value:
+# #   * {SELF_NAME}.
+# #   * {SELF_HEALTH}.
+# #   * {SELF_MAX_HEALTH}.
+# #   * {ENTITY_NAME}.
+# #   * {ENTITY_HEALTH}.
+# #   * {ENTITY_MAX_HEALTH}.
+# #   * {BOW_POWER}.
+# #   * {EVENT_DAMAGE}.
+# #   * {BLOCK_TYPE}.
+# #   * {DROP_TYPE}.
+# #   * {BLOCK_DROP_SIZE}.
+# #   * {RANDOM_NUMBER;<MAX_NUMBER>}.
+# #   * {RANDOM_NUMBER;<MIN_NUMBER>_<MAX_NUMBER>}.
+# #   * {STORAGE_<ID>}. | This is the global ability storage
+# #   * {PLAYER_STORAGE_<ID>}. | This storage is only for the player but it will never be removed.
+# #   * {PLAYER_UNIQUE_STORAGE_<ID>}. | This storage is only for the player but it will be removed when ability ends.
+# # - Use !INVERSE to inverse the condition, example if you are using 'HEARTS' condition then plugin will check if the entity has
+# #   more hearts than the condition value, but if you add !INVERSE, plugin checks if the entity has less hearts than the condition value.
+# #   Example: LEVEL=1:HEARTS=5!INVERSE
+# # - Use !IGNORE_CHECK to skip value verification! (example: "GREATER_THAN=1,{PLAYER_UNIQUE_STORAGE_TEST}!IGNORE_CHECK", because "{PLAYER_UNIQUE_STORAGE_TEST}" isn't a number.
+# # - Use !INSTANT_EVENT_CALL to call the event instantly instead of wait current event ends.
+# # - Use "Arithmetic Operators symbols":
+# #   * Addition: 2 + 2
+# #   * Subtraction: 2 - 2
+# #   * Multiplication: 2 * 2
+# #   * Division: 2 / 2
+# #   * Exponentiation: 2 ^ 2
+# #   * Unary Minus, Plus(Sign Operators): +2 - (-2)
+# #   * Modulo: 2 % 2
+# #   Example: LEVEL=1:HEARTS=({ENTITY_HEALTH}/5)*2
+# # - Be careful adding 'condition/effect/option' with big values, this can affect the server performance!
+# # - Use "/abilities creator info" to see all DAMAGE_CAUSES, SPECIAL_PARTICLES, PARTICLES, SOUNDS, POTION_EFFECTS available in your server version!
+# # - See all events, conditions, effects, options using "/abilities creator <events/conditions/effects/options>".
+# #
+# #
+# # WIKI: https://www.spigotmc.org/wiki/advancedabilities-creator/
+# #
+# # ==============================
+
+
+# Create custom ability events here!
+creator:
+  # Add here main events you will want to use.
+  events:
+    '1':
+      # Set the event name.
+      event: ShootBowEvent
+      # Add here conditions.
+      conditions:
+        - 'LEVEL=ALL:BOW_POWER=0.2!INVERSE'
+        - 'LEVEL=1:CHANCE=7'
+        - 'LEVEL=2:CHANCE=12'
+        - 'LEVEL=3:CHANCE=16'
+        - 'LEVEL=4:CHANCE=18'
+        - 'LEVEL=5:CHANCE=22'
+        - 'LEVEL=6:CHANCE=27'
+        - 'LEVEL=7:CHANCE=35'
+        - 'LEVEL=8:CHANCE=39'
+        - 'LEVEL=ALL:API_EVENT_CANCELLED=API_LOCATION_SUPPORT!INVERSE'
+      # Add here effects.
+      effects:
+        - 'LEVEL=ALL:PROJECTILE_TRAIL=LAVA_POP,1:ARROW={BOW_POWER},false,0'
+      # Add here options.
+      options:
+        - 'LEVEL=ALL:ACTION_BAR_MESSAGE'
+        - 'LEVEL=ALL:PARTICLES=FLAME'
+        - 'LEVEL=ALL:CANCEL_EVENT'
+        - 'LEVEL=ALL:PLAYER_UNIQUE_STORAGE_SET=SOUND,0'
+      # Add here secondary events you want to use, secondary events will be called if the main event was called.
+      secondary_events:
+        '1':
+          # Set the secondary event.
+          event: ProjectileEffectLaunchEvent
+          # Add here conditions.
+          conditions: []
+          # Add here effects.
+          effects: []
+          # Add here options.
+          options:
+            - 'LEVEL=ALL:TARGET=PROJECTILE:SET_CUSTOM_NAME=true,&c&lBOOM!'
+            - 'LEVEL=ALL:START_REPEATING_TASK=SOUND_ID,false,0,0.2'
+        '2':
+          # Set the secondary event.
+          event: ArrowHitEvent
+          # Add here conditions.
+          conditions:
+            - 'LEVEL=ALL:TARGET=PROJECTILE:API_EVENT_CANCELLED=API_LOCATION_SUPPORT!INVERSE'
+          # Add here effects.
+          effects:
+            - 'LEVEL=1:TARGET=PROJECTILE:ANIMATED_EXPLOSION=1,true!INSTANT_EVENT_CALL'
+            - 'LEVEL=1:TARGET=PROJECTILE:RADIUS_PUSH=0,0.32,1!INSTANT_EVENT_CALL'
+            - 'LEVEL=2:TARGET=PROJECTILE:ANIMATED_EXPLOSION=1.5,true!INSTANT_EVENT_CALL'
+            - 'LEVEL=2:TARGET=PROJECTILE:RADIUS_PUSH=0,0.32,1.5!INSTANT_EVENT_CALL'
+            - 'LEVEL=3:TARGET=PROJECTILE:ANIMATED_EXPLOSION=1.7,true!INSTANT_EVENT_CALL'
+            - 'LEVEL=3:TARGET=PROJECTILE:RADIUS_PUSH=0,0.32,1.7!INSTANT_EVENT_CALL'
+            - 'LEVEL=4:TARGET=PROJECTILE:ANIMATED_EXPLOSION=1.9,true!INSTANT_EVENT_CALL'
+            - 'LEVEL=4:TARGET=PROJECTILE:RADIUS_PUSH=0,0.32,1.9!INSTANT_EVENT_CALL'
+            - 'LEVEL=5:TARGET=PROJECTILE:ANIMATED_EXPLOSION=2.1,true!INSTANT_EVENT_CALL'
+            - 'LEVEL=5:TARGET=PROJECTILE:RADIUS_PUSH=0,0.32,2.1!INSTANT_EVENT_CALL'
+            - 'LEVEL=6:TARGET=PROJECTILE:ANIMATED_EXPLOSION=2.2,true!INSTANT_EVENT_CALL'
+            - 'LEVEL=6:TARGET=PROJECTILE:RADIUS_PUSH=0,0.32,2.2!INSTANT_EVENT_CALL'
+            - 'LEVEL=7:TARGET=PROJECTILE:ANIMATED_EXPLOSION=2.3,true!INSTANT_EVENT_CALL'
+            - 'LEVEL=7:TARGET=PROJECTILE:RADIUS_PUSH=0,0.32,2.3!INSTANT_EVENT_CALL'
+            - 'LEVEL=8:TARGET=PROJECTILE:ANIMATED_EXPLOSION=2.5,true!INSTANT_EVENT_CALL'
+            - 'LEVEL=8:TARGET=PROJECTILE:RADIUS_PUSH=0,0.32,2.5!INSTANT_EVENT_CALL'
+          # Add here options.
+          options:
+            - 'LEVEL=ALL:TARGET=PROJECTILE:LOCATION=0,0,0.3,0:SPECIAL_PARTICLES=CIRCLE,LAVA_POP,40,3'
+            - 'LEVEL=ALL:TARGET=PROJECTILE:LOCATION=0,0,1.3,0:SPECIAL_PARTICLES=CIRCLE,LAVA_POP,40,3'
+            - 'LEVEL=ALL:TARGET=PROJECTILE:LOCATION=0,0,2.3,0:SPECIAL_PARTICLES=CIRCLE,LAVA_POP,40,3'
+            - 'LEVEL=ALL:TARGET=PROJECTILE:REMOVE_ENTITY'
+            - 'LEVEL=ALL:CANCEL_TASK=SOUND_ID'
+        '3':
+          # Set the secondary event.
+          event: RepeatingTaskEvent
+          # Add here conditions.
+          conditions: []
+          # Add here effects.
+          effects: []
+          # Add here options.
+          options:
+            - 'LEVEL=ALL:SOUND=true,UI_BUTTON_CLICK,0.9,{PLAYER_UNIQUE_STORAGE_SOUND}!IGNORE_CHECK'
+            - 'LEVEL=ALL:PLAYER_UNIQUE_STORAGE_SET=SOUND,{PLAYER_UNIQUE_STORAGE_SOUND}+0.1'
+            - 'LEVEL=ALL:TARGET=PROJECTILE:CONDITION=IS_ON_GROUND:CANCEL_TASK=SOUND_ID'
+            - 'LEVEL=ALL:TARGET=PROJECTILE:CONDITION=IS_ON_GROUND:REMOVE_ENTITY'
+        '4':
+          # Set the secondary event.
+          event: ExplosionEffectBlockEvent
+          # Add here conditions.
+          conditions: []
+          # Add here effects.
+          effects: []
+          # Add here options.
+          options:
+            - 'LEVEL=ALL:TARGET=BLOCK:CONDITION=API_EVENT_CANCELLED=API_LOCATION_SUPPORT:CANCEL_EVENT'
+            - 'LEVEL=ALL:TARGET=BLOCK:CONDITION=CHECK_LOCATION=!INVERSE:CANCEL_EVENT'
+        '5':
+          # Set the secondary event.
+          event: EntityRadiusPushEvent
+          # Add here conditions.
+          conditions: []
+          # Add here effects.
+          effects: []
+          # Add here options.
+          options:
+            - 'LEVEL=ALL:TARGET=ENTITY:CONDITION=API_EVENT_CANCELLED=API_LOCATION_SUPPORT:CANCEL_EVENT'
+            - 'LEVEL=ALL:TARGET=ENTITY:CONDITION=CHECK_LOCATION=!INVERSE:CANCEL_EVENT'

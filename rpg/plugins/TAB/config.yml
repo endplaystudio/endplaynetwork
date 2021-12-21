@@ -1,0 +1,125 @@
+#some placeholders
+# %online%       = online count
+# %ping%         = ping of player
+# %nick%         = nickname of player
+# %ip%           = IP of player
+# %time%         = for example 20:30:00
+# %rank%         = permission group of player
+# %money%        = money of player
+# %world%        = name of world where player is
+# %worldonline%  = amount of players in the same world, might be useful with per-world-playerlist enabled
+# %canseeonline% = similar to online, but doesn't count vanished players
+# %staffonline%  = amount of staff online, groups can be defined below
+# %kingdom%      = if kingdom plugin is installed..
+# %faction%      = if a faction plugin is installed..
+# .. + PlaceholderAPI
+
+change-nametag-prefix-suffix: true #Warning! Disabling will break sorting of players in tablist!
+change-tablist-prefix-suffix: true
+enable-header-footer: true
+
+#1 tick = 50 milliseconds
+nametag-refresh-interval-ticks: 200
+tablist-refresh-interval-ticks: 200
+header-footer-refresh-interval-ticks: 1
+
+header:
+  - '&6&lEND PLAY
+  - ''
+  - '&fСайт сервера:
+  - '&eend-play.xyz/minecraft'
+  - ''
+footer:
+  - ''
+  - 'Вы находитесь на сервере:
+  - '&emmorpg'
+
+show-ping-in-tab: true
+invalid-ping-replacement: -1
+use-essentials-nickname-in-tab: true
+
+#different playerlist in differnt world. Like on a bungeecord
+per-world-playerlist: false
+
+#renamed, so hopefully nobody will ask what is this anymore..
+if-a-player-is-assigned-to-more-than-1-group-the-group-higher-in-this-list-will-be-used-to-apply-prefix-suffix:
+  - "Owner"
+  - "Admin"
+  - "Mod"
+  - "Player"
+
+#used for %staffonline% variable
+staff-groups:
+  - "Admin"
+  - "Mod"
+  - "Owner"
+  
+#better showing of %rank% value
+rank-aliases:
+  Admin: "&4&lAdmin"
+  Mod: "&b&lMod"
+  Premium: "&6&lPremium"
+  default: "&7No Rank"
+  player: "&7No Rank"
+
+#tabprefix = prefix in tablist with no known limit of characters
+#tagprefix = prefix above player's character with limit of 16 characters
+#tabsuffix = suffix in tablist with no known limit of characters
+#tagsuffix = suffix above player's character with limit of 16 characters
+#you don't need to use all 4, you can delete the empty values to not have this config full of "spam"
+
+#players are sorted in tablist alphabetically by their tabprefix
+#for a guide how to "bypass" this, check FAQ on plugin's spigot page
+Groups:
+  Owner:
+    tabprefix: "&0&l[&a&lOwner&0&l] &a&l"
+    tagprefix: "&2&lOwner &a&l"
+  Admin:
+    tabprefix: "&0&l[&4&lAdmin&0&l] &1&l"
+    tagprefix: "&4&lAdmin &1&l"
+  Player:
+    tabprefix: "&0&l[&7&lPlayer&0&l] &3&l"
+    tagprefix: "&2&lPlayer &3&l"
+
+#personal settings, override group settings
+Users:
+  Player1:
+    tabprefix: ""
+    tagprefix: ""
+    tabsuffix: ""
+    tagsuffix: ""
+    
+#list of worlds with different settings than default, other worlds will use settings from above
+per-world-settings:
+  world1:
+    header:
+      - "an example of world with custom"
+    footer:
+      - "header/footer and prefix/suffix"
+    Groups:
+      Admin:
+        tabprefix: "&2&lAdmin &1&l"
+        tagprefix: "&2&lAdmin &1&l"
+      Player:
+        tabprefix: "&5&lPlayer &3&l"
+        tagprefix: "&5&lPlayer &3&l"
+  world2:
+    Groups:
+      Admin:
+        tabprefix: "&2&lAdmin &1&l"
+        tagprefix: "&2&lAdmin &1&l"
+      Player:
+        tabprefix: "&5&lPlayer &3&l"
+        tagprefix: "&5&lPlayer &3&l"
+    Users:
+      Player1:
+        tabprefix: ""
+        tagprefix: ""
+        tabsuffix: ""
+        tagsuffix: ""
+  world3:
+    header:
+      - "an example of custom header/footer"
+      - "in world3, but"
+    footer:
+      - "prefix and suffix still same"

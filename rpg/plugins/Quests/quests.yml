@@ -1,0 +1,802 @@
+quests:
+  Hunter:
+    name: Mob Hunter
+    ask-message: <yellow>Kill an assortment of Mobs.
+    finish-message: <yellow>Excellent. Here is a <purple>Diamond Sword<yellow>.
+    requirements:
+      quests:
+      - Stone Miner
+      fail-requirement-message: <red>Complete <purple>Stone Miner<red> first.
+    stages:
+      ordered:
+        '1':
+          death-event: DeathFail
+          mobs-to-kill:
+          - Pig
+          mob-amounts:
+          - 3
+          finish-event: GoodJob
+        '2':
+          death-event: DeathFail
+          mobs-to-kill:
+          - Zombie
+          mob-amounts:
+          - 2
+          finish-event: GoodJob
+        '3':
+          death-event: DeathFail
+          mobs-to-kill:
+          - Skeleton
+          mob-amounts:
+          - 1
+    rewards:
+      items:
+      - name-DIAMOND_SWORD:amount-1
+      exp: 100
+      quest-points: 1
+  CatchFish:
+    name: Catch Fish
+    ask-message: <yellow>Catch some fish!
+    finish-message: <yellow>Good job. Here is some <green>experience<yellow>.
+    requirements:
+      quests:
+      - Stone Miner
+      fail-requirement-message: <red>Complete <purple>Stone Miner<red> first.
+    stages:
+      ordered:
+        '1':
+          start-event: FishingStart
+          death-event: DeathFail
+          chat-events:
+          - RodEvent
+          chat-event-triggers:
+          - rod
+          fish-to-catch: 5
+    rewards:
+      exp: 250
+  custom3:
+    name: Рыцарские делишки
+    npc-giver-id: 28
+    ask-message: Нет времени объяснять! Найди рыцаря! Он подскажет что делать дальше.
+    finish-message: Спасибо! Своим подвигом ты помог сотням людей! Держи награду!
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 24
+          complete-message: Привет, тебе нужно отдать Гале книгу. Галя в беседке возле
+            моста к Адской горе
+        '2':
+          items-to-deliver:
+          - name-BOOK:amount-1
+          npc-delivery-ids:
+          - 26
+          delivery-messages:
+          - 'О, ты как раз вовремя. А теперь беги как можно скорее в храм, и поговори
+            с Василием. Пароль: Книжка'
+          complete-message: О, ты как раз вовремя. А теперь беги как можно скорее
+            в храм, и поговори с Василием.
+        '3':
+          npc-ids-to-talk-to:
+          - 27
+          complete-message: Срочно найди листик! Он где-то в этом храме. Может спроси
+            у кого-то где он.
+        '4':
+          npc-ids-to-talk-to:
+          - 24
+        '5':
+          items-to-deliver:
+          - name-PAPER:amount-1
+          npc-delivery-ids:
+          - 24
+          delivery-messages:
+          - Ох, спаисбо!
+          npc-ids-to-talk-to:
+          - 24
+    rewards:
+      money: 200
+      quest-points: 10
+      exp: 50
+  custom9:
+    name: Все женщины - ведьмы
+    npc-giver-id: 36
+    ask-message: Галя меня вчера обидела. Передай, пожалуйста, что она *****. Заранее
+      спасибо :3
+    finish-message: Ох, спасибо большое! Держи награду, мне не жалко :)
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 26
+          complete-message: 'Спасибо конечно за послание, но передай ей в ответ: *****
+            иди, курица! Заранее спасибо!'
+        '2':
+          npc-ids-to-talk-to:
+          - 36
+    rewards:
+      money: 50
+      quest-points: 1
+      exp: 50
+  custom12:
+    name: Жестокое заключение
+    npc-giver-id: 27
+    ask-message: Моего друга заперли. Мне нужна твоя помощь!
+    finish-message: Ох, спасибо, мой герой! Держи щедрую награду. Отдал всё, что было
+      :)
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 37
+          complete-message: Ммм... Тебе нужен твой друг? Тогда принеси мне 15 гнилой
+            плоти, и я подскажу как его спасти.
+        '2':
+          items-to-deliver:
+          - name-ROTTEN_FLESH:amount-15
+          npc-delivery-ids:
+          - 37
+          delivery-messages:
+          - Ok
+          complete-message: Ладно, сходи к Трудовику, и он подскажет как спасти твоего
+            друга.
+        '3':
+          npc-ids-to-talk-to:
+          - 14
+          complete-message: Ладно, я скажу где он, но для начала принеси мне бутылочку
+            водяры.
+        '4':
+          items-to-deliver:
+          - name-POTION:amount-1:data-36:displayname-Водка "Столичная"
+          npc-delivery-ids:
+          - 14
+          delivery-messages:
+          - Ок
+          finish-event: Door
+          complete-message: Хорошо, теперь сходи к дому под номером 18В и там ты найдёшь
+            твоего друга.
+        '5':
+          npc-ids-to-talk-to:
+          - 38
+          complete-message: О, спасибо, что освободил меня! Вернись к Василию, и скажи,
+            что я свободен :)
+        '6':
+          npc-ids-to-talk-to:
+          - 27
+          finish-event: Door1
+    rewards:
+      money: 250
+      quest-points: 10
+      exp: 150
+  custom13:
+    name: Посвящение
+    npc-giver-id: 16
+    ask-message: Ты хочешь стать рыцарем, и получить доступ к Эпической линейке квестов?
+    finish-message: Поздравляю! Теперь ваши квесты будут на варпе /warp premium, и
+      их станет больше!
+    requirements:
+      quest-points: 50
+      quests:
+      - Адские проблемки
+      - Доставка оружия
+      - Костяные нужды
+      - Морковные дела
+      - Немножко угля
+      - Рыцарские делишки
+      fail-requirement-message: Вам нужно закончить первую ветку квестов чтобы получить
+        доступ к Эпическим квестам!
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 14
+          start-message: Сходи к Трудовику, и узнай, можно ли тебе стать рыцарем.
+          complete-message: Хм... Думаю, ты достоен этого! Хоршо, вернись к Адольфу,
+            и скажи, что я не против.
+        '2':
+          npc-ids-to-talk-to:
+          - 16
+  custom5:
+    name: Тот самый хлебушек
+    npc-giver-id: 41
+    ask-message: Мне нужен хлеб. Много хлеба. Но он должен быть с огнеустойчивостью.
+      Поможешь?
+    finish-message: Ммм, спасибо. Теперь могут получится интересные вещи :3
+    requirements:
+      quests:
+      - Посвящение
+      fail-requirement-message: Ты ещё не проходил посвящение, поэтому тебе нельзя
+        выполнять этот квест.
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 4
+          start-message: Уточни у продавца еды. Может у него есть то, что нужно.
+          complete-message: Прости, но такого хлеба у меня нет. Спроси в пивнушке.
+            Может они в курсе.
+        '2':
+          npc-ids-to-talk-to:
+          - 39
+          complete-message: Прости, мы таким не торгуем уже 2 месяца. Уточни в порту
+            у моряка, он точно знает где такое искать.
+        '3':
+          items-to-deliver:
+          - name-BREAD:amount-16:enchantment-FireProtection 4:displayname-Огнеустойчивый
+            хлеб
+          npc-delivery-ids:
+          - 41
+          delivery-messages:
+          - Спасибо!
+    rewards:
+      items:
+      - name-BREAD:amount-16
+      money: 100
+      quest-points: 1
+      exp: 55
+  custom15:
+    name: Изумрудная мания
+    npc-giver-id: 10
+    ask-message: Мне очень нужны изумруды. Найди 16 где-нибудь. Буду очень благодарен.
+    finish-message: Огромное спасибо! Изумруды редкость в наше вермя, поэтому держи
+      щедрую награду!
+    requirements:
+      quests:
+      - Посвящение
+      fail-requirement-message: Ты ещё не прошёл посвящение. Эпическая линейка квестов
+        недоступна.
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-EMERALD:amount-16
+          npc-delivery-ids:
+          - 10
+          delivery-messages:
+          - Спасибо!
+    rewards:
+      money: 500
+      quest-points: 5
+      exp: 100
+  custom17:
+    name: Кроличья дилема
+    npc-giver-id: 13
+    ask-message: У моего друга Валентина проблема... Он кролик, и ему нужно 8 необычных
+      золотых морковок. Поможешь?
+    finish-message: Огромное спасибо! Надеюсь, что тебе поравится то, что я тебе подарил
+      взамен :)
+    requirements:
+      quests:
+      - Посвящение
+      fail-requirement-message: Вам нужно пройти Обычную линейку квестов перед началом
+        Эпической!
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 50
+          start-message: Найди Валентина недалеко от входа в город в лесу. Если что
+            - воспользуйся картой.
+          complete-message: Привет. Золотую морковь можно достать пройдя подземелье
+            до 51 уровня. Лучше проходить с другом <3
+        '2':
+          items-to-deliver:
+          - name-GOLDEN_CARROT:amount-8:enchantment-Power 5:displayname-Морковка Валентина
+          npc-delivery-ids:
+          - 50
+          delivery-messages:
+          - Спасибо!
+          complete-message: Ура! Спасибо! Скажи фермеру, что ты очень хороший человек
+            :)
+        '3':
+          npc-ids-to-talk-to:
+          - 13
+          complete-message: Я рад, что ты помог ему :)
+    rewards:
+      money: 100
+      quest-points: 5
+      exp: 50
+  custom18:
+    name: Дочка короля
+    npc-giver-id: 16
+    ask-message: Мою дочь Василису похитили. Вероятнее всего это был разбойник. Помоги
+      мне её найти.
+    finish-message: Слава богу! Она жива! Спасибо тебе, великий рыцарь. Держи свою
+      щедрую награду!
+    requirements:
+      quests:
+      - Посвящение
+      fail-requirement-message: Вы ещё не прошли Обычную линейку квестов. Возвращайтесь
+        позже <3
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 52
+          start-message: Разбойник находится в замке на набережной речки "Рагама".
+            Это северо-восточный угол города.
+          complete-message: Хорошо, рыцарь. Достань мне 16 человеческих костей, и
+            я скажу где Василиса.
+        '2':
+          items-to-deliver:
+          - name-BONE:amount-16
+          npc-delivery-ids:
+          - 52
+          delivery-messages:
+          - Хорошо. Вижу.
+          complete-message: 'Ладно, говорю где она: Я продал её Личу. Он, скорее всего,
+            как обычно в своей лавке.'
+        '3':
+          npc-ids-to-talk-to:
+          - 53
+          start-message: Надеюсь, кости действительно человеческие...
+          complete-message: Хм... Тебе нужна та девчонка? Тогда достань мне где-то
+            16 адской свето-пыли.
+        '4':
+          items-to-deliver:
+          - name-GLOWSTONE_DUST:amount-16
+          npc-delivery-ids:
+          - 53
+          delivery-messages:
+          - Ммм... Пыль...
+          start-message: Я сделаю из этой пыли много чего полезного...
+          complete-message: Хорошо. Я открыл её. Просто сходи в бесконечную башню,
+            и на одном из этажей будет она.
+        '5':
+          npc-ids-to-talk-to:
+          - 51
+          start-event: ВасилисаOpen
+          start-message: Да, и будь в башне осторожнее... Она находится в холмах рядом
+            с портом.
+          complete-message: Ох, спасибо, мой герой! Скажи моему папе, что я свободна!
+        '6':
+          npc-ids-to-talk-to:
+          - 16
+          finish-event: ВасилисаClose
+    rewards:
+      money: 550
+      quest-points: 10
+      exp: 150
+  custom20:
+    name: Бесконечная башня
+    npc-giver-id: 56
+    redo-delay: 86400
+    ask-message: Получить доступ в Бесконечную башню
+    finish-message: Доступ есть. Наслаждайтесь :)
+    gui-display: name-NETHER_STAR:amount-1
+    requirements:
+      quests:
+      - Посвящение
+      fail-requirement-message: Вы ещё не прошли обычную линейку квестов. Возращайтксь
+        позже
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 56
+    rewards:
+      items:
+      - name-NETHER_STAR:amount-1
+  custom4:
+    name: Морковные дела
+    npc-giver-id: 12
+    ask-message: 'Мне нужна морковь. Пожалуйста, сбегай за ней к селянину. Координаты:
+      94; 71; 220'
+    finish-message: Спасибо! Держи твою награду. Ещё раз спасибо за помощь :)
+    gui-display: name-CARROT_ITEM:amount-1
+    requirements:
+      money: 5
+      fail-requirement-message: Тебе нужно 5 монет чтобы ты мог купить морковь!
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-CARROT_ITEM:amount-1
+          npc-delivery-ids:
+          - 12
+          delivery-messages:
+          - Спасибо :)
+          npc-ids-to-talk-to:
+          - 13
+    rewards:
+      items:
+      - name-GOLDEN_APPLE:amount-1
+      - name-GRILLED_PORK:amount-1
+      money: 100
+      quest-points: 5
+      exp: 50
+  custom2:
+    name: Доставка удочки
+    npc-giver-id: 25
+    ask-message: Моя удочка почти сломана. Доставь мне новую, пожалуйста.
+    finish-message: Огромное спасибо! Отблагодарил как смог :)
+    gui-display: name-FISHING_ROD:amount-1
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 2
+          start-message: Найди оружейника. У него скорее всего есть удочки
+          complete-message: Сорян, но у меня нет удочек. Найди крановщика, может он
+            видел торговцев удочками.
+        '2':
+          npc-ids-to-talk-to:
+          - 33
+          complete-message: О, так Пират же продаёт удочки. Он в крайнем правом корабле
+            возле причала.
+        '3':
+          npc-ids-to-talk-to:
+          - 37
+          complete-message: О, у меня как раз есть крутая удочка. Продаю не дрого
+            :)
+        '4':
+          items-to-deliver:
+          - name-FISHING_ROD:amount-1:displayname-Спиннинг
+          npc-delivery-ids:
+          - 25
+          delivery-messages:
+          - Спасибо!
+    rewards:
+      items:
+      - name-RAW_FISH:amount-4
+      money: 10
+      quest-points: 1
+      exp: 25
+  custom10:
+    name: Странная Просьба
+    npc-giver-id: 34
+    ask-message: Псс, подойди сюда, принеси куртку,ммм...как обьяснить..Ладно, ты
+      поймёшь какую именно, спроси у Гали
+    finish-message: Спасибо огромное (^-^)
+    gui-display: name-LEATHER_CHESTPLATE:amount-1
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 26
+          complete-message: Куртка Субару? Точно! Её наверное забрала Эмилия. Курочка
+            должна знать где она.
+        '2':
+          npc-ids-to-talk-to:
+          - 31
+          complete-message: Эмилия? Да, я видела как она шла в сторону мельницы. Можешь
+            поискать её там.
+        '3':
+          npc-ids-to-talk-to:
+          - 35
+          complete-message: Блин, забыла выложить её. Держи :)
+        '4':
+          items-to-deliver:
+          - name-LEATHER_CHESTPLATE:amount-1:displayname-Странная куртка
+          npc-delivery-ids:
+          - 34
+          delivery-messages:
+          - Пасибки
+    rewards:
+      quest-points: 5
+      exp: 10
+  custom11:
+    name: Пропитые яйца
+    npc-giver-id: 31
+    ask-message: 3 дня назад Трудовик украл мои яйца. Пожалуйста, верни мне мои 3
+      яйца!
+    finish-message: Спасибо! Теперь я у тебя в долгу! Зови при надобности, я тебе
+      помогу.
+    gui-display: name-EGG:amount-1
+    requirements:
+      money: 15
+      fail-requirement-message: Извини, но для прохождения квеста тебе нужно 15$.
+        Поднакопи, и возвращайся! Это не сложно.
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 14
+          complete-message: Извини, но я продал эти 3 яйца за водку. Спроси у продавца
+            раздела "Еда" на рынке где их можно найти
+        '2':
+          npc-ids-to-talk-to:
+          - 4
+          complete-message: Я продал яйца фермеру. Скорее всего он у себя возле мельницы.
+            Спроси у него, может договоришься
+        '3':
+          npc-ids-to-talk-to:
+          - 13
+          complete-message: Вот, держи. Я не знал что у этих яиц такая история ^_^
+            Верни их хозяйке, герой!
+        '4':
+          items-to-deliver:
+          - name-EGG:amount-3
+          npc-delivery-ids:
+          - 31
+          delivery-messages:
+          - Спасибо!
+    rewards:
+      quest-points: 5
+      exp: 50
+  custom16:
+    name: Доставка оружия
+    npc-giver-id: 2
+    ask-message: Мне нужен антикварный золотой меч. Не мог бы ты его мне достать?
+    finish-message: Огромное спасибо! Держи свои деньги и опыт. Удачи!
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-GOLD_SWORD:amount-1:enchantment-LuckOfTheSea 3:displayname-Антикварный
+            меч
+          npc-delivery-ids:
+          - 2
+          delivery-messages:
+          - Спасибо!
+    rewards:
+      items:
+      - name-STONE_SWORD:amount-1:enchantment-Looting 3:displayname-Каменный добытчик
+      money: 50
+      quest-points: 1
+      exp: 25
+  custom8:
+    name: Халявный ключик
+    npc-giver-id: 64
+    ask-message: ТЫ можешь получить ключ кастомизации практически бесплатно. Хочешь?
+    finish-message: Хорошо! Наслаждайся своим ключиком :)
+    gui-display: name-TRIPWIRE_HOOK:amount-1
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 64
+          delay: 1
+    rewards:
+      commands:
+      - uc give key 1 <player>
+  custom19:
+    name: Костяные нужды
+    npc-giver-id: 29
+    ask-message: У меня украли лук. Верни его пожалуйста. Эльдар подскажет что делать
+      дальше
+    finish-message: Оргомное спасибо! Держи награду, это всё что у меня есть...
+    gui-display: name-BOW:amount-1
+    requirements:
+      money: 10
+      fail-requirement-message: Извините, но вам нужно 10 монет чтобы начать этот
+        квест. Вы можете поработать \(*_*)/
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 30
+          complete-message: Итак, найди рыцаря, он подскажет где найти лук Кусяки.
+        '2':
+          npc-ids-to-talk-to:
+          - 24
+          complete-message: Ладно, странник, найди оружейника, и он продаст тебе лук
+            за небольшую плату
+        '3':
+          npc-ids-to-talk-to:
+          - 2
+        '4':
+          items-to-deliver:
+          - name-BOW:amount-1
+          npc-delivery-ids:
+          - 29
+          delivery-messages:
+          - Спасибо!
+    rewards:
+      items:
+      - name-BONE:amount-1
+      money: 50
+      quest-points: 5
+      exp: 50
+  custom6:
+    name: Немножко угля
+    npc-giver-id: 10
+    ask-message: Мне нужен уголь. Накопай 25 угля, и принеси его мне, пожалуйста.
+      Для поиска угля используй §l/rtp
+    finish-message: Спасибо, добрый человек. Вот твоя награда. Приходи позже, может
+      ещё будет для тебя работа.
+    gui-display: name-COAL:amount-1
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-COAL:amount-25
+          npc-delivery-ids:
+          - 10
+          delivery-messages:
+          - Спасибо!
+    rewards:
+      money: 100
+      quest-points: 1
+      exp: 50
+  custom14:
+    name: Адские проблемки
+    npc-giver-id: 14
+    ask-message: Сходи к Адской горе и поговори с Люцифером. Ах да, захвати там сахар.
+    finish-message: Спасибо за сахарок. Наслаждайся наградой, смертный.
+    gui-display: name-SUGAR:amount-1
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 15
+          complete-message: Хорошо, теперь поговори с путешественником. Он на вершине
+            горы в пещере.
+        '2':
+          npc-ids-to-talk-to:
+          - 49
+          finish-event: Адскиепроблемки
+          complete-message: Хорошо, дверь открылась. Возьми в пещере Люцифера свой
+            сахар.
+        '3':
+          items-to-deliver:
+          - name-SUGAR:amount-1
+          npc-delivery-ids:
+          - 14
+          delivery-messages:
+          - Пасиба
+          finish-event: Адскиепроблемки1
+    rewards:
+      items:
+      - name-DIAMOND:amount-1
+      money: 200
+      quest-points: 5
+      exp: 30
+  custom1:
+    name: Водка "Столичная"
+    npc-giver-id: 14
+    ask-message: Я уже два дня не бухал. Купи мне на рынке водяры, пожалуйста
+    finish-message: О, спасибо, добрый человек. Удачи тебе, а я ушёл в запой (как
+      и всегда)
+    gui-display: name-POTION:amount-1
+    requirements:
+      money: 1
+      fail-requirement-message: Тебе нужен 1$ чтобы ты мог купить водку Трудовику.
+        Накопи немного. Это не сложно.
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-POTION:amount-1:data-36:displayname-Водка "Столичная"
+          npc-delivery-ids:
+          - 14
+          delivery-messages:
+          - О, спасиба!
+          npc-ids-to-talk-to:
+          - 32
+    rewards:
+      money: 50
+      quest-points: 1
+      exp: 25
+  custom7:
+    name: Сломанная удочка
+    npc-giver-id: 7
+    ask-message: Увы, но моя удочка почти сломана. Ещё немного, и она уже никогда
+      не будет помогать мне ловить рыбу. Помоги мне достать материалы для новой.
+    finish-message: Спасибо тебе, путник. Дальше я сам смастерю удочку. Держи свою
+      награду. Больше нету ничего, прости...
+    gui-display: name-FISHING_ROD:amount-1
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 99
+          start-message: Леску можно найти у торговца. Он в порту. №9, если не ошибаюсь.
+            Место B2.
+          complete-message: Привет, странник. Я дам тебе леску, однако нужно чтобы
+            ты наловил рыбы для меня. Держи удочку. Потом отдашь. Нужно 10 рыбин.
+        '2':
+          fish-to-catch: 10
+          start-event: Rod
+          finish-event: leska
+          complete-message: Спасибо, странник. Держи леску. Рыбку можешь оставить
+            себе.
+        '3':
+          items-to-deliver:
+          - name-FISHING_ROD:amount-1:displayname-Удочка торговца
+          npc-delivery-ids:
+          - 99
+          delivery-messages:
+          - О, спасибо что вернул.
+        '4':
+          items-to-deliver:
+          - name-STRING:amount-1:displayname-Леска
+          npc-delivery-ids:
+          - 7
+          delivery-messages:
+          - О, леска. Спасибо.
+          complete-message: Спасибо, странник. Теперь нужна ещё одна деталь - удилище.
+            Сходи к мастеру для этого. Его можно найти рядом с рынком в подвале дома
+            №13.
+        '5':
+          npc-ids-to-talk-to:
+          - 101
+          complete-message: Здравствуй, странник. Если тебе нужно удилище, то принеси
+            мне пару кусков дерева, что у дровосека, а я тебе всё сделаю безвозмездно.
+        '6':
+          npc-ids-to-talk-to:
+          - 102
+          finish-event: drova
+          start-message: Его можно найти в доме рядом с портом. По дороге увидишь.
+            Он тебе всё даст. Буквально два брусочка будут в самый раз. Мне один,
+            и тебе один :)
+          complete-message: О, привет. Держи две штучки. Передай от меня привет мастеру
+            :)
+        '7':
+          items-to-deliver:
+          - name-LOG:amount-2:data-1:displayname-Дрова
+          npc-delivery-ids:
+          - 101
+          delivery-messages:
+          - О, дрова. Супер. Как раз то, что нужно.
+          complete-message: Спасибо что принёс, и при возможности и ему привет передай
+            от меня. Сейчас я всё тебе сделаю...
+        '8':
+          items-to-deliver:
+          - name-STICK:amount-1:displayname-Удилище
+          npc-delivery-ids:
+          - 7
+          delivery-messages:
+          - О, то что нужно.
+          start-event: udilka
+    rewards:
+      money: 139
+      quest-points: 10
+      exp: 20
+  custom21:
+    name: Обучение
+    ask-message: Сходите к подвалу дома 18Б и поговорите с Даниилом. Он давно хотел
+      с тобой поговорить и просил пригнать тебя к себе.
+    finish-message: Добро пожаловать на END PLAY RPG!
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 98
+          start-event: tutorial1
+          complete-message:  &f Даниил &8» &7О, я тебя ждал. Как жизнь? Есть дело. Не спроста же ты тут. Мне давно хотелось питомца. &cНедалеко от порта &7есть парень, который мог бы продать тебе котёнка. Принеси мне его пожалуйста, а я тебе дам всё что нужно. А, и держи еду.
+        '2':
+          npc-ids-to-talk-to:
+          - 102
+          start-event: tutorial2
+          complete-message: О, ты от Даниила? Замечательно. Какой питомец тебе нужен?
+        '3':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGG
+            meta:
+              ==: ItemMeta
+              meta-type: SPAWN_EGG
+              display-name: §7Котёнок
+              lore:
+              - §8Компаньон
+              - §6§oМяу! Мяу! Мяу!
+              - '§7 • Здоровье: §c20'
+              - '§7 • Скорость: §c3.5 блоков/с'
+              - '§7 • Возрождение: §c120 с.'
+              internal: H4sIAAAAAAAAAONiYGBj4CpILdHLSE3MKclwMGEAAw4GNpBgZgoDa3ZmSUklFwOna15JZkllSGI6BwMTUJw/NzMvNbkoMa3EKj0jsbiEgQEAslDmlkwAAAA=
+              id: ghast
+          npc-delivery-ids:
+          - 98
+          delivery-messages:
+          - Как раз тот, которого хотел! Спасибо тебе. Вот, держи ещё еды и денег
+            на первое время. Если будет что-то нужно - команда /help тебе поможет,
+            а теперь в путь, юный герой!
+          start-event: tutorial3
+          finish-event: tutorial4
+          complete-message: '&f Даниил &8» &7Ой, прям такой как я хотел! Спасибо тебе.
+            Вот, держи денег для начала и ещё покушать. Если что - тебе помогут по
+            команде &c/help&7. Приятной игры!'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+        amount: 8
+      money: 100
+      exp: 10
+    options:
+      allow-commands: true
+      allow-quitting: false
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true

@@ -1,0 +1,70 @@
+player_not_found: '&c Игрок с ником&a %s &cне найден!'
+target_already_married: '&c Игрок&a %s &cуже свзяал себя узами брака!'
+already_married: '&c Вы уже в браке!'
+married: '&6 Свадьбы &8| &7Игроки&a %s &7и&a %s &7теперь молодожёны!'
+marriage_requested: '&7 Игрок&a %s &7сделал(а) вам предложение. Чтобы принять его
+  напишите &c/marry %s&7'
+request_sent: '&7 Вы сделали&a %s &7предложение.'
+not_married: '&7 Вы &cне в браке&7. &7Используйте &c/marry НИК&7 чтобы сделать предложение.'
+divorced: '&6 Свадьбы &8| &7Игрок&a %s &7и&a %s &7развелись.'
+home_teleport: '&aYou have been teleported to your marriage home!'
+home_not_set: '&cYou currently do not have a home set for your marriage!'
+no_item: '&c Вы не держите никакой предмет чтобы подарить его.'
+item_gifted: '&7 Вы подарили&a %s %s &7вашей второй половинке.'
+gift_received: '&7 Вы получили&a %s %s &7в качестве подарка от своей второй половинки.'
+partner_not_online: '&c Ваша вторая половинка оффлайн.'
+fetching_list: '&7 Обновляем список...'
+home_set: '&aYou have set a home for your marriage!'
+invalid_format: '&cThe argument could not be parsed to an integer!'
+invalid_gender: '&c Пол указан не корректно! &7Можно выбрать "&cmale&7" или "&cfemale&7"'
+gender_set: '&7 Пол был изменён на&a %s&7!'
+marry_self: '&c Свадьба с самим собой невозможна!'
+negative_number: '&c Нельзя вводить отрицательное значение!'
+priest_added: '&aSet player as a priest, he may now marry other players!'
+priest_removed: '&aUnset player as a priest, he may now no longer marry othewr players!'
+teleported: '&aYou have been teleported to your partners location!'
+teleported_2: '&aYour partner has just teleported to you!'
+online_since: '&7 Ваша вторая половинка &aв игре &7на протяжении&a %s!'
+offline_since: '&7 Ваша вторая половинка &cне в игре &7на протяжении&a %ss!'
+not_a_priest: '&cYou are not permitted to marry 2 players!'
+cooldown: '&c Воу-воу. Полегче. Не спеши ты так. Подожди немножко!'
+update_available: |-
+  &6 Свадьбы &8| &eThere is a new update available! %s for %s
+  Type &6/marry update &eto update now.
+paid_fee: '&a %s &7было удержано с вашего баланса.'
+insufficient_money: '&c Недостаточно средств. У вас:&a %s'
+partner_fee: '&c Ваш партнёр не оплатил стоимость брака!'
+married_to: '&7в браке с&a %s'
+chat_enabled: '&7 Теперь вы в чате с вашей второй половинкой.'
+chat_disabled: '&7 Вы больше не в чате с вашей второй половинкой.'
+chat_spy_enabled: '&aNow spying on marriage private chat!'
+chat_spy_disabled: '&aNo longer spying on marriage chat!'
+no_health: '&c К сожалению, у вас нет жизней чтобы поделиться.'
+full_health: '&c Поделиться здоровьем невозможно. Возможно, оно и так полное.'
+health_given: '&7 Вы отдали вашей второй половинке&c %s &7сердец.'
+health_taken: '&7 Ваша вторая половинка отдала вам&c %s &7сердец.'
+pvp_enabled: '&aYou have enabled pvp with your partner!'
+pvp_disabled: '&aYou have disabled pvp with your partner!'
+partner_pvp: '&aYour partner has changed pvp rules.'
+bonus_exp: '&aYou gained %s extra EXP for leveling with your partner!'
+config_reload: '&aConfiguration settings were reloaded, please note that some settings
+  may not apply until reboot.'
+gender_already_changed: '&cYou have already specified your gender, you can only do
+  this once.'
+teleport_unsafe: '&cThe location you are trying to teleport to is unsafe or obstructed'
+command_marry: Сделать предложение о браке игроку
+command_marry_priest: Поженить двух игроков (заблокировано)
+command_chat: Войти/Выйти из брачного чата
+command_divorce: Развестись с вашей второй половинкой
+command_gender: Выбрать ваш пол
+command_gift: Подарить предмет(ы) в вашей руке вашему партнёру
+command_home: Телепорт домой (заблокировано)
+command_list: Полный список браков игроков
+command_seen: Узнать время последнего логина партнёра
+command_sethome: Установить дом (заблокировано)
+command_teleport: Телепорт к партнёру (заблокировано)
+command_heal: Send your health to your partner
+command_pvp: Enable/disable pvping with your partner
+status: '&7 Статус: %s'
+single: '&cОдинок&7(&cа&7)'
+on_off: on/off

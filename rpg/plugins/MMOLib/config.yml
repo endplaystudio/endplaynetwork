@@ -1,0 +1,74 @@
+
+# Make sure you restart/reload your server when changing one of
+# these options. MMOLib/MMOItems/MMOCore are /reload friendly
+# but that might not be the case for all the plugins you're using.
+
+# Default: 2.0; crits deal twice as much damage. This value
+# stacks up with the current weapon's crit power.
+#
+# Example:
+# - 10 atk damage sword
+# - +50% crit power
+# - crit coefficient set to 2.0
+# result: 25 damage (10 + 10 + 5)
+crit-coefficient: 2.0
+
+# Same but for skill damage.
+spell-crit-coefficient: 1.5
+
+# Default and max. values of armor stats. These systems
+# all have a cooldown which can be reduced using the
+# '*** Cooldown Reduction' item stat.
+mitigation:
+
+    # Edit mitigation messages here. Leavy blank for no message.
+    message:
+        action-bar: true
+        parry: '&cYou just parried #damage# damage.'
+        block: '&cYou just blocked #damage# damage.' # Use #power# to display block power.
+        dodge: '&cYou just dodged #damage# damage.'
+    
+    block:
+        power:
+            default: 25.0
+            max: 75.0
+        rating-max: 80.0
+        cooldown:
+            base: 5.0
+            min: 10.0
+    dodge:
+        knockback:
+            enabled: true
+            force: 1.0
+        rating-max: 80.0
+        cooldown:
+            base: 5.0
+            min: 1.0
+    parry:
+        knockback:
+            enabled: true
+            force: 1.0
+        rating-max: 80.0
+        cooldown:
+            base: 8.0
+            min: 2.0
+
+# Wearing heavy pieces of armors reduces
+# your movement speed by a specific amount,
+# relative to your current move speed.
+heavy-armors:
+
+    # The movement speed reduction in % for each heavy armor piece worn.
+    speed-malus: 5.0
+    
+    # The list of heavy armor pieces. By default gold is not
+    # considered a heavy armor to incite players to use this armor set.
+    list:
+    - DIAMOND_HELMET
+    - DIAMOND_CHESTPLATE
+    - DIAMOND_LEGGINGS
+    - DIAMOND_BOOTS
+    - IRON_HELMET
+    - IRON_CHESTPLATE
+    - IRON_LEGGINGS
+    - IRON_BOOTS

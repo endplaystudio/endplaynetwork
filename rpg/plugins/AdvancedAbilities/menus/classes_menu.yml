@@ -1,0 +1,103 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#   Classes menu selector configuration   #
+#                                         #
+#=========================================#
+# This menu depends on 'classes_system_enable' and 'classes_system_selector' from 'player-settings.yml'
+
+# Set to false if you don't want to server opens the menu to the player.
+open_menu_join: true
+
+# Set to false if you don't want to server opens the player abilities menu after accept the choose menu.
+open_abilities_menu_after_choose: true
+
+# Set to true if you want to hide the abilities of the class.
+hide_class_abilities: false
+
+# Set to true to replace empty slots with 'fill_item' item.
+fill_blank_slots: false
+
+# Empty slots will be replaced with this item.
+fill_item: '160,7,1'
+
+
+# Set to true if you want to center classes icons.
+center_icons: true
+
+
+# Set a slot from 0 to 53.
+accept_item_slot: 53
+
+# This is the accept item. It's displayed <ID>,<DATA>,<AMOUNT>
+accept_item: 133,0,1
+
+# This is the item of next page.
+next_page_item: 338,0,1
+
+# This is the item description.
+next_page_description: []
+
+# This is the item of previous page.
+previous_page_item: 338,0,1
+
+# This is the item description.
+previous_page_description: []
+
+
+# Classes will be added according to this order.
+menu_classes:
+- knight
+- tank
+- farmer
+- archer
+- ninja
+
+
+# You can add items to the menu.
+items:
+  # How can I add/edit an item?
+  #  pages:
+  #   '1': # All items from here will be added to section number. In this case 1.
+  #     item_1: # This section can named as you want.
+  #       name: '&6&lStats'
+  #       material: '340:0:1'
+  #       description:
+  #       - '&7Click to see your stats?'
+  #       action: CLOSE_MENU # [OPTIONAL].
+  #       command: /advancedabilities stats # This is executed by the player. [OPTIONAL].
+  #       command_console: /advancedabilities stats {player} # [OPTIONAL].
+  #  Actions: CLOSE_MENU, NEXT_PAGE, PREVIOUS_PAGE.
+  pages:
+    # This means that items in this section will be added to all pages.
+    '*':
+      item_1:
+        # This is the item name.
+        name: '&6Choose your class!'
+        # Item is displayed in menu <ID>,<DATA>,<AMOUNT>
+        material: '264,0,1'
+        # Description of the item
+        description:
+        - '&cClick to select/deselect the class!'
+        # Slot from 0 to 53
+        slot: 4
+      item_2:
+        # This is the item name.
+        name: '&6Close menu'
+        # Item is displayed in menu <ID>,<DATA>,<AMOUNT>
+        material: '340,0,1'
+        # Description of the item
+        description:
+        - '&eClose the selector menu.'
+        action: CLOSE_MENU
+        # Slot from 0 to 53
+        slot: 45
+
+
+# Do not change anything of this, old file versions will be moved to 'outdated' folder.
+configuration_version: '1.0.0'

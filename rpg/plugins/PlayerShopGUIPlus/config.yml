@@ -1,0 +1,106 @@
+database:
+  #Database backend type, can be set to mysql or sqlite
+  type: sqlite
+  #MySQL database host
+  mySQLHost: localhost
+  #MySQL connection port number
+  mySQLPort: 3306
+  #MySQL database name
+  mySQLDatabase: db
+  #MySQL database user
+  mySQLUser: root
+  #MySQL user's password
+  mySQLPassword: ""
+  #MySQL table names
+  tableNames:
+    players: players
+    shops: shops
+  
+#Logging settings
+log:
+  #Define whether transactions will be logged to the console/main server log
+  toConsole: true
+  #Define whether transactions will be logged to a separate log
+  toFile: false
+  #Date format of transactions (http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+  formatDate: "yyyy/MM/dd HH:mm:ss"
+  #Log message formats
+  messageFormats:
+    sell: "%owner% put up %quantity% x %item% for sale! Price: $%price%, duration: %duration%"
+    bought: "%buyer% bought %quantity% x %item% from %owner% for $%price%."
+    expired: "%owner%'s %quantity% x %item% expired."
+    cancelled: "%player% cancelled %owner%'s %quantity% x %item% for $%price% sell lot."
+
+  
+#Default settings for sold items when not specified
+defaultSettings:
+  quantity: 1
+  price: 100.0
+  
+#Minimum settings values for sold items (set to -1 for no limit)
+minSettings:
+  quantity: -1
+  price: -1
+  
+#Maximum settings values for sold items (set to -1 for no limit), 64 is the maximal supported quantity
+maxSettings:
+  quantity: 64
+  price: -1
+  
+#Choose how many items player will be able to sell at the same time, permission format is playershopguiplus.limit.NAME eg. playershopguiplus.limit.default
+limits:
+  #"default" is required
+  default: 10
+  donator: 50
+  
+#List of items players won't be to put up for sale. Explained in FAQ #1 here:
+bannedItems:
+  1:
+    material: BEACON
+    compareQuantity: false
+    compareItemMeta: false
+  
+#Date format; more info: https://docs.oracle.com/javase/tutorial/i18n/format/simpleDateFormat.html
+dateFormat: "dd.MM.yyyy, HH:mm"
+
+#Choose what gamemodes will prevent players from accessing player shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
+disableInGamemodes:
+  - ADVENTURE
+  - CREATIVE
+  - SPECTATOR
+
+#Choose in which worlds player shops will be completely disabled
+disableInWorlds: []
+
+#Players won't be able to use shop names containing following words/phrases
+bannedShopNames:
+  - fuck
+  - ass
+
+#Choose if players shall be able to select the amount of purchased item (eg. someone sells 16 stone so you will be able to buy 1-15)
+allowQuantitySelection: true
+#Choose for how long items will be buyable before they expire (in minutes, set to -1 to disable)
+shopItemDuration: 4320
+#Choose if shop view will be refresh automatically every X ticks (set below in autoRefreshInterval)
+autoRefresh: false
+#Interval (in ticks, 20 ticks = 1 second) between refreshing shops view
+#Warning: This can cause log when set to low interval with many players online/shops
+autoRefreshInterval: 20
+#Choose if empty shops (with no item lots) shall be displayed in the "All shops" menu
+displayEmptyShops: false
+#Default player shop name
+defaultShopName: "%player%'s shop"
+#Choose if GUI notifications will be displayed (or message ones instead)
+enableGuiNotifications: true
+#Choose if short dates formats will be used, eg. h instead of hours, m instead of minutes etc.
+useShortDateFormats: true
+#Settings of /playershop sell command
+commandSell:
+  #Require choose whether it should require the player to specify the quantity instead of setting
+  #the default one instead - takes effect only when enableGui is set to false
+  requireQuantity: false
+  #Require choose whether it should require the player to specify the price instead of setting
+  #the default one instead - takes effect only when enableGui is set to false
+  requirePrice: false
+  #Choose whether a message will be broadcast after players puts up an item for sale
+  broadcast: true

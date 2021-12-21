@@ -1,0 +1,91 @@
+#Plugin: PixelJoins.
+#Author: Rishabh(SUPER~Pixel)
+#Support Discord: https://discordapp.com/invite/mtvBVyf
+
+#Description:
+#  - Pixel Joins is a clean lightweight plugin which allows you to set custom join, quit messages for players on the server.
+#Features:
+#  - Set Custom Join, Quit, First Login Messages.
+#  - Randomized Messages. Never have the same messages!
+#  - Set Custom Join Messages for different Ranks. Permission Support.
+#  - Supports Multiple Groups Message combinations(Get randomized messages even if you have permissions of multiple groups!).
+#  - Fully Supports Color Codes.
+#  - AuthMe Integration(Only for Servers with AuthMe installed) - Show Join and Quit messages only when they login/logout.
+
+#######
+
+#  Donations: Your donations help me make more awesome stuff :)
+#  Thanks in advance if you help support the Pixel Series!.
+
+#######
+#
+#
+#      Donation Link: paypal.me/pixelrishabh
+#
+#
+#######
+
+#Feature Requests: Let me know via discord :)!
+
+FirstJoinMessages:
+  enabled: true
+  Messages:
+    - ' &f▶ &f%player% &7впервые зашёл на сервер'
+
+Messages:
+  JoinMessages:
+    enabled: true
+    groups:
+      main:
+        - ' &f▶ &f%player% &7зашёл на сервер'
+      staff:
+        - ' &f▶ &c✯ &c%player% &7прилетел попить чаю'
+        - ' &f▶ &c✯ &c%player% &7наконец-то зашёл на сервер'
+        - ' &f▶ &c✯ &c%player% &7забежал за кофейком на минутку'
+        - ' &f▶ &c✯ &c%player% &7решил вернуться из IRL к нам'
+        - ' &f▶ &c✯ &c%player% &7как-то долго был у врача, но теперь с нами'
+        - ' &f▶ &c✯ &c%player% &7пришёл чтобы сделать мир лучше, наверное'
+        - ' &f▶ &c✯ &c%player% &7заблудился, и попал к нам'
+        - ' &f▶ &c✯ &c%player% &7поехал куда-то без навигатора, и оказался тут'
+        - ' &f▶ &c✯ &c%player% &7прилетел на нашу планету покинув Илона на Марсе'
+        - ' &f▶ &c✯ &c%player% &7по неизвестным науке причинам пришёл сюда'
+        - ' &f▶ &c✯ &c%player% &7здесь, прячем траву!'
+        - ' &f▶ &c✯ &c%player% &7вернулся в семью'
+      hypesquad:
+        - ' &f▶ &3✯ &3%player% &7залетел потусить с нами'
+        - ' &f▶ &3✯ &3%player% &7зашёл отдохнуть. Олды классные, не так ли?'
+        - ' &f▶ &3✯ &3%player% &7попал сюда через открытое окно'
+        - ' &f▶ &3✯ &3%player% &7свалился с потолка к нам'
+        - ' &f▶ &3✯ &3%player% &7классный, поэтому играем с ним'
+        - ' &f▶ &3✯ &3%player% &7истинный олд, и теперь с нами'
+        - ' &f▶ &3✯ &3%player% &7пришёл хряпнуть по рюмашке'
+      patron:
+        - ' &f▶ &6✯ &6%player% &7пришёл крушить лица'
+        - ' &f▶ &6✯ &6%player% &7будет пить чаёк с казахами'
+        - ' &f▶ &6✯ &6%player% &7попал на тусу к нашей конфе'
+        - ' &f▶ &6✯ &6%player% &7уже заострил свой Экскалибур'
+        - ' &f▶ &6✯ &6%player% &7был откинут конём к нам, поприветствуем'
+        - ' &f▶ &6✯ &6%player% &7зашёл ломать хлеблеты бомжам'
+        - ' &f▶ &6✯ &6%player% &7наконец явился на огонёк'
+        - ' &f▶ &6✯ &6%player% &7присоединился к клубу'
+        - ' &f▶ &6✯ &6%player% &7пришёл исповедаться'
+        - ' &f▶ &6✯ &6%player% &7как истинный /b/tard пришёл почиллить'
+      helper:
+        - ' &f▶ &e✯ &e%player% &7прилетел к нам. Мужицкий дождь!'
+        - ' &f▶ &e✯ &e%player% &7пришёл помогать народу'
+        - ' &f▶ &e✯ &e%player% &7пробегал мимо желая купить пельмешки'
+        - ' &f▶ &e✯ &e%player% &7попал на ТВ, ну почти'
+        - ' &f▶ &e✯ &e%player% &7бросил конячку, и пришёл пешочком сюда'
+        - ' &f▶ &e✯ &e%player% &7пришёл бахнуть по кружечке с народом'
+
+  QuitMessages:
+    enabled: false
+    groups:
+      default:
+        #Players Have pixeljoins.default permission by default.
+        - '&8[&4-&8] &b%player% &7left the server'
+        - '&8[&4-&8] &9%player% &7just quit the game. Good bye!'
+      donator:
+      #Add your custom message groups like this. Grant a rank "pixeljoins.donator" to use these messages instead of default.
+        - '&8[&4-&8] &b%player% &7left the server &8[&6$&8]'
+        - '&8[&4-&8] &9%player% &7just quit the game. Good bye! &8[&6$&8]'

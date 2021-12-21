@@ -1,0 +1,5 @@
+bank balance: balance
+withdraw: bank withdraw
+deposit: bank deposit
+with: bank withdraw
+dep: bank deposit

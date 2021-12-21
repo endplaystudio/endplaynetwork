@@ -1,0 +1,137 @@
+# Here you can change all the messages to your wishes
+Messages:
+  Commands:
+    NoPlayer: '%PREFIX% &cOnly players can perform this command!'
+    NoPermission: '%PREFIX% &cУ вас нет прав на использование этой команды!'
+    UnknownCommand: '%PREFIX% &cUnknown command! --> /friends help'
+    WrongUsage: '%PREFIX% &cWrong usage! --> %USAGE%'
+    Help:
+      PageError: '%PREFIX% &cThis page does not exists!'
+      Page1:
+        '0': '%PREFIX% &c[&6Страница 1&c]------------------------------------'
+        '1': '%PREFIX% &3/f add ИГРОК &f| Добавить в друзья'
+        '2': '%PREFIX% &3/f remove <Player> &f| Removes a friend'
+        '3': '%PREFIX% &3/f block <Player> &f| Blocks a player'
+        '4': '%PREFIX% &3/f accept <Player> &f|Accepts a request'
+        '5': '%PREFIX% &3/f deny <Player> &f| Deny a request'
+        '6': '%PREFIX% &3/f acceptall &f| Accepts all requests'
+        '7': '%PREFIX% &c-------------------------------------------'
+        '8': '%PREFIX% &3Больше команд --> /f help 2'
+        '9': '%PREFIX% &c-------------------------------------------'
+      Page2:
+        '0': '%PREFIX% &c[&6СТраница 2&c]------------------------------------'
+        '1': '%PREFIX% &3/f unblock <Player> &f| Разблокировать игрока'
+        '2': '%PREFIX% &3/f toggle requests &f| Показывать запросы'
+        '3': '%PREFIX% &3/f toggle <chat|msg> &f| Показать чат или ЛС'
+        '4': '%PREFIX% &3/f toggle jumping &f| Показывать телепорты'
+        '5': '%PREFIX% &3/f toggle spychat &f| Включить режим шпиона'
+        '6': '%PREFIX% &3/f list &f| Посмотреть список друзей'
+        '7': '%PREFIX% &c-------------------------------------------'
+        '8': '%PREFIX% &3Больше команд --> /f help 3'
+        '9': '%PREFIX% &c-------------------------------------------'
+      Page3:
+        '0': '%PREFIX% &c[&6Page3&c]------------------------------------'
+        '1': '%PREFIX% &3/f jump <Player> &f| ТП к другу'
+        '2': '%PREFIX% &3/f info &f| Немного инфы'
+        '3': '%PREFIX% &3/msg <Player> <Message> &f| Отправить сообщение'
+        '4': '%PREFIX% &c-------------------------------------------'
+    Reload: '%PREFIX% &aПлагин перезагружен!'
+    PlayerUnknown: '%PREFIX% &cЭтот игрок не существует!'
+    MSG:
+      NoFriend: '%PREFIX% &c%NAME% должен быть другом чтобы отсылать личные сообщения!'
+      PlayerOffline: '%PREFIX% &c%NAME% оффлайн!'
+      NoMSG: '%PREFIX% &c%NAME% не разрешает отправлять сообщения!'
+      Send: '%PREFIX% &6Ты &f-> &6%NAME%: &f%MESSAGE%'
+      Format: '%PREFIX% &6%NAME% &f-> &6Тебе: &f%MESSAGE%'
+    Chat:
+      Enter: '%PREFIX% &aВы вошли в дружеский чат!'
+      Leave: '%PREFIX% &cВы покинули дружеский чат!'
+    Add:
+      SendSelf: '%PREFIX% &cНельзя отправить себе запрос!'
+      PlayerUnknown: '%PREFIX% &cЭтот игрок не существует!'
+      AlreadyFriends: '%PREFIX% &c%NAME% уже твой друг!'
+      AlreadyRequested: '%PREFIX% &cЗапрос %NAME% уже отправлен!'
+      Blocked:
+        Self: '%PREFIX% &cВы заблокировали %NAME%!'
+        Other: '%PREFIX% &cВы не можете отправить запрос %NAME%!'
+      LimitReached:
+        Self: '%PREFIX% &cYou have already reached the maximum amount of friends!'
+        Other: '%PREFIX% &c%NAME% has already reached the maximum amount of friends!'
+      DisabledRequests: '%PREFIX% &c%NAME% does not want you to send him requests!'
+      Add:
+        Requester: '%PREFIX% &aВы отправили запрос в друзья игроку &3%NAME%&a!'
+        ToAdd:
+          '0': '%PREFIX% &c---------------------------------------------'
+          '1': '%PREFIX% &aВы получили запрос в друзья от &3%NAME%&a!'
+          '2': '%PREFIX% &2%ACCEPT_BUTTON% &c%DENY_BUTTON%'
+          '3': '%PREFIX% &c---------------------------------------------'
+        AcceptButton: '&2[Принять ✔]'
+        AcceptHover: '&2Нажми чтобы принять запрос!'
+        DenyButton: '&c[Отклонить ✖]'
+        DenyHover: '&cНажми чтобы отклонить запрос!'
+    Deny:
+      NoRequest: '%PREFIX% &cНет входящего запроса от %NAME%!'
+      Deny:
+        Denier: '%PREFIX% &7Вы отклонили зпрос %NAME%!'
+        Requester: '%PREFIX% &c%NAME% отклонил ваш запрос!'
+    Accept:
+      NoRequest: '%PREFIX% &cУ вас нет запроса от %NAME%!'
+      NoRequests: '%PREFIX% &cУ вас нет входящих запросов в друзья!'
+      LimitReached:
+        Self: '%PREFIX% &cYou have already reached the maximum amount of friends!'
+        Other: '%PREFIX% &c%NAME% has already reached the maximum amount of friends!'
+      Accept: '%PREFIX% &a%NAME% теперь твой друг!'
+    Remove:
+      NoFriends: '%PREFIX% &c%NAME% не твой друг!'
+      Remove: '%PREFIX% &c%NAME% больше не твой друг!'
+    Block:
+      AlreadyBlocked: '%PREFIX% &c%NAME% уже заблокирован!'
+      UnknownPlayer: '%PREFIX% &c%NAME% не существует!'
+      BlockSelf: '%PREFIX% &cНельзя заблокировать себя'
+      Block:
+        Self: '%PREFIX% &7Ты заблокировал %NAME%!'
+    Unblock:
+      NotBlocked: '%PREFIX% &c%NAME% не заблокирован!'
+      Unblock: '%PREFIX% &7Вы убрали %NAME% из списка блокировок!'
+    Toggle:
+      NoOption: '%PREFIX% &cНеверный ввод команды! -> <requests|chat|jumping>'
+      ToggleRequests: '%PREFIX% &aYou toggled the requests!'
+      ToggleChat: '%PREFIX% &aYou toggled the friendchat!'
+      ToggleJumping: '%PREFIX% &aYou toggled jumping!'
+      ToggleMsg: '%PREFIX% &aYou toggled private messaging!'
+      ToggleSpyChat:
+        Toggle: '%PREFIX% &aThe spychat is now enabled!'
+        Disabled: '%PREFIX% &cThe spychat is now disabled!'
+    Jump:
+      Denied: '%PREFIX% &cТелепорт запрещён тут!'
+      PlayerOffline: '%PREFIX% &c%NAME% сейчас оффлайн!'
+      NoFriends: '%PREFIX% &c%NAME% должен быть вашим другом для телепорта!'
+      Disabled: '%PREFIX% &c%NAME% не хочет чтобы к нему телепортировались!'
+      Jump:
+        Jumper: '%PREFIX% &aВы телепортировались к вашему другу!'
+        ToJump: '%PREFIX% &aВаш друг телепортировался к вам!'
+    List:
+      '0': '%PREFIX% &3Онлайн &7(&c%ONLINE_COUNT%&7): &a%ONLINE%'
+      '1': '%PREFIX% &3Оффлайн &7(&c%OFFLINE_COUNT%&7): &7%OFFLINE%'
+  Favorites:
+    Add: '%PREFIX% &aВы успешно добавили друга в избранное!'
+    Remove: '%PREFIX% &7Вы удалили друга из избранного!'
+  GUI:
+    NoMorePages: '%PREFIX% &cНет больше страниц!'
+    FirstPage: '%PREFIX% &cВы уже на первой странице!'
+  Status:
+    TooFast: '%PREFIX% &cСтатус можно менять не чаще чем раз в 10 минут!'
+    ChangeStatus: '%PREFIX% &aСтатус изменён!'
+    Clear:
+      UnknownPlayer: '%PREFIX% &cThis player has''''nt choosed a status yet!'
+      Clear: '%PREFIX% &3%PLAYER%&a''''s status was cleared!'
+  Nickname:
+    Remove: '%PREFIX% &7You successfully removed the Nickname from &3%NAME%&7!'
+    NoNick: '%PREFIX% &cYou do not have set a Nick for &3%NAME% &cyet!'
+    SetNick: '%PREFIX% &aYou have set &3%NAME%&a''s Nickname to &3%NICK%&a!'
+  FriendQuit: '%PREFIX% &3%PLAYER% &cтеперь офллайн!'
+  FriendJoin: '%PREFIX% &3%PLAYER% &aтеперь онлайн!'
+  FriendChatFormat: '%PREFIX% &3%PLAYER% &c>> &f%MESSAGE%'
+  FriendChatDisabled: '%PREFIX% &cYou disabled the friendchat!'
+  RequestNotification: '%PREFIX% &aYou have &7(&3%REQUESTS%&7) &aopen friend-requests!'
+  SendPartyInvite: '%PREFIX% &aYou have sent a invite to &3%NAME%&a!'

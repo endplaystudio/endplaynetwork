@@ -1,0 +1,24 @@
+Вот доступные подкоманды:
+
+/help site
+/help support
+/help vk
+/help map
+/help commands
+/discord
+
+
+#site
+&3Наш сайт: &chttps://end-play.xyz/minecraft
+
+#support
+&3Центр поддержки пользователей: &chttps://goo.gl/KNtF6Q
+
+#vk
+&3Группа ВКонтакте: &chttps://vk.com/end_play
+
+#map
+&3Онлайн-карта: &chttp://play.end-play.xyz:8123
+
+#commands
+&3Все команды сервера: &c https://www.end-play.xyz/minecraft/?page_id=216

@@ -1,0 +1,110 @@
+animations:
+  MyAnimation1:
+    #in MILLISECONDS
+    change-interval: 50
+    texts:
+      - "&d-&3--------------"
+      - "&3-&d-&3-------------"
+      - "&3--&d-&3------------"
+      - "&3---&d-&3-----------"
+      - "&3----&d-&3----------"
+      - "&3-----&d-&3---------"
+      - "&3------&d-&3--------"
+      - "&3-------&d-&3-------"
+      - "&3--------&d-&3------"
+      - "&3---------&d-&3-----"
+      - "&3----------&d-&3----"
+      - "&3-----------&d-&3---"
+      - "&3------------&d-&3--"
+      - "&3-------------&d-&3-"
+      - "&3--------------&d-"
+      - "&3-------------&d-&3-"
+      - "&3------------&d-&3--"
+      - "&3-----------&d-&3---"
+      - "&3----------&d-&3----"
+      - "&3---------&d-&3-----"
+      - "&3--------&d-&3------"
+      - "&3-------&d-&3-------"
+      - "&3------&d-&3--------"
+      - "&3-----&d-&3---------"
+      - "&3----&d-&3----------"
+      - "&3---&d-&3-----------"
+      - "&3--&d-&3------------"
+      - "&3-&d-&3-------------"
+      - "&d-&3--------------"
+  web:
+    change-interval: 200
+    texts:
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&6w&eww.domain.com"
+      - "&ew&6w&ew.domain.com"
+      - "&eww&6w&e.domain.com"
+      - "&ewww&6.&edomain.com"
+      - "&ewww.&6d&eomain.com"
+      - "&ewww.d&6o&emain.com"
+      - "&ewww.do&6m&eain.com"
+      - "&ewww.dom&6a&ein.com"
+      - "&ewww.doma&6i&en.com"
+      - "&ewww.domai&6n&e.com"
+      - "&ewww.domain&6.&ecom"
+      - "&ewww.domain.&6c&eom"
+      - "&ewww.domain.c&6o&em"
+      - "&ewww.domain.co&6m"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+      - "&ewww.domain.com"
+  online:
+    change-interval: 150
+    texts:
+      - "&7"
+      - "&7"
+      - "&b"
+      - "&7"
+      - "&7"
+      - "&b"
+      - "&b"
+      - "&b"
+      - "&b"
+      - "&7"
+      - "&7"
+      - "&b"
+      - "&7"
+  vote:
+    change-interval: 1000
+    texts:
+      - "&avote.domain.com"
+      - "&5vote.domain.com"
+  Hi:
+    change-interval: 400
+    texts:
+      - "&uHello"
+      - "&lHello"
+  time:
+    change-interval: 500
+    texts:
+      - "&m"
+      - "&n"
+      - "&o"
+      - "&l"
+  ip-ping:
+    change-interval: 5000
+    texts:
+      - "&aPing: &2&n%ping%"
+      - "&7Your IP address: &8&l%ip%"
+  versions:
+    change-interval: 1000
+    texts:
+      - "Online players with MC 1.12.x : %version-group:1-12-x%"
+      - "Online players with MC 1.11.x : %version-group:1-11-x"
+      - "Online players with MC 1.10.x : %version-group:1-10-x"
+      - "Online players with MC 1.9.x : %version-group:1-9-x"
+      - "Online players with MC 1.8.x : %version-group:1-8-x"
+      - "Online players with MC 1.7.x : %version-group:1-7-x"

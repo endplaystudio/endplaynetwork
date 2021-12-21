@@ -1,0 +1,121 @@
+#         Armors.yml: Here you add and customize your armors
+#                     Create each armor like the EXAMPLE armor is done below. (For more help in creating armors look under 'Config Information' on the Bukkit Dev page)
+#                     After creating your armor add it's name to the 'Registered_Armors' list.
+#                     * For plugin settings go to 'Settings.yml'
+#                     Note: Disabled features aren't deleted, they just aren't looked at by the plugin. Just ignore features that are disabled.
+#                     New Features:
+#                           DuraChangePerHit: The value the armor will decrease by every times it's damaged. Can be positive to increase.
+#                                             Setting "DuraChangePerHit:" to "0" will not make the armor unbreakable, sadly.
+#                           PotionEffects: Format it "EFFECT:LEVEL" Separate potion effects with a "," just like Enchantments. "TIME" is not an option
+#                                          because of how the plugin updates/resets potion effects.
+# You Must add your armor to Registered_Armors to get it in-game (Case Sensitive ~!)
+Registered_Armors:
+- Кактусовая
+- Изумрудная
+Armors:
+  Кактусовая:
+    Helmet:
+      Name: Кактусовый шлем
+      Strength: 7
+      Enchantments: Thorns:7
+      Recipe:
+        Row1: CCC
+        Row2: CXC
+        Row3: XXX
+        Ingredients: X=None,C=81
+      PotionEffects: none
+    Chest:
+      Name: Кактусовый нагрудник
+      Strength: 12
+      Enchantments: Thorns:7
+      Recipe:
+        Row1: CXC
+        Row2: CCC
+        Row3: CCC
+        Ingredients: X=None,C=81
+      PotionEffects: none
+    Legs:
+      Name: Кактусовые поножи
+      Strength: 10
+      Enchantments: Thorns:7
+      Recipe:
+        Row1: CCC
+        Row2: CXC
+        Row3: CXC
+        Ingredients: X=None,C=81
+      PotionEffects: None
+    Boots:
+      Name: Кактусовые ботинки
+      Strength: 7
+      Enchantments: Thorns:7
+      Recipe:
+        Row1: XXX
+        Row2: CXC
+        Row3: CXC
+        Ingredients: X=None,C=81
+      PotionEffects: none
+    Settings:
+      Armor_Color_RGB:
+        Red: 0
+        Green: 255
+        Blue: 60
+      Name_Color_&: a
+      Rarity: Необычная
+      Disableables:
+        DisableRarity: true
+        DisableRecipe: false
+      Armor:
+        DuraChangePerHit: -1
+  Изумрудная:
+    Helmet:
+      Name: Изумрудный шлем
+      Strength: 10
+      Enchantments: Protection:9,unbreaking:10
+      Recipe:
+        Row1: CCC
+        Row2: CXC
+        Row3: XXX
+        Ingredients: X=None,C=388
+      PotionEffects: night_vision:1
+    Chest:
+      Name: Изумрудный нагрудник
+      Strength: 10
+      Enchantments: Protection:9,unbreaking:10
+      Recipe:
+        Row1: CXC
+        Row2: CCC
+        Row3: CCC
+        Ingredients: X=None,C=388
+      PotionEffects: none
+    Legs:
+      Name: Изумрудные поножи
+      Strength: 10
+      Enchantments: Protection:9,unbreaking:10
+      Recipe:
+        Row1: CCC
+        Row2: CXC
+        Row3: CXC
+        Ingredients: X=None,C=388
+      PotionEffects: none
+    Boots:
+      Name: Изумрудные ботинки
+      Strength: 10
+      Enchantments: Protection:9,Protection_fall:2,unbreaking:10
+      Recipe:
+        Row1: XXX
+        Row2: CXC
+        Row3: CXC
+        Ingredients: X=None,C=388
+      PotionEffects: Speed:1
+    Settings:
+      Armor_Color_RGB:
+        Red: 0
+        Green: 196
+        Blue: 46
+      Name_Color_&: 2
+      Rarity: Редкая
+      Disableables:
+        DisableRarity: true
+        DisableRecipe: false
+      Armor:
+        DuraChangePerHit: -1

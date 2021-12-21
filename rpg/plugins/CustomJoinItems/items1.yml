@@ -1,0 +1,16 @@
+customization:
+  name: '&eКастомизация'
+  id: 397
+  slot: 9
+  data-value: 3
+  lore:
+    - '&7Открывает меню кастомизации'
+    - '&7Наслаждайтесь эффектами!'
+  command: 'uc menu main'
+  cooldown-seconds: 0
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: false
+  disabled-worlds: world_nether, world_the_end
+  give-on-world-change: true

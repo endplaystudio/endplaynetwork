@@ -1,0 +1,233 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Телепортатор'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'warpsmenu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 4
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+hub:
+  COMMAND: 'hub;CONSOLE: gm 2 {player};CONSOLE: featherboard show {player} default -silent;tell:&7Телепортирую на &aЛобби&7...'
+  NAME: '&bЛобби'
+  LORE:
+    - 'Главное лобби сервера - Дольчедонна.'
+    - 'Тут и начинается приключение всех игроков,'
+    - 'а ещё сюда попадаешь сразу после сметри в игре.'
+    - ''
+    - '&e► Переместиться сюда'
+  ID: diamond
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+tavern:
+  COMMAND: 'warp Таверна'
+  NAME: '&bТаверна'
+  LORE:
+    - 'Проводи время с друзьями тут. Можно выпить,'
+    - 'пообщаться, а ещё найти некоторых сюжетных'
+    - 'персонажей нужных для квестов.'
+    - ''
+    - '&e► Переместиться сюда'
+  ID: skull:3
+  SKULL-OWNER: 'thanauser'
+  POSITION-X: 4
+  POSITION-Y: 2
+
+ksiudenskie:
+  COMMAND: 'warp Ксиуденские'
+  NAME: '&bКсиуденские Острова'
+  LORE:
+    - 'Эта локация всё ещё в разработке,'
+    - 'однако сюда можно попасть используя путешествия'
+    - 'которые Вы можете приобрести у турагента на рынке.'
+    - ''
+    - '&e► Хорошо'
+  ID: skull:3
+  KEEP-OPEN: true
+  SKULL-OWNER: 'kevos'
+  PERMISSION: 'operator.warps'
+  POSITION-X: 6
+  POSITION-Y: 2
+
+stop:
+  COMMAND: 'gps stop'
+  NAME: '&bСбросить маршрут'
+  LORE:
+    - 'Это действие остановит текущий'
+    - 'маршрут навигации, и выключит подсветку'
+    - 'направления пути для игрока.'
+    - ''
+    - '&e► Сбросить'
+  ID: barrier
+  POSITION-X: 2
+  POSITION-Y: 2
+  
+show-gps:
+  COMMAND: 'gps show'
+  NAME: '&bВкл/выкл показ маршрута'
+  LORE:
+    - 'Нвжатие сюда поможет включить или'
+    - 'выключить показ эффектов показывающих'
+    - 'куда следовать по навигатору.'
+    - ''
+    - '&cНовичкам советуется не выключать!'
+    - ''
+    - '&e► Переключить'
+  ID: dye:8
+  POSITION-X: 8
+  POSITION-Y: 2
+
+market:
+  COMMAND: 'gps Рынок'
+  NAME: '&bРынок'
+  LORE:
+    - 'На рынке можно найти всякие разные'
+    - 'предметы, а также можно торговать'
+    - 'на глобальном рынке (&c/market&7).'
+    - ''
+    - 'Тут можно найти &cТурагента&7.'
+    - ''
+    - '&e► Построить маршрут'
+  ID: chest
+  POSITION-X: 6
+  POSITION-Y: 4
+
+cathedral:
+  COMMAND: 'gps Храм'
+  NAME: '&bСобор'
+  LORE:
+    - 'Огромный собор напротив озера'
+    - 'откроет для Вас свои врата, и впустит'
+    - 'всех путешественников в объятия бога.'
+    - ''
+    - '&e► Построить маршрут'
+  ID: elytra
+  POSITION-X: 5
+  POSITION-Y: 4
+  
+mines:
+  COMMAND: 'gps Шахты'
+  NAME: '&bШахты'
+  LORE:
+    - 'Тут старые шахтёры из года в год'
+    - 'добывают разные металлы и уголь.'
+    - 'Вы можете купить кирку и помочь им.'
+    - ''
+    - '&e► Построить маршрут'
+  ID: coal
+  POSITION-X: 4
+  POSITION-Y: 4
+  
+port:
+  COMMAND: 'gps Порт'
+  NAME: '&bПорт'
+  LORE:
+    - 'Большие корабли, оживлённая торговля,'
+    - 'тут много всего интересного для каждого.'
+    - ''
+    - 'Отсюда плывут корабли к &cКсиуденским о-вам&7.'
+    - ''
+    - '&e► Построить маршрут'
+  ID: water_bucket
+  POSITION-X: 3
+  POSITION-Y: 4
+
+farm:
+  COMMAND: 'gps Ферма'
+  NAME: '&bФерма'
+  LORE:
+    - 'Старый фермер тут разводит скот, и тихо'
+    - 'да мирно выращивает свою пшеничку.'
+    - 'Некоторые другие культуры можно купить'
+    - ''
+    - '&e► Построить маршрут'
+  ID: hay_block
+  POSITION-X: 2
+  POSITION-Y: 4
+  
+library:
+  COMMAND: 'gps Библиотека'
+  NAME: '&bБиблиотека'
+  LORE:
+    - 'Множество книг, море знаний,'
+    - 'ну и конечно же Адольф парой'
+    - 'этажей выше к вашим услугам в Замке.'
+    - ''
+    - '&e► Построить маршрут'
+  ID: book
+  POSITION-X: 7
+  POSITION-Y: 4
+  
+kifburg:
+  COMMAND: 'gps Кифбург'
+  NAME: '&bКифбург'
+  LORE:
+    - 'Небольшой городок у реки Рагама'
+    - 'всегда рад приветствовать всякого странника.'
+    - 'Храмы, бары, жилые дома и тихие улочки здесь.'
+    - ''
+    - 'Тут находится &cХаб гильдий&7.'
+    - ''
+    - '&e► Построить маршрут'
+  ID: 45
+  POSITION-X: 8
+  POSITION-Y: 4
+
+bank:
+  COMMAND: 'gps Банк'
+  NAME: '&bБанк'
+  LORE:
+    - 'Денежная жила города. Большая часть'
+    - 'странников и торговцев вкладывают свои'
+    - 'деньги тут чтобы получить выгоду по процентам.'
+    - ''
+    - '&e► Построить маршрут'
+  ID: EMERALD
+  POSITION-X: 2
+  POSITION-Y: 5
+
+back:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

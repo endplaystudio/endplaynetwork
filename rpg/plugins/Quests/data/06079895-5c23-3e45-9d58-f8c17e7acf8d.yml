@@ -1,0 +1,15 @@
+currentQuests:
+- Адские проблемки
+currentStages:
+- 2
+quest-points: 6
+questData:
+  Адские проблемки:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- Морковные дела
+- Халявный ключик
+- Все женщины - ведьмы
+hasJournal: false
+lastKnownName: flyring

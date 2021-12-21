@@ -1,0 +1,416 @@
+#
+# Messages configuration file
+#
+# You can find a list of available tags here: https://alessiodp.com/docs/parties/placeholders/
+#
+
+# / = = = = = = = = = = = = = = = = \
+# |        PARTIES  MESSAGES        |
+# \ = = = = = = = = = = = = = = = = /
+parties:
+  # Special tags:
+  # => %version%     = New version found
+  # => %thisversion% = Version installed
+  update-available: "&9New version of Parties found: %version% (Current: %thisversion%)"
+  # Special tag:
+  # => %config%      = The configuration file name that is outdated
+  configuration-outdated: " &6Команды &8| &7Конфигурационный файл &c%config% &7слишком стар."
+  common-messages:
+    invalid-command: "&cЭтой команды не существует О_о"
+    configuration-reloaded: " &6Настройки &8| &7Конфигурация команд &aуспешно &7перезагружена."
+    not-in-party: " &6Команды &8| &7Вы &cне состоите &7в команде."
+    already-in-party: " &6Команды &8| &7Вы уже состоите в команде."
+    party-not-found: " &6Команды &8| &7Команда &c%party% &7не существует."
+    party-full: " &6Команды &8| &7Не удалось присоединиться. Команда заполнена."
+  permissions:
+    # Special tag:
+    # => %permission%   = Missing permission
+    no-permission: " &6Команды &8| &7В доступе к команде &cотказано&7."
+    no-permission-in-party-general: " &6Команды &8| &Ваш ранг не имеет доступа к этой команде."
+    no-permission-in-party-rank: " &6Команды &8| &7Вам нужно иметь ранг &c%rank_name% &7для исполнения этой команды."
+  out-party: "Out party"
+  list:
+    player-online-format: "&a%player%"
+    player-offline-format: "&7%player%"
+    player-separator: "&7, "
+    player-empty: "&7Никто"
+    player-unknown: "&6Кто-нибудь"
+    missing-value: "&7Нет"
+
+
+
+# / = = = = = = = = = = = = = = = = \
+# |     MAIN COMMANDS  MESSAGES     |
+# \ = = = = = = = = = = = = = = = = /
+main-commands:
+  accept:
+    broadcast: " &6Команды &8| &7Игрок &a%player% &7присоединился к команде."
+    accepted: " &6Команды &8| &7Вы &aприняли &7приглашение в команду."
+    accept-receipt: " &6Команды &8| &7Игрок &a%player% &7принял приглашение в команду"
+    no-invite: " &6Команды &8| &7Нет ожидающих приглашений."
+    no-exists: " &6Команды &8| &7Приглашение более &cне действительно&7."
+    multiple-invites: "&7Выберите команду в которую хотите вступить:"
+    multiple-invites-party: '[{"text":"%party%","color":"aqua"},{"text":" - Нажмите тут чтобы принять","color":"gray","clickEvent":{"action":"run_command","value":"/party accept %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Принять приглашение","color":"gold"}]}}}]'
+    wrong-command: " &6Команды &8| &7Неверный синтаксис. Используйте &a/party accept [party]"
+
+  chat:
+    enabled: " &6Команды &8| &7Чат переключён в режим &aкомандный&7."
+    disabled: " &6Команды &8| &7Чат переключён в режим &aобщий&7."
+    wrong-command: " &6Команды &8| &7Неверный синтаксис. Используйте &a/party chat [on/off]"
+
+  create:
+    created: '[{"text":" &6Команды &8| &7Вы создали команду &a%party%.\n","color":"aqua","bold":true},{"text":" &6Команды &8| &7Напишите ","color":"aqua","bold":false},{"text":"/party invite","color":"green","clickEvent":{"action":"suggest_command","value":"/party invite "}},{"text":" чтобы пригласить друга.","color":"gray"}]'
+    created-fixed: " &6Команды &8| &7Вы создали статичную команду &a%party%&7."
+    name-already-exists: " &6Команды &8| &7Команда с именем &c%party% &7уже существует. Выберите другое название."
+    name-too-long: " &6Команды &8| &7Имя команды слишком &cдлинное&7. Разрешено не более &a10 символов&7."
+    name-too-short: " &6Команды &8| &7Имя команды слишком &cкороткое&7. Используйте как минимум &a3 символа&7."
+    invalid-name: " &6Команды &8| &7Неверные символы. Используйте: &aa-Z &7или &a0-9&7."
+    censored: " &6Команды &8| &7Неверный символы. Название содержит запрещённые слова."
+    wrong-command: " &6Команды &8| &7Неверный синтаксис. Используйте &a/party create <имя>&7."
+
+  delete:
+    deleted: " &6Команды &8| &7Команда &c%party% &7удалена."
+    deleted-silently: " &6Команды &8| &7Команда &c%party% &7беззвучно удалена."
+    broadcast: " &6Команды &8| &7Ваша команда была &cудалена&7."
+    wrong-command: " &6Команды &8| &7Неверный синтаксис. Используйте &a/party delete <party> [silent]"
+
+  deny:
+    denied: " &6Команды &8| &7Вы &cотклонили &7приглашение в команду"
+    deny-receipt: " &6Команды &8| &7Игрок &c%player% &7отклонил ваше приглашение."
+    no-invite: " &6Команды &8| &7У вас нет ожидающих приглашений."
+    no-exists: " &6Команды &8| &7Приглашение более &cне действительно&7."
+    multiple-invites: "&7Выберите команду чьё приглашение хотите отклонить:"
+    multiple-invites-party: '[{"text":"%party%","color":"aqua"},{"text":" - Click here to deny","color":"gray","clickEvent":{"action":"run_command","value":"/party deny %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Deny the invitation","color":"gold"}]}}}]'
+    wrong-command: " &6Команды &8| &7Неверный синтаксис. Используйте &a/party deny [party]"
+
+  ignore:
+    start-ignore: " &6Команды &8| &7Приглашения от &c%party% &7теперь будут игнорироваться."
+    stop-ignore: " &6Команды &8| &7Вы более не игнорируете приглашения от &a%party%&7."
+    ignore-list:
+      header: "&7Приглашения игнорируются от:"
+      party-prefix: "&c"
+      separator: "&7, "
+      empty: "&7Нет"
+    wrong-command: "&7Неверный синтаксис. Используйте &a/party ignore [party]"
+
+  info:
+    # Special tags:
+    # => %list_RANK%           = The list of players of that rank
+    #                            Example: %list_member%, %list_moderator% (%list_leader% it's unique)
+    # => %list_RANK_number%    = The number of players of that rank
+    # => %list_RANK_online%    = Online players of that rank
+    # => %online%              = List online players
+    # => %online_number%        = Number of online players
+    content:
+    - "&8============ &7Сводка о &6%party% &8============"
+    - "&7Описание: &a%desc%"
+    - "&7Слоган: &a%motd%"
+    - "&7Лидер: &a%list_leader%"
+    - "&7Модераторы: &a%list_moderator%"
+    - "&7Участники: &a%list_member%"
+    - "&7Игроки онлайн: &a%online_number%"
+
+  invite:
+    sent: " &6Команды &8| &7Вы пригласили &a%player% &7в свою команду."
+    player-invited: '[{"text":" &6Команды &8| &7Игрок &a%player% &7пригласил вас в команду &a%party%&7.\n","color":"aqua"},{"text":"Хотите ","color":"gray"},{"text":"accept","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/party accept %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Принять приглашение","color":"gold"}]}}},{"text":" или ","color":"gray","bold":false},{"text":"deny","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/party deny %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Отклонить приглашение","color":"gold"}]}}},{"text":"?\n","color":"gray","bold":false},{"text":"You can use ","color":"aqua"},{"text":"/party <accept/deny>","color":"gray"},{"text":" to choose.","color":"aqua"}]'
+    timeout:
+      noresponse: "&7%player% didn't accept the party invite"
+      timeout: "&7You didn't accept the party invite to %party%"
+    revoke:
+      sent-revoked: "&7Revoked invite sent to %player%"
+      player-invite-revoked: "&7Invite received from %party% has been revoked"
+    cooldown:
+      global: "&cYou need to wait %seconds% before invite another player"
+      individual: "&cYou need to wait %seconds% before invite again the same player"
+    player-offline: "&cYou can invite only online players"
+    player-no-permission: "&c%player% doesn't have the permission to join"
+    player-in-party: "&c%player% is already in a party"
+    already-invited: "&c%player% was already invited"
+    wrong-command: "&cWrong variables: Type &7/party invite <name>"
+
+  kick:
+    sent: "&aYou kicked %player% from your party!"
+    player-kicked: "&bYou have been kicked from %party%"
+    broadcast: "&b&l%player% has been kicked from the party"
+    broadcast-disband: "&b&lThe party has been disbanded because the leader got kicked"
+    player-higher-rank: "&cYou cannot kick your superior!"
+    player-not-in-party: "&c%player% is not in your party"
+    player-not-in-other-party: "&c%player% is not in a party"
+    players-conflict:
+      # Special tags:
+      # => %username%                       = The name of the player
+      # => %rank%                           = The rank
+      # => %list_players%                   = List of each player
+      # => %number%                         = The number of the player
+      # => %lastloginapi_last_logout_date%  = The last logout date (See LastLoginAPI plugin)
+      content:
+      - "&cWe have found some players with that name:"
+      - "%list_players%"
+      - "&cUse '&7/party kick <username> <number>&c' to kick the right player"
+      player: '{"text":"","extra":[{"text":"[%number%] ","color":"gray"},{"text":"%username%","color":"gold"},{"text":" [","color":"gray"},{"text":"%party%","color":"aqua"},{"text":"]: last login %lastloginapi_last_logout_date%","color":"gray"}],"clickEvent":{"action":"run_command","value":"/party kick %username% %number%"},"hoverEvent":{"action":"show_text","value":{"text":"Kick this player","color":"gold"}}}'
+    wrong-command: "&cWrong variables: Type &7/party kick <name>"
+
+  leave:
+    left: " &6Команды &8| &7Вы покинули команду &c%party%&7."
+    broadcast: " &6Команды &8| &7Игрок &a%player% &7покинул команду."
+    party-disbanded: " &6Команды &8| &7Команда &cрасформирована &7так как лидер покинул её."
+
+  p:
+    # Special tag:
+    # => %seconds%   = Remaining time in seconds
+    cooldown: "&cYou still have to wait %seconds% seconds"
+    censored: "&cThe message contains censored words!"
+    wrong-command: "&cWrong variables: Type &7/p <message>"
+
+  rank:
+    # Special tag:
+    # => %rank_name%   = Rank wrote by the player
+    changed: "&a%player% rank changed into %rank_name%"
+    broadcast: ""
+    wrong-rank: "&cRank '%rank_name%' doesn't exist!"
+    same-rank: "&c%player% is already %rank_name%!"
+    low-rank: "&cYou cannot edit players with an equivalent or higher rank than yours!"
+    to-higher-rank: "&cYou cannot promote to a rank equivalent or higher than yours!"
+    fixed-leader: "&cYou cannot make someone a leader of a fixed party!"
+    changing-yourself: "&cYou cannot change yourself rank!"
+    player-not-in-party: "&c%player% is not in your party"
+    player-not-in-other-party: "&c%player% doesn't have a party"
+    players-conflict:
+      # Special tags:
+      # => %username%                       = The name of the player
+      # => %rank%                           = The rank
+      # => %list_players%                   = List of each player
+      # => %number%                         = The number of the player
+      # => %lastloginapi_last_logout_date%  = The last logout date (See LastLoginAPI plugin)
+      content:
+        - "&cWe have found some players with that name:"
+        - "%list_players%"
+        - "&cUse '&7/party rank <username> <rank> <number>&c' to change rank of the right player"
+      player: '{"text":"","extra":[{"text":"[%number%] ","color":"gray"},{"text":"%username%","color":"gold"},{"text":" [","color":"gray"},{"text":"%party%","color":"aqua"},{"text":"]: last login %lastloginapi_last_logout_date%","color":"gray"}],"clickEvent":{"action":"run_command","value":"/party rank %username% %rank% %number%"},"hoverEvent":{"action":"show_text","value":{"text":"Change rank of this player","color":"gold"}}}'
+    wrong-command: "&cWrong variables: Type &7/party rank <player> <rank>"
+
+  rename:
+    # Special tag:
+    # => %old%   = Old party name
+    renamed: "&aThe party %old% has been renamed into %party%"
+    broadcast: "&6Your party has been renamed into %party%!"
+    wrong-command: "&cWrong variables: Type &7/party rename <newname>"
+    wrong-command-admin: "&cWrong variables: Type &7/party rename <party> <newname>"
+
+  spy:
+    enabled: "&7Now you are a spy!"
+    disabled: "&7You are no longer a spy"
+    wrong-command: "&cWrong variables: Type &7/party spy [on/off]"
+
+  version:
+    # Special tags:
+    # => %version%    = Parties version
+    # => %newversion% = Latest Parties version
+    # => %platform%   = Platform of the plugin (e.g. Bukkit, BungeeCord)
+    updated: "&b&lParties &b%version% &7(%platform%) - Developed by &6AlessioDP"
+    outdated: "&b&lParties &b%version% &7(%platform%) - Developed by &6AlessioDP\n&aNew version found: &2%newversion%"
+
+
+# / = = = = = = = = = = = = = = = = \
+# |  ADDITIONAL COMMANDS  MESSAGES  |
+# \ = = = = = = = = = = = = = = = = /
+additional-commands:
+  claim:
+    claimed: "&aGranted permission to the party"
+    removed: "&aRemoved permission to the party"
+    no-manager: "&cYou need to be the manager of the claim"
+    claim-no-exists: "&cClaim not found"
+    wrong-command: "&cWrong variables: Type &7/party claim <permission>\n&cPermissions: trust, container & access"
+
+  color:
+    info: "&bYour party color is: %color_code%%color_command%"
+    empty: "&bYour party doesn't have a color"
+    changed: "&bParty color changed into %color_command%"
+    removed: "&bParty color removed"
+    broadcast: ""
+    wrong-color: "&cColor not found. You can select: red, green or special!"
+    wrong-command: "&cWrong variables: Type &7/party color <color>"
+
+  desc:
+    changed: "&bParty description changed"
+    removed: "&bParty description removed"
+    broadcast: ""
+    invalid-chars: "&cInvalid characters. Use: a-Z or 0-9. Min 3 and max 16 chars."
+    censored: "&cThe description contains censored words!"
+    wrong-command: "&cWrong variables: Type &7/party desc <description/remove>"
+
+  exp:
+    # Special tags:
+    # => %exp%        = Experience gained
+    # => %total_exp%  = Total experience dropped by the mob
+    party:
+      gained: "&bGained %exp% party experience for killing the mob"
+    normal:
+      gained-killer: "&bGained %exp% experience for killing the mob"
+      gained-others: "&b%player% has killed a mob, you gained %exp% experience"
+    skillapi:
+      gained-killer: "&bGained %exp% experience for killing the mob"
+      gained-others: "&b%player% has killed a mob, you gained %exp% experience"
+
+  follow:
+    toggle-on: "&aNow your party members will follow your leader"
+    toggle-off: "&aYour party members will not follow your leader anymore"
+    wrong-command: "&cWrong variables: Type &7/party follow [on/off]"
+
+  home:
+    teleported: "&7Teleported to the party home"
+    # Special tag: %time% = Time of cooldown
+    teleport-in: "&7You will be teleported in %time% seconds..."
+    teleport-denied: "&7Teleport denied"
+    teleport-waiting: "&cYou are already waiting for the teleport!"
+    no-home: "&cThere isn't a home yet"
+    no-exists: "&cThe party %party% doesn't exist"
+    wrong-command: "&cWrong variables: Type &7/party home"
+    wrong-command-admin: "&cWrong variables: Type &7/party home [party]"
+
+  join:
+    joined: "&aYou joined the party %party%"
+    player-joined: "&b&l%player% joined in the party"
+    wrong-password: "&cWrong password!"
+    wrong-command: "&cWrong variables: Type &7/party join <party> [password]"
+
+  list:
+    # Special tags:
+    # => %number%    = Number of online parties
+    # => %page%      = Current page of the list
+    # => %maxpages%  = Total pages
+    header: "&b============ &lOnline Parties List &r&b============"
+    footer: "&b================ &lPage %page% of %maxpages% &r&b================"
+    no-one: "&7No one"
+    format-party: '[{"text":"%party%","color":"aqua","clickEvent":{"action":"run_command","value":"/party info %party%"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Show info","color":"gold"}]}}},{"text":" [","color":"gray"},{"text":"Online %online_number%","color":"gold"},{"text":"] %desc%","color":"gray"}]'
+    wrong-command: "&cWrong variables: Type &7/party list [page]"
+
+  motd:
+    changed: "&bParty MOTD changed"
+    removed: "&bParty MOTD removed"
+    broadcast: ""
+    content:
+    - "&bParty MOTD:"
+    - "&b%motd%"
+    invalid-chars: "&cInvalid characters. You can also use '. , /'. Min 3 and max 100 chars."
+    censored: "&cThe MOTD contains censored words!"
+    wrong-command: "&cWrong variables: Type &7/party motd <motd/remove>"
+
+  mute:
+    toggle-on: "&7You have disabled notifications!"
+    toggle-off: "&7You have enabled notifications!"
+    wrong-command: "&cWrong variables: Type &7/party mute [on/off]"
+
+  password:
+    changed: "&aParty password changed"
+    removed: "&aParty password removed"
+    broadcast: ""
+    invalid-chars: "&cInvalid characters. Use: a-Z or 0-9. Min 1 and max 16 chars."
+    wrong-command: "&cWrong variables: Type &7/party password <password/remove>"
+
+  protection:
+    toggle-on: "&aNow your party is protected by friendly fire"
+    toggle-off: "&aYour party is not protected anymore by friendly fire"
+    protected: "&cYou can't hit your partymates"
+    warn-on-attack: "&c%player% tried to hit %victim%!"
+    wrong-command: "&cWrong variables: Type &7/party protection [on/off]"
+
+  sethome:
+    changed: ""
+    removed: "&bParty home removed"
+    broadcast: "&aThe party has a new home!"
+    wrong-command: "&cWrong variables: Type &7/party sethome [remove]"
+
+  teleport:
+    teleporting: "&7Teleporting your party here!"
+    player-teleported: "&bTeleported to %player%"
+    # Special tag: %seconds% = Remaining time in seconds
+    cooldown: "&cYou have to wait %seconds% seconds!"
+
+  vault:
+    # Special tag: %price% = Price of the command
+    no-money:
+      claim: "&cYou don't have enough money to perform a claim [%price%$]"
+      color: "&cYou don't have enough money to perform the color command [%price%$]"
+      create: "&cYou don't have enough money to create a party [%price%$]"
+      desc: "&cYou don't have enough money to set the description [%price%$]"
+      home: "&cYou don't have enough money to use the home command [%price%$]"
+      join: "&cYou don't have enough money to join a party [%price%$]"
+      motd: "&cYou don't have enough money to set the MOTD [%price%$]"
+      sethome: "&cYou don't have enough money to set the home [%price%$]"
+      teleport: "&cYou don't have enough money to perform a teleport [%price%$]"
+    confirm:
+        warn-onbuy: '[{"text":"Command %cmd% costs %price%$.\n","color":"green"},{"text":"Click here to confirm","color":"dark_green","bold":true,"clickEvent":{"action":"run_command","value":"/party confirm"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Pay the command","color":"gold"}]}}},{"text":" or type ","color":"green","bold":false},{"text":"/party confirm","color":"gray"},{"text":" to use it.","color":"green"}]'
+        confirmed: "&aPerforming the command."
+        no-cmd: "&cThere is no command to confirm"
+
+
+# / = = = = = = = = = = = = = = = = \
+# |         OTHER  MESSAGES         |
+# \ = = = = = = = = = = = = = = = = /
+other:
+  follow:
+    # Special tags: %world% = New world
+    following-world: "&7Following %player% in %world%"
+
+  fixed-parties:
+    # Joined into a default party
+    default-join: "&bYou entered into %party%"
+
+  join-leave:
+    server-join: "&b%player% is online!"
+    server-leave: "&7%player% is offline!"
+
+
+# / = = = = = = = = = = = = = = = = \
+# |          HELP MESSAGES          |
+# \ = = = = = = = = = = = = = = = = /
+help:
+  header: "&8================= &7Помощь по &6Командам &a%page%&7/&a%maxpages% &8================="
+  footer: ""
+  console-help:
+  - "Можно исполнять эти команды:"
+  - " > party create <name> fixed - Создать новую команду"
+  - " > party delete <party> - Удалить команду"
+  - " > party info <party> - Показать информацию о команде"
+  - " > party list - List of online parties"
+  - " > party kick <player> - Kick a player from the party"
+  - " > party rank <player> <rank> - Change rank of the player"
+  - " > party reload - Reload Parties configuration files"
+  - " > party rename <party> <name> - Rename the party"
+  - " > party version - Show Parties information"
+  main-commands:
+    help: '{"text":"","extra":[{"text":"/party help [page]","color":"green"},{"text":" - Показать страницы помощи","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party help "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    accept: '{"text":"","extra":[{"text":"/party accept","color":"green"},{"text":" - Принять приглашение в команду","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party accept"},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    chat: '{"text":"","extra":[{"text":"/party chat [on/off]","color":"green"},{"text":" - Включить/выключить чат команды","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party chat "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    create: '{"text":"","extra":[{"text":"/party create <name>","color":"green"},{"text":" - Создать новую команду","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party create "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    delete: '{"text":"","extra":[{"text":"/party delete <party>","color":"green"},{"text":" - Удалить команду","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party delete "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    deny: '{"text":"","extra":[{"text":"/party deny","color":"green"},{"text":" - Отклонить приглашение в команду","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party deny"},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    ignore: '{"text":"","extra":[{"text":"/party ignore [party]","color":"green"},{"text":" - Добавить/убрать/показать игнорируемые команды","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party ignore "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    info: '{"text":"","extra":[{"text":"/party info [party]","color":"green"},{"text":" - Показать информацию о команде","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party info "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    invite: '{"text":"","extra":[{"text":"/party invite <player>","color":"green"},{"text":" - Пригласить игрока в свою команду","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party invite "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    kick: '{"text":"","extra":[{"text":"/party kick <player>","color":"green"},{"text":" - Выгнать игрока из команды","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party kick "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    leave: '{"text":"","extra":[{"text":"/party leave","color":"green"},{"text":" - Покинуть текущую команду","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party leave "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    p: '{"text":"","extra":[{"text":"/p <message>","color":"green"},{"text":" - Отослать сообщение команде","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/p "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    rank: '{"text":"","extra":[{"text":"/party rank <player> <rank>","color":"green"},{"text":" - Изменить ранг игрока","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party rank "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    reload: '{"text":"","extra":[{"text":"/party reload","color":"green"},{"text":" - Перезагрузить конфигурацию","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party reload"},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    rename: '{"text":"","extra":[{"text":"/party rename [party] <newname>","color":"green"},{"text":" - Переименовать команду","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party rename "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    spy: '{"text":"","extra":[{"text":"/party spy [on/off]","color":"green"},{"text":" - Следить за чатом других команд","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party spy "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    version: '{"text":"","extra":[{"text":"/party version","color":"green"},{"text":" - Показать информацию о командах","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party version"},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+  additional-commands:
+    claim: '{"text":"","extra":[{"text":"/party claim <permission>","color":"green"},{"text":" - Grant permissions to the claim","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party claim "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    color: '{"text":"","extra":[{"text":"/party color <color>","color":"green"},{"text":" - Изменить цвет команды","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party color "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    desc: '{"text":"","extra":[{"text":"/party desc <description/remove>","color":"green"},{"text":" - Установить/удалить описание команды","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party desc "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    follow: '{"text":"","extra":[{"text":"/party follow [on/off]","color":"green"},{"text":" - Включить следование за лидером","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party follow "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    home: '{"text":"","extra":[{"text":"/party home [party]","color":"green"},{"text":" - Телепорт к дому команды","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party home "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    join: '{"text":"","extra":[{"text":"/party join <party> [password]","color":"green"},{"text":" - Присоединиться к команде","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party join "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    list: '{"text":"","extra":[{"text":"/party list [page]","color":"green"},{"text":" - Список команд в сети","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party list "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    motd: '{"text":"","extra":[{"text":"/party motd <motd/remove>","color":"green"},{"text":" - Установить/удалить слоган команды","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party motd "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    mute: '{"text":"","extra":[{"text":"/party mute [on/off]","color":"green"},{"text":" - Включить/выключить уведомления","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party mute "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    password: '{"text":"","extra":[{"text":"/party password <pw/remove>","color":"green"},{"text":" - Сменить пароль команды","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party password "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    protection: '{"text":"","extra":[{"text":"/party protection [on/off]","color":"green"},{"text":" - Включить защиту от ударов сокомандников","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party protection "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    sethome: '{"text":"","extra":[{"text":"/party sethome [remove]","color":"green"},{"text":" - Установить/удалить дом команды","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party sethome "},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+    teleport: '{"text":"","extra":[{"text":"/party teleport","color":"green"},{"text":" - Телепортировать команду к себе","color":"gray"}],"clickEvent":{"action":"suggest_command","value":"/party teleport"},"hoverEvent":{"action":"show_text","value":{"text":"Выполнить команду","color":"gold"}}}'
+
+dont-edit-this:
+  version: 10

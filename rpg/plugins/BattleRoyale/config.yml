@@ -1,0 +1,21 @@
+# ############################################################
+# # +------------------------------------------------------+ #
+# # |           Battle Royale Configuration file           | #
+# # +------------------------------------------------------+ #
+# ############################################################
+Messages:
+  Prefix: '&cBattleRoyale  &7>>&f'
+  Join: '&f Joined'
+  Left: '&fleft the game.'
+  startIn1Minute: '&fGame starting in 1 minute.'
+  Start: '&fseconds before the game starts.'
+  Started: '&fgame started, good luck.'
+  WinGoal: '&fTo win you need to be the last one standing alive.'
+Potion:
+  Potion1: 10.0
+  Potion2: 20.0
+Islands:
+  Countdown: 15
+  MaxPlayers: 8
+  AutoStartPlayers: 2
+  EndTime: 600

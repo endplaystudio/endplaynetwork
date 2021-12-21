@@ -1,0 +1,23 @@
+currentQuests:
+- Жестокое заключение
+- Доставка удочки
+currentStages:
+- 0
+- 0
+quest-points: 1
+questData:
+  Жестокое заключение:
+    citizen-ids-to-talk-to:
+    - 37
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests:
+- Халявный ключик
+- Все женщины - ведьмы
+hasJournal: false
+lastKnownName: Ansar_777_

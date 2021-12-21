@@ -1,0 +1,459 @@
+## --------------------------------------- ##
+## TownyAdvanced chat placeholders Placeholders
+## http://palmergames.com/towny/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {townychat_playerchannel_default_isautojoin} returns
+townychat_playerchannel_default_isautojoin:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {townychat_playerchannel_private_ismuted} returns
+townychat_playerchannel_private_ismuted:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {townychat_playerchannel_town_isautojoin} returns
+townychat_playerchannel_town_isautojoin:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_town_type} returns
+townychat_playerchannel_town_type:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_defaultchannel_ishooked_raw} returns
+townychat_defaultchannel_ishooked_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_private_type} returns
+townychat_playerchannel_private_type:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_default_name} returns
+townychat_playerchannel_default_name:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_private_craftirctag} returns
+townychat_playerchannel_private_craftirctag:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_nation_leavepermission} returns
+townychat_playerchannel_nation_leavepermission:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_nation_ishooked} returns
+townychat_playerchannel_nation_ishooked:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_defaultchannel_leavepermission} returns
+townychat_defaultchannel_leavepermission:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_defaultchannel_type} returns
+townychat_defaultchannel_type:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_default_permission} returns
+townychat_playerchannel_default_permission:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_global_tag} returns
+townychat_playerchannel_global_tag:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_town_permission} returns
+townychat_playerchannel_town_permission:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_nation_isautojoin} returns
+townychat_playerchannel_nation_isautojoin:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_town_tag} returns
+townychat_playerchannel_town_tag:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_default_ishooked} returns
+townychat_playerchannel_default_ishooked:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_private_leavepermission} returns
+townychat_playerchannel_private_leavepermission:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_defaultchannel_craftirctag} returns
+townychat_defaultchannel_craftirctag:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_nation_type} returns
+townychat_playerchannel_nation_type:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_town_ispresent} returns
+townychat_playerchannel_town_ispresent:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_defaultchannel_name} returns
+townychat_defaultchannel_name:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_global_ishooked} returns
+townychat_playerchannel_global_ishooked:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {townychat_playerchannel_default_ispresent} returns
+townychat_playerchannel_default_ispresent:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_defaultchannel_tag} returns
+townychat_defaultchannel_tag:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_private_ispresent} returns
+townychat_playerchannel_private_ispresent:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {townychat_playerchannel_nation_ispresent} returns
+townychat_playerchannel_nation_ispresent:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_global_leavepermission} returns
+townychat_playerchannel_global_leavepermission:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_town_leavepermission} returns
+townychat_playerchannel_town_leavepermission:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_town_ismuted} returns
+townychat_playerchannel_town_ismuted:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_town_name} returns
+townychat_playerchannel_town_name:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_nation_messagecolour} returns
+townychat_playerchannel_nation_messagecolour:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_nation_permission} returns
+townychat_playerchannel_nation_permission:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_nation_ismuted} returns
+townychat_playerchannel_nation_ismuted:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_private_name} returns
+townychat_playerchannel_private_name:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_global_craftirctag} returns
+townychat_playerchannel_global_craftirctag:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_private_isautojoin} returns
+townychat_playerchannel_private_isautojoin:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_private_messagecolour} returns
+townychat_playerchannel_private_messagecolour:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_nation_tag} returns
+townychat_playerchannel_nation_tag:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_default_leavepermission} returns
+townychat_playerchannel_default_leavepermission:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_default_craftirctag} returns
+townychat_playerchannel_default_craftirctag:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_private_ishooked} returns
+townychat_playerchannel_private_ishooked:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_nation_name} returns
+townychat_playerchannel_nation_name:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_town_craftirctag} returns
+townychat_playerchannel_town_craftirctag:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_default_ismuted} returns
+townychat_playerchannel_default_ismuted:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {townychat_defaultchannel_isautojoin_raw} returns
+townychat_defaultchannel_isautojoin_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_global_messagecolour} returns
+townychat_playerchannel_global_messagecolour:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_default_tag} returns
+townychat_playerchannel_default_tag:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_defaultchannel_ismuted_raw} returns
+townychat_defaultchannel_ismuted_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_town_messagecolour} returns
+townychat_playerchannel_town_messagecolour:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_private_permission} returns
+townychat_playerchannel_private_permission:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_global_name} returns
+townychat_playerchannel_global_name:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_global_isautojoin} returns
+townychat_playerchannel_global_isautojoin:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {townychat_playerchannel_global_ispresent} returns
+townychat_playerchannel_global_ispresent:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_global_permission} returns
+townychat_playerchannel_global_permission:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_global_ismuted} returns
+townychat_playerchannel_global_ismuted:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_defaultchannel_permission} returns
+townychat_defaultchannel_permission:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_global_type} returns
+townychat_playerchannel_global_type:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_playerchannel_town_ishooked} returns
+townychat_playerchannel_town_ishooked:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_nation_craftirctag} returns
+townychat_playerchannel_nation_craftirctag:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_default_type} returns
+townychat_playerchannel_default_type:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_playerchannel_private_tag} returns
+townychat_playerchannel_private_tag:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {townychat_defaultchannel_ispresent_raw} returns
+townychat_defaultchannel_ispresent_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {townychat_playerchannel_default_messagecolour} returns
+townychat_playerchannel_default_messagecolour:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {townychat_defaultchannel_messagecolour} returns
+townychat_defaultchannel_messagecolour:
+  # Default return value
+  default: ""
+
+

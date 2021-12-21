@@ -1,0 +1,7 @@
+l1: Hello and welcome to the config!
+'13': itemPlaceCap is the default cap for all players on the server
+l: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+version: 1.1.5
+itemPlaceCap: 10
+autoSave: 6000
+updateNotify: true

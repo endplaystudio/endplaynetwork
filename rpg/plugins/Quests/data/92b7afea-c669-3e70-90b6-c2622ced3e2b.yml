@@ -1,0 +1,17 @@
+currentQuests:
+- Доставка удочки
+currentStages:
+- 1
+quest-points: 0
+questData:
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    - 2
+    has-talked-to:
+    - false
+    - false
+completed-Quests:
+- Халявный ключик
+hasJournal: false
+lastKnownName: _Sashe4ka_

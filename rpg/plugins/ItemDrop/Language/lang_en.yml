@@ -1,0 +1,120 @@
+#-----=====[ Metrics Message ]=====-----#
+
+Metrics:
+  Success:
+  - "{prefix} Success to submit stats metrics"
+  Failed: 
+  - "{prefix} Failed to submit stats metrics"
+
+#-----=====[ Hook Message ]=====-----#
+
+Hook:
+  Header: 
+  - "{prefix} &8&l&m=-=-=-=-=-=-=-=-=-=-=&r &2{plugin} Dependencies &8&l&m=-=-=-=-=-=-=-=-=-=-="
+  Footer: 
+  - "{prefix} &8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Soft_Dependency_Header: 
+  - "{prefix} &5Soft-Dependency&f:"
+  Soft_Dependency_List: 
+  - "{prefix} &5- &d{hook} &8[{status}&8]"
+  Hard_Dependency_Header: 
+  - "{prefix} &5Hard-Dependency&f:"
+  Hard_Dependency_List: 
+  - "{prefix} &5- &d{hook} &8[{status}&8]"
+  Status_Hooked: 
+  - "&4Hooked"
+  Status_Not_Hook: 
+  - "&4Not-Hooked"
+
+#-----=====[ Plugin Message ]=====-----#
+
+Plugin:
+  Deactivated:
+  - "{prefix} Plugin was deactivated from control panel"
+  Information_Not_Match:
+  - "{prefix} Information of plugin doesn't match!"
+  Lack_Dependency:
+  - "{prefix} To make this plugin work, you need to install &c{dependency}"
+
+#-----=====[ Command Message ]=====-----#
+
+Command:
+  ItemDrop_Reload_Success:
+  - "{prefix} &7Перезагрузка прошла &aуспешно&7."
+  ItemDrop_Toggle_Success:
+  - "{prefix} &7Дроп предметов: &c{toggle}&7."
+  
+#-----=====[ Argument Message ]=====-----#
+
+Argument:
+  Invalid:
+  - "{prefix} Argument command is invalid!"
+  ItemDrop_Help: 
+  - "{tooltip_help} &3/itemdrop help &b[<page>]"
+  ItemDrop_About: 
+  - "{tooltip_about} &3/itemdrop about"
+  ItemDrop_Reload: 
+  - "{tooltip_reload} &3/itemdrop reload"
+  ItemDrop_Toggle:
+  - "{tooltip_toggle} &3/itemdrop toggle &b[<on|off>]"
+
+#-----=====[ Tooltip Message ]=====-----#
+
+Tooltip:
+  ItemDrop_Help: "Show all command from the plugin"
+  ItemDrop_About: "Show all information about the plugin"
+  ItemDrop_Reload: "Reload data config"
+  ItemDrop_Toggle: "Turn on/off itemdrop"
+  
+#-----=====[ Item Drop Message ]=====-----#
+
+ItemDrop:
+  Not_Allowed: "{prefix} &7Разрешите дроп предметов чтобы выбрасывать что-либо."
+  Prohibited_Player: "{prefix} &7Этот предмет принадлежит игроку &c{player}&7."
+  Prohibited_Group: "{prefix} &7Этот предмет принадлежит группе &c{group}&7."
+  
+#-----=====[ Help Message ]=====-----#
+
+Help:
+  Header: 
+  - "&6{plugin} Help:"
+  Page: 
+  - "&8&l[&6&l{previous}&8&l]&r&8&l&m=======&r&8&l[&r &2Page &7(&d{page}&7/&d{maxpage}&7) &8&l]&8&l&m=======&r&8&l[&6&l{next}&8&l]"
+  Previous_Page: 
+  - "&cPrevious Page"
+  Next_Page:
+  - "&cNext Page" 
+
+#-----=====[ Console Message ]=====-----#
+
+Console:
+  Not_Player:
+  - "{prefix} Only player can execute this command!"
+  
+#-----=====[ Character Message ]=====-----#
+
+Character:
+  False_Pattern:
+  - "{prefix} Cannot contain special character!"
+
+#-----=====[ List Message ]=====-----#
+
+List:
+  Header: 
+  - "{prefix} &7&l&m---&8&l&m==[&r &2ListItem &7(&d{page}&8/&d{maxpage}&7) &8&l&m]==&7&l&m---"
+  Container: 
+  - "{prefix} &8&l[&2&l{index}&8&l] &c{container}"
+  Item: 
+  - "{prefix} &8&l[&2&l{index}&8&l] &c{item} {tooltip}" 
+
+#-----=====[ Permission Message ]=====-----#
+
+Permission:
+  Lack: 
+  - "{prefix} You don't have permission &c{permission}"
+
+#-----=====[ Player Message ]=====-----#
+
+Player:
+  Target_Offline: 
+  - "{prefix} Target player is not online!"

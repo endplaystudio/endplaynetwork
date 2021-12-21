@@ -1,0 +1,90 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Еда с доставкой'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'fooddel'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+beef:
+  COMMAND: 'give: steak'
+  PRICE: 11.99
+  NAME: '&c1 Стейк &7(&f11,99L&7)'
+  LORE:
+    - 'Дороже, но сразу :)'
+  ID: steak
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+next:
+  COMMAND: 'give: bread'
+  PRICE: 11.99
+  NAME: '&c1 Хлебушек &7(&f11.99L&7)'
+  LORE:
+    - 'Дороже но сразу :)'
+    - ''
+    - 'На рынке: &c4,99L'
+  ID: bread
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+music:
+  COMMAND: 'give: cooked_fish'
+  PRICE: 12.99
+  NAME: '&31 Рыбка &7(&f12.99L&7)'
+  LORE:
+    - 'Дороже но сразу :)'
+    - ''
+    - 'На рынке: &c4,99L'
+  ID: cooked_fish
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+back:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню.'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

@@ -1,0 +1,42 @@
+location:
+  ==: com.mtihc.minecraft.treasurechest.v8.core.TreasureChest
+  container:
+    ==: com.mtihc.minecraft.treasurechest.v8.core.BlockInventory
+    world: islands
+    coords:
+      ==: Vector
+      x: 404.0
+      y: 45.0
+      z: 125.0
+    type: CHEST
+    size: 27
+    contents:
+      item13:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_HOE
+          damage: 26
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §5Артефакт знаний
+            lore:
+            - §e§oОткрой все слоты верстака!
+            ItemFlags:
+            - HIDE_ENCHANTS
+            - HIDE_ATTRIBUTES
+            - HIDE_UNBREAKABLE
+            - HIDE_DESTROYS
+            - HIDE_PLACED_ON
+            - HIDE_POTION_EFFECTS
+            Unbreakable: true
+            internal: H4sIAAAAAAAAAONiYOBg4CwqSM/MK9PLTGHgSiwqyUxLTC7RNWQAANmqVAgcAAAA
+  messages: {}
+  ranks: []
+  unlimited: false
+  random: 0
+  forget-time: 0
+  ignore-protection: false
+  shared: false
+  rewards: {}

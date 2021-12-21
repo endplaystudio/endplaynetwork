@@ -1,0 +1,24 @@
+new_player:
+  force_select_class: false
+class_command_cooldown: 5
+chat:
+  prefix: true
+  suffix: false
+abilities:
+  invisible_sneak:
+    invisible_hit: false
+    cooldown: 3
+  fire_hand:
+    chance: 6
+    duration: 2
+    cooldown: 3
+  block:
+    chance: 6
+    cooldown: 3
+  life_steal:
+    chance: 8
+    cooldown: 3
+  death_explosion:
+    damage: 6
+    fire_spread: false
+    block_damage: false

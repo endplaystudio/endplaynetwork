@@ -1,0 +1,14 @@
+currentQuests:
+- Все женщины - ведьмы
+currentStages:
+- 1
+quest-points: 0
+questData:
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 36
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: Rikko555

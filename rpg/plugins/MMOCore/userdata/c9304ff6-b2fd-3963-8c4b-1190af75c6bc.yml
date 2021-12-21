@@ -1,0 +1,21 @@
+class-points: 8
+skill-points: 0
+attribute-points: 0
+attribute-realloc-points: 0
+level: 1
+experience: 0
+class: ROGUE
+waypoints: []
+friends: []
+last-login: 1585989319036
+bound-skills: []
+attribute: {}
+profession: {}
+quest: {}
+class-info:
+  MAGE:
+    level: 1
+    experience: 0
+    skill-points: 0
+    attribute-points: 0
+    attribute-realloc-points: 0

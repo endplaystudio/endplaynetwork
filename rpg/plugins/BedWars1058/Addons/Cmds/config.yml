@@ -1,0 +1,40 @@
+# This is a BedWars1058 mini-game add-on by andrei1058.
+# Documentation here: https://gitlab.com/bedwars-addons/bedwars1058-rewardcmds/wikis/home
+game-win:
+  enable: true
+  for-each-winner:
+    execute-as-player:
+    - me I won on arena {arenaDisplay}!
+    execute-as-console:
+    - eco give {player} 100
+regular-kill:
+  for-killer:
+    enable: true
+    execute-as-player:
+    - me {victim}aws killed by me on arena {displayArena}!
+    execute-as-console:
+    - eco give {killer} 30
+  for-victim-with-killer:
+    enable: true
+    execute-as-player:
+    - me I was killed by {killer} on arena {arenaDisplay}
+    execute-as-console:
+    - eco give {victim} 5
+  for-victim-without-killer:
+    enable: true
+    execute-as-player:
+    - me I died like a noob!
+    execute-as-console:
+    - eco give {victim} 1
+bed-destroy:
+  enable: true
+  for-destroyer-player:
+    execute-as-player:
+    - me Bed destroyed! Hahah
+    execute-as-console:
+    - eco give {victim} 5
+  for-destroyer-team:
+    execute-as-player:
+    - me GG {victimTeam}
+    execute-as-console:
+    - eco give {victim} 2

@@ -1,0 +1,10 @@
+## --------------------------------------- ##
+## WorldGuard Placeholders
+## --------------------------------------- ##
+
+## Do not edit this config version
+config: 1
+
+# If you do not use them, its best to turn this off
+# Especially when you have a lot of regions
+load-region-placeholders: true

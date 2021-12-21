@@ -1,0 +1,14 @@
+currentQuests:
+- Халявный ключик
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Халявный ключик:
+    citizen-ids-to-talk-to:
+    - 64
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: MRLauncher_66134

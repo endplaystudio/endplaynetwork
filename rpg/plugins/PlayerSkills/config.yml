@@ -1,0 +1,107 @@
+xp:
+  price: 7
+  add-total-to-price: true
+  add-total-to-price-multiplier: 1
+skills:
+  strength:
+    increment: 8
+    max-level: 10
+  criticals:
+    increment: 8
+    max-level: 10
+  resistance:
+    increment: 8
+    max-level: 10
+  archery:
+    increment: 8
+    max-level: 10
+  health:
+    increment: 8
+    max-level: 21
+gui:
+  title: '&9Ваши скиллы'
+  reset-enabled: true
+  display:
+    strength-normal:
+      material: 'IRON_SWORD'
+      name: '&2Сила: &e%strength%'
+      lore:
+       - '&9Увеличивает на &e%strengthincrement%'
+       - ''
+       - '%strengthprogress%'
+       - ''
+    criticals-normal:
+      material: 'BLAZE_POWDER'
+      name: '&2Критический урон: &e%criticals%'
+      lore:
+       - '&9Increase critical damage by &e%criticalsincrement%'
+       - ''
+       - '%criticalsprogress%'
+       - ''
+    resistance-normal:
+      material: 'IRON_CHESTPLATE'
+      name: '&2Resistance: &e%resistance%'
+      lore:
+       - '&9Decrease damage from all attacks by &e%resistanceincrement%'
+       - ''
+       - '%resistanceprogress%'
+       - ''
+    archery-normal:
+      material: 'BOW'
+      name: '&2Archery: &e%archery%'
+      lore:
+       - '&9Increase arrow damage by &e%archeryincrement%'
+       - ''
+       - '%archeryprogress%'
+       - ''
+    health-normal:
+      material: 'APPLE'
+      name: '&2Здоровье: &e%health%'
+      lore:
+       - '&9Increase health points by &e%healthincrement%'
+       - ''
+       - '%healthprogress%'
+       - ''
+    reset:
+      material: 'BARRIER'
+      name: '&cReset this skill'
+      lore:
+       - '&7Reset this skill to'
+       - '&7level 1 and have all skill'
+       - '&7points spent on this skill'
+       - '&7reset.'
+    reset-all:
+      material: 'TNT'
+      name: '&c&lСбросить всё'
+      lore:
+       - '&7Сбросить ВСЁ'
+       - '&7Возврата денег НЕ БУДЕТ.'
+    stats:
+      material: 'PAPER'
+      name: '&2%username%''s stats'
+      lore:
+       - '&9Expierence progress: &eL%expierencelevel%'
+       - '&e%expierencebar%'
+       - ''
+       - '&9Total points/spent: &e%totalspent%'
+    points-purchase:
+      material: 'BOOK'
+      name: '&2Skill Points: &e%points%'
+      lore:
+       - '&eRight Click &7- Buy 1 for &e%pointsprice% &7level(s).'
+       - ''
+       - '&7These are your skill points.'
+       - '&7You can use these skill points'
+       - '&7to spend them on individual skills.'
+       - '&7You can spend your experience levels'
+       - '&7for skill points.'
+      right-click: true
+admin-notification: true
+worlds:
+  restricted: true
+  deny-message: '&cНельзя использовать скиллы тут!'
+  allowed-worlds:
+   - map_main
+   - main_world
+   - main_world_nether
+   - desertfortress

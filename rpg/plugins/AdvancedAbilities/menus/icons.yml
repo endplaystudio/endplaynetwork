@@ -1,0 +1,33 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#          Icons menu configuration       #
+#                                         #
+#=========================================#
+
+# Set to true if you want to center abilities icons.
+menu_center_icons: true
+
+# Set to true if you want to hide next and current level messages.
+hide_next_and_current_level: false
+
+# You can set a prefix to levels.
+# If you have an ability with a level higher than 8 and you wanna a prefix then add the level and prefix here.
+level_prefix:
+  '1': I
+  '2': II
+  '3': III
+  '4': IV
+  '5': V
+  '6': VI
+  '7': VII
+  '8': VIII
+
+
+# Do not change anything of this, old file versions will be moved to 'outdated' folder.
+configuration_version: '1.0.2'

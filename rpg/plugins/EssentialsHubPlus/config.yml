@@ -1,0 +1,61 @@
+#          Server Essentials          
+#            Version: 1.0             
+#      Plugin Coded By: AdityaTD      
+# AdityaTD YouTube: bit.ly/ATDYouTube            
+
+
+# More features are coming soon! Please Stay tuned for updates.
+
+# Set player gameomde to Adventure once the player joins!
+adventure-mode-onjoin: true
+
+# Clear the player's inventory once the player joins!
+clear-inventory-onjoin: false
+
+# Spawn players to the location you set once they join the server.
+force-spawn-onjoin: true
+
+# Tell players if a player has joined!
+disable-join-msg: false
+
+# Tell players if a player has left!
+disable-quit-msg: true
+
+# Disable Mob Spawning on the server!
+disable-spawn-mob: false
+
+# Stop players from dropping items!
+disable-item-drop: false
+
+# Stop players from picking up items!
+disable-item-pickup: false
+
+# Stop players to break blocks!
+disable-break-block: false
+
+# Stop players from placing blocks!
+disable-place-block: false
+
+# Stop players from PVP!
+pvp-disabled: false
+
+# Disable players to move item's in their inventory!
+disable-inv-movement: false
+
+# Disable Hunger so players don't need food anymore!
+disable-hunger: false
+
+# Health Always stay full!
+invincible: false
+
+# You can use color codes in your text! Color Codes can be found here: http://bit.ly/CustomMessagesColorCodes 
+
+# Titles and Sub Title which would be shown when players join the server.
+title-enabled: false
+title: '&cПриветствую!'
+sub-title: '&6Счастливого Хэллоуина!'
+
+# Tab Text which players would have.
+tab-enabled: false
+tab-header: '&6EssentialsHub+'
+tab-footer: '&aVersion: 0.2 | By: AdityaTD'

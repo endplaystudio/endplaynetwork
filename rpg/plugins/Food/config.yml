@@ -1,0 +1,42 @@
+foodCentral:
+  menuName: '&aFood Central'
+  foodItemName: '&b&l%name%'
+  foodItemLore:
+  - '&bInformation'
+  - '&bDescription &f%description%'
+  - '&bFeed Amount &f%feed_amount%'
+  - '&bCost &f%cost%'
+  nextPage: '&a&lNEXT ->'
+  previousPage: '&c&l<- PREVIOUS'
+foodFuel:
+  itemName: '&8&lFuel'
+  itemLore:
+  - '&7Use this to cook food!'
+juiceFruit:
+  itemName: '&e&lFruit'
+  itemLore:
+  - '&7Use this item to juice food!'
+cooker:
+  menuName: '&3&lCooker'
+juicer:
+  menuName: '&b&lJuicer'
+foodItem:
+  itemName: '&a&l{food}'
+cookedFoodItem:
+  itemName: '&6&lCOOKED %food%'
+juicedFoodItem:
+  itemName: '&b&lJUICED %food%'
+eatWhenFull: true
+blockUnderneathCooker: EMERALD_BLOCK
+blockUnderneathJuicer: DIAMOND_BLOCK
+enableFoodCentral: true
+enableGlobalFoodStore: true
+updateNotifications: true
+extensions:
+  craftedfood: true
+  foodstore: true
+extensionSettings:
+  craftedfood:
+    blockUnderneathCraftingTable: DIAMOND_BLOCK
+    craftingTableName: '&e&lFood Workbench'
+    itemName: '&e&l{food}'

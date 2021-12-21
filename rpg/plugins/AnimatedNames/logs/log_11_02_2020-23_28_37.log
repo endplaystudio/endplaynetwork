@@ -1,0 +1,169 @@
+11/02/2020 23:28:37 [INFO] Loading placeholders and event triggers ...
+11/02/2020 23:28:37 [INFO] Loading internal placeholders ...
+11/02/2020 23:28:37 [DEBUG] Loaded placeholder: CustomPlaceholders
+11/02/2020 23:28:37 [INFO] Loading language file: lang_temp
+11/02/2020 23:28:37 [DEBUG] Loaded placeholder: MySQL
+11/02/2020 23:28:37 [INFO] Fetching available placeholders from server ...
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'acidisland'. Plugin AcidIsland not found!
+11/02/2020 23:28:37 [INFO] Loading language file: lang_en
+11/02/2020 23:28:37 [DEBUG] Loaded placeholder: armor
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'biteskywarsreloaded'. Plugin BiteSkyWarsReloaded not found!
+11/02/2020 23:28:37 [DEBUG] Loaded placeholder: bukkit
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'bukkitgames'. Plugin BukkitGames not found!
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'bukkitspeak'. Plugin BukkitSpeak not found!
+11/02/2020 23:28:37 [DEBUG] Loaded placeholder: bungeecord
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'bungeeonlinetime'. Plugin BungeeOnlineTime not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'chatreaction'. Plugin ChatReaction not found!
+11/02/2020 23:28:38 [DEBUG] Loaded placeholder: command
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'bedwarsrel'. Plugin BedwarsRel not found!
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'battlelevels'. Plugin BattleLevels not found!
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'autosell'. Plugin AutoSell not found!
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'autorank'. Plugin AutoRank not found!
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'auctions'. Plugin Auctions not found!
+11/02/2020 23:28:37 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'askyblock'. Plugin ASkyBlock not found!
+11/02/2020 23:28:38 [DEBUG] Loaded placeholder: color
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'customlist'. Plugin ChatReaction not found!
+11/02/2020 23:28:38 [DEBUG] Loaded placeholder: playereffects
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'enchantmenttokens'. Plugin EnchantmentTokens not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'enjin'. Plugin EnjinMinecraftPlugin not found!
+11/02/2020 23:28:38 [DEBUG] Loaded placeholder: entities
+11/02/2020 23:28:38 [DEBUG] Loaded placeholder: essentials
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'ezblocks'. Plugin EZBlocks not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'ezprestige'. Plugin EZPrestige not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'ezrankslite2'. Plugin EZRanksLite not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'ezrankspro'. Plugin EZRanksPro not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'thrist'. Plugin Thrist not found!
+11/02/2020 23:28:38 [DEBUG] Loaded placeholder: economy
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'donationsholograms'. Plugin DonationsHolograms not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'disease'. Plugin Disease not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'diceeaster'. Plugin DiceEaster not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'deluxetags'. Plugin DeluxeTags not found!
+11/02/2020 23:28:38 [DEBUG] Loaded placeholder: compass
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'galistener'. Plugin GAListener not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'gangsplus1'. Plugin GangsPlus not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'teams'. Plugin Teams not found!
+11/02/2020 23:28:39 [DEBUG] Loaded placeholder: geographical
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'griefprevention'. Plugin GriefPrevention not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'heroes'. Plugin Heroes not found!
+11/02/2020 23:28:39 [DEBUG] Loaded placeholder: hotbar
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'islandworld'. Plugin IslandWorld not found!
+11/02/2020 23:28:39 [DEBUG] Loaded placeholder: java
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'jobs'. Plugin Jobs not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'jobsreborn'. Plugin Jobs not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'killermoney'. Plugin KillerMoney not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'killrewards'. Plugin KillRewards not found!
+11/02/2020 23:28:39 [DEBUG] Loaded placeholder: firework
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'factions1_6'. Plugin Factions not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'factions2'. Plugin Factions not found!
+11/02/2020 23:28:38 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'factions1_8'. Plugin Factions not found!
+11/02/2020 23:28:38 [DEBUG] Loaded placeholder: facebook
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: mineresetlite
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'marriagemaster'. Plugin MarriageMaster not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'legendquest'. Plugin LegendQuest not found!
+11/02/2020 23:28:39 [DEBUG] Loaded placeholder: libsdisguises
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'lwc'. Plugin LWC not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'magic'. Plugin Magic not found!
+11/02/2020 23:28:39 [DEBUG] Loaded placeholder: marriage
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'mcinfected'. Plugin McInfected not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'mcmmo'. Plugin mcMMO not found!
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: memory
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'minecrates'. Plugin MineCrates not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'minefortress'. Plugin MineFortress not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'mineresetliteplus'. Plugin MineResetLitePlus not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'mineversechat'. Plugin MineverseChat not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'mobarena'. Plugin MobArena not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'multiverse'. Plugin Multiverse-Core not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'leaderheads'. Plugin LeaderHeads not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'subsidekoth'. Plugin LeaderHeads not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'kitbattle'. Plugin KitBattle not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'kingkits'. Plugin KingKits not found!
+11/02/2020 23:28:39 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'killstats'. Plugin KillStats not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'sellall'. Plugin SellAll not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'pl3xicons'. Plugin Pl3xIcons not found!
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: placeholderapi
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: player
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'playerpoints'. Plugin PlayerPoints not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'playtimerewardsrecoded'. Plugin PlayTimeRewardsRecoded not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'plotme'. Plugin PlotMe not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'plotsquared'. Plugin PlotSquared not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'plotz'. Plugin Plotz not found!
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: previousnames
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'prison3'. Plugin Prison3 not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'prisonmines'. Plugin PrisonMines not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'pvptimer'. Plugin PvPTimer not found!
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: quests
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'rankupcrayons'. Plugin RankUp not found!
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: redisbungee
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'picknchewstatistics'. Plugin PickNChew not found!
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: permissions
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'ontime'. Plugin OnTime not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'nicky'. Plugin Nicky not found!
+11/02/2020 23:28:41 [DEBUG] Loaded placeholder: unicode
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Combat hook ...
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'skywars'. Plugin SkyWars not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'skywarsreloaded'. Plugin SkyWarsReloaded not found!
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: sound
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'sqlperms'. Plugin SQLPerms not found!
+11/02/2020 23:28:41 [DEBUG] Loaded placeholder: statistics
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'stockmarket-yahoofinance'. Plugin StockMarket not found!
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'stockmarket'. Plugin StockMarket not found!
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'superbvote'. Plugin SuperbVote not found!
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'survivalgameswazup'. Plugin SurvivalGames not found!
+11/02/2020 23:28:41 [DEBUG] Loaded placeholder: tickspersecond
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'tokenenchant'. Plugin TokenEnchant not found!
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'towny'. Plugin Towny not found!
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'townychat'. Plugin TownyChat not found!
+11/02/2020 23:28:41 [DEBUG] Loaded placeholder: twitter
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'ultimatevotes'. Plugin UltimateVotes not found!
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'uskyblock'. Plugin uSkyBlock not found!
+11/02/2020 23:28:41 [DEBUG] Loaded placeholder: vanillaevents
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: skript
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'skillapi'. Plugin SkillAPI not found!
+11/02/2020 23:28:40 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'simpleclans'. Plugin SimpleClans not found!
+11/02/2020 23:28:40 [DEBUG] Loaded placeholder: serverpinger
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'zarphyckskywars'. Plugin SkyWars not found!
+11/02/2020 23:28:41 [INFO] Loading event hook: WorldGuard Region ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Create portal hook ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla player first join ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Combat hook ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Block break hook ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Block place hook ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla player rejoin ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla player join ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Death hook ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Create portal hook ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla player first join ...
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'voteparty'. Plugin VoteParty not found!
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'voteroulette'. Plugin VoteRoulette not found!
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'wickedskywars'. Plugin WickedSkywars not found!
+11/02/2020 23:28:41 [DEBUG] Loaded placeholder: world
+11/02/2020 23:28:41 [MESSAGE] &f[&9AnimatedNames&f] &eUnable to load placeholders 'worldborder'. Plugin WorldBorder not found!
+11/02/2020 23:28:41 [DEBUG] Loaded placeholder: worldguard
+11/02/2020 23:28:41 [INFO] Loading event hook: WorldGuard Region ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Death hook ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla player join ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla player rejoin ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Block place hook ...
+11/02/2020 23:28:41 [INFO] Loading event hook: Vanilla Block break hook ...
+11/02/2020 23:28:41 [INFO] Adding team name group 'hypesquad' ...
+11/02/2020 23:28:41 [INFO] Adding team name group 'main' ...
+11/02/2020 23:28:41 [INFO] Adding team name group 'Staff' ...
+11/02/2020 23:28:41 [INFO] Preparing team names for existing online players ...
+11/02/2020 23:28:41 [INFO] Loading messages ...
+11/02/2020 23:28:41 [DEBUG] 	Adding sub command 'help'
+11/02/2020 23:28:41 [INFO] Loading language file: lang_en
+11/02/2020 23:28:41 [INFO] Loading language file: lang_temp
+11/02/2020 23:28:41 [MESSAGE] &a Префиксы &8| &aYour version is up to date!
+11/02/2020 23:28:41 [INFO] Adding command 'animatednames'
+11/02/2020 23:28:41 [DEBUG] 	Adding sub command 'placeholders'
+11/02/2020 23:28:41 [DEBUG] 	Adding sub command 'groups'
+11/02/2020 23:28:41 [DEBUG] 	Adding sub command 'parse'
+11/02/2020 23:28:41 [DEBUG] 	Adding sub command 'debug'
+11/02/2020 23:28:41 [DEBUG] 	Adding sub command 'reload'
+11/02/2020 23:28:41 [DEBUG] 	Adding sub command 'permissions'
+11/02/2020 23:28:41 [DEBUG] 	Adding sub command 'about'
+11/02/2020 23:28:41 [INFO] Adding team name group 'helper' ...
+11/02/2020 23:28:41 [INFO] 	Arguments: 1
+11/02/2020 23:28:41 [INFO] 	Lines: 2
+11/02/2020 23:28:41 [INFO] Creating new custom effect: warning
+11/02/2020 23:28:41 [INFO] Loaded 5759 of the 5759 placholders

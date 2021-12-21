@@ -1,0 +1,31 @@
+#
+#  ______  _                              _   _____  _            __   __
+#    |  _  \(_)                            | | /  ___|| |          / _| / _|
+#    | | | | _  ___   ___   ___   _ __   __| | \ `--. | |_   __ _ | |_ | |_
+#    | | | || |/ __| / __| / _ \ | '__| / _` |  `--. \| __| / _` ||  _||  _|
+#    | |/ / | |\__ \| (__ | (_) || |   | (_| | /\__/ /| |_ | (_| || |  | |
+#    |___/  |_||___/ \___| \___/ |_|    \__,_| \____/  \__| \__,_||_|  |_|
+#
+
+
+General:
+  Discord:
+    #How to get a bot token: https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
+    Token: ''
+    #The prefix for your commands
+    Prefix: '/'
+    #Game Types can only be from this list: LISTENING | WATCHING | PLAYING
+    GameType: WATCHING
+    GameText: 'за тем, как ты играешь'
+    DiscordStaffChannelLogs: 'консоль'
+    #To get role id mention the role and put backslash before it: \@Role
+    RoleToUseCommands: []
+Discord:
+  Commands:
+    FreezeCmd: 'freeze'
+    FreezeMsg: '&6 Система &8| &7Вы были &eзаморожены&7. Зайдите в наш &3Discord &7для подробностей.'
+    UnfreezeMsg: '&6 Система &8| &7Вы были &eразморожены&7.'
+    MessagePrefix: '&8 [&3D&8] [&6Staff&8] »&7 '
+    StaffMessagePrefix: '&8 [&3D&8] [&6Staff&8] »&7 '
+    BroadcastMessagePrefix: '&8 [&3D&8] &6Администрация &8»&7 '
+    DiscordStaffChannelId: []

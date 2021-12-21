@@ -1,0 +1,23 @@
+currentQuests:
+- Жестокое заключение
+- Доставка удочки
+currentStages:
+- 1
+- 0
+quest-points: 0
+questData:
+  Жестокое заключение:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 37
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: cripansha123

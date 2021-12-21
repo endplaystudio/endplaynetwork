@@ -1,0 +1,56 @@
+general:
+  updateAvailable: "%prefix% Une mise à jour a été trouvée, cliquez sur ce message."
+  success: "%prefix% You've now passed the captcha test."
+  underAttack: "&cLe serveur est attaqué et &4&l&n%bots%&r&r&cbots ont été bloqués."
+  join: "&e%player% joined the game"
+  notifications:
+    complete: "%prefix% (&6%player%&f) & a réussi le captcha."
+    fail: "%prefix% (&6%player%&f) &ffailed to complete the captcha."
+
+commands:
+  add:
+    success: "%prefix% Vérifié avec succès (&6%player%&f)."
+    already: "%prefix% Le lecteur spécifié (&6%player%&f) est déjà vérifié."
+  remove:
+    success: "%prefix% Successfully unverified (&6%player%&f)."
+    already: "%prefix% Le lecteur spécifié (&6%player%&f) n'est pas vérifié."
+  check:
+    found: "%prefix% Le joueur spécifié (&6%player%&f) est &6verified&f." 
+    notFound: "%prefix% Le lecteur spécifié (&6%player%&f) est &6not verified&f."
+  test:
+    success: "%prefix% a envoyé avec succès un test de captcha à &6%player%&f."
+  list:
+    success: "%prefix% Les types de captcha disponibles sont:"
+    format: " &f&l- &6%type% &f[&r&7%status%&f]"
+  reload:
+    success: "%prefix% Les fichiers de configuration ont été rechargés avec succès."
+
+instructions:
+  map: "%prefix% Tapez le &6code &f qui est affiché sur la carte."
+  gui: "%prefix% Veuillez cliquer sur le &6%item%&f."
+  different: "%prefix% Veuillez cliquer sur l'élément différent."
+  equation: "%prefix% Veuillez résoudre l'équation suivante: &6%equation%&f."
+  order: "%prefix% Placez dans l'ordre (&6%symbol%&f) les nombres suivants: &6%numbers%&f."
+  picture: "%prefix% Tapez ce que vous voyez. Choisissez parmi[&6%list%&f]."
+  code: "%prefix% Type &6%code% &fin the chat."
+  color: "%prefix% Type what (&r%color%THIS&r&f) color's name is."
+  sneak: "%prefix% Please &6sneak &f(habituellement en utilisant la touche SHIFT)."
+  jump: "%prefix% Please &6jump &f(habituellement en utilisant la touche SPACE)."
+  drop: "%prefix% Please &6drop &fthe item you're holding (usually using Q key)."
+  slot: "%prefix% Veuillez vous déplacer dans le &6%slot%th &fslot de votre hotbar."
+  reverse: "%prefix% Veuillez inverser les lettres du code suivant: &6%code%&f."
+  
+kick:
+  restart: "&7Le serveur a redémarré, veuillez vous reconnecter plus tard."
+  locked: "&7Toooo beaucoup de joueurs se joignent en même temps"
+  ip: "&7Vous ne pouvez avoir en ligne que jusqu'à &f3 &7comptes en même temps"
+  bot: "&7Votre adresse IP est liée à l'activité de bot, nous ne pouvons donc pas vous permettre de vous inscrire"
+  abuse: "&7Votre IP est liée à un abus récent, d’où votre impossibilité de vous inscrire"
+  risk: "&7Votre score de fraude IP est trop risqué, par conséquent, vous ne pouvez pas vous inscrire"
+  vpn: "&7Les VPN ou les mandataires ne sont pas autorisés sur ce serveur"
+
+errors:
+  onlyPlayers: "%prefix% Seuls les joueurs peuvent utiliser cette commande."
+  nonPermissions: "%prefix% Vous n'avez pas assez de permissions pour faire ça."
+  playerNull: "%prefix% Le lecteur spécifié ne semble pas valide."
+  wrongUsage: "%prefix% The right usage is &6%usage%"

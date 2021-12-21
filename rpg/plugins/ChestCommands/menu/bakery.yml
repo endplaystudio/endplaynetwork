@@ -1,0 +1,93 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Выпечка'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bakery'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+flour:
+  COMMAND: 'open: item-flour.yml'
+  NAME: '§rМука'
+  ID: sugar
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+flapjack:
+  COMMAND: 'open: item-flapjack.yml'
+  NAME: '§rТесто'
+  ID: sugar
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+baguette_blank:
+  COMMAND: 'open: item-baguette-blank.yml'
+  NAME: '§rЗаготовка багета'
+  ID: sugar
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+bread_blank:
+  COMMAND: 'open: item-bread-blank.yml'
+  NAME: '§rЗаготовка хлеба'
+  ID: sugar
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+bread:
+  COMMAND: 'open: item-bread.yml'
+  NAME: '§rХлеб'
+  ID: bread
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: items.yml'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню предметов'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

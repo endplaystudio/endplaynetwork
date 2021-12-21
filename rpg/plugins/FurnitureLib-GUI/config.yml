@@ -1,0 +1,12 @@
+#These commands will be run for regular players
+Commands for players:
+- 'me $player pressed on $furniture furniture!'
+
+#These commands will be run for players
+#which has furniturelib.gui permission!
+Commands for admins:
+- 'me $player pressed on $furniture furniture!'
+
+#true - Will use random wool to display furnitures
+#false - will use material ID set in the /furniturelib/crafting/<furniture>.yml file
+Use random wool: true

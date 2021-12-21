@@ -1,0 +1,54 @@
+CountdownLength: 5
+Distance: 30.0
+TradeCurrency: true
+TradeCurrencyAmount: 5.0
+TradeInCreative: false
+ShiftRightClick: false
+Messages:
+  error-not-involved: ' &6Обмен &8| &7Вы не заняты обменом сейчас.'
+  error-trade-already-accepted: ' &6Обмен &8| &7Обмен уже принят'
+  error-accepter-different-trade: ' &6Обмен &8| &7Игрок &b%accepter% &7 сейчас занят
+    другим обменом.'
+  error-requester-different-trade: '&6Обмен &8» &7Вы заняты другим обменом сейчас.'
+  error-distance: ' &6Обмен &8| &7Вам нужно быть на расстоянии не более 30 блоков
+    для обмена с игроком.'
+  error-world: ' &6Обмен &8| &7Нужно быть в одном мире и с игроком для обмена'
+  error-self: ' &6Обмен &8| &7Нельзя обмениваться с собой'
+  error-not-online: ' &6Обмен &8| &7Игрок &b%accepter% &7не в сети'
+  error-creative: ' &6Обмен &8| &7Нельзя производить обмен в креативе'
+  error-incorrect-usage: ' &6Обмен &8| &7Неверное использование, Правильно: &b/Trade
+    (Игрок)&7, &b/Trade Accept&7, или &b/Trade Decline'
+  trade-request-sent: ' &6Обмен &8| &7Запрос на обмен отправлен игроку &a%accepter%'
+  trade-request-received: ' &6Обмен &8| &7Игрок &a%requester% &7запросил обмен. &c/trade
+    accept &7чтобы принять. У вас 15 секунд.'
+  trade-accepted: ' &6Обмен &8| &aОбмен принят!'
+  trade-successful: ' &6Обмен &8| &aОбмен прошёл успешно!'
+  trade-cancelled: ' &6Обмен &8| &cОбмен был отменён.'
+  trade-cancelled-creative-reason: ' &6Обмен &8| &7This was because a player was in
+    creative mode'
+  traded-currency: ' &6Обмен &8| &7Вы обменяли &a%currencyamount%Ł'
+  received-currency: ' &6Обмен &8| &7Вы получили &a%currencyamount%Ł &7в результате
+    обмена.'
+  config-reloaded: ' &6Обмен &8| &7The &bconfig.yml &7file has been reloaded'
+Item-Names:
+  inventory: '|Вы|                                |Игрок|'
+  divider: ' '
+  decline-trade: '&cНажмите чтобы Отменить обмен'
+  accept-trade: '&aНажмите если Готовы к обмену'
+  not-ready: '&7Не готов'
+  ready: '&aГотов'
+  add-currency: '&aДобавить &f%currencyamount%Ł'
+  remove-currency: '&cУбрать &f%currencyamount%Ł'
+  total-currency: '&aДобевлено денег: &f%currencyamount%Ł'
+Item-Lores:
+  decline-trade:
+  - '&7Нажми сюда во время'
+  - '&7обмена для его отмены.'
+  accept-trade:
+  - '&7Когда оба игрока'
+  - '&7нажмут сюда обмен'
+  - '&7сможет начаться.'
+  add-currency:
+  - '&7Добавляет деньги к обмену'
+  remove-currency:
+  - '&7Убирает ваши деньги из обмена'

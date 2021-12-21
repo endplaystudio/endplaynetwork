@@ -1,0 +1,9 @@
+## --------------------------------------- ##
+## BungeeCord Placeholders
+## --------------------------------------- ##
+
+## Do not edit this config version
+config: 2
+
+# Refresh interval of player count (in ticks)
+interval: 20

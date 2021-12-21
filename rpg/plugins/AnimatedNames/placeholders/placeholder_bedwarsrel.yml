@@ -1,0 +1,97 @@
+## --------------------------------------- ##
+## Adding BedwarsRel placeholders Placeholders
+## https://www.spigotmc.org/resources/bedwars-rel.6799/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {bedwarsrel_game_isstopping} returns
+bedwarsrel_game_isstopping:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {bedwarsrel_player_keyfield} returns
+bedwarsrel_player_keyfield:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {bedwarsrel_player_name} returns
+bedwarsrel_player_name:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {bedwarsrel_player_tablename} returns
+bedwarsrel_player_tablename:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {bedwarsrel_player_isonce_raw} returns
+bedwarsrel_player_isonce_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {bedwarsrel_player_isnew_raw} returns
+bedwarsrel_player_isnew_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {bedwarsrel_game_mainlobby_chunk_isloaded} returns
+bedwarsrel_game_mainlobby_chunk_isloaded:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {bedwarsrel_game_isfull} returns
+bedwarsrel_game_isfull:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {bedwarsrel_game_isoverset} returns
+bedwarsrel_game_isoverset:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {bedwarsrel_game_lobby_chunk_isloaded} returns
+bedwarsrel_game_lobby_chunk_isloaded:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {bedwarsrel_game_isautobalanceenabled} returns
+bedwarsrel_game_isautobalanceenabled:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+

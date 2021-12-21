@@ -1,0 +1,39 @@
+set:
+  warzone:
+    Forest:
+      info:
+        authors:
+        - Profitroll
+        teleport:
+          x: 22
+          y: 22
+          z: -79
+          yaw: 90
+        world: cw_forest
+        lobby:
+          orientation: south
+          world: cw_forest
+          materials:
+            floor:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLASS
+            outline:
+              ==: org.bukkit.inventory.ItemStack
+              type: WOOD
+            gate:
+              ==: org.bukkit.inventory.ItemStack
+              type: OBSIDIAN
+            light:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLOWSTONE
+        materials:
+          main:
+            ==: org.bukkit.inventory.ItemStack
+            type: OBSIDIAN
+          stand:
+            ==: org.bukkit.inventory.ItemStack
+            type: FENCE
+          light:
+            ==: org.bukkit.inventory.ItemStack
+            type: GLOWSTONE
+  team: {}

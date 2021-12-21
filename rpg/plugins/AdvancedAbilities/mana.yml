@@ -1,0 +1,115 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#            Mana configuration           #
+#                                         #
+#=========================================#
+#      You can edit the max mana and      #
+#   regeneration in player-settings.yml   #
+#=========================================#
+
+# Set to true if you want to enable the mana/energy system.
+mana_system_enable: true
+
+# Set the display type, types:
+# # BOSS_BAR.
+# # ACTION_BAR.
+# # PLAYER_EXP_BAR | If you use this type then exp bar will not work.
+# # CHAT.
+mana_display_type: ACTION_BAR
+
+# Set the mana regeneration time, players will regenerate the 'mana_regeneration_default' value.
+mana_regeneration_time: 2
+
+
+# Add here how much mana each ability spends.
+# Format: <ability_id>:<level>:<amount> or <ability_id>:<amount>.
+# You don't need to add all levels with similar mana, example:
+# - 'triple_arrow_shot:2:5'
+# - 'triple_arrow_shot:5:10'
+# Automatically the plugin will read levels 2, 3, 4 with '5' mana and level 5 or highers with '10'.
+# You can repeat the ability, and you can add here your custom abilities using the ID (API).
+abilities:
+- 'triple_arrow_shot:1:5'
+- 'triple_arrow_shot:3:6'
+- 'triple_arrow_shot:6:8'
+- 'adrenaline_boost:4'
+- 'adrenaline_boost:5:5'
+- 'feather_weight:5'
+- 'feather_weight:5:6'
+- 'aggressive_mode:1:4'
+- 'aggressive_mode:2:5'
+- 'aggressive_mode:5:7'
+- 'aggressive_mode:7:8'
+- 'arrow_tank_skin:4'
+- 'arrow_tank_skin:4:5'
+- 'antidote:3'
+- 'antidote:5:4'
+- 'legendary_protection:5'
+- 'legendary_protection:2:6'
+- 'legendary_protection:6:7'
+- 'vampire_mode:6'
+- 'vampire_mode:3:9'
+- 'vampire_mode:6:11'
+- 'mining_luck:4'
+- 'woodchopping_luck:2'
+- 'pirate:7'
+- 'fire_resistance:1'
+- 'explosive_arrow:1:6'
+- 'explosive_arrow:2:7'
+- 'explosive_arrow:5:8'
+- 'explosive_arrow:7:9'
+- 'sword_push:2:6'
+- 'sword_push:5:8'
+
+# If this is true then players will respawn with full mana.
+full_mana_respawn: true
+
+# If an ability isn't in 'abilities' list then it will spend this amount.
+mana_ability_default: 5
+
+# If this true then a message will be sent when a player use and regenerate its mana, you can edit this in your messages file. (default=/plugins/AdvancedAbilities/languages/messages_en.yml).
+mana_messages: true
+
+# If this true then a message will be sent when a player doesn't have the necessary mana, you can edit this in your messages file. (default=/plugins/AdvancedAbilities/languages/messages_en.yml).
+no_mana_message: true
+
+# If this true then a message will be sent when a player has full mana, otherwise full mana message will be sent one time.
+full_mana_message: true
+
+# The bar symbol will be repeated according to this.
+mana_bar_size: 15
+
+# Set the bar symbol.
+mana_bar_symbol: "\u2588"
+
+# This is the positive bar color.
+# * Colors: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD,GRAY, DARK_GRAY, BLUE,
+# GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE."
+mana_bar_positive_color: "AQUA"
+
+# # This is the negative bar color.
+# * Colors: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD,GRAY, DARK_GRAY, BLUE,
+# GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE."
+mana_bar_negative_color: "GRAY"
+
+# Set the duration mana message, this is only for BOSS_BAR type.
+time_message: 3
+
+# Add here custom locations to disable RPG events.
+# Format: '<LOCATION>=<ID>,<ID_2>,<ID_3>...'
+# Locations [Special locations]:
+# - world [].
+# - worldguard_region [not_pvp, not_exploitable, not_buildable, *].
+# - faction [WarZone, SafeZone, *].
+# - towny [wilderness, WarZone, not_pvp, *].
+mana_show_disabled_locations: []
+
+
+# Do not change anything of this, old file versions will be moved to 'outdated' folder.
+configuration_version: '1.0.2'

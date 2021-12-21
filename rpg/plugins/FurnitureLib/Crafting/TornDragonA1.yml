@@ -1,0 +1,23 @@
+TornDragonA1:
+  name: '&cTornDragonA1'
+  system-ID: TornDragonA1
+  material: 383
+  glow: false
+  lore: []
+  crafting:
+    disable: true
+    recipe: xxx,xxx,xxx
+    index:
+      x: '7'
+  ProjectModels:
+    ArmorStands:
+      '0': H4sIAAAAAAAAAI1SMU/CQBj9Km056uDq7O7k5gLFXlsSaAkQpSzkxIM0XNukLRB/gqOTP4e4GEcT3XX3T3hHr4AaE7/pfe/ee3fflzMAKnDokYhehll4zSiAYGpNktEuI7nolQpo/YgwVmDVDlMpU800yqSjFS+3CVyld0g6p2nRVB2WrMJ4JqQGGHjBaGrGM0YNQG1sD8Zt7OigDNf3787JW2PMcQCyOB6VPDerLjYtod07/6YtMZTZZq+zyX66Ov686y5/ZUteZDd9K/hndq3Xctxd+Mtj9+EZNX8a6rtwaZCT1v+YtOQ3V/CV0jhP0lsE2oWL+wNQPd/DcgkIDsIbOIrCmE5SMs3Ps/mCMYVLk0WcKwegWyQiMwoaIKj6tu2anlUkIEAds+XtEyp/WH/b2BjLy7hXFd+j2GcyIXmYxDqg4ak/nWY03z0ejSS1fj3j1RBUUFIfhUqDSkBWBf4CYAY2M3sCAAA=
+      '1': H4sIAAAAAAAAAI1SMU/CQBR+0AKl7sZVd3+AxgSLtEACLQJRYCEnHLXxek3aAnHDwRhHJycXf4CzcWHzFxg3Q+KKk4mDYfGOtqAxJr6l733vfd/d964ygAArOrLxgeVZRwQDcCSdRR6uEOTzOiZAomYjQoKeqFluOCYqru2FjCIdLBQYI1lG7gl2gyKVJ87QoiYflUFW+wS7CjUJlkEqqVq9XVLzSYg1xleT/MbTbpvlTQiD5a0IZ2SxoCo5Pvut/2M2yiHSVqrlufbj4dr0sjL4pR3iXDtr5Jr/1E5Xi/nCUnz29vJx8fDKCTtnE+22erPFCZnP9dlxg14vCaHTzB9OI3x+BFsppr7jnkqQ2CuotTqIuqGrUrCEqEgZmlZQ9LBmrstKUeeABHGrC6u2RXHHRT1/23RIF9O2N3TcboxJOn3qx2QQfGSmQcS0cyzz94qDQAaEfzmfRRySOWQjkz8tO5xZqC1uoqlqeC3e4j9SsHmng3zLoUmQGptGr+dhf/zcYzFiNqVWBN3d70/PuXOpGUHvo/kyEiA00TBYzBcuyCLDpQIAAA==
+    Block:
+      '0':
+        X-Offset: 0.0
+        Y-Offset: 0.0
+        Z-Offset: 0.0
+        Type: BARRIER
+        Data: 0
+  PlaceAbleSide: TOP

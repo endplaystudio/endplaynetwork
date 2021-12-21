@@ -1,0 +1,149 @@
+# Allows you set your own disabled commands! :D
+# Placeholders are %colon% -> : and %player% -> player's name
+# Make a command only disabled in some worlds by doing:
+DisabledCommands:
+  warp%colon%небо_острова:
+    Message: Тебе нужно завершить эпическую ветку квестов для этого.
+    Permission: cb.allow.sky
+  Plugins:
+    Message: '&cЭтой команды не существует О_о'
+    Permission: cb.allow.plugins
+  Pl:
+    Message: '&cЭтой команды не существует О_о'
+    Permission: cb.allow.plugins
+  Bukkit%colon%plugins:
+    Message: 'Plugins (0): &aNone... Sorry about that.'
+    Permission: cb.allow.plugins
+  Bukkit%colon%pl:
+    Message: 'Plugins (0): &aNone... Sorry about that.'
+    Permission: cb.allow.plugins
+  Version:
+    Message: '  &8| &cТолько не говори, что не знаешь на какой версии ты играешь сейчас...'
+    Permission: cb.allow.version
+  Ver:
+    Message: '  &8| &cТы же сам входил на этой версии. Версия сервера = версия клиента.'
+    Permission: cb.allow.version
+  Icanhasbukkit:
+    Message: '  &8| &6The Minecraft version you are on!'
+    Permission: cb.allow.version
+  Bukkit%colon%ver:
+    Message: '  &8| &6The Minecraft version you are on!'
+    Permission: cb.allow.version
+  Bukkit%colon%version:
+    Message: '  &8| &6The Minecraft version you are on!'
+    Permission: cb.allow.version
+  About:
+    Message: '  &8| &cТы не знаешь на какой версии играешь?'
+    Permission: cb.allow.version
+  Bukkit%colon%about:
+    Message: '  &8| &6The Minecraft version you are on!'
+    Permission: cb.allow.version
+  Me:
+    Message: '  &8| &7Возможно вы имели в виду &c/pass'
+    Permission: cb.allow.me
+  Minecraft%colon%me:
+    Message: '  &8| &7Vampires cannot see /me messages. :/'
+    Permission: cb.allow.me
+  Reload:
+    Message: '  &8| &cТы... действительно думал, что это сработает?!'
+    Permission: cb.allow.reload
+  Rl:
+    Message: '  &8| &cТы... действительно думал, что это сработает?!'
+    Permission: cb.allow.reload
+  Bukkit%colon%rl:
+    Message: '  &8| &6Were you really expecting that to work?!'
+    Permission: cb.allow.reload
+  Bukkit%colon%reload:
+    Message: '  &8| &6Were you really expecting that to work?!'
+    Permission: cb.allow.reload
+  Restart:
+    Message: '  &8| &aТю, эта команда вообще не была настроена, мамкин ты хакер.'
+    Permission: cb.allow.restart
+  Stop:
+    Message: '  &8| &cТы сейчас серьёзно?'
+    Permission: cb.allow.stop
+  reboot:
+    Message: '&cЭтой команды не существует О_о'
+  shutdown:
+    Message: '&cЭтой команды не существует О_о'
+  Op:
+    Message: '  &8| &cМмм... Да... Точнее нет, размечтался.'
+    Permission: cb.allow.op
+  Minecraft%colon%op:
+    Message: '  &8| &6Umm... Yeahh... No.'
+    Permission: cb.allow.op
+  Deop:
+    Message: '  &8| &cВижу сам не оп, вот и бесишься.'
+    Permission: cb.allow.deop
+  Minecraft%colon%deop:
+    Message: '  &8| &cЧувак, ты не сможешь убрать наших работников. Прости.'
+    Permission: cb.allow.deop
+  Kill:
+    Message: '  &8| &cТы собрался кого-то убить? Лошара, пойди и убей честным путём.'
+  Hack:
+    Message: '  &8| &cНу ты конечно даун... Только бог может простить тебя.'
+  Free:
+    Message: '  &8| &7Напоминание: &cХАЛЯВЫ НЕ БУДЕТ. &7Найди халяву на даунских серверах.'
+  Uc give:
+    Message: '  &8| &cТы слишком много знаешь. Успокойся.'
+  Kick:
+    Message: '  &8| &cНу и зачем ты это пишешь? Ты реально думал, что это сработает?'
+  Ban:
+    Message: '  &8| &cЗнаешь, давай ты будешь управлять игроками на СВОЁМ сервере,
+      ок?'
+  Banip:
+    Message: '  &8| &cЯ тибя па айпи вычаслю'
+  Killall:
+    Message: '  &8| &cА давай ты в окно прыгнешь, а?'
+  Rg remove dolchedonna:
+    Message: '  &8| &cВижу тебе совсем скучно.. Ну давай, попробуй &c&l/stop &cпрописать...'
+  Region remove dolchedonna:
+    Message: '  &8| &cВижу тебе совсем скучно.. Ну давай, попробуй &c&l/stop &cпрописать...'
+  animatednames:
+    Message: '&cЭтой команды не существует О_о'
+  openinv:
+    Message: '&cСорян, мы отключили эту команду по некоторым причинам'
+  wg:
+    Message: '&cЭтой команды не существует О_о'
+  wg info:
+    Message: '&cЭтой команды не существует О_о'
+  gadgetsmenu:
+    Message: '&cЭтой команды не существует О_о'
+  gmysterybox:
+    Message: '&cЭтой команды не существует О_о'
+  st help:
+    Message: '&cЭтой команды не существует О_о'
+  servertutorial:
+    Message: '&cЭтой команды не существует О_о'
+  warps:
+    Message: ' &6Путешествия &8| &7Нельзя использовать это во время путешествия.'
+    Permission: allow.teleport
+  warp Таверна:
+    Message: ' &6Путешествия &8| &7В этой локации нельзя использовать телепортатор.
+      Вернитесь в Дольчедонну.'
+    Permission: allow.outland.teleport
+  warp Лобби:
+    Message: ' &6Путешествия &8| &7В этой локации нельзя использовать телепортатор.
+      Вернитесь в Дольчедонну.'
+    Permission: allow.outland.teleport
+  warp:
+    Message: ' &6Путешествия &8| &7В этой локации нельзя использовать телепортатор.
+      Вернитесь в Дольчедонну.'
+    Permission: allow.outland.teleport
+  hub:
+    Message: ' &6Путешествия &8| &7В этой локации нельзя использовать телепортатор.
+      Вернитесь в Дольчедонну.'
+    Permission: allow.outland.teleport
+  market:
+    Message: ' &6Торговля &8| &7Для открытия рынка нужно пройти обучение.'
+    Permission: completed.tutorial
+  pex:
+    Message: '&cЭтой команды не существует О_о'
+  rg remove terrain:
+    Message: '&cЭтой команды не существует О_о'
+  region remove terrain:
+    Message: '&cЭтой команды не существует О_о'
+  sync:
+    Message: '&cЭтой команды не существует О_о'
+  wb:
+    Message: '&cЭтой команды не существует О_о'

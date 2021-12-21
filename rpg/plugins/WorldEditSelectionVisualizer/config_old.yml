@@ -1,0 +1,163 @@
+lang:
+  visualizerEnabled: Your visualizer has been enabled.
+  visualizerDisabled: Your visualizer has been disabled.
+  playersOnly: Only a player can toggle his visualizer.
+  selectionSizeOf: 'The visualizer only works with selections up to a size of '
+  blocks: blocks
+  configReloaded: Configuration for visualizer was reloaded from the disk.
+particleDistance: 8
+maxSize: 100000
+checkForAxe: false
+particleEffect: reddust
+particleData: 255,0,0
+horizontalLinesForCuboid: true
+horizontalLinesForPolygon: true
+horizontalLinesForCylinder: true
+horizontalLinesForEllipsoid: true
+gapBetweenPoints: 0.5
+verticalGap: 1
+updateSelectionInterval: 20
+updateParticlesInterval: 5
+particleFadeDelay: 0
+useProtocolLib: false
+selectionItem: WOOD_AXE
+players:
+  c9304ff6-b2fd-3963-8c4b-1190af75c6bc: true
+  808ac47b-9e0d-3bce-8542-107dc0499741: true
+  c20c4da5-d699-314f-9dc2-5c79806fe873: false
+  2022f3bf-aa46-37be-a528-6a96b463d280: true
+  8e5f0feb-7986-3340-8a98-818d502eb10e: true
+  e39b6c52-782a-3edd-a7d4-82fe97da28f2: true
+  281efa07-fff6-307b-9122-ff7bfa4a70af: true
+  0a9d6052-6128-30f4-aa54-e2a38524eb2e: false
+  f05d7415-02b3-36e4-9259-475fb9c7e744: true
+  48332230-05e2-365c-8d0a-09dea8949022: true
+  83b39bf2-d583-308e-81d4-31aa045e92b1: true
+  6c61ca10-1b0a-3038-b301-d534e98a963b: false
+  89bb066c-f7b9-3292-93ef-76123dff6c90: true
+  ff44d4d4-0d4f-3f06-b0f9-60de7a6af428: true
+  3fae1f3d-4d26-3256-bdcf-901cf927dc13: true
+  d82bfe73-5f1f-3547-ba28-e88fab9cb26b: true
+  c4aa4ef9-fd04-361a-a3ca-925a0f75775e: true
+  ff1f2644-8eec-3d14-9e04-61031c565f7d: true
+  71cf1cb2-f976-377e-a95c-e5aa3406d451: true
+  fe043426-f110-3b7b-ada7-cef3dcd4b3ca: true
+  b5c8f698-594d-3aee-a32c-d2d3ace902d9: true
+  b8c71a2b-0e83-3a88-aedf-1e8a92996ee6: true
+  92ce5b8c-c902-3ec4-8058-7927a562a636: true
+  62a072e3-cd9f-3c33-96ac-3eeffc01bce6: true
+  09cce616-dbf5-32b7-bc07-b498981753e9: true
+  8497ed7f-1fb8-3f73-9ad4-f32a39b51723: true
+  5b0ab3c4-616d-3e27-9b42-54f42ae4f919: true
+  1cc95396-2cf4-3ee2-93c8-fa96320a57cb: false
+  9dcec5f4-edc0-32e1-8b0f-049215ef8e5a: true
+  b56b2b34-0a8a-3c64-8d2e-9eb7576649ec: true
+  84f47cb7-c1e9-3085-9437-7036cba3e4ac: true
+  e3fec0ba-dd63-3421-9a5d-da3fa7042d73: true
+  c80cb9d3-7cb0-3be4-9358-cfcb1135832b: true
+  55b11a18-6355-35cd-834e-4c2ce4e8b47f: true
+  ded7f746-1cef-3acf-a95b-c755f5472bd6: true
+  7f484f12-7a27-3ee3-937b-a2e2ea23fd24: true
+  363de218-383d-300f-8c3b-328929542b3f: true
+  07333fd1-82aa-34d7-86b2-9f3e3d018073: true
+  13f01634-b7a3-39b0-a1c1-80dba2edd51d: true
+  434a5765-4074-3d02-a792-a612571e4114: true
+  fdd6c56e-65ad-3a2a-b992-7496f9bb41ce: true
+  95291531-0b7b-3c93-ac97-db7ecbc44fb2: true
+  8a6c5632-6862-3fed-a3e6-eb319fcfcbb6: true
+  7c2835cb-de1f-3c11-9b34-afae6399e90c: true
+  94f5a7a3-390a-3fb2-868a-e339ce6fda21: true
+  b5f712cd-e5b3-33b6-89dc-0ab8c1ddbe27: true
+  bd281879-e4f6-3295-9f42-5954b2aa442e: false
+  9edf0b0f-e2f7-30ef-8c0c-b1fbc037f591: true
+  ac1137e1-c749-391d-b30d-43801193a8f1: true
+  af67786d-9df1-396f-8335-3fbf9d819378: true
+  16123b1a-3638-39de-88fc-333184525047: true
+  5b41e7bc-be23-33c5-8870-837282a0aeb2: true
+  37495c85-a91f-3cae-99cb-5f4c94effc26: true
+  dd1044e3-4aec-394b-ae8e-a92e2b61a015: true
+  8da1372a-5fcc-3e09-a341-29f5feaca64d: true
+  89999ac7-0a1c-320a-ad44-3194674c0617: true
+  543b32f7-674a-3871-a9f5-7746d6aba357: true
+  13ea270c-c7d6-3341-a97c-4690c313ac2e: true
+  9fb0a106-34ba-3363-a956-785307ee2a99: true
+  6127cfd3-b65d-323a-880d-70cae0b195f8: true
+  6fe11f06-3225-38f0-8c5a-5868f750ba03: true
+  1286f5e0-e5f3-3d7d-b9a2-d9bbdffcec3f: true
+  abf3fe31-7389-39f7-8b4b-cde956d8d723: true
+  155af735-8df6-3e6b-be52-222724ec3ad0: true
+  8eedce96-2d74-3a50-959a-1910fe0b01b2: true
+  debeabf2-12ea-3f2e-aeb5-0652476a7fd0: true
+  2d9f7281-7c9e-36d5-8a41-cbf6bdab0011: true
+  1bd172c7-6b89-37fa-9936-80b6c2fbb789: false
+  45984290-011b-317b-ba94-a6f997af314e: true
+  8edaabaf-2aea-3277-915c-211a31bc7916: false
+  298ee13a-066b-3412-abe0-b59cd3852458: true
+  3daf00d5-51ad-31e4-85ef-182e1c31fb62: true
+  748f5205-1c55-3602-ada5-db93113b7cb0: false
+  e091e781-f2e6-34fe-9f52-1067e6fa4344: true
+  9e6aa7ee-d293-341b-aae7-3b881730740d: true
+  526d57c6-64a2-35ec-9bbe-167ec677a048: true
+  3937ed8d-5e42-31df-839e-7a172a932c5f: true
+  768c8260-790f-3c60-abf3-3d6874578547: true
+  5379076b-cdb0-33b9-8fb8-a9f207942e19: true
+  c6d74f0f-f329-33fb-9df3-03c24f835d2b: true
+  839eef3d-a2fe-3acb-b258-3243dfc8ba5b: true
+  26586957-9965-3356-a63e-d1ca026ae686: true
+  bf2e5b17-f2a2-3b15-829a-23c55982830c: true
+  3893a0e8-a343-3de8-bb53-e1bcde679fce: false
+  5f4fb526-42e3-3440-b37f-e61d207f8aee: true
+  fd1aabf9-3801-38f0-bdf0-4908ce7aecb6: true
+  44073c8d-9cef-318c-86f1-61db3166ebe3: true
+  62dce15f-c948-390c-83bb-3205e004aecb: true
+  303f2377-d09e-37da-ad32-c4f24323021d: true
+  bb60bbd9-99e1-304c-bdd0-9d571503b0dc: true
+  b825dc08-52ef-37ab-bd00-8313031857b8: true
+  0d59c295-ce11-3b3e-8f84-515ff276b78c: true
+  78d031fe-63f9-3557-b7ee-7e377ccee963: true
+  607a62b2-1578-32d8-b4c3-448633b4a3eb: true
+  d6190ff3-607d-3c52-9ce8-28b90e640f51: true
+  2ed87ada-30e1-39c3-b867-8f31e85839af: true
+  e72f05a0-2274-31a6-b5bd-44e6efdba39e: true
+  bd49118d-6d03-370b-bd79-706f23922e6c: false
+  424b76e8-0e6b-3de6-b3f0-8a85b5d7ec17: true
+  d3709811-169f-379b-9318-3c3533533e21: false
+  d80a6317-b0b8-30f6-9213-43e39d8be67a: true
+  1619444d-97ca-36b5-b963-3cb512b56ad7: true
+  756d9fc9-bcb1-3927-9671-881de229151c: true
+  6e7fea44-25bd-3f36-9002-086de7f70b95: true
+  8c699c8a-6284-357b-aa8a-4a421845daba: true
+  5b091516-6a59-3b6e-bfd4-49c2e06db083: true
+  4d5a60e2-fc81-3156-8ab6-d160888607c3: true
+  40e31be2-a8fe-386a-83f0-53bb2e03a2fc: true
+  cedd462e-d5c1-3206-9dd9-f738f40961fb: true
+  e3d232d1-02eb-3496-b5ae-bb3f9b8ca31d: true
+  e0427104-0d85-3a8d-b494-aaff0396d0f6: true
+  bbbe3d1d-4cb4-35d7-b662-b34aa220f085: true
+  b0f219a7-1897-37c2-b7b5-839be95b39f4: true
+  c776b567-cf64-37a3-b9d0-5f083cb02dfb: true
+  05a1da15-c6bd-3708-89fc-3cabe6ec1444: true
+  c7102b67-02cb-39b4-9c18-a649bf1235f6: false
+  4e3497fb-56b8-3be9-bcbb-9efc62e07447: true
+  22eecae8-9676-30b9-9424-27dde64209a4: true
+  bde32c4e-1fdb-3d99-a960-e4f3e2eb99e9: true
+  515ed677-1d0f-330e-94f8-2b27703ae314: false
+  8916b800-83f7-3234-8a6d-1cb7b7fee6ff: true
+  399c5ab6-9db3-3b36-9853-364182459ce9: true
+  f1931b86-89e9-388e-9318-9c48a7c518bd: true
+  ae2dfcc0-e107-3fa3-8439-9704dc2fa8c7: true
+  f686ebb7-52f8-3878-840a-b5f6011fe174: true
+  33d74977-a7ca-3bfb-b7a1-9d4064e2838a: false
+  5012d88e-cf58-3143-be94-787b12646017: true
+  b30b6e87-cebb-3d17-9eff-147a67b2c372: true
+  909e0726-8727-3f9e-8c38-e366316d1354: true
+  a01e3843-e521-3998-958a-f459800e4d11: true
+  b9445495-1c58-3276-84ea-ab7cd3f3648c: true
+  7ee83055-9eb8-3665-8d99-c61f9d415032: true
+  3a9a391f-dd11-3861-b0e6-459c0c57d5f0: true
+  d1afcccb-f89e-3625-aaff-268ee90eba93: true
+  ce4b478d-2ec4-3154-8c57-39226852268a: true
+  2c796ce6-9d68-3da9-ad75-b0531d84fb91: true
+  a99e63b8-0907-3bf5-a8b0-900315667916: true
+  8dc9ad1e-bea9-3a28-a9c5-45a859e8b943: false
+  d8cbc0f4-debe-3bbf-846a-7cccadaf79c2: true

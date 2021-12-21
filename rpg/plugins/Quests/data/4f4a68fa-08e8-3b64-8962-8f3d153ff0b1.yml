@@ -1,0 +1,36 @@
+currentQuests:
+- Морковные дела
+- Адские проблемки
+- Доставка удочки
+currentStages:
+- 0
+- 1
+- 1
+quest-points: 1
+questData:
+  Морковные дела:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 13
+    has-talked-to:
+    - false
+  Адские проблемки:
+    citizen-ids-to-talk-to:
+    - 49
+    - 15
+    has-talked-to:
+    - false
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    - 2
+    has-talked-to:
+    - false
+    - false
+completed-Quests:
+- Халявный ключик
+- Водка "Столичная"
+hasJournal: false
+lastKnownName: goldenfoxyFnaF

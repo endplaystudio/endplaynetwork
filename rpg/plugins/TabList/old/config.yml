@@ -1,0 +1,259 @@
+#=================================OOO====================================#
+#                     TabList Configuration File                         #
+#=================================OOO====================================#
+# config.yml file. Plugin version: 3.5                                   #
+# Author, created by: montlikadani                                       #
+#=================================OOO====================================#
+# [Default configuration]                                                #
+# https://github.com/montlikadani/TabList/blob/master/config.yml         #
+#                                                                        #
+# [Placeholders]                                                         #
+# https://www.spigotmc.org/wiki/placeholderapi-placeholders/             #
+#                                                                        #
+# [Other placeholders]                                                   #
+# https://github.com/montlikadani/TabList/wiki/Placeholders              #
+#                                                                        #
+# [Tips]                                                                 #
+# - Use color coding '&' character, on this page:                        #
+# http://minecraft.gamepedia.com/Formatting_codes                        #
+# - If you find a bug, send here:                                        #
+# https://github.com/montlikadani/TabList/issues                         #
+# - Use symbols in messages, on this page:                               #
+# https://github.com/montlikadani/TabList/wiki/Symbols                   #
+# - If the string is empty does not send the message.                    #
+#=================================OOO====================================#
+
+#=========================================#
+#                Settings                 #
+#=========================================#
+# PlaceholderAPI use for the plugin.
+placeholderapi: true
+
+# Different playerlist in different world.
+per-world-player-list: false
+
+# Remove the NPC name from the tab?
+remove-npc-name-from-tab: false
+
+# Fake players that are on the tab.
+enable-fake-Игроки: false
+
+# Used for %server-time% placeholder.
+# Formats/examples: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+time-format: 'dd/MM/yyyy'
+
+# Ping color format for %ping% placeholder.
+ping-placeholder-format:
+  enable: true
+  # Use color coding "&" for color.
+  good-ping:
+    color: '&a'
+    amount: 200
+  medium-ping:
+    color: '&6'
+    amount: 500
+  bad-ping: '&c'
+
+# Custom variables.
+# Unlimited variables.
+# Use: <something>: '&6Message...'
+custom-variables:
+  <name>: '&5%player_name%'
+  <lines>: '&7&m======================'
+
+# Enables to change prefix & suffix in player tablist.
+# WARNING! Overwrites the tabname function.
+change-prefix-suffix-in-tablist:
+  enable: true
+  # Refresh interval in seconds.
+  # Set to 0 if you don't want to wait refresh the groups.
+  # If 0 you will required to execute the /tl rl command, to reload the groups.
+  refresh-interval: 30
+  # Hide player group in tablist when the player is vanished?
+  # Required Essentials plugin!
+  hide-group-when-player-vanished: false
+  # Hide player group in tablist when the player is afk?
+  # Required Essentials plugin!
+  hide-group-when-player-afk: false
+  # Hide name tag visibility of the player.
+  # This only works if the changing-type scoreboard.
+  # Types: always, hide_for_other_teams, hide_for_own_team, never
+  name-tag-visibility: always
+  # WARNING! You can only change it to false if you experience a problem by changing the group prefix and suffix.
+  use-external-scoreboard: true
+  # Changing type.
+  # Types:
+  # scoreboard - Max. character is 16 (if use 1.13 version max. 64) in prefix & suffix.
+  # namer - Max. character unlimited.
+  changing-type: scoreboard
+
+# Tablist objective type.
+tablist-object-type:
+  enable: false
+  # Types:
+  # ping - ping of player
+  # health - health of player
+  # custom - custom value
+  type: ping
+  # Objective settings.
+  object-settings:
+    # The ping side next to the player's name indicates the right side.
+    ping:
+      # Ping update time interval in seconds.
+      update-interval: 3
+      # Which worlds do not show up in ping (world names)?
+      disabled-worlds: []
+    # The player health (life) the player's name indicates the right side.
+    health:
+      # Which worlds do not show the players health in tab?
+      disabled-worlds:
+      - world_the_end
+      # Blacklisted players who do not show the health in tab.
+      blacklisted-Игроки:
+      - exampleplayer
+      - players
+    # It only accepts number-ending placeholders, such as player levels.
+    custom:
+      custom-value: "%player_level%"
+      # Refresh interval in seconds.
+      refresh-interval: 3
+      # Which worlds do not show the custom value setting (world names)?
+      disabled-worlds: []
+
+# Player tab name.
+tabname:
+  # Allow to change player tab name.
+  # Warning if this is false, the command will not be registered either. Requires server restart!
+  enable: false
+  # How many letters should be allowed?
+  max-name-length: 200
+  # When the player left the server, delete the tab name?
+  clear-player-tabname-on-quit: false
+  # Enables color coding for tab names. ("&")
+  enable-color-code: true
+  # Enable the default color. (If the player has not written a color code, this color will be given by default.)
+  default-color:
+    enable: false
+    color: '&6'
+  # Which worlds can not be change the tab name?
+  disabled-worlds: []
+  # Which names can not be used?
+  # WARNING! Color codes are NOT considered in command.
+  blacklist-names:
+  - tabname
+  # Use %name%, %sender%, %newline%, %prefix% placeholder.
+  # >> NO supported the PlaceholderAPI! <<
+  other-changed-name-message: '&3Your name is changed to&r %name%&3 by&e %sender%&3.'
+
+# Tablist. Header & footer with animation.
+# Use \n, %staff-online%, %ip-address%, %level%, %xp%, %exp-to-level%, %mc-version%, %motd%, %ping%, %servername%,
+# %max-players%, %online-players%, %server-time%, %server-ram-free%, %server-ram-max%, %server-ram-used% placeholders.
+# Use placeholders: https://www.spigotmc.org/wiki/placeholderapi-placeholders/
+# Use symbols: https://github.com/montlikadani/TabList/wiki/Symbols
+tablist:
+  # Enable the tab? (Header & footer)
+  enable: true
+  # Hide tab when the player is vanished?
+  # Required Essentials plugin!
+  hide-tab-when-player-vanished: false
+  # What world does not display the tab?
+  disabled-worlds:
+  - lobby
+  - hub
+  # Blacklisted players, where the player not see the tab.
+  blacklisted-Игроки: []
+  # Tab update time interval. (In ticks!)
+  # Set 0 to disable the tab refresh.
+  interval: 4
+  header:
+    - '&6&lEND PLAY\n\n&f   Сайт сервера:\n&eend-play.xyz/minecraft\n\n'
+  footer:
+    - '\n\n Вы находитесь в локации: \n&e%player_world%'
+  # Per world tablist
+  per-world:
+    enable: false
+    # If the world name is not specified, will see the default tab.
+    enable-default-tab-if-world-not-specified: true
+    world_nether:
+      header:
+        - '&3This is a per world plugin&6 Tab&aList&3.'
+      footer:
+        - '&6World:&7 %player_world%'
+    world:
+      header:
+        - '&cThis is a per world plugin&6 TabList'
+        - '&6This is a per world plugin&3 TabList'
+        - '&3This is a per world plugin&a TabList'
+        - '&aThis is a per world plugin&7 TabList'
+      footer:
+        - '&6World:&7 %player_world%'
+  # Per player tablist
+  per-player:
+    enable: false
+    # If the player name is not specified, will see the default tab.
+    enable-default-tab-if-player-not-specified: false
+    testplayer:
+      header:
+        - '&aПривет&6 %player_name%\n<lines>'
+        - '&aПривет&7 %player_name%\n<lines>'
+        - '&aПривет&c %player_name%\n<lines>'
+        - '&aПривет&f %player_name%\n<lines>'
+        - '&aПривет&e %player_name%\n<lines>'
+        - '&aПривет&a %player_name%\n<lines>'
+        - '&aПривет&5 %player_name%\n<lines>'
+        - '&aПривет&b %player_name%\n<lines>'
+      footer:
+        - '<lines>'
+  # Per group tablist
+  # Requires Vault plugin!
+  per-group:
+    enable: false
+    # If the group name is not specified, will see the default tab.
+    enable-default-tab-if-group-not-specified: true
+    default:
+      header:
+        - '&aПривет&6 %player_name%'
+        - '&aПривет&7 %player_name%'
+        - '&aПривет&c %player_name%'
+        - '&aПривет&f %player_name%'
+        - '&aПривет&e %player_name%'
+        - '&aПривет&a %player_name%'
+        - '&aПривет&5 %player_name%'
+        - '&aПривет&b %player_name%'
+      footer:
+        - '&cYour rank: %vault_rank%'
+        - '&6Your rank: %vault_rank%'
+        - '&7Your rank: %vault_rank%'
+        - '&5Your rank: %vault_rank%'
+        - '&eYour rank: %vault_rank%'
+
+#=========================================#
+#             Plugin Settings             #
+#=========================================#
+# The TabList plugin is disabled (false) or enabled (true).
+enabled: true
+
+# bStats Metrics.
+metrics: true
+
+# Check for updates.
+check-update: false
+
+# Log plugin messages into console.
+logconsole: true
+
+# Logging to file plugin messages.
+log-to-file: true
+
+# Plugin enable/disable messages in console.
+# Use %newline%, %prefix% placeholder.
+# >> NO supported the PlaceholderAPI! <<
+plugin-enable: '%prefix%&a The plugin successfully enabled&6 v3.5&a!'
+plugin-disable: '%prefix%&c The plugin successfully disabled!'
+
+# The default is allowed to see the plugin information.
+# Permission: tablist.plugininfo
+default-can-see-plugin-information: false
+
+# DO NOT CHANGE THIS!
+config-version: 7

@@ -1,0 +1,88 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Квесты'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'quests'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+journal:
+  COMMAND: 'quests journal'
+  NAME: '&bЖурнал квестов'
+  LORE:
+    - 'Журнал квестов позволяет узнавать'
+    - 'какой квест начат, и что делать дальше.'
+    - 'Полезен как новым, так и бывалым игрокам.'
+    - ''
+    - '&e► Достать/убрать журнал'
+  ID: book
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+tutorial:
+  COMMAND: 'CONSOLE: questsadmin give {player} Обучение'
+  NAME: '&bОбучение'
+  LORE:
+    - 'Первый квест из линейки.'
+    - 'Сходите за котёнком к Кинологу чтобы'
+    - 'исполнить детскую мечту Даниила.'
+    - ''
+    - 'Награды:'
+    - '• Деньги: &6100Ł'
+    - '• Опыт: &610'
+    - '• Печенье: &610 шт.'
+    - ''
+    - '&e► Начать квест'
+  ID: blaze_powder
+  PERMISSION: 'quest.tutorial'
+  PERMISSION-MESSAGE: '&7 Вы уже прошли обучение. Невозможно пройти его заново.'
+  POSITION-X: 5
+  POSITION-Y: 2
+
+  
+back:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню.'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

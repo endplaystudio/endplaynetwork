@@ -1,0 +1,19 @@
+## --------------------------------------- ##
+## WorldGuard placeholders Placeholders
+## http://dev.bukkit.org/bukkit-plugins/worldguard/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 3
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+
+# If you do not use them, its best to turn this off
+# Especially when you have a lot of regions
+load-region-placeholders: true

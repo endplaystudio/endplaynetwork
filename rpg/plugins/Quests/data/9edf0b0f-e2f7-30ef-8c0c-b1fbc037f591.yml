@@ -1,0 +1,15 @@
+currentQuests:
+- Доставка удочки
+currentStages:
+- 0
+quest-points: 1
+questData:
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests:
+- Немножко угля
+hasJournal: false
+lastKnownName: jjiox

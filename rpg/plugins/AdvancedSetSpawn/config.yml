@@ -1,0 +1,69 @@
+#                          [ AdvancedSetSpawn ]                                                                                      #
+#  Admin Command List:                                                                                                               #
+# - /aspawn --> Show the command list <--> [Require: aspawn.admin]                                                                   #
+# - /aspawn version --> Show the version of this plugin <--> [Require: aspawn.admin]                                                 #
+# - /aspawn reload  --> Reload the plugin "Config" and if "text-on-join" is                                                          #
+#                 true, show you the msg. "aspawn-reload-jointext" and "join-text" <--> [Require: aspawn.admin]                      #
+# - /setspawn --> Set the spawn-point <--> [Require: aspawn.admin]                                                                   #
+# Player command:                                                                                                                    #
+# - /spawn --> Go to the Spawn (Default) <--> [No permission needed]                                                                 #
+# WARNING!                                                                                                                           #
+# if you have essentials, this plugin have priority to use                                                                           #
+# /spawn or /setspawn                                                                                                                #
+# +--------------------------------------------------------------------------------------------------------------------------------+ #
+# Config:                                                                                                                            #
+# check-updates (Default: true) --> Check if a new version has been found on Spigot. (This need reload if you start this on False)   #
+# text-on-join (Default: false) --> Send always private text to player on join                                                       #
+# join-text: " &d&l&oWelcome&b %player% &d&lto my &6&k!!&e &l&nServer&6 &k!!"                                                        #
+# spawn-onjoin (Default: true) --> If a spawn is set, players on join are sends to the spawn                                         #
+# spawn-ondeath (Default: true) --> If a spawn is set, players on respawn are sends to the spawn (to ASetSpawn plugin)               #
+# enabled-command-spawn (Default: true) --> Enable or Disable /spawn                                                                 #
+# spawn-permission (Default: false) --> Users need "aspawn.spawn" to use /spawn command?                                             #
+# enabled-command-setspawn (Default: true) --> Enable or Disable /setspawn                                                           #
+# cooldown (Default: 3) --> Cooldown in Seconds. To disable the cooldown type 0, only write integer numbers                          #
+# no-cooldown-haspermission (Default: true) --> Disable the cooldown if the player has permission or op                              #
+# consecutive-cooldown-message (Default: false) --> Teleport will start in 3, 2, 1... (This can have some delay, im working on this) #
+# cancel-spawn-onmove (Default: true) --> Cancel the teleportation if the player is moving, this only works with cooldown > 0        #
+# prefix: " &d[&9&lA&5&lSpawn&d]  "   empty "" to not display the prefix                                                             #
+# Permissions:                                                                                                                       #
+# aspawn.bypasscooldown  --> Bypass the cooldown (only if no-cooldown-haspermission: true)                                           #
+# aspawn.admin           --> Access to /aspawn commands                                                                              #
+# aspawn.spawn           --> Users can goto /spawn (only if spawn-permission: true)                                                  #
+Config:
+  check-updates: true
+  text-on-join: false
+  join-text: ' &d&l&oWelcome&b %player% &d&lto my &6&k!!&e &l&nServer&6 &k!!'
+  spawn-onjoin: true
+  spawn-ondeath: true
+  spawn-permission: false
+  enabled-command-spawn: true
+  enabled-command-setspawn: true
+  consecutive-cooldown-message: true
+  cooldown: 3
+  no-cooldown-haspermission: false
+  cancel-spawn-onmove: false
+  prefix: ' &6Возрождение &8| &7'
+  Messages:
+    spawn-nopermission: '&cYou don''t have &dpermission&c to do that!'
+    spawn-teleporting: '&aTeleporting...'
+    spawn-cooldown: '&6The teleport will start in&e %cooldown%s'
+    spawn-tpcanceled: '&cThe teleportation to spawn has been canceled.'
+    spawn-console: '&cYou need to be a player.'
+    nospawn-set: '&cThe server doesn''t have a spawn set.'
+    setspawn-success: '&aYou successfully set the spawn point &nhere'
+    aspawn-tp: '&7Usage: &c/aspawn tp <nick>'
+    aspawn-tpsuccess: '&a%target% &eHas been teleported to the spawn.'
+    aspawn-tperror: '&e%target% &cis not Online.'
+    aspawn-invalid-arg: '&cInvalid argument(s).'
+    aspawn-reload: '&bPlugin reloaded.'
+    aspawn-reload-jointext: '&dNow the text join is&7:'
+    version-found: '&bA new version has been found&7: &e%version%&b, check &ahttps://spigotmc.org/resources/advanced-setspawn.72637'
+    version-latest: '&7You are on the latest version of ASpawn.'
+    version-error: '&cYour server can''t get information for updates check your host.'
+  Spawn:
+    x: 112.48244834397838
+    y: 70.0
+    z: 453.4899996159403
+    world: map_main
+    yaw: -90
+    pitch: 0.7500008

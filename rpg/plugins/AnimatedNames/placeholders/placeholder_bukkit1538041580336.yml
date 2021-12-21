@@ -1,0 +1,9 @@
+## --------------------------------------- ##
+## Bukkit Placeholders
+## --------------------------------------- ##
+
+## Do not edit this config version
+config: 1
+
+time: # %time% Time/Date formatting
+  format: 'HH:mm:ss'

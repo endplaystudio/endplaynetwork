@@ -1,0 +1,112 @@
+# GlobalMarket config: v2.0.2
+
+# Persistence options. Valid options are 'flat' and 'redis' (Default: flat)
+# Pointing two GlobalMarket instances at the same Redis server allows them to share data.
+# If using a multi-server setup, set 'persistence.saveInterval' to zero on all but one server.
+# If changed while the server is running, for example from flat to redis, GlobalMarket will /ERASE/
+# the new storage method and import all loaded data into it from the previous persistance method.
+persistence:
+  method: flat
+  redis:
+    address: localhost
+    port: 6379
+    poolSize: 16
+    password: ''
+  saveInterval: 1200
+
+# Minimum time in between click events in miliseconds before
+# closing an inventory and logging the player. (Default: 20)
+autoclicker_defense_threshold: 20
+
+# Will log names of potential players with autoclickers. (Default: true)
+enable_autoclicker_logging: true
+
+# Which locale file to use. Do not include .json! (Default: en_US)
+# Locale files can be found and edited to your liking inside the plugin JAR.
+# Be sure to migrate your edits when updating the plugin.
+locale_file: en_US
+
+# Disables the stock system entirely. Listings will function like
+#  they did in previous versions, minus the mailbox. Items will
+#  go straight to the player's cursor. (Default: false)
+disable_stock_system: false
+
+# How many stock slots to give each player. (Default: 16)
+stock_slots: 16
+
+# Group-based stock slot assignment. Requires a permissions plugin
+#  with Vault support. This setting will be added to the default slots.
+# <group-name>:<# of slots>
+stock_slots_groups:
+- default:0
+
+# How many items can be stored in a stock slot. (Default: 320)
+stock_slots_size: 320
+
+# Group-based stock slot size assignment. Requires a permissions plugin
+#  with Vault support. This setting will be added to the default slot size.
+# <group-name>:<size of slot>
+stock_slots_size_groups:
+- default:0
+
+# Time in minutes to wait before allowing a player to retrieve newly
+#  added stock. (Default: 0)
+stock_delay: 0
+
+# How many hours to wait before removing a listing. (Default: 12)
+# Set to 0 to disable expiration
+listings_expire_time: 12
+
+# What percentage to deduct from a transaction. (Default: 0.05)
+# Set to 0.0 to disable cuts
+listings_cut_amount: 0.05
+
+# The root prefix to all GlobalMarket commands. (Default: market)
+# Changing this requires a server restart
+command_root_name: market
+
+# Whether or not the base GlobalMarket command should open the GUI (Default: true)
+market_command_opens_gui: true
+
+# How much to increment or decrement when a number button is pressed
+# while in the listings creation menu.
+creation_menu_increments:
+  '1': 1
+  '2': 5
+  '3': 10
+  '4': 50
+  '5': 100
+  '6': 500
+  '7': 1000
+  '8': 5000
+  '9': 10000
+
+# Adds a section to the Market menu where you can sell infinite listings. (Default: true)
+enable_infinite_listings: true
+
+# Enables debug output. Warning: gets /VERY/ spammy. (Default: false)
+enable_debug: false
+
+# Plugin Metrics helps the plugin developer track usage statistics. (Default: true)
+# Changing this requires a server restart
+enable_metrics: true
+
+# Just a feature to test capabilities of the menu system. Enable at your own discretion. (Default: false)
+enable_storage: false
+
+storage_store_amount: 640.0
+
+storage_withdraw_amount: 320.0
+
+# What item ID strings to use when creating a function button.
+# Bukkit/Spigot supports material values like CHEST:0 or PAPER:0.
+# Cauldron supports Forge item strings like ImmersiveEngineering:material:12
+menu_function_items:
+  FUNC_PREVPAGE: EMPTY_MAP:0
+  FUNC_NEXTPAGE: EMPTY_MAP:0
+  FUNC_NAVIGATION: CHEST:0
+  FUNC_SERVER_LISTINGS_NAVIGATION: CHEST:0
+  FUNC_STORAGE_NAVIGATION: CHEST:0
+  FUNC_NOSTOCK_CREATE_LISTING: HOPPER:0
+  FUNC_CREATE_LISTING_CANCEL: STAINED_GLASS_PANE:14
+  FUNC_CREATE_LISTING_CREATE: STAINED_GLASS_PANE:5

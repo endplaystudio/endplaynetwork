@@ -1,0 +1,32 @@
+spellsGUI:
+  invSize: 27
+  explosiveSpell:
+    material: TNT
+    data: 0
+    slot: 11
+    permission: vipfeatures.spells.explosive
+  fireSpell:
+    material: BLAZE_POWDER
+    data: 0
+    slot: 12
+    permission: vipfeatures.spells.fire
+  webSpell:
+    material: WEB
+    data: 0
+    slot: 13
+    permission: vipfeatures.spells.web
+  zombieSpell:
+    material: SKULL_ITEM
+    data: 2
+    slot: 14
+    permission: vipfeatures.spells.zombie
+  poisonSpell:
+    material: POTION
+    data: 0
+    slot: 15
+    permission: vipfeatures.spells.poison
+  backItem:
+    material: ARROW
+    data: 0
+    slot: 22
+    permission: vipfeatures.open.maingui

@@ -1,0 +1,135 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Активности'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'activity'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+cw:
+  COMMAND: 'open: cw.yml'
+  NAME: '&cCastle Wars'
+  LORE:
+    - 'Легендарный режим сражения двух команд: &cКрасных &7и &bСиних&7.'
+    - 'Убивай игроков врага и кради его флаг для победы!'
+    - 'Для старта нужно &c2 игрока &7в &c2-х командах&7.'
+    - ''
+    - 'Подсказка:'
+    - 'Для выхода из игры используй &c/leave&7.'
+    - ''
+    - '&e► Открыть меню мини-игры'
+  ID: bow
+  POSITION-X: 4
+  POSITION-Y: 2
+
+quests:
+  COMMAND: 'open: quests_d.yml'
+  NAME: '&3Квесты'
+  LORE:
+    - '2 ветки интересных квестов'
+    - '3-я на подходе :)'
+    - ''
+    - '&e► Открыть меню квестов'
+  ID: iron_sword
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+#jobs:
+#  COMMAND: 'jobs browse'
+#  NAME: '&6Работы'
+#  LORE:
+#    - 'Прекрасный способ заработать денег'
+#  ID: diamond_pickaxe
+#  POSITION-X: 7
+#  POSITION-Y: 2
+#  KEEP-OPEN: true
+
+#mg:
+#  COMMAND: 'tell: &7Заходи на наш сервер с мини-играми! (&aplay.end-play.xyz:27015&7)'
+#  NAME: '&cМини-игры'
+#  LORE:
+#    - 'Наслаждайтесь &cBedWars&7, &aSkyBlock&7, &9SkyWars'
+#    - 'на нашем проекте &cEND PLAY MG&7!'
+#    - ''
+#    - 'ip: &aplay.end-play.xyz&f:&c27015'
+#    - ''
+#    - ''
+#    - '&cА почему тут нет мини-игр?'
+#    - 'Это связано с особенностями работы инвентаря'
+#    - 'в разных мирах. Он спаренный, а вот при изменении'
+#    - 'этого плагинами очень велик шанс получить дюпы'
+#    - 'разных вещей на ровном месте, так что это отдельный'
+#    - 'сервер со своей экономикой и командой разработчиков.'
+#    - ''
+#    - '&e► Получить сообщение с адресом'
+#  ID: bed
+#  POSITION-X: 6
+#  POSITION-Y: 2
+  
+survival:
+  COMMAND: 'server: anarchy'
+#    - 'warp Выживание'
+#    - 'CONSOLE: gm 0 {player}'
+#    - 'CONSOLE: featherboard show {player} survival -silent'
+  NAME: '&bВыживание без правил'
+  LORE:
+    - 'Всё по законам анархии:'
+    - 'игра без привата и экономики.'
+    - ''
+    - 'Каждый игрок определяет будущее мира.'
+    - 'Стройте, разрушайте, воюйте, выживайте.'
+    - 'В этом мире возможно абсолютно всё.'
+    - ''
+    - 'Игроков онлайн: &6%bungee_anarchy%'
+    - ''
+    - '&e► Зайти на выживание'
+  ID: grass
+  ENCHANTMENT: FORTUNE
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+back:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню.'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

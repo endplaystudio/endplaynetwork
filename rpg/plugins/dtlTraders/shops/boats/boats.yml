@@ -1,0 +1,219 @@
+boats:
+  title: Продавец лодок
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  logging-enabled: false
+  pages:
+    page-0:
+      size: 54
+      page-name: page-0_5499
+      page-permission: ''
+      buy-items:
+        item-12:
+          id: 45
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 8.49
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: 1
+          show-limit-time: false
+          limit-reset-seconds: 3600
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-14:
+          id: 46
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_BIRCH
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 8.75
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: 1
+          show-limit-time: false
+          limit-reset-seconds: 3600
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-28:
+          id: 47
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_SPRUCE
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 8.63
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: 1
+          show-limit-time: false
+          limit-reset-seconds: 3600
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-30:
+          id: 48
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_DARK_OAK
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 9.15
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: 1
+          show-limit-time: false
+          limit-reset-seconds: 3600
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-32:
+          id: 49
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_JUNGLE
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 8.83
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: 1
+          show-limit-time: false
+          limit-reset-seconds: 3600
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-34:
+          id: 50
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_ACACIA
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 8.78
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: 1
+          show-limit-time: false
+          limit-reset-seconds: 3600
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false

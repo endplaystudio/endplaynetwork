@@ -1,0 +1,15 @@
+#         Settings.yml: Here you can change some plugin settings
+#                       These settings are global and will effect every type of armor
+#                       * For creating armors go to 'Armors.yml'
+#                       New Features:
+#                             DisableArmorPotionEffects: Disables PotionEffects from armors. Armor PotionEffects can cause major lag to some servers,
+#                                                        I'll try to fix this. But for now, you may disable this feature if you'd like.
+Armor_Text_Colors:
+  Info_Color_&: 9
+  Rarity_Color_&: 6
+Server_Related:
+  DisableArmorPotionEffects: false
+Misc:
+  DisableDyedLeatherArmor: false
+  DisableStupidGiveArmorMessage: false
+  EnableTestingMode: false

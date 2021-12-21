@@ -1,0 +1,80 @@
+set:
+  warzone:
+    Castle:
+      info:
+        authors:
+        - Profitroll
+        teleport:
+          x: -45
+          y: 121
+          z: 90
+          yaw: 90
+        world: cw_castle
+        lobby:
+          orientation: south
+          world: cw_castle
+          materials:
+            floor:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLASS
+            outline:
+              ==: org.bukkit.inventory.ItemStack
+              type: WOOD
+            gate:
+              ==: org.bukkit.inventory.ItemStack
+              type: OBSIDIAN
+            light:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLOWSTONE
+        materials:
+          main:
+            ==: org.bukkit.inventory.ItemStack
+            type: OBSIDIAN
+          stand:
+            ==: org.bukkit.inventory.ItemStack
+            type: FENCE
+          light:
+            ==: org.bukkit.inventory.ItemStack
+            type: GLOWSTONE
+        monument:
+          names:
+          - blue
+          - red
+          blue:
+            x: -92
+            y: 58
+            z: 129
+            yaw: 358
+          red:
+            x: -15
+            y: 58
+            z: 55
+            yaw: 2
+  team:
+    names:
+    - blue
+    - red
+    blue:
+      info:
+        spawns:
+        - x: -15
+          y: 52
+          z: 129
+          yaw: 128
+        flag:
+          x: -15
+          y: 57
+          z: 129
+          yaw: 137
+    red:
+      info:
+        spawns:
+        - x: -92
+          y: 52
+          z: 55
+          yaw: 309
+        flag:
+          x: -92
+          y: 57
+          z: 55
+          yaw: 310

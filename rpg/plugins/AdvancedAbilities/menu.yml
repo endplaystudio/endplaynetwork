@@ -1,0 +1,116 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#            Menu configuration           #
+#                                         #
+#=========================================#
+
+# Set a menu type, types: default, icons. You can find these types in 'menus' folder.
+type: default
+
+
+# Set to true to hide all 'item attributes' of menu items. This works only to 1.8 and higher versions.
+item_hide_attributes: true
+
+# Set to true to hide price if player already has the level.
+hide_price_already_purchased: true
+
+# Set to false to display disabled abilities.
+hide_ability_is_disabled: true
+
+
+# These abilities will be added automatically to the menu in this order.
+menu_abilities:
+- 'triple_arrow_shot'
+- 'adrenaline_boost'
+- 'feather_weight'
+- 'aggressive_mode'
+- 'arrow_tank_skin'
+- 'antidote'
+- 'legendary_protection'
+- 'vampire_mode'
+- 'mining_luck'
+- 'woodchopping_luck'
+- 'pirate'
+- 'fire_resistance'
+- 'explosive_arrow'
+- 'sword_push'
+
+
+# Set to true to replace empty slots in hotbar with 'hotbar_fill_item' item.
+hotbar_fill_blank_slots: false
+
+# Empty slots will be replaced with this item.
+hotbar_fill_item: '160,7,1'
+
+# This is the item of next page.
+hotbar_next_page_item: '338,0,1'
+
+# This is the item description.
+hotbar_next_page_description: []
+
+# This is the item of previous page.
+hotbar_previous_page_item: '338,0,1'
+
+# This is the item description.
+hotbar_previous_page_description: []
+
+# Add here custom items to the hotbar.
+hotbar_items:
+  # How can I add/edit an item?
+  #  pages:
+  #   '1': # All items from here will be added to section number. In this case 1.
+  #     item_1: # This section can named as you want.
+  #       name: '&6&lStats'
+  #       material: '340:0:1'
+  #       description:
+  #       - '&7Click to see your stats?'
+  #       action: CLOSE_MENU # [OPTIONAL].
+  #       command: /advancedabilities stats # This is executed by the player. [OPTIONAL].
+  #       command_console: /advancedabilities stats {player} # [OPTIONAL].
+  #  Actions: CLOSE_MENU, NEXT_PAGE, PREVIOUS_PAGE.
+  pages:
+    # This means that items in this section will be added to all pages.
+    '*':
+      item_1:
+        # This name supports variables like "{money_vault}". If you're using playerpoints then use "{money_playerpoints]".
+        name: '&6Total coins: &e{money_vault}'
+        # Item is displayed in menu <ID>,<DATA>,<AMOUNT>
+        material: '395,0,1'
+        # Description of the item
+        description:
+        - '&eEarn coins from'
+        - '&eplaying games.'
+        # Slot from 1 to 7
+        slot: 3
+      item_2:
+        # This name supports variables like "{money_vault}". If you're using playerpoints then use "{money_playerpoints]".
+        name: '&6Close menu'
+        # Item is displayed in menu <ID>,<DATA>,<AMOUNT>
+        material: '340,0,1'
+        # Description of the item
+        description:
+        - '&eClose the abilities menu.'
+        action: CLOSE_MENU
+        # Slot from 1 to 7
+        slot: 4
+      item_3:
+        # This name supports variables like "{money_vault}". If you're using playerpoints then use "{money_playerpoints]".
+        name: '&6Abilities'
+        # Item is displayed in menu <ID>,<DATA>,<AMOUNT>
+        material: '145,0,1'
+        # Description of the item
+        description:
+        - '&eImprove your pvp buying'
+        - '&eabilities.'
+        # Slot from 1 to 7
+        slot: 5
+
+
+# Do not change anything of this, old file versions will be moved to 'outdated' folder.
+configuration_version: '1.0.2'

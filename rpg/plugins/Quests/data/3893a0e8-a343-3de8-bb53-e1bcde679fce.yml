@@ -1,0 +1,28 @@
+currentQuests:
+- Жестокое заключение
+- Все женщины - ведьмы
+- Странная Просьба
+currentStages:
+- 0
+- 1
+- 1
+quest-points: 0
+questData:
+  Жестокое заключение:
+    citizen-ids-to-talk-to:
+    - 37
+    has-talked-to:
+    - false
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 36
+    has-talked-to:
+    - false
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 31
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: KayRocker

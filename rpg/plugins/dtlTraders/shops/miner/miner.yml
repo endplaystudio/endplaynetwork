@@ -1,0 +1,222 @@
+miner:
+  title: Старый шахтёр
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  logging-enabled: false
+  pages:
+    page-0:
+      size: 54
+      page-name: page-0_6363
+      page-permission: ''
+      buy-items:
+        item-12:
+          id: 31
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: TORCH
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 6.95
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-14:
+          id: 32
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: STONE_PICKAXE
+            damage: 75
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 28.64
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: 2
+          show-limit-time: false
+          limit-reset-seconds: 1800
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-31:
+          id: 30
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BREAD
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 3.89
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: 5
+          show-limit-time: false
+          limit-reset-seconds: 900
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+      sell-items:
+        item-21:
+          id: 36
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: COBBLESTONE
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 0.05
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-22:
+          id: 37
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: COAL
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 0.1
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-23:
+          id: 38
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: INK_SACK
+            damage: 4
+          show-lore: true
+          display-lore: []
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 0.05
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false

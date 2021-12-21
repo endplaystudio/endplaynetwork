@@ -1,0 +1,20 @@
+currentQuests:
+- Странная Просьба
+- Доставка удочки
+currentStages:
+- 3
+- 1
+quest-points: 0
+questData:
+  Странная Просьба:
+    item-delivery-amounts:
+    - 0
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    has-talked-to:
+    - false
+completed-Quests:
+- Халявный ключик
+hasJournal: false
+lastKnownName: kotikthekilller

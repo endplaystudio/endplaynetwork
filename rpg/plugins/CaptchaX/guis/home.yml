@@ -1,0 +1,51 @@
+title: "Captcha > Player GUI"
+slots: 9
+animationDelay: 5
+contents:
+  0:
+    item: "PAPER;1;0"
+    name: "&e%player%"
+    lore:
+     - "&7A huge collection of information you can"
+     - "&7get from this player. You can also do specific"
+     - "&7actions like force verify the player, unverify him,"
+     - "&7or put him under a captcha verification test."
+     - ""
+     - "&7Verified: &e%verified% &7(Based on information from this plugin)"
+     - ""
+     - "&7IP: &e%ip% &7(If online, the current IP, else, the latest IP)"
+     - "&7Bot: &e%bot_status% &7(Based on a variety of tests)"
+     - "&7VPN/Proxy/Tor: &e%vpn%&7, &e%proxy%&7, &e%tor%"
+     - "&7Fraud Score: &e%fraud_score%&7/&e100 &7(High risk above 85)"
+     - "&7Recent abuse: &e%recent_abuse% &7(Recent bot abuse by this IP)"
+     - "&7Location: &e%country%&7, &e%city%&7, &e%region%"
+     - "&7Hostname: &e%host%"
+     - "&7ISP: &e%isp%"
+     
+  2:
+    item: "EMERALD_BLOCK;1;0"
+    name: "&aForce verify this player"
+    lore:
+     - "&7By clicking this button, if the specified"
+     - "&7player is not already verified, they will"
+     - "&7be added as a verified player and will not"
+     - "&7have to do a captcha test on join."
+    action: "VERIFY"
+  3:
+    item: "REDSTONE_BLOCK;1;0"
+    name: "&cForce unverify this player"
+    lore:
+     - "&7By clicking this button, if the specified"
+     - "&7player is verified, they will be removed"
+     - "&7as a verified player and will not"
+     - "&7have to do a captcha test on join."
+    action: "UNVERIFY"
+  4:
+    item: "LEVER;1;0"
+    name: "&6Test this player"
+    lore:
+     - "&7Send a captcha test to this player."
+     - "&7Note that this will not get a completely"
+     - "&7random test. Instead, it will get one of the"
+     - "&7enabled ones from the config."
+    action: "TEST"

@@ -1,0 +1,66 @@
+кинолог:
+  title: Кинолог
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  logging-enabled: false
+  pages:
+    page-0:
+      size: 54
+      page-name: page-0_4038
+      page-permission: ''
+      buy-items:
+        item-22:
+          id: 70
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGG
+            meta:
+              ==: ItemMeta
+              meta-type: SPAWN_EGG
+              display-name: §7Котёнок
+              lore:
+              - §8Компаньон
+              - §6§oМяу! Мяу! Мяу!
+              - '§7 • Здоровье: §c20'
+              - '§7 • Скорость: §c3.5 блоков/с'
+              - '§7 • Возрождение: §c120 с.'
+              internal: H4sIAAAAAAAAAONiYGBj4CpILdHLSE3MKclwMGEAAw4GNpBgZgoDa3ZmSUklFwOna15JZkllSGI6BwMTUJw/NzMvNbkoMa3EKj0jsbiEgQEAslDmlkwAAAA=
+              id: ghast
+          show-lore: true
+          display-lore:
+          - §8Компаньон
+          - §6§oМяу! Мяу! Мяу!
+          - '§7 • Здоровье: §c20'
+          - '§7 • Скорость: §c3.5 блоков/с'
+          - '§7 • Возрождение: §c120 с.'
+          show-description: false
+          description: []
+          Discount:
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+          show-price: true
+          trade-price: 0.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: 1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false

@@ -1,0 +1,196 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Номера для одного'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'hotelsolo'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+1:
+  COMMAND: 'open: hotel_1.yml'
+  NAME: '&aНомер №1'
+  LORE:
+    - 'В номер входит:'
+    - ' &c• 81 стак места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 20² метров пространства'
+    - ' &c• 2 печки'
+    - ' '
+  ID: stone
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+3:
+  COMMAND: 'open: hotel_3.yml'
+  NAME: '&aНомер №3'
+  LORE:
+    - 'В номер входит:'
+    - ' &c• 54 стака места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 12² метров пространства'
+    - ' &c• 1 печка'
+    - ' '
+  ID: stone
+  AMOUNT: 3
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+4:
+  COMMAND: 'open: hotel_4.yml'
+  NAME: '&aНомер №4'
+  LORE:
+    - 'В номер входит:'
+    - ' &c• 54 стака места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 12² метров пространства'
+    - ' &c• 1 печка'
+    - ' '
+  ID: stone
+  AMOUNT: 4
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+6:
+  COMMAND: 'open: hotel_6.yml'
+  NAME: '&aНомер №6'
+  LORE:
+    - 'В номер входит:'
+    - ' &c• 81 стак места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 20² метров пространства'
+    - ' &c• 2 печки'
+    - ' '
+  ID: stone
+  AMOUNT: 6
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+8:
+  COMMAND: 'open: hotel_8.yml'
+  NAME: '&aНомер №8'
+  LORE:
+    - 'В номер входит:'
+    - ' &c• 54 стака места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 12² метров пространства'
+    - ' &c• 1 печка'
+    - ' '
+  ID: stone
+  AMOUNT: 8
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+9:
+  COMMAND: 'open: hotel_9.yml'
+  NAME: '&aНомер №9'
+  LORE:
+    - 'В номер входит:'
+    - ' &c• 54 стака места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 12² метров пространства'
+    - ' &c• 1 печка'
+    - ' '
+  ID: stone
+  AMOUNT: 9
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+10:
+  COMMAND: 'open: hotel_10.yml'
+  NAME: '&aНомер №10'
+  LORE:
+    - 'В номер входит:'
+    - ' &c• 81 стак места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 20² метров пространства'
+    - ' &c• 2 печки'
+    - ' '
+  ID: stone
+  AMOUNT: 10
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+12:
+  COMMAND: 'open: hotel_12.yml'
+  NAME: '&aНомер №12'
+  LORE:
+    - 'В номер входит:'
+    - ' &c• 54 стака места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 12² метров пространства'
+    - ' &c• 1 печка'
+    - ' '
+  ID: stone
+  AMOUNT: 12
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+13:
+  COMMAND: 'open: hotel_13.yml'
+  NAME: '&aНомер №13'
+  LORE:
+    - 'В номер входит:'
+    - ' &c• 54 стака места в сундуках'
+    - ' &c• 1 кровать'
+    - ' &c• 12² метров пространства'
+    - ' &c• 1 печка'
+    - ' '
+  ID: stone
+  AMOUNT: 13
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'hotelmenu'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню номеров'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

@@ -1,0 +1,15 @@
+general:
+  name: am_2
+  world: map_main
+  type: rent
+  signs:
+    '0':
+      location:
+        world: map_main
+        x: 126.0
+        y: 71.0
+        z: 379.0
+      facing: SOUTH
+      signType: WALL_SIGN
+rent:
+  price: 1100.0

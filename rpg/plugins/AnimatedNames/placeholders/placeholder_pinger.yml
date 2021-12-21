@@ -1,0 +1,14 @@
+## --------------------------------------- ##
+## Pinger Placeholders
+## --------------------------------------- ##
+
+## Do not edit this config version
+config: 1
+
+# Refresh interval of player count (in ticks)
+interval: 20
+
+# Is online pinger
+isonline:
+  true: '&a&lONLINE'
+  false: '&c&lOFFLINE'

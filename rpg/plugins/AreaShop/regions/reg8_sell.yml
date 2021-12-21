@@ -1,0 +1,15 @@
+general:
+  name: reg8_sell
+  world: main_world
+  type: buy
+  signs:
+    '0':
+      location:
+        world: main_world
+        x: 86.0
+        y: 72.0
+        z: 456.0
+      facing: NORTH
+      signType: WALL_SIGN
+buy:
+  price: 60000.0

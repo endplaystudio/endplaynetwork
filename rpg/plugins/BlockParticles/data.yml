@@ -1,0 +1,493 @@
+locations:
+  maps:
+    world: lobby
+    x: 121
+    y: 72
+    z: 67
+    particle: potion
+  stand_l:
+    world: lobby
+    x: 151
+    y: 76
+    z: 80
+    particle: music
+  stand_r:
+    world: lobby
+    x: 151
+    y: 76
+    z: 87
+    particle: music
+  login:
+    world: Login
+    x: -3
+    y: 79
+    z: -2
+    particle: Spiral
+  fountain:
+    world: map_main
+    x: 146
+    y: 74
+    z: 293
+    particle: water
+  smoke1:
+    world: map_main
+    x: 49
+    y: 77
+    z: 251
+    particle: fog
+  smoke2:
+    world: map_main
+    x: 60
+    y: 81
+    z: 314
+    particle: fog
+  smoke3:
+    world: map_main
+    x: 97
+    y: 89
+    z: 429
+    particle: fog
+  smoke4:
+    world: map_main
+    x: 96
+    y: 89
+    z: 430
+    particle: fog
+  smoke5:
+    world: map_main
+    x: 95
+    y: 89
+    z: 431
+    particle: fog
+  smoke6:
+    world: map_main
+    x: 56
+    y: 91
+    z: 414
+    particle: fog
+  smoke7:
+    world: map_main
+    x: 102
+    y: 91
+    z: 487
+    particle: fog
+  smoke8:
+    world: map_main
+    x: 87
+    y: 89
+    z: 491
+    particle: fog
+  smoke9:
+    world: map_main
+    x: 75
+    y: 97
+    z: 486
+    particle: fog
+  smoke10:
+    world: map_main
+    x: 55
+    y: 87
+    z: 496
+    particle: fog
+  smoke11:
+    world: map_main
+    x: 81
+    y: 81
+    z: 339
+    particle: fog
+  smoke12:
+    world: map_main
+    x: 61
+    y: 78
+    z: 327
+    particle: fog
+  smoke13:
+    world: map_main
+    x: 125
+    y: 82
+    z: 307
+    particle: fog
+  smoke14:
+    world: map_main
+    x: 170
+    y: 76
+    z: 281
+    particle: fog
+  smoke15:
+    world: map_main
+    x: 225
+    y: 85
+    z: 426
+    particle: fog
+  smoke16:
+    world: map_main
+    x: 224
+    y: 85
+    z: 426
+    particle: fog
+  smoke17:
+    world: map_main
+    x: 224
+    y: 85
+    z: 425
+    particle: fog
+  smoke18:
+    world: map_main
+    x: 225
+    y: 85
+    z: 425
+    particle: fog
+  sign:
+    world: lobby
+    x: 136
+    y: 89
+    z: 73
+    particle: Spiral
+  hub:
+    world: map_main
+    x: 112
+    y: 70
+    z: 453
+    particle: spiral
+  board_1:
+    world: lobby
+    x: 149
+    y: 76
+    z: 89
+    particle: music
+  board_2:
+    world: lobby
+    x: 142
+    y: 76
+    z: 89
+    particle: music
+  smoke19:
+    world: map_main
+    x: 236
+    y: 73
+    z: 34
+    particle: Fog
+  lamp:
+    world: map_main
+    x: 225
+    y: 74
+    z: -467
+    particle: Spiral
+  lamp2:
+    world: map_main
+    x: 220
+    y: 73
+    z: -467
+    particle: Spiral
+  lamp3:
+    world: map_main
+    x: 225
+    y: 73
+    z: -452
+    particle: Spiral
+  lamp4:
+    world: map_main
+    x: 220
+    y: 72
+    z: -442
+    particle: Spiral
+  lamp5:
+    world: map_main
+    x: 220
+    y: 72
+    z: -426
+    particle: Spiral
+  pumpkin:
+    world: map_main
+    x: 228
+    y: 73
+    z: -463
+    particle: WitchTornado
+  lamp6:
+    world: map_main
+    x: 224
+    y: 71
+    z: -419
+    particle: Spiral
+  rainbow:
+    world: map_main
+    x: 228
+    y: 69
+    z: -447
+    particle: Rainbow
+  Dance:
+    world: map_main
+    x: 249
+    y: 63
+    z: -400
+    particle: BigSoulWell
+  fire:
+    world: map_main
+    x: 249
+    y: 71
+    z: -421
+    particle: MobSpawner
+  smoke21:
+    world: map_main
+    x: 218
+    y: 85
+    z: -458
+    particle: Fog
+  smoke20:
+    world: map_main
+    x: 229
+    y: 83
+    z: -433
+    particle: Fog
+  smoke22:
+    world: map_main
+    x: -35
+    y: 82
+    z: 317
+    particle: Fog
+  smoke23:
+    world: map_main
+    x: -34
+    y: 82
+    z: 317
+    particle: Fog
+  smoke24:
+    world: map_main
+    x: 236
+    y: 85
+    z: -457
+    particle: Fog
+  part1:
+    world: lobby
+    x: 100
+    y: 75
+    z: 72
+    particle: Potion
+  entry1:
+    world: map_main
+    x: 125
+    y: 66
+    z: -444
+    particle: Spiral
+  entry2:
+    world: map_main
+    x: 128
+    y: 66
+    z: -444
+    particle: Spiral
+  fountain2:
+    world: map_main
+    x: -4
+    y: 74
+    z: 652
+    particle: Water
+  smoke28:
+    world: map_main
+    x: 751
+    y: 80
+    z: -373
+    particle: Fog
+  smoke26:
+    world: map_main
+    x: 750
+    y: 81
+    z: -390
+    particle: Fog
+  smoke25:
+    world: map_main
+    x: 785
+    y: 84
+    z: -368
+    particle: Fog
+  smoke27:
+    world: map_main
+    x: 786
+    y: 84
+    z: -368
+    particle: Fog
+  smoke29:
+    world: map_main
+    x: 785
+    y: 84
+    z: -369
+    particle: Fog
+  smoke30:
+    world: map_main
+    x: 786
+    y: 84
+    z: -369
+    particle: Fog
+  ench:
+    world: map_main
+    x: 765
+    y: 71
+    z: -371
+    particle: SoulWell
+  smoke31:
+    world: map_main
+    x: 65
+    y: 78
+    z: 374
+    particle: Fog
+  smoke32:
+    world: map_main
+    x: 134
+    y: 82
+    z: 503
+    particle: Fog
+  smoke33:
+    world: map_main
+    x: 134
+    y: 82
+    z: 504
+    particle: Fog
+  smoke34:
+    world: map_main
+    x: 133
+    y: 82
+    z: 503
+    particle: Fog
+  smoke35:
+    world: map_main
+    x: 133
+    y: 82
+    z: 504
+    particle: Fog
+  smoke36:
+    world: map_main
+    x: 103
+    y: 78
+    z: 525
+    particle: Fog
+  smoke37:
+    world: map_main
+    x: 103
+    y: 78
+    z: 526
+    particle: Fog
+  smoke38:
+    world: map_main
+    x: 102
+    y: 78
+    z: 526
+    particle: Fog
+  smoke39:
+    world: map_main
+    x: 102
+    y: 78
+    z: 525
+    particle: Fog
+  smoke40:
+    world: map_main
+    x: 5
+    y: 90
+    z: 343
+    particle: Fog
+  smoke41:
+    world: map_main
+    x: 4
+    y: 90
+    z: 343
+    particle: Fog
+  smoke42:
+    world: map_main
+    x: 4
+    y: 90
+    z: 342
+    particle: Fog
+  smoke43:
+    world: map_main
+    x: 5
+    y: 90
+    z: 342
+    particle: Fog
+  smoke44:
+    world: map_main
+    x: 131
+    y: 78
+    z: 263
+    particle: Fog
+  smoke45:
+    world: map_main
+    x: 132
+    y: 78
+    z: 263
+    particle: Fog
+  smoke46:
+    world: map_main
+    x: 181
+    y: 81
+    z: 108
+    particle: Fog
+  smoke47:
+    world: map_main
+    x: 182
+    y: 81
+    z: 108
+    particle: Fog
+  smoke48:
+    world: map_main
+    x: 182
+    y: 81
+    z: 107
+    particle: Fog
+  smoke49:
+    world: map_main
+    x: 181
+    y: 81
+    z: 107
+    particle: Fog
+  smoke50:
+    world: map_main
+    x: 182
+    y: 75
+    z: -190
+    particle: Fog
+  smoke51:
+    world: map_main
+    x: 168
+    y: 85
+    z: 602
+    particle: Fog
+  troll:
+    world: map_main
+    x: 51
+    y: 65
+    z: 442
+    particle: HappyVillager
+  smoke52:
+    world: map_main
+    x: 436
+    y: 80
+    z: 452
+    particle: Fog
+  smoke53:
+    world: map_main
+    x: 436
+    y: 80
+    z: 451
+    particle: Fog
+  smoke54:
+    world: map_main
+    x: 435
+    y: 80
+    z: 451
+    particle: Fog
+  smoke55:
+    world: map_main
+    x: 435
+    y: 80
+    z: 452
+    particle: Fog
+  lich:
+    world: map_main
+    x: 176
+    y: 71
+    z: 299
+    particle: Witch
+  smoke56:
+    world: map_main
+    x: 35
+    y: 79
+    z: 307
+    particle: Fog

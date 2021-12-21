@@ -1,0 +1,18 @@
+currentQuests:
+- Адские проблемки
+currentStages:
+- 2
+quest-points: 2
+questData:
+  Адские проблемки:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 15
+    has-talked-to:
+    - false
+completed-Quests:
+- Все женщины - ведьмы
+- Водка "Столичная"
+hasJournal: false
+lastKnownName: GetTheSysDown

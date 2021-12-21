@@ -1,0 +1,14 @@
+settings:
+  enabled: false
+  allow_one_boost_only: false
+boost:
+  boost1:
+    enabled: true
+    onlyowners: true
+    restricted_factions:
+    - test
+  boost2:
+    enabled: true
+    onlyowners: false
+    restricted_factions:
+    - test

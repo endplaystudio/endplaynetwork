@@ -1,0 +1,79 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Поехать'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'movetoislandsport'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+ksiudeny:
+  COMMAND: 'st play Ksiudeny_Port'
+  PRICE: 14.99
+  NAME: '&bКсиуденские острова'
+  LORE:
+    - 'Дорога займёт &c1 мин. &7и будет на'
+    - 'корабле к Ксиуденским о-вам.'
+    - ''
+    - ' • Цена покупки: &a14,99Ł'
+    - ''
+    - '&e► Нажмите чтобы купить поездку'
+  ID: sand
+  VIEW-PERMISSION: 'permissions.player'
+  PERMISSION: 'quests.completed.sample'
+  PERMISSION-MESSAGE: ' &6Путешествия &8| &7Для того, чтобы путешествовать за пределами Дольчедонны нужно пройти квест «&cНазвание квеста&7».'
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: false
+
+ksiudeny-hype:
+  COMMAND: 'st play Ksiudeny_Port'
+  NAME: '&bКсиуденские острова'
+  LORE:
+    - 'Дорога займёт &c1 мин. &7и будет на'
+    - 'корабле к Ксиуденским о-вам.'
+    - ''
+    - ' • Цена покупки: &a0,00Ł &7для &3Hypesquad'
+    - ''
+    - '&e► Нажмите чтобы отправиться'
+  ID: sand
+  PERMISSION: 'quests.completed.sample'
+  VIEW-PERMISSION: 'permissions.hypesquad'
+  PERMISSION-MESSAGE: ' &6Путешествия &8| &7Для того, чтобы путешествовать за пределами Дольчедонны нужно пройти квест «&cНазвание квеста&7».'
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: false

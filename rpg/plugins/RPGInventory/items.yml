@@ -1,0 +1,62 @@
+items:
+  gloves-1:
+    texture: DIAMOND_HOE:24
+    name: "Перчатки ассасина"
+    lore:
+    - "&e&oБыстрее ветра..."
+    rarity: RARE
+    unbreakable: true
+    level: 4
+    classes:
+    - Assassin
+    stats:
+    - DAMAGE +1
+    - BOW_DAMAGE +2
+    - HAND_DAMAGE +3
+    - CRIT_CHANCE +5%
+    - SPEED +10%
+    - JUMP +0.5
+  ring-1:
+    texture: DIAMOND_HOE:23
+    name: "Кольцо Дианы"
+    lore:
+    - "&7&oЭто кольцо было у"
+    - "&7&oпервой леди Дольчедонны!"
+    rarity: LEGENDARY
+    drop: false
+  ring-2:
+    texture: DIAMOND_HOE:28
+    name: "Кольцо богини Ширы"
+    lore:
+    - "&7&oКольцо, по легенде, носила"
+    - "&7&oсама богиня любви Шира."
+    - "&7"
+    - "&7&oСделано из чистейшего"
+    - "&7&oзолота, а также содержит"
+    - "&7&oнебольшой камушек сапфира."
+    rarity: LEGENDARY
+    drop: false
+  amulet-1:
+    texture: DIAMOND_HOE:25
+    name: "Амулет Джорджа ll"
+    lore:
+    - "&e&oТолько он сам знал как это работает"
+    rarity: UNCOMMON
+    hide-stats: true
+    stats:
+    - CRIT_DAMAGE +20%
+    - ARMOR +25%
+  artifact-1:
+    texture: DIAMOND_HOE:26
+    name: "Артефакт знаний"
+    lore:
+    - "&e&oОткрой все слоты верстака!"
+    rarity: MYTHICAL
+    abilities:
+      permissions:
+      - rpginventory.craft.journeyman
+      - rpginventory.craft.master
+  banana:
+    texture: APPLE
+    name: "Банан"
+    drop: true

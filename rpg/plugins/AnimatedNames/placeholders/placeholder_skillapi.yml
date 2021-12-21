@@ -1,0 +1,165 @@
+## --------------------------------------- ##
+## SkillAPI placeholders Placeholders
+## http://dev.bukkit.org/bukkit-plugins/skillapi/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Placeholder settings {skillapi_skill_range_} returns
+skillapi_skill_range_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_manaregen_} returns
+skillapi_class_manaregen_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_message_} returns
+skillapi_skill_message_:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {skillapi_class_group_} returns
+skillapi_class_group_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_prefixcolor_} returns
+skillapi_class_prefixcolor_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_mananame_} returns
+skillapi_class_mananame_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_manacost_} returns
+skillapi_skill_manacost_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_points_} returns
+skillapi_class_points_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_maxlevel_} returns
+skillapi_class_maxlevel_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_type_} returns
+skillapi_skill_type_:
+  # Default return value
+  default: ""
+
+
+# Placeholder settings {skillapi_class_totalexp_} returns
+skillapi_class_totalexp_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_reqlevel_} returns
+skillapi_skill_reqlevel_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_health_} returns
+skillapi_class_health_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_reqexp_} returns
+skillapi_class_reqexp_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_nextcost_} returns
+skillapi_skill_nextcost_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_cooldown_} returns
+skillapi_skill_cooldown_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_maxlevel_} returns
+skillapi_skill_maxlevel_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_mana_} returns
+skillapi_class_mana_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_prefix_} returns
+skillapi_class_prefix_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_skills_} returns
+skillapi_class_skills_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_cost_} returns
+skillapi_skill_cost_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_levelreq_} returns
+skillapi_skill_levelreq_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_skill_nextlevelreq_} returns
+skillapi_skill_nextlevelreq_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_exp_} returns
+skillapi_class_exp_:
+  # Default return value
+  default: "0"
+
+
+# Placeholder settings {skillapi_class_level_} returns
+skillapi_class_level_:
+  # Default return value
+  default: "0"
+
+

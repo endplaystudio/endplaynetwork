@@ -1,0 +1,109 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Управление миром'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'opworld'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 4
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+  
+time-day:
+  COMMAND: 'time set day'
+  NAME: '&bУстановить День'
+  LORE:
+    - 'Переключить время в текущем мире'
+    - 'на &c06&7:&c00 &7часов утра (&c6&7:&c00 AM&7)'
+  ID: wool:3
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+time-night:
+  COMMAND: 'time set night'
+  NAME: '&bУстановить Ночь'
+  LORE:
+    - 'Переключить время в текущем мире'
+    - 'на &c20&7:&c00 &7часов утра (&c8&7:&c00 PM&7)'
+  ID: wool:15
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+  
+weather-sun:
+  COMMAND: 'weather sun'
+  NAME: '&bУстановить Солнце'
+  LORE:
+    - 'Минус дождь'
+    - 'В этом мире'
+  ID: double_plant:0
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+weather-storm:
+  COMMAND: 'weather storm'
+  NAME: '&bУстановить Дождь'
+  LORE:
+    - 'Плюс дождь'
+    - 'В этом мире'
+  ID: ghast_tear
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+timesync:
+  COMMAND: 'timesync'
+  NAME: '&bСинхронизация времени'
+  LORE:
+    - 'Синхронизировать время этого'
+    - 'мира со всеми остальными мирами.'
+  ID: COMPASS
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: op-menu.yml'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню управления.'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true

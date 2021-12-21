@@ -1,0 +1,16 @@
+currentQuests:
+- Сломанная удочка
+currentStages:
+- 5
+quest-points: 0
+questData:
+  Сломанная удочка:
+    citizen-ids-to-talk-to:
+    - 102
+    - 99
+    has-talked-to:
+    - false
+    - true
+completed-Quests: none
+hasJournal: true
+lastKnownName: Knight

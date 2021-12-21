@@ -1,0 +1,183 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Телепортатор PRO'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'bwarps'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 4
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+build:
+  COMMAND: 'warp Стройка'
+  NAME: '&bСтроительство'
+  ID: iron_pickaxe
+  POSITION-X: 3
+  POSITION-Y: 2
+  
+air_islands:
+  COMMAND: 'warp Воздушные'
+  NAME: '&bВоздушные острова'
+  ID: feather
+  POSITION-X: 7
+  POSITION-Y: 2
+
+hub:
+  COMMAND: 'hub;tell:&7Телепортирую на &aЛобби&7...'
+  NAME: '&bЛобби'
+  LORE:
+    - 'Главное лобби сервера - Дольчедонна.'
+    - 'Тут и начинается приключение всех игроков,'
+    - 'а ещё сюда попадаешь сразу после сметри в игре.'
+  ID: diamond
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+tavern:
+  COMMAND: 'warp Таверна'
+  NAME: '&bТаверна'
+  LORE:
+    - 'Проводи время с друзьями тут. Можно выпить,'
+    - 'пообщаться, а ещё найти некоторых сюжетных'
+    - 'персонажей нужных для квестов.'
+  ID: skull:3
+  SKULL-OWNER: 'thanauser'
+  POSITION-X: 4
+  POSITION-Y: 2
+
+ksiudenskie:
+  COMMAND: 'warp Ксиуденские'
+  NAME: '&bКсиуденские Острова'
+  LORE:
+    - 'Эта локация всё ещё в разработке,'
+    - 'однако сюда можно попасть во время открытых выходных'
+    - 'когда будут даны права именно на эту локацию.'
+  ID: skull:3
+  SKULL-OWNER: 'kevos'
+  PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Этот варп для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+op-market:
+  COMMAND: 'warp Рынок'
+  NAME: '&bРынок'
+  ID: chest
+  PERMISSION: 'operator.warps'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Этот варп для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 6
+  POSITION-Y: 4
+
+op-cathedral:
+  COMMAND: 'warp Собор'
+  NAME: '&bСобор'
+  ID: elytra
+  PERMISSION: 'operator.warps'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Этот варп для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 5
+  POSITION-Y: 4
+  
+op-mines:
+  COMMAND: 'warp Шахты'
+  NAME: '&bШахты'
+  ID: coal
+  PERMISSION: 'operator.warps'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Этот варп для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 4
+  POSITION-Y: 4
+  
+op-port:
+  COMMAND: 'warp Порт'
+  NAME: '&bПорт'
+  ID: water_bucket
+  PERMISSION: 'operator.warps'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Этот варп для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 3
+  POSITION-Y: 4
+
+op-farm:
+  COMMAND: 'warp Ферма'
+  NAME: '&bФерма'
+  ID: hay_block
+  PERMISSION: 'operator.warps'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Этот варп для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 2
+  POSITION-Y: 4
+  
+op-library:
+  COMMAND: 'warp Библиотека'
+  NAME: '&bБиблиотека'
+  ID: book
+  PERMISSION: 'operator.warps'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Этот варп для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 7
+  POSITION-Y: 4
+  
+op-kifburg:
+  COMMAND: 'warp Кифбург'
+  NAME: '&bКифбург'
+  ID: 45
+  PERMISSION: 'operator.warps'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Этот варп для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 8
+  POSITION-Y: 4
+
+op-bank:
+  COMMAND: 'warp Банк'
+  NAME: '&bБанк'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Этот варп для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  ID: EMERALD
+  POSITION-X: 2
+  POSITION-Y: 5
+
+b-back:
+  COMMAND: 'open: bmenu.yml'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню строителя'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

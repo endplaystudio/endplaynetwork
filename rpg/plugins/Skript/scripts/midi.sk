@@ -1,0 +1,2 @@
+on (entering) of (the region sk_test):
+	play midi from (link) https://bitmidi.com/uploads/96653.mid (to) Profitroll at tempo 1

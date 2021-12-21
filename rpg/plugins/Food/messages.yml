@@ -1,0 +1,6 @@
+prefix: '&8&l<&b&lFood&8&l>'
+noPermission: '&cYou do not have permission!'
+notEnoughMoney: '&cYou do not have enough money!'
+stomachExplode: '&cYour guts will explode if you eat this. '
+conf-version: 1
+foodBought: '&aYou just bought &b{food}&a!'

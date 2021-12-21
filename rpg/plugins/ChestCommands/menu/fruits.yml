@@ -1,0 +1,149 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Фрукты'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'fruits'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+banana:
+  COMMAND: 'CONSOLE: give {player} minecraft:apple 1 0 {display:{Name:"§rБанан"}}'
+  NAME: '§rБанан'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: apple
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cПерсик &7не имеет крафта для просмотра.'
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+peach:
+  COMMAND: 'CONSOLE: give {player} minecraft:apple 1 0 {display:{Name:"§rПерсик"}}'
+  NAME: '§rПерсик'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: apple
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cПерсик &7не имеет крафта для просмотра.'
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+mandarin:
+  COMMAND: 'CONSOLE: give {player} minecraft:apple 1 0 {display:{Name:"§rМандарин"}}'
+  NAME: '§rМандарин'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: apple
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cМандарин &7не имеет крафта для просмотра.'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+lemon:
+  COMMAND: 'CONSOLE: give {player} minecraft:apple 1 0 {display:{Name:"§rЛимон"}}'
+  NAME: '§rЛимон'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: apple
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cЛимон &7не имеет крафта для просмотра.'
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+red-apple:
+  COMMAND: 'CONSOLE: give {player} minecraft:apple 1 0 {display:{Name:"§rКрасное яблоко"}}'
+  NAME: '§rКрасное яблоко'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: apple
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cКрасное яблоко &7не имеет крафта для просмотра.'
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+green-apple:
+  COMMAND: 'CONSOLE: give {player} minecraft:apple 1 0 {display:{Name:"§rЗелёное яблоко"}}'
+  NAME: '§rЗелёное яблоко'
+  LORE:
+    - 'Информация о предмете доступна'
+    - 'на страницах вики по игровому миру.'
+    - ''
+    - '&8Данный предмет не может'
+    - '&8быть скрафчен или испечён.'
+  ID: apple
+  PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: '&6 Предметы &8| &7Простите, &cЗелёное яблоко &7не имеет крафта для просмотра.'
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: items.yml'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню предметов'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

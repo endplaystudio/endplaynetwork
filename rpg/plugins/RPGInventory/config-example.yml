@@ -1,0 +1,223 @@
+# RPG Inventory
+# by OsipXD
+
+###############################
+#           General           #
+###############################
+
+# Plugin enabling
+enabled: true
+
+# Language (must be same as the file name in the folder /lang)
+language: en
+
+# Check update system
+check-update: true
+
+# Worlds settings
+worlds:
+  # Mode of list. Can be either BLACKLIST or WHITELIST
+  mode: BLACKLIST
+
+  # List of blocked or allowed worlds
+  list:
+    - blocked_world
+
+# What system used for level
+# Can be: EXP (exp bar from Minecraft), SKILLAPI, BATTLELEVELS, SKILLS, HEROES, RAC, RPGPL
+level-system: EXP
+
+# What system used for class
+# Can be: PERMISSIONS (like a rpginventory.class.{class_name}), SKILLAPI, HEROES, RAC
+class-system: PERMISSIONS
+
+# Texture to fill unavailable slots
+fill: DIAMOND_HOE:1
+
+
+###############################
+#           Items             #
+###############################
+
+items:
+  # Pattern of item lore
+  lore-pattern:
+  - _UNBREAKABLE_
+  - _DROP_
+  - _LEVEL_
+  - _CLASS_
+  - _SEPARATOR_
+  - _LORE_
+  - _SEPARATOR_
+  - _SKILLS_
+  - _SEPARATOR_
+  - _STATS_
+
+  # What is used as a _SEPARATOR_
+  separator: ""
+
+
+###############################
+#         Backpacks           #
+###############################
+
+backpacks:
+  # Backpack will be deleted if it is not opened within that period (in days)
+  # Comment it out or set 0 for infinity backpacks (NOT RECOMMENDED)
+  expiration-time: 30
+
+  # Permitted number of backpacks in player inventory (0 - for unlimited)
+  limit: 1
+
+
+###############################
+#             GUI             #
+###############################
+
+resource-pack:
+  enabled: false
+
+  # Delay between player join and request of texture downloading (in seconds)
+  # NOTE: Don't change it if you don't know what you doing
+  delay: 2
+
+  # URL of your RP
+  # Example: https://dl.dropboxusercontent.com/u/105899524/RPGInventory/RPs/Default.zip
+  url: PUT_YOUR_URL_HERE
+
+  # Hash (works as identifier of RP)
+  hash: PUT_YOUR_HASH_HERE
+
+join-messages:
+  # Delay in seconds for every message
+  delay: 3
+
+  # Default message on every join
+  default:
+    enabled: false
+    title: "&l&2Welcome to server!"
+    text:
+    - "&6Glad to see you, &3%player_name%"
+    - "&6This server using &9RPGInventory"
+
+  # Message on first join and if player declined resource-pack
+  rp-info:
+    enabled: false
+    title: "&l&4It is important!"
+    text:
+    - "&6You should &callow &6resource pack to play on this server"
+    - "&6This will allow you fully immerse in the RPG atmosphere"
+    - "&6But if you declined downloading of RP you can fix it..."
+    - "&6Select the server in list, click &e'Edit' &6 and set &e'Resource-Pack: Accept'"
+
+###############################
+#        Battle system        #
+###############################
+
+attack:
+  # Damage is applied only if a player has in his hands a weapon (from weapon slot)
+  require-weapon: false
+
+  # When you deal damage, your hand automatically switches to weapon slot
+  force-weapon: false
+
+  # When you picked up a weapon, your hand automatically switches to it
+  auto-held: false
+
+  # Allow to damage own pet
+  own-pet: false
+
+
+###############################
+#            Slots            #
+###############################
+
+# Actions for vanilla armor and craft slots
+#   rpginv  - open RPG inventory
+#   default - do vanilla action
+armor-slots-action: default
+craft-slots-action: rpginv
+
+slots:
+  # Slot buying
+  enabled: false
+
+  # Texture of locked slot
+  locked: DIAMOND_HOE:19
+
+  # Texture of buyable slot
+  buyable: DIAMOND_HOE:18
+
+  # Default available (free) slots
+  free: 2
+
+  money:
+    # Whether to take the money for the purchase of slots
+    enabled: true
+
+    # Price for different lines of inventory
+    cost:
+      line1: 1000
+      line2: 2000
+      line3: 3000
+
+  level:
+    # Whether to take the lvl for the purchase of slots
+    enabled: true
+
+    # Spend levels for the purchase of slots or not
+    spend: false
+
+    # Level for different lines of inventory
+    required:
+      line1: 20
+      line2: 30
+      line3: 40
+
+
+###############################
+#            Craft            #
+###############################
+
+# Settings of craft system
+craft:
+  # Enable craft extensions
+  enabled: false
+
+  # Enable for workbench
+  workbench: true
+
+  # Texture of extendable slots
+  extendable: DIAMOND_HOE:27
+
+  # List of extensions
+  extensions:
+
+    # Name of extension (permission will be rpginventory.craft.<extension>)
+    # In this case permission will be: rpginventory.craft.journeyman
+    journeyman:
+      # Name of extendable slot
+      name: "&aJourneyman slots"
+
+      # Lore of extendable slot
+      lore:
+      - "&eYou must be a journeyman to use it"
+
+      # Slots in extension
+      slots: [8, 9]
+
+    # Name of extension
+    master:
+      # Name of extendable slot
+      name: "&3Master slots"
+
+      # Lore of extendable slot
+      lore:
+      - "&eYou must be a master to use it"
+
+      # Whats extensions included to this extension
+      includes:
+      - journeyman
+
+      # Slots in extension
+      slots: [1, 4, 7]

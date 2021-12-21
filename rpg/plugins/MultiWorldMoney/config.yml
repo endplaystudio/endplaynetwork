@@ -1,0 +1,36 @@
+# Config file
+
+# Message shown when changing worlds. Color codes using & work. [balance] will be
+# replaced with a formatted amount, e.g., $50.00 or 50 coins.
+# If shownewworldmessage is false, the message will not show
+shownewworldmessage: true
+newworldmessage: "&6 Баланс &8| &7В этом мире у вас &a[balance] &7наличными."
+amountHelp: "<amount>"
+amountMustBePositive: "Amount must be positive."
+balanceFor: "Balance for [name]"
+balanceHelp: "<balance>"
+deposited: "Deposited [amount] to [name] in world [world]"
+error: "Error:"
+giveHelp: "Gives amount to player in world"
+increasedBalance: "Your balance increased by [amount] in world [world]"
+insufficientFunds: "You do not have sufficient funds."
+noPermission: "You do not have permission to do that."
+noPlayer: "Player not found."
+offlineBalance: "Balance for offline player [balance]"
+payHelp: "Pays another player from your balance"
+playerHelp: "<player>"
+receiveFrom: "[amount] has been received from [name] in world [world]"
+reduceBalance: "Your balance descreased by [amount] in world [world]"
+reloaded: "Reloaded configuration."
+reloadHelp: "Reloads the MWM config"
+sendTo: "[amount] has been sent to [name] in world [world]"
+setBalanceTo: "Set [name]'s balance to [amount] in world [world]"
+setHelp: "Sets the player's balance in world"
+takeHelp: "Takes amount from player in world"
+total: "Total : [total]"
+unknownAmount: "Unknown amount."
+unknownWorld: "Unknown world."
+withdrew: "Withdrew [amount] from [name] in world [world]"
+worldHelp: "<world>"
+youCannotPayYourself: "You cannot pay yourself."
+yourBalanceSetTo: "Your balance was set to [amount] in world [world]"

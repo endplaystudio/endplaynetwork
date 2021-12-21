@@ -1,0 +1,163 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Меню игрока'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'player'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+customization:
+  COMMAND: 'boosters'
+  NAME: '&bБустеры'
+  LORE:
+    - 'Увеличивай получаемый опыт в разы!'
+    - ' '
+    - 'Приобретая бустер вы получаете в N раз больше опыта.'
+    - 'Работает в том числе и для работ!'
+    - ' '
+    - 'Совет:'
+    - '&cНе тратьте бустеры на шахту. Убивайте мобов ночью!'
+    - 'Особенно эффективно использовать бустеры в аду <3'
+    - ''
+    - '&e► Открыть меню бустеров'
+  ID: 384
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+friends:
+  COMMAND: 'friends'
+  NAME: '&bМеню друзей'
+  LORE:
+    - 'Знакомься, общайся, заводи друзей!'
+    - ''
+    - 'В этом меню можно найти всё что связано'
+    - 'с управлением списком друзей и настройками.'
+    - ''
+    - '&e► Открыть меню друзей'
+  ID: skull:3
+  SKULL-OWNER: 'xBenji118x'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+hide:
+  COMMAND: 'aach list'
+  NAME: '&bСписок достижений'
+  LORE:
+    - 'Вам скучно? Получите ачивок :)'
+    - ''
+    - '&e► Открыть меню достижений'
+  ID: book
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+show:
+  COMMAND: 'aach stats'
+  NAME: '&bПрогресс всех достижений'
+  LORE:
+    - 'Узнайте насколько выполнены все достижения.'
+    - ''
+    - '&e► Получить прогресс достижений'
+  ID: dye:10
+  POSITION-X: 8
+  POSITION-Y: 2
+
+reward:
+  COMMAND: 'reward'
+  NAME: '&bПолучить награду'
+  LORE:
+    - 'Нажми для получения награды за вход в игру.'
+    - 'Собирай её каждый день (24 часа).'
+    - ''
+    - '&e► Получить награду за вход'
+  ID: redstone
+  POSITION-X: 4
+  POSITION-Y: 2
+
+skills:
+  COMMAND: 'skills'
+  NAME: '&bСкиллы'
+  LORE:
+    - 'Прокачай скиллы и стань самым сильным!.'
+    - '&c/skills &7тоже открывает это меню'
+    - ''
+    - '&e► Открыть меню навыков'
+  ID: blaze_powder
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+pass:
+  COMMAND: 'pass'
+  NAME: '&bСтатистика'
+  LORE:
+    - 'Узнай о себе много нового.'
+    - ''
+    - '&e► Открыть паспорт игрока'
+  ID: book
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+party:
+  COMMAND: 'party help'
+  NAME: '&bКоманды'
+  LORE:
+    - 'Получи информацию по использованию'
+    - 'функционала команд (пати) для игры'
+    - 'и прохождения квестов с друзьями.'
+    - ''
+    - '&e► Получить список команд'
+  ID: shield
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: false
+
+back:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true

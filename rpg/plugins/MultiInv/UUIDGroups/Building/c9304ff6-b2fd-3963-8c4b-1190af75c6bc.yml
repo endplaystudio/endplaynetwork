@@ -1,0 +1,8 @@
+SURVIVAL: '{"potions":[],"inventory":{"size":41,"items":{"0":{"item":"WOOD_AXE","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"1":{"item":"WOOD","quantity":1,"durability":1,"nbttags":null,"enchantments":{}},"2":{"item":"WOOD_STEP","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"3":{"item":"COBBLESTONE_STAIRS","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"4":{"item":"LOG","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"5":{"item":"TORCH","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"6":{"item":"WOOL","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"7":{"item":"SIGN","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"8":{"item":"REDSTONE_COMPARATOR","quantity":1,"durability":0,"nbttags":"NM#Nwqdl0JzQtdC90Y4g0YHRgtGA0L7QuNGC0LXQu9GP#LIMKnN9Cj0YDQvtCy0LXQvdGMOiDCpzY5-IMKnN9CR0LDQu9Cw0L3RgTogwqc2Ni44OSBMTkQ=-IMKnN9Cf0YvQu9GMOiDCpzY0--wqdl4pa6INCe0YLQutGA0YvRgtGMINC80LXQvdGOINGB0YLRgNC+0LjRgtC10LvRjw==#R0","enchantments":{}}}},"armour":{"size":4,"items":{}}}'
+experience: 0
+level: 9
+exp: 0.07999999
+gameMode: ADVENTURE
+health: 18.0
+hunger: 20
+saturation: 6.0

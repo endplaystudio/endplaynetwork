@@ -1,0 +1,394 @@
+#
+# Main configuration file
+#
+# You can find a list of available tags here: https://alessiodp.com/docs/parties/placeholders/
+#
+
+# / = = = = = = = = = = = = = = = = \
+# |        PARTIES  SETTINGS        |
+# \ = = = = = = = = = = = = = = = = /
+parties:
+  updates:
+    # Check for updates, recommended. Parties will check for updates when the server finish to load
+    check: true
+    # Send a message to admins if an update is available
+    warn: true
+
+  logging:
+    # Enable debug messages
+    debug: false
+    save-file:
+      # Save to file log messages
+      enable: false
+      # Format of messages
+      format: "%date% [%time%] %message%\n"
+      # Log file name
+      file: "log.txt"
+
+  # Messages upon login and logout of party-mates
+  join-leave-messages: false
+
+  bungeecord-sync:
+    # Sync Parties plugins that are installed into your bungeecord server
+    # You don't need to install it into Bungeecord too
+    # This will let you synchronize database between different servers
+    enable: false
+    # Choose which things dispatch between servers
+    dispatch:
+      broadcasts: true
+      chat: true
+
+
+# / = = = = = = = = = = = = = = = = \
+# |        STORAGE  SETTINGS        |
+# \ = = = = = = = = = = = = = = = = /
+storage:
+  # What type of storage the plugin should use?
+  # Database storage types:
+  # => none       | The data will be saved into memory (A reload reset everything)
+  # => yaml       | [File] Save the data into a YAML file (default)
+  # => mysql      | [Remote] Save the data into a MySQL database
+  # => sqlite     | [File]   Save the data into a SQLite database
+  database-storage-type: yaml
+
+  storage-settings:
+    none:
+      disband-on-leader-left: true
+      # Delete empty parties after tot seconds
+      delay-delete-party: 600
+
+    yaml:
+      database-file: "database.yml"
+
+    # SQL based databases:
+    general-sql-settings:
+      varchar-size: 255
+      upgrade:
+        save-old-table: true
+        old-table-suffix: "_backup"
+      tables:
+        parties: "parties_parties"
+        players: "parties_players"
+        versions: "parties_versions"
+
+    sqlite:
+      database-file: "database.db"
+
+    mysql:
+      address: "localhost"
+      port: "3306"
+      database: "database"
+      username: "username"
+      password: "password"
+      # Size of the connection pool
+      pool-size: 10
+      # Lifetime of each connection, in milliseconds (Default: 30 minutes = 1800000ms)
+      connection-lifetime: 1800000
+      # Property used to alert when the connection is not using a valid SSL certificate
+      use-ssl: false
+      # Charset used by tables
+      charset: "utf8"
+
+
+# / = = = = = = = = = = = = = = = = \
+# |       ADDITIONAL SETTINGS       |
+# \ = = = = = = = = = = = = = = = = /
+additional:
+  auto-command:
+    # All partymates will use the same command that the leader uses (Rank permission: party.autocommand)
+    # You can configure the leader with rank permissions
+    enable: false
+    # Choose which command should be repeated
+    # You need to use regex here
+    # By default it will allows any command except /party, /pay or /money)
+    regex-whitelist: '^(?!(\/party|\/pay|\/money)).*'
+
+  exp-system:
+    # Documentation here: https://alessiodp.com/docs/parties/explevels/
+    enable: false
+    levels:
+      enable: true
+      # Modes: progressive, fixed, custom
+      mode: progressive
+      # Make infinite levels with a progressive multiplier
+      progressive:
+        # Level 1: 100, Level 2: 200, Level 3: 400
+        level-start: 100
+        level-multiplier: "*2"
+      # Fixed levels experience cap
+      # Example: Level 1 is 100, Level 2 is 600, Level 3 is 1600
+      fixed:
+        - 100
+        - 500
+        - 1000
+      # Use a custom formula, it is a function of total experience
+      # Only for EXPERTS (math functions knowledge required)
+      # Use it only if you need a complex formula to calculate the
+      # level from the total experience
+      custom:
+        # Use javascript code here.
+        # Default formula is: f(x) = 2 log2(x/100)
+        # Use x as %total_exp% to obtain current level.
+        # By default, this is: 100, 200, 400, 800 of TOTAL experience
+        # If you use the custom mode, you cannot use anymore placeholders
+        # to calculate how many exp you need to level up.
+        formula: "2 + (Math.log(%total_exp%/100) / Math.log(2))"
+    exp-drop:
+      # Enable exp dropping
+      enable: true
+      sharing:
+        # Enable exp sharing between players
+        # Useless if you are collecting exp for the party
+        # Useful if you are collecting exp for each player
+        enable: false
+        if-more-than: 1
+        range: 30
+        # Special tags:
+        # %exp% = Experience dropped
+        # %number_players% = Number of players in range
+        # %level% = Current level of the party
+        divide-formula: "%exp% / %number_players%"
+      exp-to-get:
+        # Choose which kind of experience to get
+        # 1. normal = Minecraft normal experience
+        # 2. skillapi = Get the experience of each mob from SkillAPI config
+        normal: true
+        skillapi: false
+      convert-exp-into:
+        # You can choose how to transfer the exp
+        # 1. party = send the exp to the party (total experience)
+        # 2. normal = send it as vanilla Minecraft experience
+        # 3. skillapi = send it as SkillAPI experience
+        # Read the documentation for more information about exp convert
+        normal: party
+        skillapi: party
+        # When Parties get mob experience, remove it from the mob
+        # (mobs will not drop experience anymore)
+        # If you want just level up the party, you can still let your players
+        # level up, by leaving this option to false
+        remove-real-exp: false
+      addons:
+        skillapi:
+          # Enable support for SkillAPI
+          enable: false
+          exp-source: "MOB"
+        mythicmobs:
+          # Enable support for MythicMobs entities
+          # Parties will get exp and skillapi-exp of custom mobs
+          enable: false
+          # If enabled, Parties will ONLY get experience from MM drops
+          # Useful if you have customized every mob drop
+          handle-only-mm-mobs: true
+
+  follow-party:
+    # When the party leader joins a world, the party will follow him
+    enable: false
+    # Enable the command /party follow to toggle this feature
+    toggle-command: false
+    # Type of teleport:
+    # 1 = Teleport into world spawn
+    # 2 = Same point of followed player
+    type-of-teleport: 1
+    # Minimum rank to let partymates follow you (0 = all ranks)
+    rank-needed: 0
+    # Minimum rank to follow the party (0 = all ranks)
+    minimum-rank-to-follow: 0
+    # Timeout before player can re-use portal in ticks, important to fix join portals spam (20 ticks = 1 second)
+    timeout-portal: 100
+    # List of worlds that would use follow-party feature ('*' = all worlds)
+    list-worlds:
+    - '*'
+
+  mute:
+    # Enable mute command
+    # If an user use mute command, it will stop to receive every notification
+    enable: false
+    block:
+      invite: true
+
+  placeholders:
+    # This options are used to customize Parties placeholders
+    # You can customize every external placeholder
+    # Use classic placeholders inside the option!
+    color-name: "%color_name%"
+    color-code: "%color_code%"
+    color-command: "%color_command%"
+    desc: "%desc%"
+    # Total experience of the party
+    experience-total: "%experience_total%"
+    # Level number of the party
+    experience-level: "%experience_level%"
+    # Current and necessary number of experience to level up.
+    # Example: 100/400 = %experience_levelup_current% / %experience_levelup_necessary%
+    experience-levelup-current: "%experience_levelup_current%"
+    experience-levelup-necessary: "%experience_levelup_necessary%"
+    kills: "%kills%"
+    leader-name: "%leader_name%"
+    leader-uuid: "%leader_uuid%"
+    # Special tag
+    # => {rank}    = Given rank
+    list-rank: "%list_{rank}%"
+    list-rank-number: "%list_{rank}_number%"
+    list-rank-online: "%list_{rank}_online%"
+    motd: "%motd%"
+    online: "%online%"
+    online-number: "%online_number%"
+    # Show this placeholder only if out of a party
+    out-party: "%out_party%"
+    party: "%party%"
+    rank-name: "%rank_name%"
+    rank-chat: "%rank_chat%"
+
+    customs:
+      example1: "[%color_code%%party%] "
+      example2: "[%rank_chat% %party%] "
+
+
+# / = = = = = = = = = = = = = = = = \
+# |         ADDONS SETTINGS         |
+# \ = = = = = = = = = = = = = = = = /
+addons:
+  # BanManager is used to auto kick banned users and prevents to speak into party chat if an user is muted
+  banmanager:
+    enable: false
+    prevent-chat-muted: true
+    # Warning: BanManager doesn't work good with offline-mode UUIDs
+    auto-kick-banned: true
+
+  # You can create a mark for each party home
+  dynmap:
+    enable: false
+    hide-by-default: false
+    settings:
+      # Minimum party players to show up the marker on Dynmap
+      minimum-players: 3
+    markers:
+      layer: "Party homes"
+      # HTML Allowed. Tags: %party%, %kills%
+      label: "<b>%party%</b>'s home"
+      # Dynmap icons
+      icon: "house"
+
+  # Give GP permissions to your entire party
+  griefprevention:
+    # This will enable "/party claim <permission>" command
+    enable: false
+    # To perform the command you need to be the Owner of the claim, or Manager
+    need-to-be-owner-claim: false
+    sub-commands:
+      trust: "trust"
+      container: "container"
+      access: "access"
+      remove: "remove"
+
+  # Give a price to each command
+  vault:
+    # Enable Vault support (Use permission 'parties.admin.vaultbypass' to bypass commands)
+    enable: false
+    confirm-command:
+      # This will enable "/party confirm" command
+      # True: use confirm command
+      # False: buy when the command is used
+      enable: true
+      # Timeout in ms
+      timeout: 10000
+    # Set a price for these commands (use doubles, 1.1, 1.5, etc..)
+    price-commands:
+      claim: 0.0
+      color: 0.0
+      create: 0.0
+      desc: 0.0
+      home: 0.0
+      join: 0.0
+      motd: 0.0
+      set-home: 0.0
+      teleport: 0.0
+
+
+# / = = = = = = = = = = = = = = = = \
+# |        COMMANDS SETTINGS        |
+# \ = = = = = = = = = = = = = = = = /
+commands:
+  # Enable tab support (/party <tab> to see every allowed command)
+  tab-support: true
+  help-pages:
+    commands-per-page: 9
+  descriptions:
+    party: "Parties help page"
+    p: "Send a party message"
+  main-commands:
+    help: "help"
+    party: "party"
+    p: "p"
+    accept: "accept"
+    chat: "chat"
+    claim: "claim"
+    color: "color"
+    confirm: "confirm"
+    create: "create"
+    delete: "delete"
+    deny: "deny"
+    desc: "desc"
+    follow: "follow"
+    home: "home"
+    ignore: "ignore"
+    info: "info"
+    invite: "invite"
+    join: "join"
+    kick: "kick"
+    leave: "leave"
+    list: "list"
+    motd: "motd"
+    mute: "mute"
+    password: "password"
+    protection: "protection"
+    rank: "rank"
+    reload: "reload"
+    rename: "rename"
+    sethome: "sethome"
+    spy: "spy"
+    teleport: "teleport"
+    version: "version"
+  sub-commands:
+    on: "on"
+    off: "off"
+    silent: "silent"
+    # Sub-command of "/party create <partyname> fixed" (if enabled)
+    fixed: "fixed"
+    # Sub-command used to remove something (desc, motd, etc..)
+    remove: "remove"
+  order:
+  - help
+  - create
+  - accept
+  - deny
+  - join
+  - ignore
+  - mute
+  - p
+  - leave
+  - invite
+  - info
+  - list
+  - chat
+  - desc
+  - motd
+  - protection
+  - follow
+  - home
+  - sethome
+  - color
+  - claim
+  - teleport
+  - password
+  - rank
+  - rename
+  - kick
+  - spy
+  - delete
+  - reload
+  - version
+
+# End of configuration file
+dont-edit-this:
+  version: 8

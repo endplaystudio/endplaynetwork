@@ -1,0 +1,31 @@
+classes:
+  Knight:
+    prefix: '&8[&eK&8]'
+    suffix: ''
+    damage: 10.0
+    defense: 10.0
+    speed: 20.0
+    health: 20
+    icon: IRON_SWORD
+    slot: 0
+    ability: 
+  Pyro:
+    prefix: '&8[&eP&8]'
+    suffix: ''
+    damage: 9.0
+    defense: 15.0
+    speed: 20.0
+    health: 18
+    icon: FIREBALL
+    slot: 1
+    ability: 
+  Assassin:
+    prefix: '&8[&eA&8]'
+    suffix: ''
+    damage: 13.0
+    defense: 8.5
+    speed: 22.5
+    health: 15
+    icon: LEATHER_BOOTS
+    slot: 2
+    ability: 

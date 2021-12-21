@@ -1,0 +1,30 @@
+currentQuests:
+- Рыцарские делишки
+- Доставка удочки
+currentStages:
+- 4
+- 1
+quest-points: 23
+questData:
+  Рыцарские делишки:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 24
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    has-talked-to:
+    - false
+completed-Quests:
+- Все женщины - ведьмы
+- Водка "Столичная"
+- Адские проблемки
+- Морковные дела
+- Доставка оружия
+- Костяные нужды
+- Странная Просьба
+hasJournal: false
+lastKnownName: Mrprein

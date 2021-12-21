@@ -1,0 +1,158 @@
+prefix: '&8Perks> '
+name: English
+statusReplacement:
+  noPerm: '&c&o(Locked) &3Requires a higher rank!'
+  clickToSelect: '&eClick to select!'
+  selected: '&aSELECTED'
+trailSelected: '{prefix}&eTrail selected &a{name}&e!'
+arrowSelected: '{prefix}&eSpell selected &a{name}&e!'
+boosterSelected: '{prefix}&eBooster selected &a{name}&e!'
+particlesSelected: '{prefix}&eParticles selected &a{name}&e!'
+cantOpenWhilePlaying: '{prefix}&eYou can''t do this while playing :('
+cantOpenNoPerm: '{prefix}&cYou can''t do that :('
+noBoostersForMinigame: '{prefix}&eThis booster won''t be applied for &c{minigame}&e.'
+mainGUI:
+  name: '&8Vip Perks'
+  trailsGUI:
+    name: '&7Arrow &eTrails'
+    lore:
+    - ''
+    - '&fClick to open!'
+  spellsGUI:
+    name: '&7Arrow &eSpells'
+    lore:
+    - ''
+    - '&fClick to open!'
+  particlesGUI:
+    name: '&7Player &eParticles'
+    lore:
+    - ''
+    - '&fClick to open!'
+  boostersGUI:
+    name: '&7Points &eBoosters'
+    lore:
+    - ''
+    - '&fClick to open!'
+trailsGUI:
+  name: '&8Arrow Trails'
+  fireTrails:
+    name: '&cFire &7Trail'
+    lore:
+    - ''
+    - '&f{status}'
+  slimeTrail:
+    name: '&aSlime &7Trail'
+    lore:
+    - ''
+    - '&f{status}'
+  waterTrail:
+    name: '&bWater &7Trail'
+    lore:
+    - ''
+    - '&f{status}'
+  notesTrail:
+    name: '&dNotes &7Trail'
+    lore:
+    - ''
+    - '&f{status}'
+  crystalTrail:
+    name: '&fCrystal &7Trail'
+    lore:
+    - ''
+    - '&f{status}'
+  backItem:
+    name: '&8Back'
+    lore:
+    - ''
+    - '&fClick to go back!'
+spellsGUI:
+  name: '&8Arrow Spells'
+  explosiveSpell:
+    name: '&cExplosive &7Spell'
+    lore:
+    - ''
+    - '&f{status}'
+  fireSpell:
+    name: '&cFire &7Spell'
+    lore:
+    - ''
+    - '&f{status}'
+  webSpell:
+    name: '&fWeb &7Spell'
+    lore:
+    - ''
+    - '&f{status}'
+  zombieSpell:
+    name: '&dZombie &7Spell'
+    lore:
+    - ''
+    - '&f{status}'
+  poisonSpell:
+    name: '&cPoison &7Spell'
+    lore:
+    - ''
+    - '&f{status}'
+  backItem:
+    name: '&8Back'
+    lore:
+    - ''
+    - '&fClick to go back!'
+particlesGUI:
+  name: '&8Player Particles'
+  spiralParticles:
+    name: '&eSpiral &7Particles'
+    lore:
+    - ''
+    - '&f{status}'
+  angryParticles:
+    name: '&cAngry Villager &7Particles'
+    lore:
+    - ''
+    - '&f{status}'
+  doubleWitchParticles:
+    name: '&fDouble Witch &7Particles'
+    lore:
+    - ''
+    - '&f{status}'
+  notesParticles:
+    name: '&dMusic &7Particles'
+    lore:
+    - ''
+    - '&f{status}'
+  magicParticles:
+    name: '&3Magic &7Particles'
+    lore:
+    - ''
+    - '&f{status}'
+  happyParticles:
+    name: '&aHappy Villager &7Particles'
+    lore:
+    - ''
+    - '&f{status}'
+  backItem:
+    name: '&8Back'
+    lore:
+    - ''
+    - '&fClick to go back!'
+boostersGUI:
+  name: '&8Coins Multipliers'
+  boosterX2:
+    name: '&cCoins Booster &dx2'
+    lore:
+    - ''
+    - '&f{status}'
+  boosterX3:
+    name: '&cCoins Booster &dx3'
+    lore:
+    - ''
+    - '&f{status}'
+  backItem:
+    name: '&8Back'
+    lore:
+    - ''
+    - '&fClick to go back!'
+perksItem:
+  name: '&8Perks'
+  lore:
+  - ''
+  - '&eRight-Click to open!'

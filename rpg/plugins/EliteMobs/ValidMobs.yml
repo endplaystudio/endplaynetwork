@@ -1,0 +1,27 @@
+Allow aggressive EliteMobs: true
+Valid aggressive EliteMobs:
+  BLAZE: true
+  CAVE_SPIDER: true
+  CREEPER: true
+  ENDERMAN: true
+  ENDERMITE: true
+  HUSK: true
+  IRON_GOLEM: true
+  PIG_ZOMBIE: true
+  POLAR_BEAR: true
+  SILVERFISH: true
+  SKELETON: true
+  WITHER_SKELETON: true
+  SPIDER: true
+  STRAY: true
+  VEX: true
+  VINDICATOR: true
+  WITCH: true
+  ZOMBIE: true
+Allow Passive SuperMobs: true
+Valid Super Mobs:
+  CHICKEN: true
+  COW: true
+  MUSHROOM_COW: true
+  PIG: true
+  SHEEP: true

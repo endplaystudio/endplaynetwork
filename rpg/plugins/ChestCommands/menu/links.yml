@@ -1,0 +1,133 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Главное меню'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'links'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+map:
+  COMMAND: 'tell: &7 Онлайн-карта: &chttp://play.end-play.xyz:8123 &7(&aНажми на ссылку&7)'
+  NAME: '&3Онлайн-карта'
+  LORE:
+    - 'Нажми на этот пункт'
+  ID: map
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+help:
+  COMMAND: 'tell: &7 Центр поддержки: &chttps://goo.gl/EDVkNd &7(&aНажми на ссылку&7)'
+  NAME: '&3Центр поддержки/Чат'
+  LORE:
+    - 'Нажми на этот пункт'
+  ID: compass
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+site:
+  COMMAND: 'tell: &7 Официальный сайт: &chttps://www.end-play.xyz/minecraft &7(&aНажми на ссылку&7)'
+  NAME: '&aОфициальный сайт'
+  LORE:
+    - 'Нажми на этот пункт'
+  ID: emerald
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+discord:
+  COMMAND: 'tell: &7 Discord чат: &chttps://discord.gg/AXssU5Z &7(&aНажми на ссылку&7)'
+  NAME: '&bДискорд &7сервер'
+  LORE:
+    - 'Нажми на этот пункт'
+  ID: wool:3
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+vk:
+  COMMAND: 'tell: &7 Группа ВКонтакте: &chttps://vk.com/end_play &7(&aНажми на ссылку&7)'
+  NAME: '&7Группа &3ВКонтакте'
+  LORE:
+    - 'Нажми на этот пункт'
+  ID: wool:2
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+telegram:
+  COMMAND: 'tell: &7 Telegram канал: &chttps://t.me/endplaynetwork &7(&aНажми на ссылку&7)'
+  NAME: '&bTelegram &7канал'
+  LORE:
+    - 'Нажми на этот пункт'
+  ID: wool:3
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+instagram:
+  COMMAND: 'tell: &7 Instagram: &chttps://instagram.com/end.play &7(&aНажми на ссылку&7)'
+  NAME: '&dInstagram &7аккаунт'
+  LORE:
+    - 'Нажми на этот пункт'
+  ID: wool:2
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+youtube:
+  COMMAND: 'tell: &7 YouTube канал: &chttps://goo.gl/F87U8o &7(&aНажми на ссылку&7)'
+  NAME: '&fYou&cTube &7канал'
+  LORE:
+    - 'Нажми на этот пункт'
+  ID: wool:14
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: help.yml'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true

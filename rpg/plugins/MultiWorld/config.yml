@@ -1,0 +1,153 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+options:
+  debug: false
+  difficulty: NORMAL
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
+worlds:
+  Air_Islands:
+    seed: -6174685672327411839
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SPAWNMONSTER: false
+  Building:
+    seed: -3845711579994843722
+    worldgen: SuperFlat
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Buildings:
+    seed: 8117645274409558051
+    worldgen: SuperFlat
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-1:
+    seed: 789046576381012371
+    worldgen: Nether
+    options: ''
+    difficulty: HARD
+    autoload: true
+  Mr_Cronix:
+    seed: 2516756346116874039
+    worldgen: SuperFlat
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Sky:
+    seed: 4472086514938346201
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SPAWNMONSTER: false
+      SPAWNANIMAL: false
+  Tavern:
+    seed: 7006188360822149841
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw_mines:
+    seed: -6290499904417995015
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bw_mines_lobby:
+    seed: 801833741935888469
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  cw_castle:
+    seed: -1984159942451875111
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  cw_clay:
+    seed: -8849892665463455594
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  cw_forest:
+    seed: -3488391068927982406
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  cw_foxenstein:
+    seed: 5951380070210818556
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  cw_sand:
+    seed: 6154745572385259340
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  cw_village:
+    seed: 5716220486416573448
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  islands:
+    seed: -6035491053903820256
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  map_main:
+    seed: -3811260032854532029
+    worldgen: Normal
+    options: ''
+    difficulty: HARD
+    autoload: true
+  map_main_nether:
+    seed: 5184444289059013159
+    worldgen: Nether
+    options: ''
+    difficulty: EASY
+    autoload: true
+  map_main_the_end:
+    seed: 5184444289059013159
+    worldgen: The_End
+    options: ''
+    difficulty: EASY
+    autoload: true
+  survival:
+    seed: 5741911288913796565
+    worldgen: LargeBiomes
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  test:
+    seed: -1279234305588013707
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  travel_water:
+    seed: -7600856304147388463
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true

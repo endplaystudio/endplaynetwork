@@ -1,0 +1,132 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Браки'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'marry'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+deposit:
+  COMMAND: 'open: marry-choise.yml'
+  NAME: '&aПредложение/Развод'
+  LORE:
+    - 'Сделать предложение или развестись'
+    - 'с другим игроком. Требует подтверждения!'
+    - ''
+    - '&e► Открыть меню действия'
+  ID: dye:10
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+withdraw:
+  COMMAND: ''
+  NAME: '&cСделать подарок'
+  LORE:
+    - 'Подарите предмет в вашей руке'
+    - 'вашей второй половинке используя команду:'
+    - '&c/marry gift &7держа нужный подарок в руках.'
+  ID: red_rose
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+quests:
+  COMMAND: 'marry chat'
+  NAME: '&eПерейти в чат'
+  LORE:
+    - 'Переключить режим чата в режим'
+    - 'для общения с вашей парой.'
+    - ' '
+    - 'Это как &c/m&7, но не нужно приписывать команду'
+    - 'перед каждым сообщением, а также у вас будет значёк &c♥'
+    - ''
+    - '&e► Переключить режим чата'
+  ID: glowstone_dust
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: false
+  
+interest:
+  COMMAND: 'open: marry-gend.yml'
+  NAME: '&6Выбор пола'
+  LORE:
+    - 'Тут вы можете выбрать ваш пол.'
+    - 'Настоятельно рекомендуем выставлять реальный.' 
+    - ''
+    - '&e► Открыть меню выбора пола'
+  ID: nether_star
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+online:
+  COMMAND: 'marry seen'
+  NAME: '&bВремя логина'
+  LORE:
+    - 'Узнайте сколько времени'
+    - 'ваш партнёр в игре/не в игре.'
+  ID: 347
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+heal:
+  COMMAND: 'marry heal'
+  NAME: '&cОтправить жизни'
+  LORE:
+    - 'У вашего партнёра мало ХП?'
+    - 'Отправьте ему столько своих жизней,'
+    - 'сколько ему не хватает до 100% жизней.'
+    - ''
+    - '&e► Отправить жизни партнёру'
+  ID: shield
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+back:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

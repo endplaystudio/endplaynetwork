@@ -1,0 +1,83 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Скайблок'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'islandmenu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+create:
+  COMMAND: 'is create'
+  NAME: '&cСоздать свой остров'
+  LORE:
+    - 'Создайте свой остров для игры на Скайблоке'
+  ID: APPLE
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: false
+
+tp:
+  COMMAND: 'is home'
+  NAME: '&cТелепорт на ваш остров'
+  LORE:
+    - 'Телепортируйтесь на свой СкайБлок остров. (Его нужно создать)'
+  ID: BED
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+control:
+  COMMAND: 'controlis'
+  NAME: '&cДругие настройки острова'
+  LORE:
+    - 'Поставьте дом, удалите остров, поставьте флаги...'
+  ID: BOOK
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+back:
+  COMMAND: 'activity'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню активностей.'
+  ID: arrow
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

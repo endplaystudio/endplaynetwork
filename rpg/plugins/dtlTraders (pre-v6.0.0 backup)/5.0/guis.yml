@@ -1,0 +1,397 @@
+лодочник:
+  title: Лодочник
+  command: none
+  pages:
+    page-0:
+      size: 54
+      buy-items:
+        item-22:
+          id: 2
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT
+          trade-price: 10.0
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+gunsmith:
+  title: Оружейник
+  command: none
+  pages:
+    page-0:
+      size: 54
+instruments:
+  title: Лавка инструментов
+  command: none
+  pages:
+    page-0:
+      size: 54
+      buy-items:
+        item-20:
+          id: 6
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: WOOD_PICKAXE
+          display-lore: []
+          trade-price: 16.21
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-22:
+          id: 7
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: STONE_PICKAXE
+          display-lore: []
+          trade-price: 32.41
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-24:
+          id: 8
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_PICKAXE
+          display-lore: []
+          trade-price: 71.99
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+food:
+  title: Еда от фермера
+  command: none
+  pages:
+    page-0:
+      size: 54
+      buy-items:
+        item-10:
+          id: 16
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: MUTTON
+          trade-price: 1.49
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-11:
+          id: 17
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: COOKED_MUTTON
+          trade-price: 2.25
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-13:
+          id: 18
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: MELON
+          trade-price: 0.99
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-15:
+          id: 19
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RAW_CHICKEN
+          trade-price: 1.89
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-16:
+          id: 20
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: COOKED_CHICKEN
+          trade-price: 2.09
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-30:
+          id: 21
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: POTATO_ITEM
+          trade-price: 0.74
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-32:
+          id: 22
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BAKED_POTATO
+          trade-price: 1.45
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+miner:
+  title: Старый шахтёр
+  command: none
+  pages:
+    page-0:
+      size: 54
+      buy-items:
+        item-12:
+          id: 31
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: TORCH
+          trade-price: 6.95
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-14:
+          id: 32
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: STONE_PICKAXE
+            damage: 75
+          trade-price: 28.64
+          show-price: true
+          trade-limit: 2
+          limit-reset-seconds: 1800
+        item-31:
+          id: 30
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BREAD
+          trade-price: 3.89
+          show-price: true
+          trade-limit: 5
+          limit-reset-seconds: 900
+      sell-items:
+        item-21:
+          id: 36
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: COBBLESTONE
+          trade-price: 0.05
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-22:
+          id: 37
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: COAL
+          trade-price: 0.1
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+        item-23:
+          id: 38
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: INK_SACK
+            damage: 4
+          trade-price: 0.05
+          show-price: true
+          trade-limit: -1
+          limit-reset-seconds: -1
+boats:
+  title: Продавец лодок
+  command: none
+  pages:
+    page-0:
+      size: 54
+      buy-items:
+        item-12:
+          id: 45
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT
+          trade-price: 8.49
+          show-price: true
+          trade-limit: 1
+          limit-reset-seconds: 3600
+        item-14:
+          id: 46
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_BIRCH
+          trade-price: 8.75
+          show-price: true
+          trade-limit: 1
+          limit-reset-seconds: 3600
+        item-28:
+          id: 47
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_SPRUCE
+          trade-price: 8.63
+          show-price: true
+          trade-limit: 1
+          limit-reset-seconds: 3600
+        item-30:
+          id: 48
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_DARK_OAK
+          trade-price: 9.15
+          show-price: true
+          trade-limit: 1
+          limit-reset-seconds: 3600
+        item-32:
+          id: 49
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_JUNGLE
+          trade-price: 8.83
+          show-price: true
+          trade-limit: 1
+          limit-reset-seconds: 3600
+        item-34:
+          id: 50
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BOAT_ACACIA
+          trade-price: 8.78
+          show-price: true
+          trade-limit: 1
+          limit-reset-seconds: 3600
+farmer:
+  title: Фермер
+  command: none
+  pages:
+    page-0:
+      size: 54
+      buy-items:
+        item-10:
+          id: 60
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: MUTTON
+        item-12:
+          id: 61
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: MILK_BUCKET
+        item-13:
+          id: 52
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: BEETROOT
+        item-14:
+          id: 53
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: POTATO_ITEM
+        item-15:
+          id: 54
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: CARROT_ITEM
+        item-16:
+          id: 62
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: EGG
+        item-19:
+          id: 63
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RAW_BEEF
+        item-28:
+          id: 55
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RAW_CHICKEN
+        item-29:
+          id: 56
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RABBIT
+        item-31:
+          id: 64
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: FEATHER
+        item-32:
+          id: 65
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RABBIT_FOOT
+        item-33:
+          id: 59
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: RABBIT_HIDE
+        item-34:
+          id: 66
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: LEATHER
+builder:
+  title: Владелец стройки
+  command: none
+  pages:
+    page-0:
+      size: 54
+кинолог:
+  title: Кинолог
+  command: none
+  pages:
+    page-0:
+      size: 54
+      buy-items:
+        item-22:
+          id: 70
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            type: MONSTER_EGG
+            meta:
+              ==: ItemMeta
+              meta-type: SPAWN_EGG
+              display-name: §7Котёнок
+              lore:
+              - §8Компаньон
+              - §6§oМяу! Мяу! Мяу!
+              - '§7 • Здоровье: §c20'
+              - '§7 • Скорость: §c3.5 блоков/с'
+              - '§7 • Возрождение: §c120 с.'
+              internal: H4sIAAAAAAAAAONiYGBj4CpILdHLSE3MKclwMGEAAw4GNpBgZgoDa3ZmSUklFwOna15JZkllSGI6BwMTUJw/NzMvNbkoMa3EKj0jsbiEgQEAslDmlkwAAAA=
+              id: ghast
+          trade-price: 0.0
+          show-price: true
+          trade-limit: 1
+          limit-reset-seconds: -1

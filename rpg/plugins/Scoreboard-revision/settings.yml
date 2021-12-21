@@ -1,0 +1,248 @@
+#  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
+# / ___\/   _\/  _ \/  __\/  __//  _ \/  _ \/  _ \/  __\/  _ \
+# |    \|  /  | / \||  \/||  \  | | //| / \|| / \||  \/|| | \|
+# \___ ||  \_ | \_/||    /|  /_ | |_\\| \_/|| |-|||    /| |_/|
+# \____/\____/\____/\_/\_\\____\\____/\____/\_/ \|\_/\_\\____/
+#
+# Scoreboard-r by Rien Bijl
+# rep: github : RienBijl/Scoreboard-revision
+# v: 1.4.2 RELEASE
+
+settings:
+  # Safe-mode determines if scoreboard is synchronized with the server (true) or asynchronized (false)
+  # Synchronized (safe-mode: true) is more stable and robust
+  # Asynchronized (safe-mode: false) is more faster but can cause strange problems in some cases
+  safe-mode: false
+  # If the server version is 1.13 or higher, enable longline.
+  # true: you can use 128 characters per line (1.13 and up)
+  # false: you can use 32 characters per line (1.12 and down)
+  longline: false
+
+# In what worlds should we disable scoreboard?
+disabled-worlds:
+  - 'non_existant_world'
+
+board:
+  title:
+    interval: 2
+    liner:
+#      - '&7 » <glow glowsize="5" startglowcolor="&f&l" glowcolor="&6&l" endglowcolor="&e&l" normalcolor="&f&l">END PLAY</glow>'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY R'
+      - '&7 » &f&lEND PLAY R'
+      - '&7 » &f&lEND PLAY RP'
+      - '&7 » &f&lEND PLAY RP'
+      - '&7 » &f&lEND PLAY RPG'
+      - '&7 » &f&lEND PLAY RPG'
+      - '&7 » &f&lEND PLAY RPG'
+      - '&7 » &f&lEND PLAY RPG'
+      - '&7 » &f&lEND PLAY &6&lR&f&lPG'
+      - '&7 » &f&lEND PLAY &6&lR&f&lPG'
+      - '&7 » &f&lEND PLAY &6&lRP&f&lG'
+      - '&7 » &f&lEND PLAY &6&lRP&f&lG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRPG'
+      - '&7 » &f&lEND PLAY &6&lRP&f&lG'
+      - '&7 » &f&lEND PLAY &6&lRP&f&lG'
+      - '&7 » &f&lEND PLAY &6&lR&f&lPG'
+      - '&7 » &f&lEND PLAY &6&lR&f&lPG'
+      - '&7 » &f&lEND PLAY RPG'
+      - '&7 » &f&lEND PLAY RPG'
+      - '&7 » &f&lEND PLAY RPG'
+      - '&7 » &f&lEND PLAY RPG'
+      - '&7 » &f&lEND PLAY RP'
+      - '&7 » &f&lEND PLAY RP'
+      - '&7 » &f&lEND PLAY R'
+      - '&7 » &f&lEND PLAY R'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+      - '&7 » &f&lEND PLAY'
+  rows:
+    1:
+      interval: 5
+      liner:
+        - ''
+    2:
+      interval: 80
+      liner:
+        - '&c&lИнформация:'
+    3:
+      interval: 80
+      liner:
+        - '&7 » &fБаланс:&e %vault_eco_balance_formatted%Ł'
+    4:
+      interval: 80
+      liner:
+        - '&7 » &fПыль:&e %gadgetsmenu_mystery_dust%'
+    5:
+      interval: 80
+      liner:
+        - ''
+    6:
+      interval: 100
+      liner:
+        - '&c&lСайт:'
+        - '&c&lЗдоровье:'
+        - '&c&lDiscord:'
+    7:
+      interval: 100
+      liner:
+        - '&7 » &fwww.end-play.xyz'
+        - '{healthbar}'
+        - '&7 » &fhttp://bit.ly/32b2QIp'
+    8:
+      interval: 80
+      liner:
+        - ''
+    9:
+      interval: 80
+      liner:
+        - '&c&lВы играли:'
+    10:
+      interval: 80
+      liner:
+        - '&7 » &e%statistic_hours_played% &fч.'
+    11:
+      interval: 20
+      liner:
+        - ''
+    12:
+      interval: 20
+      liner:
+        - '&c&lВремя:'
+    13:
+      interval: 20
+      liner:
+        - '&7 » &fСейчас в игре&e %player_world_time_24%'
+    14:
+      interval: 5
+      liner:
+        - ''

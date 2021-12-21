@@ -1,0 +1,28 @@
+UseVillager: false
+Items:
+  NoItemSlot:
+    Material: STAINED_GLASS_PANE
+    data: 7
+  NextPageIcon:
+    Material: WOOL
+    data: 13
+  PrevPageIcon:
+    Material: WOOL
+    data: 14
+  AddAuctionIcon:
+    Material: WOOL
+    data: 13
+  CancelAuctionIcon:
+    Material: WOOL
+    data: 14
+  CollectAuctionIcon:
+    Material: GOLD_BLOCK
+    data: 0
+BlackListedWorlds: []
+autoUpdate: true
+EnableViewLastBidder: false
+Blacklist:
+- BEDROCK
+Auction-RefreshRate-inSeconds: 0.5
+NPCSkin_Username: 'null'
+SendMessagesWhenSomeoneBid: true

@@ -1,0 +1,33 @@
+currentQuests:
+- Доставка оружия
+- Пропитые яйца
+- Доставка удочки
+- Странная Просьба
+currentStages:
+- 0
+- 0
+- 1
+- 2
+quest-points: 0
+questData:
+  Доставка оружия:
+    item-delivery-amounts:
+    - 0
+  Пропитые яйца:
+    citizen-ids-to-talk-to:
+    - 14
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    has-talked-to:
+    - false
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 35
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: matvey20201

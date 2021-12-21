@@ -1,0 +1,8 @@
+prefix: '&f[&9AnimatedNames&f] '
+config-reload: '&aConfiguration reloaded!'
+config-reset: '&cConfiguration has been reset!'
+no-permission: '&cYou do not have permissions!'
+invalid-arguments: '&cInvalid arguments!'
+no-console: '&cThis command can only be used ingame'
+list-page-range: '&cThe page can be from 1-{PAGES}!'
+list-noitems: '&cNo items found!'

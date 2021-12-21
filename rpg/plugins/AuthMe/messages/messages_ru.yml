@@ -1,0 +1,137 @@
+# Registration
+registration:
+    disabled: '&6Регистрация отключена'
+    name_taken: '&cТакой игрок уже зарегистрирован'
+    register_request: ' &7Зарегистрируйтесь - &e/reg ПАРОЛЬ ПОВТОР_ПАРОЛЯ'
+    command_usage: ' &7Использование: &c/reg ПАРОЛЬ ПОВТОР_ПАРОЛЯ'
+    reg_only: '&f[&3!&f] &fВход доступен только зарегистрированным игрокам! Зарегистрируйтесь здесь - http://example.com/?do=register'
+    success: ' &7Регистрация прошла &aуспешно&7. Приятной игры!'
+    kicked_admin_registered: ' &7Администратор зарегистрировал вас. Авторизируйтесь снова.'
+# Password errors on registration
+password:
+    match_error: ' &cПароль не совпадает \_(0_0)_/'
+    name_in_password: ' &cНельзя использовать своё имя в качестве пароля.'
+    unsafe_password: ' &cТакой пароль небезопасен.'
+    forbidden_characters: ' &cПароль содержит запрещённые символы. &7Разрешённые: %valid_chars'
+    wrong_length: ' &7Твой пароль либо &cслишком длинный&7, либо &cслишком короткий&7.'
+# Login
+login:
+    command_usage: '&eИспользование: &c/login ПАРОЛЬ'
+    wrong_password: '&cНеверный пароль'
+    success: ''
+    login_request: ' &7Авторизуйтесь - &e/login ПАРОЛЬ'
+    timeout_error: ' &7Время входа истекло, попробуйте еще раз, но быстрее'
+# Errors
+error:
+    denied_command: '&cНеобходимо авторизоваться для использования этой команды!'
+    denied_chat: '&cНеобходимо авторизоваться, чтобы писать в чат!'
+    unregistered_user: '&cТакой игрок не зарегестрирован'
+    not_logged_in: '&cВы еще не вошли!'
+    no_permission: '&cУ Вас нет прав'
+    unexpected_error: '&cЧто-то пошло не так; &5Свяжитесь с администратором.'
+    max_registration: ' &cВы превысили максимальное количество регистраций на аккаунт'
+    logged_in: ' &cВы уже вошли в аккаунт.'
+    kick_for_vip: '&cVIP игрок зашел на переполненный сервер!'
+    tempban_max_logins: ' &cВы временно заблокированы из-за большого количества неудачных попыток авторизоваться.'
+# AntiBot
+antibot:
+    kick_antibot: 'Сработала защита против ботов! Необходимо подождать перед следующим входом на сервер.'
+    auto_enabled: ' &7AntiBot-режим автоматически &aвключен &7из-за большого количества входов!'
+    auto_disabled: ' &7AntiBot-режим автоматичски &cотключен &7после %m мин. Надеюсь, атака закончилась'
+# Unregister
+unregister:
+    success: '&cВы успешно удалили свой аккаунт!'
+    command_usage: ' &7Использование: &c/unregister ПАРОЛЬ'
+# Other messages
+misc:
+    account_not_activated: '&aВаш аккаунт активирован. &5Проверьте свою электронную почту.'
+    password_changed: ' &7Пароль успешно изменен!'
+    logout: ' &7Вы &aуспешно &7вышли из аккаунта.'
+    reload: '&6 Система &8| &7Модуль авторизации &aуспешно &7перезагружен.'
+    usage_change_password: ' &7Использование: &c/changepassword СТАРЫЙ_ПАРОЛЬ НОВЫЙ_ПАРОЛЬ'
+    accounts_owned_self: ' &7У вас &c%count &7уч. записей:'
+    accounts_owned_other: 'У игрока %name %count уч. записей:'
+# Session messages
+session:
+    valid_session: ''
+    invalid_session: ' &cСессия некорректна. Дождитесь, пока она закончится.'
+# Error messages when joining
+on_join_validation:
+    same_ip_online: 'Игрок с данным IP-адресом уже играет на сервере!'
+    same_nick_online: '&f[&3!&f] &fТакой игрок уже играет на сервере'
+    name_length: ' &cВаш логин слишком длинный или слишком короткий'
+    characters_in_name: '&cВаш логин содержит запрещенные символы. Разрешенные символы: %valid_chars'
+    kick_full_server: '&cСервер переполнен!'
+    country_banned: 'Ваша страна запрещена на этом сервере'
+    not_owner_error: ' &cВы не являетесь владельцем данной уч. записи. Выберите себе другое имя!'
+    invalid_name_case: 'Неверное имя! Зайдите под именем %valid, а не %invalid.'
+    quick_command: 'Вы вводили команды слишком часто! Пожалуйста заходите снова и вводите команды помедленнее.'
+# Email
+email:
+    add_email_request: '&cДобавьте свой email: /email add ВАШ_EMAIL ВАШ_EMAIL'
+    usage_email_add: '&fИспользование: /email add ВАШ_EMAIL ВАШ_EMAIL '
+    usage_email_change: '&fИспользование: /email change СТАРЫЙ_EMAIL НОВЫЙ_EMAIL '
+    new_email_invalid: '[&3i&f] Новый email недействителен!'
+    old_email_invalid: '[&3i&f] Старый email недействителен!'
+    invalid: ' &cEmail неправильный'
+    added: ' &aEmail добавлен!'
+    add_not_allowed: '&cДобавление электронной почты не было разрешено.'
+    request_confirmation: ' &7Подтвердите ваш email!'
+    changed: ' &7Email &aуспешно &7изменен!'
+    change_not_allowed: '&cИзменение электронной почты не было разрешено.'
+    email_show: ' &7Текущий адрес электронной почты — &a%email'
+    no_email_for_account: ' &7К вашей уч. записи &cне привязана &7электронная почта.'
+    already_used: ' &cЭта электронная почта уже используется.'
+    incomplete_settings: ' &cОшибка: &7не все необходимые параметры установлены для отправки электронной почты. Свяжитесь с администратором.'
+    send_failure: 'Письмо не может быть отправлено. Свяжитесь в администратором.'
+    change_password_expired: 'Больше нельзя сменить свой пароль, используя эту команду.'
+    email_cooldown_error: '&cПисьмо было отправлено недавно. Подождите %time, прежде чем отправить новое.'
+# Password recovery by email
+recovery:
+    forgot_password_hint: '&cЗабыли пароль? Используйте /email recovery ВАШ_EMAIL'
+    command_usage: '&fИспользование: /email recovery ВАШ_EMAIL'
+    email_sent: ' &7Восстановительное письмо отправлено!'
+    code:
+        code_sent: 'Код восстановления для сброса пароля был отправлен на электронную почт.'
+        incorrect: 'Неверный код восстановления! Попыток осталось: %count.'
+        tries_exceeded: ' &7Вы слишком много раз неверно ввели код восстановления. Используйте «&c/email recovery [эл. почта]&7», чтобы получить новый код.'
+        correct: ' &aКод восстановления введён верно!'
+        change_password: 'Используйте «/email setpassword <новый пароль>», чтобы сменить свой пароль.'
+# Captcha
+captcha:
+    usage_captcha: '&cИспользование: /captcha СИМВОЛЫ_ВЫШЕ'
+    wrong_captcha: '&cНеправильная капча: /captcha СИМВОЛЫ_ВЫШЕ'
+    valid_captcha: '&cКапча введена правильно!'
+    captcha_for_registration: 'Чтобы зарегистрироваться, решите каптчу используя команду: «/captcha %captcha_code»'
+    register_captcha_valid: '&2Вы успешно решили каптчу! Теперь вы можете зарегистрироваться командой «/register»'
+# Verification code
+verification:
+    code_required: '&3This command is sensitive and requires an email verification! Check your inbox and follow the email''s instructions.'
+    command_usage: '&cUsage: /verification <code>'
+    incorrect_code: '&cIncorrect code, please type "/verification <code>" into the chat, using the code you received by email'
+    success: '&2Your identity has been verified! You can now execute all commands within the current session!'
+    already_verified: '&2You can already execute every sensitive command within the current session!'
+    code_expired: '&3Your code has expired! Execute an other sensitive command to get a new code!'
+    email_needed: '&3To verify your identity you need to link an email address with your account!!'
+# Time units
+time:
+    second: 'с.'
+    seconds: 'с.'
+    minute: 'мин.'
+    minutes: 'мин.'
+    hour: 'ч.'
+    hours: 'ч.'
+    day: 'дн.'
+    days: 'дн.'
+# Two-factor authentication
+two_factor:
+    code_created: ' &7Ваш секретный код — &c%code&7. Просканируйте его здесь: %url'
+    confirmation_required: 'Пожалуйста, подтвердите ваш код с помощью /2fa confirm <код>'
+    code_required: 'Пожалуйста, введите ваш код двухфакторной аутентификации используя команду /2fa code <код>'
+    already_enabled: 'Двухфакторная аутентификация уже активирована для вашего аккаунта!'
+    enable_error_no_code: 'Код двухфакторной аутентификации не был сгенерирован или истек. Пожалуйста, введите /2fa add'
+    enable_success: 'Двухфакторная аутентификация для вашего аккаунта успешно подключена'
+    enable_error_wrong_code: 'Срок действия кода истек или код неверный. Введите /2fa add'
+    not_enabled_error: 'Двухфакторная аутентификация не включена для вашего аккаунта. Введите /2fa add'
+    removed_success: 'Двухфакторная аутентификация успешно удалена с вашего аккаунта!'
+    invalid_code: 'Неверный код!'

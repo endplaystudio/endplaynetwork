@@ -1,0 +1,81 @@
+Configuration:
+  General:
+    Version: 1.3
+    #Version of the config.
+    
+    Locale: "en"
+    #Locale language
+    
+    Blocked_Worlds:
+    - "Block"
+    #List of blocked worlds
+  
+  Metrics:
+    Message: true
+    #Send a message to the console when connecting metrics.
+  
+  Hook:
+    Message: false
+    #Send a message to the console about dependencies information.
+    
+  Utility:    
+    Tooltip: "&8&l[&4&l?&8&l]"
+    #Character for text tooltip.
+    
+    Currency: "$"
+    #Symbol currency.
+      
+  Effect:
+    Range: 50
+    #Max distance for send packet particle and sound.
+    
+  List:
+    Content: 5
+    #Max of list content what will be displayed
+    
+  Item_Protection:
+    Duration: 0
+    #Duration of item drop protection in ticks
+    
+    Notification_Cooldown: 200
+    #Notification message cooldown in ticks
+    
+    Notification_Message: true
+    #Enable notification message of item owner
+    
+    Block_Drop: true
+    #Enable item protection from block drop
+    
+    Block_Group: true
+    #Enable group protection from block drop
+    
+    Entity_Drop: true
+    #Enable item protection from entity drop
+    
+    Entity_Group: true
+    #Enable group protection from entity drop    
+    
+    Share_Drop: false
+    #Enable share drops based on percentage damage dealt
+    
+  Item_Drop:
+    Sneak_Pickup: false
+    #When true, player only can pick up item when sneaking
+    
+  Item_Holo:
+    Period_Update: 20
+    #Period of item holo update in ticks
+    
+    Show_Default: true
+    #Show hologram even the item doesn't have custom name
+    
+    Show_Block_Drop: true
+    #Show hologram of item that drops from block breaking
+    
+    Show_Entity_Drop: true
+    #Show hologram of item that drops from killing entity
+    
+    Format_Display_Single: "{name}"
+    Format_Display_Multi: "{name} &cx{amount}"
+    Format_Owner_Player: "&r{name}"
+    Format_Owner_Group: "&7[&9Group: &b{group}&7]&r "

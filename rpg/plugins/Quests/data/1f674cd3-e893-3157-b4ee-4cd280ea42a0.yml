@@ -1,0 +1,21 @@
+currentQuests:
+- Странная Просьба
+- Доставка удочки
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 26
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: Killer1399059

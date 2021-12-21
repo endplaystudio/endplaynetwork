@@ -1,0 +1,142 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Панель управления'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'opmenu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+vanish:
+  COMMAND: 'vanish'
+  NAME: '&bНевидимость'
+  LORE:
+    - 'Стать невидимым'
+  ID: head:3
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+world:
+  COMMAND: 'open: opworld.yml'
+  NAME: '&bУправление миром'
+  LORE:
+    - 'Смени всё что угодно'
+  ID: 347
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+furniture:
+  COMMAND: 'fgui'
+  NAME: '&bДекорации'
+  LORE:
+    - 'Используй декорации FurnitureLib'
+  ID: hopper
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+server:
+  COMMAND: 'open: opserver.yml'
+  NAME: '&bУправление сервером'
+  LORE:
+    - 'Выруби сервак или перезагрузи его'
+  ID: comparator
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+gm:
+  COMMAND: 'open: opgm.yml'
+  NAME: '&bПереключить режим'
+  LORE:
+    - 'Выживание/Креатив/Наблюдение'
+  ID: diamond_sword
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+links:
+  COMMAND: 'fly'
+  NAME: '&bПереключить полёт'
+  LORE:
+    - 'Давай полетаем!'
+  ID: feather
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+warps-pro:
+  COMMAND: 'open: opwarps.yml'
+  NAME: '&bТелепортатор &6PRO'
+  LORE:
+    - 'Отправься к абсолютно любым местам сервера'
+    - 'Шахты, ферма, порт, хаб и многое другое'
+    - ''
+    - '&e► Открыть телепортатор'
+  ID: compass
+  ENCHANTMENT: 'silk touch'
+  PERMISSION: 'operator.warps'
+  VIEW-PERMISSION: 'operator.warps'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Это меню для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+items:
+  COMMAND: 'open: items.yml'
+  NAME: '&bПредметы'
+  LORE:
+    - 'Все кастомные предметы лежат тут'
+  ID: chest
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: false
+
+back:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  LORE:
+    - 'В главное меню'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

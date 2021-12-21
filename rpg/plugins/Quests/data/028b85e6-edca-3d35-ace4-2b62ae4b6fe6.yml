@@ -1,0 +1,18 @@
+currentQuests:
+- Доставка удочки
+currentStages:
+- 3
+quest-points: 6
+questData:
+  Доставка удочки:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 2
+    has-talked-to:
+    - false
+completed-Quests:
+- Все женщины - ведьмы
+- Странная Просьба
+hasJournal: false
+lastKnownName: sanyagerot

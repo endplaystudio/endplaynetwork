@@ -1,0 +1,56 @@
+general:
+  updateAvailable: "%prefix% 偵測到新版本, 點擊這裡下載."
+  success: "%prefix% 成功通過驗證."
+  underAttack: "&c伺服器正遭受攻擊, &4&l&n%bots%&r &c隻機器人帳號已被封鎖."
+  join: "&e%player% joined the game"
+  notifications:
+    complete: "%prefix% (&6%player%&f) &f成功通過驗證."
+    fail: "%prefix% (&6%player%&f) &f驗證失敗."
+ 
+commands:
+  add:
+    success: "%prefix% 成功添加為已驗證 (&6%player%&f)."
+    already: "%prefix% 玩家 (&6%player%&f) 已驗證過了."
+  remove:
+    success: "%prefix% 成功移除驗證紀錄 (&6%player%&f)."
+    already: "%prefix% 玩家 (&6%player%&f) 並沒有驗證過."
+  check:
+    found: "%prefix% 玩家 (&6%player%&f) &6通過驗證&f."
+    notFound: "%prefix% 玩家 (&6%player%&f) &6未驗證&f."
+  test:
+    success: "%prefix% 成功給予 &6%player%&f 驗證測試."
+  list:
+    success: "%prefix% 可用的驗證種類有:"
+    format: "  &f&l- &6%type% &f[&r&7%status%&f]"
+  reload:
+    success: "%prefix% 插件設置成功刷新."
+ 
+instructions:
+  map: "%prefix% 請打出地圖上顯現的&6代碼&f."
+  gui: "%prefix% 請點擊物品 &6%item%&f."
+  different: "%prefix% 請點擊與眾不同的物品."
+  equation: "%prefix% 請解題: &6%equation%&f."
+  order: "%prefix% 請將數字一大小 (&6%symbol%&f) 排列: &6%numbers%&f."
+  picture: "%prefix% 請打出你看見的東西. 選項: [&6%list%&f]."
+  code: "%prefix% 請打出&6%code%&f."
+  color: "%prefix% 請打出 (&r%color%這個&r&f) 是甚麼顏色(英文)."
+  sneak: "%prefix% 請 &6蹲下 &f(通常是按shift)."
+  jump: "%prefix% 請 &6跳躍 &f(通常是按空白鍵)."
+  drop: "%prefix% 請 &6丟棄 &f你手中的物品 (通常是按Q)."
+  slot: "%prefix% 請將快捷欄選擇至 &6第%slot% &f格."
+  reverse: "%prefix% 請將顯示的數字倒著打出來: &6%code%&f."
+ 
+kick:
+  restart: "&7伺服器重啟中, 請稍後進入"
+  locked: "&7太多玩家在同一時間加入伺服"
+  ip: "&7你只能同時登入3隻帳號"
+  bot: "&7您的IP與機器人活動相關聯，因此我們無法允許您加入"
+  abuse: "&7您的IP與最近的濫用行為有關，因此您無法加入"
+  risk: "&7您的IP欺詐分數風險太大，因此無法加入"
+  vpn: "&7此服務器中不允許使用VPN或代理"
+ 
+errors:
+  onlyPlayers: "%prefix% 只有玩家可使用此指令."
+  noPermissions: "%prefix% 你沒有權限執行此操作."
+  playerNull: "%prefix% 你輸入的玩家不存在."
+  wrongUsage: "%prefix% 正確用法為: &6%usage%"

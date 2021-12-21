@@ -1,0 +1,57 @@
+installTime: 1583082225748
+MCBarrelTime: 0
+prevSaveSeeds:
+- 3573685451120315562
+brewsCreated:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+brewsCreatedH: 1742810335
+Worlds:
+  f62742a5-b1a4-4d08-b7a1-63534b7afe32: map_main
+  cebc4090-a4e8-4a82-bb8a-7b7fa1d92534: map_main_nether
+  b72c8686-a30a-4060-8dc7-74e408235fbe: Buildings
+  ce5f8b2b-13d4-453c-8aec-6904a5ef0bdc: Sky
+  77c5f111-c88b-4484-bbc5-a6d565e73934: Tavern
+  4bffb980-b907-4b60-8851-f02eda35d3b0: bw_mines
+  c79f9578-af9f-4afb-827b-c16e3eaab75e: bw_mines_lobby
+  0e1517b1-10b7-457b-b671-de9ab809e064: cw_castle
+  bcba86b7-d701-4966-b5bb-066facfe3822: cw_clay
+  58538a6b-5d14-4d15-acd6-dd723d265e58: cw_forest
+  88d0b2b0-1aba-4490-b486-5d1a30a6ef5a: cw_foxenstein
+  07c8c4de-385e-4884-8ecd-efb67f1acf72: cw_sand
+  4ea28055-5d70-45f2-a1f3-01a8f42e77c9: cw_village
+  69b909e3-46e6-4e7f-944d-81571ddb2909: islands
+  b42e7e9f-efa0-4879-830d-e28138a9d79f: map_main_the_end
+  be6a70f8-af27-4f65-bbf9-a3241139b180: survival
+  98aa84cb-dbe2-4d8b-bdba-ebffe9466645: test
+  c1ad2ba0-c76a-414d-8aa8-1c0a5079e89b: travel_water
+  d3888283-719f-455c-962a-793299ca64c2: Mr_Cronix
+  aaeece62-69a4-4906-b087-4f5f3f019791: Building
+  9f79607d-a0f8-40b7-a048-69a421740bb1: Air_Islands
+  544df201-e134-4aec-88a4-6de079c0e599: DIM-1
+  ed594b45-e074-4008-b35e-311bca647e71: Air_Islands
+  5e4795d2-ce31-495c-aea5-f69446fb8e21: Building
+  70618995-ca8b-4811-880d-efccd2f43657: Buildings
+  421c4b67-fba1-4296-9d76-9bb393683611: Mr_Cronix
+  db90c6b8-ffe2-417c-a994-7679581c741a: Sky
+  2a00243e-e25c-462d-a8e7-a6f32e6b49e2: Tavern
+  a69d4a70-786f-44bc-8439-a30a10e1119f: bw_mines
+  4f22bd67-884a-427a-ab25-06850ecbe249: bw_mines_lobby
+  780aa63f-5cb9-43d6-9c2d-3a63af540590: cw_castle
+  c43e9122-d547-4ccf-aab5-098747d969ab: cw_clay
+  cf47d486-8bc8-424d-a17e-3108d5d5bd40: cw_forest
+  fe7b4f59-9f33-494e-82d5-ad8e26d604a4: cw_foxenstein
+  5da4a006-107b-4dd1-a601-e9b3e5a1da01: cw_sand
+  a5013477-89fc-4f4a-a115-2122254460ad: cw_village
+  68ead50b-add9-414b-a0f1-8ff205b39c12: islands
+  ef082b75-90cf-4a3b-8aea-3385452e03c0: map_main_nether
+  4fd08ed6-7557-4178-ae70-443d25d7c576: map_main_the_end
+  ceee817b-1bd0-4e15-992c-cf38e7f95489: survival
+  cb538a31-122a-4a88-a50a-e2a5bee5ad82: test
+  bb4b16df-5b14-435e-bf8d-9b2cef9422e4: travel_water
+Version: '1.1'

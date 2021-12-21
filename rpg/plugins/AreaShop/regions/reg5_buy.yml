@@ -1,0 +1,15 @@
+general:
+  name: reg5_buy
+  world: main_world
+  type: buy
+  signs:
+    '0':
+      location:
+        world: main_world
+        x: 189.0
+        y: 96.0
+        z: 556.0
+      facing: SOUTH
+      signType: WALL_SIGN
+buy:
+  price: 75000.0

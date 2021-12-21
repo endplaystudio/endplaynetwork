@@ -1,0 +1,14 @@
+builder:
+  title: Владелец стройки
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  logging-enabled: false
+  pages:
+    page-0:
+      size: 54
+      page-name: page-0_897
+      page-permission: ''

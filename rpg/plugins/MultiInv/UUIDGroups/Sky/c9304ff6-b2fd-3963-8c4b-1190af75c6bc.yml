@@ -1,0 +1,8 @@
+SURVIVAL: '{"potions":[],"inventory":{"size":41,"items":{"0":{"item":"WOOD_AXE","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"1":{"item":"IRON_SWORD","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"2":{"item":"ROTTEN_FLESH","quantity":6,"durability":0,"nbttags":null,"enchantments":{}},"3":{"item":"SNOW","quantity":1,"durability":0,"nbttags":null,"enchantments":{}}}},"armour":{"size":4,"items":{}}}'
+experience: 12
+level: 9
+exp: 0.56
+gameMode: CREATIVE
+health: 18.0
+hunger: 20
+saturation: 6.0

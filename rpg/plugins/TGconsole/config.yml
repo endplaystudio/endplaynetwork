@@ -1,0 +1,65 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                     TGConsole v1.11                     #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# TGConsole: control your server remotely using Telegram! #
+# Autor: Azim(t.me/spc_azim),  contact  me  if  you  are  #
+#   having troubles with this plugin,                     #
+#                     i will do my best to help you =)    #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+debug: false
+enabled: true
+sendids: true
+token: 
+botName: 
+delay: 1500
+admins:
+- '277862475'
+share_stats: true
+groups:
+  speaker:
+    users:
+    - '@username'
+    - username
+    - '0'
+    commands:
+    - say
+    - broadcast
+    - kick
+    blocked:
+    - kickall
+locale:
+  User: 'User:'
+  Action: 'Action:'
+  commandOutput: 'Command Output:'
+  unknownCommand: Этой команды не существует О_о
+  getid: 'Your personal id is: USER_ID NEW_LINE (Click the number to copy)'
+  nothingHappened: Nothing happened.
+  serverStart: RPG сервер запущен.
+  serverShutdown: Выключение RPG сервера...
+  showMenu: Меню показано
+  hideMenu: Меню скрыто
+  onJoin: ▶ PLAYER зашёл на RPG
+  onLeave: ▶ PLAYER покинул RPG
+  onDeath: DEATH_MSG
+  onChat: PLAYER » MESSAGE
+  onCommand: PLAYER » COMMAND
+menu:
+  enabled: true
+  row1:
+  - tgconsole reload
+  row2:
+  - cc reload
+  - rpginv reload
+  row3:
+  - ping
+  - list
+notify:
+  enabled: true
+  ids:
+  - 277862475
+  sendOnJoinLeave: true
+  sendOnDeath: false
+  sendChat: true
+  sendServerStart: true
+  sendServerShutdown: true
+  sendCommands: false

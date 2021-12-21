@@ -1,0 +1,26 @@
+# replaces default /plugin command with what is displayer in /reloader list
+# use reloader.list permission to allow users to see this
+pl: true
+# If set to true the default /pl is inaccessible.
+# users with reloader.list perm can still see the /reloader list version
+default-pl: false
+# If this or the message under timer are left blank then there will be no message
+reload: '&2[Reloader] &cReloading all plugins'
+# If this is set to true then the plugin will check if there is a newer version of reloader available.
+check: true
+# Automatic reloader configuration, if all is set to true it will automatically 
+# reload all plugins and if it is false then it will only reload the plugins on its list
+timer:
+  autoreload: false
+  all: true
+  message: '&6[&2Reloader&6] &aRunning automatic reload, please excuse the lag.'
+  hours: 24
+  minutes: 0
+  seconds: 0
+  list:
+    - 'Essentials'
+# Plugins exempt from unload/disable/reload
+# (works like permission.yml files!)
+exempt:
+  - 'WorldGuard'
+  - 'Reloader'

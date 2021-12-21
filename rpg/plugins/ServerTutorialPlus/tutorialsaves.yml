@@ -1,0 +1,425 @@
+tutorials:
+  Ksiudeny:
+    stats:
+      plays: 8
+    invisible: false
+    permission: false
+    blocks-commands: false
+    rewards: []
+    command-whitelist: []
+    points:
+      '0':
+        type: TIMED
+        location: map_main 213.52990340922503 66.0625 90.46809348336608 270.32202
+          -1.6839119
+        time: 20.0
+        locplayer: true
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7До прибытия к кораблю осталось &c20 секунд&7.'
+        actionbar: '&7До прибытия к кораблю &c20 секунд'
+        commands:
+        - gamemode 3 {player_name}
+        - effect {player_name} invisibility 20 255 true
+        - pex user {player_name} add -allow.teleport
+        title:
+          title: '&6Едем к кораблю'
+          subtitle: '&7Это займёт &c20 секунд'
+          fade-in: 20
+          stay: 200
+          fade-out: 20
+      '1':
+        type: TIMED
+        location: travel_water 1755.4618331570323 107.0 -1212.4666087371984 269.79504
+          0.37407017
+        time: 60.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7До прибытия к островам осталась &c1 минута&7.'
+        actionbar: '&7До прибытия к пункту назначения &c1 минута'
+        commands:
+        - gamemode 2 {player_name}
+        title:
+          title: '&6Плывём к Островам'
+          subtitle: '&7Это займёт &c1 минуту'
+          fade-in: 20
+          stay: 200
+          fade-out: 20
+      '2':
+        type: TIMED
+        location: islands 332.5939365840398 64.0 -136.53353004189765 -270.39413 -0.65491676
+        time: 5.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6Корабль прибыл'
+          subtitle: '&7Вы приплыли к месту назначения'
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '3':
+        type: CHECKPOINT
+        location: islands 324.47841939873945 64.0 -126.3959176084204 -1.1521301 90.0
+        time: 0.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7Корабль приплыл. Проходите к трапу и выходу с корабля.'
+        actionbar: '&7Пожалуйста, направляйтесь к &cвыходу'
+        commands: []
+        title:
+          title: '&cВыход разрешён'
+          subtitle: '&7Пожалуйста, покиньте корабль'
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+        animation: CIRCLE
+        colour: 255 0 0
+        distance: 1.0
+        repeatActionbar: true
+        drawguide: false
+        guidecolour: 244 244 244
+      '4':
+        type: TIMED
+        location: islands 324.47841939873945 64.0 -126.3959176084204 -0.38037986 -3.1759748
+        time: 2.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7Добро пожаловать на &aКсиуденские Острова&7!'
+        actionbar: '&7Поездка завершена'
+        commands:
+        - pex user {player_name} remove -allow.teleport
+        title:
+          title: '&aДобро пожаловать!'
+          subtitle: '&7Приятного отдыха!'
+          fade-in: 20
+          stay: 60
+          fade-out: 20
+  Ksiudeny_Port:
+    stats:
+      plays: 7
+    invisible: false
+    permission: false
+    blocks-commands: false
+    rewards: []
+    command-whitelist: []
+    points:
+      '0':
+        type: TIMED
+        location: map_main 276.48098755487405 75.0 87.44980747135621 320.4161 22.857716
+        time: 10.0
+        locplayer: true
+        locview: true
+        messages:
+        - '&6 Путешествия &8| &7Отплываем через &c10 секунд&7.'
+        commands:
+        - gamemode 3 {player_name}
+        - effect {player_name} invisibility 10 255 true
+        - pex user {player_name} add -allow.teleport
+      '1':
+        type: TIMED
+        location: travel_water 1755.4618331570323 107.0 -1212.4666087371984 269.79504
+          0.37407017
+        time: 60.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7До прибытия к островам осталась &c1 минута&7.'
+        actionbar: '&7До прибытия к пункту назначения &c1 минута'
+        commands:
+        - gamemode 2 {player_name}
+        title:
+          title: '&6Плывём к Островам'
+          subtitle: '&7Это займёт &c1 минуту'
+          fade-in: 20
+          stay: 200
+          fade-out: 20
+      '2':
+        type: TIMED
+        location: islands 332.5939365840398 64.0 -136.53353004189765 -270.39413 -0.65491676
+        time: 5.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6Корабль прибыл'
+          subtitle: '&7Вы приплыли к месту назначения'
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '3':
+        type: CHECKPOINT
+        location: islands 324.47841939873945 64.0 -126.3959176084204 -1.1521301 90.0
+        time: 0.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7Корабль приплыл. Проходите к трапу и выходу с корабля.'
+        actionbar: '&7Пожалуйста, направляйтесь к &cвыходу'
+        commands: []
+        title:
+          title: '&cВыход разрешён'
+          subtitle: '&7Пожалуйста, покиньте корабль'
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+        animation: CIRCLE
+        colour: 255 0 0
+        distance: 1.0
+        repeatActionbar: true
+        drawguide: false
+        guidecolour: 244 244 244
+      '4':
+        type: TIMED
+        location: islands 324.47841939873945 64.0 -126.3959176084204 -0.38037986 -3.1759748
+        time: 2.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7Добро пожаловать на &aКсиуденские Острова&7!'
+        actionbar: '&7Поездка завершена'
+        commands:
+        - pex user {player_name} remove -allow.teleport
+        title:
+          title: '&aДобро пожаловать!'
+          subtitle: '&7Приятного отдыха!'
+          fade-in: 20
+          stay: 60
+          fade-out: 20
+  Ksiudeny_Back:
+    stats:
+      plays: 8
+    invisible: false
+    permission: false
+    blocks-commands: false
+    rewards: []
+    command-whitelist: []
+    points:
+      '0':
+        type: TIMED
+        location: islands 309.6620151337509 79.0 -120.36064349110987 -141.9505 23.924248
+        time: 10.0
+        locplayer: true
+        locview: true
+        messages:
+        - '&6 Путешествия &8| &7Отплываем через &c10 секунд&7.'
+        commands:
+        - gamemode 3 {player_name}
+        - effect {player_name} invisibility 10 255 true
+        - pex user {player_name} add -allow.teleport
+      '1':
+        type: TIMED
+        location: travel_water 1668.4648959896092 107.0 -1133.4514907120686 90.24335
+          0.9914708
+        time: 60.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7До прибытия в Дольчедонну &c1 минута&7.'
+        actionbar: '&7До прибытия к пункту назначения &c1 минута'
+        commands:
+        - gamemode 2 {player_name}
+        title:
+          title: '&6Плывём в Дольчедонну'
+          subtitle: '&7Это займёт &c1 минуту'
+          fade-in: 20
+          stay: 200
+          fade-out: 20
+      '2':
+        type: TIMED
+        location: map_main 301.5845477933991 64.0 108.55118391361188 89.92001 1.0429194
+        time: 5.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        title:
+          title: '&6Корабль прибыл'
+          subtitle: '&7Вы приплыли к месту назначения'
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '3':
+        type: CHECKPOINT
+        location: map_main 294.48713072825353 64.0 102.49200262316441 180.57503 -3.484663
+        time: 0.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7Корабль приплыл. Проходите к трапу и выходу с корабля.'
+        actionbar: '&7Пожалуйста, направляйтесь к &cвыходу'
+        commands: []
+        title:
+          title: '&cВыход разрешён'
+          subtitle: '&7Пожалуйста, покиньте корабль'
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+        animation: CIRCLE
+        colour: 255 0 0
+        distance: 1.0
+        repeatActionbar: true
+        drawguide: false
+        guidecolour: 244 244 244
+      '4':
+        type: TIMED
+        location: map_main 294.48713072825353 64.0 102.49200262316441 180.57503 -3.484663
+        time: 2.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&6 Путешествия &8| &7Добро пожаловать в &aДольчедонну&7!'
+        actionbar: '&7Поездка завершена'
+        commands:
+        - pex user {player_name} remove -allow.teleport
+        title:
+          title: '&aДобро пожаловать!'
+          subtitle: '&7Приятного отдыха!'
+          fade-in: 20
+          stay: 60
+          fade-out: 20
+  Guide:
+    stats:
+      plays: 18
+    invisible: false
+    permission: false
+    blocks-commands: false
+    rewards: []
+    command-whitelist: []
+    points:
+      '0':
+        type: TIMED
+        location: map_main 70.51320767170228 91.0 182.53427715141146 -38.73535 15.243134
+        time: 10.0
+        locplayer: true
+        locview: true
+        messages: []
+        commands:
+        - gamemode 3 {player_name}
+        - pex user {player_name} group set tutorial
+        - pex user {player_name} group remove main
+        setFly: true
+        title:
+          title: '&6Добро пожаловать'
+          subtitle: '&7В мир приключений и веселья'
+          fade-in: 20
+          stay: 140
+          fade-out: 20
+      '1':
+        type: TIMED
+        location: map_main 88.5378991435808 81.0 357.49138317281444 -46.710266 23.06352
+        time: 10.0
+        locplayer: true
+        locview: true
+        messages: []
+        commands: []
+        setFly: true
+        title:
+          title: '&6Исследуй'
+          subtitle: '&7Огромный средневековый мир'
+          fade-in: 20
+          stay: 140
+          fade-out: 20
+      '2':
+        type: TIMED
+        location: map_main 396.4914280212234 85.0 266.43619341017 -209.65228 24.143988
+        time: 10.0
+        locplayer: true
+        locview: true
+        messages: []
+        commands: []
+        setFly: true
+        title:
+          title: '&6Проходи'
+          subtitle: '&7Множество квестов и заданий'
+          fade-in: 20
+          stay: 140
+          fade-out: 20
+      '3':
+        type: TIMED
+        location: map_main 142.59597863530223 77.0 283.53712400057725 -4.053589 20.336699
+        time: 10.0
+        locplayer: true
+        locview: true
+        messages: []
+        commands: []
+        setFly: true
+        title:
+          title: '&6Играй'
+          subtitle: '&7Сам или с друзьями'
+          fade-in: 20
+          stay: 140
+          fade-out: 20
+      '4':
+        type: TIMED
+        location: map_main 53.420638006469574 71.0625 187.57171913724343 -1.5978394
+          -4.307879
+        time: 10.0
+        locplayer: true
+        locview: false
+        messages: []
+        commands: []
+        setFly: true
+        title:
+          title: '&6Готов начать?'
+          subtitle: '&7Мы уже в пути к городу.'
+          fade-in: 20
+          stay: 40
+          fade-out: 20
+      '5':
+        type: TIMED
+        location: map_main 69.48885872992975 68.0 297.5059226105516 -90.0918 -4.359339
+        time: 3.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands:
+        - gamemode 2 {player_name}
+        - gps start Обучение Геральд {player_name}
+        title:
+          title: '&6Начнём!'
+          subtitle: '&7Следуй за маркером к Геральду'
+          fade-in: 20
+          stay: 100
+          fade-out: 20
+      '6':
+        type: CHECKPOINT
+        location: map_main 154.5709833627714 70.0 305.3896763075 -88.72612 2.2777553
+        time: 2.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands: []
+        animation: CIRCLE
+        colour: 244 153 0
+        distance: 1.0
+        repeatActionbar: true
+        drawguide: false
+        guidecolour: 244 244 244
+      '7':
+        type: TIMED
+        location: map_main 154.5709833627714 70.0 305.3896763075 -88.72612 2.2777553
+        time: 3.0
+        locplayer: false
+        locview: false
+        messages: []
+        commands:
+        - ij remove fixer-9 {player_name}
+        - pex user {player_name} remove itemjoin.fixer-9
+        - pex user {player_name} add tutorial.completed.1
+        - pex user {player_name} add itemjoin.menu
+        - pex user {player_name} add chestcommands.open.menu.yml
+        - ij get menu {player_name}
+        - pex user {player_name} add itemjoin.fixer-8
+        - ij get fixer-8 {player_name}
+        title:
+          title: '&6Замечательно!'
+          subtitle: '&7Теперь открой меню квестов'
+          fade-in: 20
+          stay: 60
+          fade-out: 20

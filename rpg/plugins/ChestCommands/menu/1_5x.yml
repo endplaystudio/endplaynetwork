@@ -1,0 +1,86 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&eБустеры опыта 1.5х'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'booster15'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+cw:
+  COMMAND: 'op: xpb give {player} 1.5 180 VANILLA,JOBS'
+  NAME: '&6Бустер 1.5х на 3 минуты'
+  PRICE: 500
+  LORE:
+    - 'Увеличьте получаемый опыт в 1.5 раза'
+    - '&aСтоимость: &f500L'
+  ID: 384
+  POSITION-X: 4
+  POSITION-Y: 2
+
+bedwars:
+  COMMAND: 'op: xpb give {player} 1.5 300 VANILLA,JOBS'
+  NAME: '&6Бустер 1.5х на 5 минут'
+  PRICE: 1000
+  LORE:
+    - 'Увеличьте получаемый опыт в 1.5 раза'
+    - '&aСтоимость: &f1000L'
+  ID: 384
+  POSITION-X: 5
+  POSITION-Y: 2
+
+quests:
+  COMMAND: 'op: xpb give {player} 1.5 600 VANILLA,JOBS'
+  NAME: '&6Бустер 1.5х на 10 минут'
+  PRICE: 2000
+  LORE:
+    - 'Увеличьте получаемый опыт в 1.5 раза'
+    - '&aСтоимость: &f2000L'
+  ID: 384
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+back:
+  COMMAND: 'boosters'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню бустеров.'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

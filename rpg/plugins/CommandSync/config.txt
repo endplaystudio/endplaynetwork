@@ -1,0 +1,6 @@
+ip=localhost
+port=9190
+heartbeat=1000
+name=rpg
+pass=Rhtlbn90
+debug=false

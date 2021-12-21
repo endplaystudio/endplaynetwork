@@ -1,0 +1,55 @@
+{
+  "flame": {
+    "namespacedKey": {
+      "namespace": "wolfyutilities",
+      "key": "flame"
+    },
+    "superParticle": null,
+    "particle": null,
+    "icon": null,
+    "dataClass": null,
+    "data": null,
+    "relativeX": null,
+    "relativeY": null,
+    "relativeZ": null,
+    "offsetX": null,
+    "offsetY": null,
+    "offsetZ": null,
+    "count": 1,
+    "extra": 1.0,
+    "scripts": null,
+    "name": "&6Flame particle",
+    "description": [
+      "&7Vanilla flame particle"
+    ]
+  },
+  "green_redstone": {
+    "namespacedKey": {
+      "namespace": "wolfyutilities",
+      "key": "green_redstone"
+    },
+    "superParticle": null,
+    "particle": null,
+    "icon": null,
+    "dataClass": null,
+    "data": {
+      "size": 1.0,
+      "color": {
+        "red": 0.0,
+        "green": 255.0,
+        "blue": 0.0
+      }
+    },
+    "relativeX": null,
+    "relativeY": null,
+    "relativeZ": null,
+    "offsetX": null,
+    "offsetY": null,
+    "offsetZ": null,
+    "count": 1,
+    "extra": 1.0,
+    "scripts": null,
+    "name": "&aGreen Redstone",
+    "description": []
+  }
+}

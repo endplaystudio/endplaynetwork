@@ -1,0 +1,828 @@
+categories:
+  #Category ID, value doesn't matter, has to be unique
+  1:
+    #Category name, & color codes are supported here
+    name: "Food"
+    #Placeholder displayed in the "Categories" menu, item meta format as described at http://wiki.brcdev.net/Item_meta
+    placeholder: 
+      material: BREAD
+      name: "&6&lFood"
+      slot: 11
+    items:
+      #Item ID, value doesn't matter, has to be unique, item meta format as described at http://wiki.brcdev.net/Item_meta
+      1:
+        material: BREAD
+        #compareDamage is set to false by default
+        compareDamage: false
+        #compareItemMeta is set to true by default
+        compareItemMeta: true
+        #compareQuantity is set to false by default
+        compareQuantity: false
+      2:
+        material: APPLE
+      3:
+        material: MUSHROOM_SOUP
+      4:
+        material: PORK
+      5:
+        material: GRILLED_PORK
+      6:
+        material: GOLDEN_APPLE
+      7:
+        material: RAW_FISH
+      8:
+        material: COOKED_FISH 
+      9:
+        material: CAKE
+      10:
+        material: COOKIE
+      11:
+        material: MELON
+      12:
+        material: RAW_BEEF
+      13:
+        material: COOKED_BEEF
+      14:
+        material: RAW_CHICKEN
+      15:
+        material: COOKED_CHICKEN
+      16:
+        material: ROTTEN_FLESH
+      17:
+        material: SPIDER_EYE
+      18:
+        material: CARROT_ITEM
+      19:
+        material: POTATO_ITEM
+      20:
+        material: BAKED_POTATO
+      21:
+        material: POISONOUS_POTATO
+      22:
+        material: PUMPKIN_PIE
+      23:
+        material: RABBIT
+      24:
+        material: COOKED_RABBIT
+      25:
+        material: RABBIT_STEW
+      26:
+        material: MUTTON
+      27:
+        material: COOKED_MUTTON
+      28:
+        material: BEETROOT
+      29:
+        material: BEETROOT_SOUP
+  2:
+    name: "Building Blocks"
+    placeholder:
+      material: BRICK
+      name: "&6&lBuilding Blocks"
+      slot: 12
+    items:
+      1:
+        material: STONE
+      2:
+        material: GRASS
+      3:
+        material: DIRT
+      4:
+        material: COBBLESTONE
+      5:
+        material: WOOD
+      6:
+        material: BEDROCK
+      7:
+        material: SAND
+      8:
+        material: GRAVEL
+      9:
+        material: GOLD_ORE
+      10:
+        material: IRON_ORE
+      11:
+        material: COAL_ORE
+      12:
+        material: LOG
+      13:
+        material: LOG_2
+      14:
+        material: SPONGE
+      15:
+        material: GLASS
+      16:
+        material: LAPIS_ORE
+      17:
+        material: LAPIS_BLOCK
+      18:
+        material: SANDSTONE
+      19:
+        material: WOOL
+      20:
+        material: GOLD_BLOCK
+      21:
+        material: IRON_BLOCK
+      22:
+        material: STONE_SLAB2
+      23:
+        material: DOUBLE_STONE_SLAB2 
+      24:
+        material: BRICK
+      25:
+        material: BOOKSHELF
+      26:
+        material: MOSSY_COBBLESTONE
+      27:
+        material: OBSIDIAN
+      28:
+        material: WOOD_STAIRS
+      29:
+        material: DIAMOND_ORE
+      30:
+        material: DIAMOND_BLOCK
+      31:
+        material: COBBLESTONE_STAIRS
+      32:
+        material: REDSTONE_ORE
+      33:
+        material: ICE
+      34:
+        material: PACKED_ICE
+      35:
+        material: SNOW_BLOCK
+      36:
+        material: CLAY
+      37:
+        material: PUMPKIN
+      38:
+        material: NETHERRACK
+      39:
+        material: SOUL_SAND
+      40:
+        material: GLOWSTONE
+      41:
+        material: JACK_O_LANTERN
+      42:
+        material: STAINED_GLASS
+      43:
+        material: SMOOTH_BRICK
+      44:
+        material: MELON_BLOCK
+      45:
+        material: BRICK_STAIRS
+      46:
+        material: MYCEL
+      47:
+        material: NETHER_BRICK
+      48:
+        material: NETHER_BRICK_STAIRS
+      49:
+        material: END_BRICKS
+      50:
+        material: WOOD_STEP
+      51:
+        material: SANDSTONE_STAIRS
+      52:
+        material: EMERALD_ORE
+      53:
+        material: EMERALD_BLOCK
+      54:
+        material: SPRUCE_WOOD_STAIRS 
+      55:
+        material: BIRCH_WOOD_STAIRS
+      56:
+        material: JUNGLE_WOOD_STAIRS
+      57:
+        material: QUARTZ_ORE
+      58:
+        material: QUARTZ_BLOCK
+      59:
+        material: QUARTZ_STAIRS
+      60:
+        material: STAINED_CLAY
+      61:
+        material: HARD_CLAY
+      62:
+        material: ACACIA_STAIRS 
+      63:
+        material: DARK_OAK_STAIRS 
+      64:
+        material: PRISMARINE
+      65:
+        material: SEA_LANTERN
+      66:
+        material: HAY_BLOCK 
+      67:
+        material: COAL_BLOCK
+      68:
+        material: RED_SANDSTONE 
+      69:
+        material: RED_SANDSTONE_STAIRS
+      70:
+        material: PURPUR_BLOCK 
+      71:
+        material: PURPUR_PILLAR
+      72:
+        material: PURPUR_SLAB
+      73:
+        material: PURPUR_STAIRS
+      74:
+        material: MAGMA
+      75:
+        material: NETHER_WART_BLOCK 
+      76:
+        material: RED_NETHER_BRICK 
+      77:
+        material: BONE_BLOCK
+  3:
+    name: "Decoration Blocks"
+    placeholder:
+      material: RED_ROSE
+      damage: 5
+      name: "&6&lDecoration Blocks"
+      slot: 13
+    items:
+      1:
+        material: SAPLING
+      2:
+        material: LEAVES
+      3:
+        material: LEAVES_2 
+      4:
+        material: WEB
+      5:
+        material: LONG_GRASS
+      6:
+        material: DEAD_BUSH
+      7:
+        material: YELLOW_FLOWER
+      8:
+        material: RED_ROSE
+      9:
+        material: BROWN_MUSHROOM
+      10:
+        material: RED_MUSHROOM
+      11:
+        material: TORCH
+      12:
+        material: CHEST
+      13:
+        material: WORKBENCH
+      14:
+        material: FURNACE
+      15:
+        material: LADDER
+      16:
+        material: SNOW
+      17:
+        material: CACTUS
+      18:
+        material: JUKEBOX
+      19:
+        material: FENCE
+      20:
+        material: MONSTER_EGGS
+      21:
+        material: IRON_FENCE
+      22:
+        material: THIN_GLASS
+      23:
+        material: VINE
+      24:
+        material: WATER_LILY
+      25:
+        material: NETHER_FENCE
+      26:
+        material: ENCHANTMENT_TABLE
+      27:
+        material: ENDER_PORTAL_FRAME
+      28:
+        material: ENDER_CHEST
+      29:
+        material: COBBLE_WALL
+      30:
+        material: ANVIL
+      31:
+        material: STAINED_GLASS_PANE 
+      32:
+        material: CARPET
+      33:
+        material: DOUBLE_PLANT
+      34:
+        material: SPRUCE_FENCE
+      35:
+        material: BIRCH_FENCE
+      36:
+        material: JUNGLE_FENCE
+      37:
+        material: DARK_OAK_FENCE
+      38:
+        material: ACACIA_FENCE
+      39:
+        material: END_ROD
+      40:
+        material: CHORUS_FLOWER
+      41:
+        material: CHORUS_PLANT
+      42:
+        material: BLACK_SHULKER_BOX 
+      43:
+        material: BLUE_SHULKER_BOX 
+      44:
+        material: BROWN_SHULKER_BOX 
+      45:
+        material: CYAN_SHULKER_BOX 
+      46:
+        material: GRAY_SHULKER_BOX 
+      47:
+        material: GREEN_SHULKER_BOX 
+      48:
+        material: LIGHT_BLUE_SHULKER_BOX 
+      49:
+        material: LIME_SHULKER_BOX 
+      50:
+        material: MAGENTA_SHULKER_BOX 
+      51:
+        material: ORANGE_SHULKER_BOX 
+      52:
+        material: PINK_SHULKER_BOX 
+      53:
+        material: PURPLE_SHULKER_BOX 
+      54:
+        material: RED_SHULKER_BOX 
+      55:
+        material: SILVER_SHULKER_BOX 
+      56:
+        material: WHITE_SHULKER_BOX 
+      57:
+        material: YELLOW_SHULKER_BOX 
+      58:
+        material: PAINTING
+      59:
+        material: SIGN
+      60:
+        material: BED
+      61:
+        material: ITEM_FRAME
+      62:
+        material: FLOWER_POT_ITEM
+      63:
+        material: SKULL_ITEM
+      64:
+        material: ARMOR_STAND
+      65:
+        material: BANNER
+      66:
+        material: END_CRYSTAL
+  4:
+    name: "Redstone"
+    placeholder:
+      material: REDSTONE
+      name: "&6&lRedstone"
+      slot: 14
+    items:
+      1:
+        material: DISPENSER
+      2:
+        material: NOTE_BLOCK
+      3:
+        material: PISTON_STICKY_BASE 
+      1:
+        material: PISTON_BASE
+      4:
+        material: TNT
+      5:
+        material: LEVER
+      6:
+        material: STONE_PLATE 
+      7:
+        material: WOOD_PLATE
+      8:
+        material: REDSTONE_TORCH_ON 
+      9:
+        material: STONE_BUTTON
+      10:
+        material: TRAP_DOOR
+      11:
+        material: REDSTONE_LAMP_OFF
+      12:
+        material: TRIPWIRE_HOOK
+      13:
+        material: WOOD_BUTTON
+      14:
+        material: TRAPPED_CHEST
+      15:
+        material: GOLD_PLATE
+      16:
+        material: IRON_PLATE
+      17:
+        material: DAYLIGHT_DETECTOR
+      18:
+        material: REDSTONE_BLOCK
+      19:
+        material: HOPPER
+      20:
+        material: DROPPER
+      21:
+        material: IRON_TRAPDOOR
+      22:
+        material: SPRUCE_FENCE_GATE 
+      23:
+        material: BIRCH_FENCE_GATE 
+      24:
+        material: BIRCH_FENCE_GATE 
+      25:
+        material: DARK_OAK_FENCE_GATE 
+      26:
+        material: ACACIA_FENCE_GATE
+      27:
+        material: WOOD_DOOR
+      28:
+        material: IRON_DOOR
+      29:
+        material: REDSTONE
+      30:
+        material: REDSTONE_COMPARATOR
+      31:
+        material: REDSTONE_LAMP_OFF
+      32:
+        material: SPRUCE_DOOR_ITEM
+      33:
+        material: BIRCH_DOOR_ITEM 
+      34:
+        material: JUNGLE_DOOR_ITEM 
+      35:
+        material: ACACIA_DOOR_ITEM
+      36:
+        material: DARK_OAK_DOOR_ITEM 
+  5:
+    name: "Transportation"
+    placeholder:
+      material: MINECART
+      name: "&6&lTransportation"
+      slot: 15
+    items:
+      1:
+        material: POWERED_RAIL
+      2:
+        material: DETECTOR_RAIL
+      3:
+        material: RAILS
+      4:
+        material: ACTIVATOR_RAIL
+      5:
+        material: MINECART
+      6:
+        material: SADDLE
+      7:
+        material: BOAT
+      8:
+        material: BOAT_ACACIA
+      9:
+        material: BOAT_BIRCH
+      10:
+        material: BOAT_DARK_OAK
+      11:
+        material: BOAT_JUNGLE
+      12:
+        material: BOAT_SPRUCE
+      13:
+        material: STORAGE_MINECART
+      14:
+        material: POWERED_MINECART
+      15:
+        material: CARROT_STICK
+      16:
+        material: EXPLOSIVE_MINECART
+      17:
+        material: HOPPER_MINECART
+      18:
+        material: ELYTRA
+  6:
+    name: "Miscellaneous"
+    placeholder:
+      material: LAVA_BUCKET
+      name: "&6&lMiscellaneous"
+      slot: 20
+    items:
+      1:
+        material: BEACON
+      2:
+        material: BUCKET
+      3:
+        material: WATER_BUCKET
+      4:
+        material: LAVA_BUCKET
+      5:
+        material: SNOW_BALL
+      6:
+        material: PAPER
+      7:
+        material: BOOK
+      8:
+        material: WRITTEN_BOOK
+      9:
+        material: BOOK_AND_QUILL 
+      10:
+        material: SLIME_BALL
+      11:
+        material: BONE
+      12:
+        material: ENDER_PEARL
+      13:
+        material: EYE_OF_ENDER
+      14:
+        material: MONSTER_EGG 
+      15:
+        material: EXP_BOTTLE
+      16:
+        material: FIREBALL
+      17:
+        material: EMPTY_MAP 
+      18:
+        material: MAP
+      19:
+        material: FIREWORK_CHARGE 
+      20:
+        material: FIREWORK
+      21:
+        material: DIAMOND_BARDING
+      22:
+        material: GOLD_BARDING
+      23:
+        material: IRON_BARDING
+      24:
+        material: RECORD_10
+      25:
+        material: RECORD_11
+      26:
+        material: RECORD_12
+      27:
+        material: RECORD_3 
+      28:
+        material: RECORD_4 
+      29:
+        material: RECORD_5 
+      30:
+        material: RECORD_6 
+      31:
+        material: RECORD_7 
+      32:
+        material: RECORD_8 
+      33:
+        material: RECORD_9 
+  7:
+    name: "Tools"
+    placeholder:
+      material: IRON_AXE
+      name: "&6&lTools"
+      slot: 21
+    items:
+      1:
+        material: IRON_SPADE
+      2:
+        material: IRON_PICKAXE
+      3:
+        material: IRON_AXE
+      4:
+        material: FLINT_AND_STEEL
+      5:
+        material: WOOD_SPADE
+      6:
+        material: WOOD_PICKAXE
+      7:
+        material: WOOD_AXE
+      8:
+        material: STONE_SPADE
+      9:
+        material: STONE_PICKAXE
+      10:
+        material: STONE_AXE
+      11:
+        material: DIAMOND_SPADE
+      12:
+        material: DIAMOND_PICKAXE
+      13:
+        material: DIAMOND_AXE
+      14:
+        material: GOLD_SPADE
+      15:
+        material: GOLD_PICKAXE
+      16:
+        material: GOLD_AXE
+      17:
+        material: GOLD_HOE
+      18:
+        material: IRON_HOE
+      19:
+        material: STONE_HOE
+      20:
+        material: WOOD_HOE
+      21:
+        material: DIAMOND_HOE
+      22:
+        material: COMPASS
+      23:
+        material: FISHING_ROD
+      24:
+        material: WATCH
+      25:
+        material: SHEARS
+      26:
+        material: LEASH
+      27:
+        material: NAME_TAG
+  8:
+    name: "Combat"
+    placeholder:
+      material: DIAMOND_SWORD
+      name: "&6&lCombat"
+      slot: 22
+    items:
+      1:
+        material: BOW
+      2:
+        material: ARROW
+      3:
+        material: DIAMOND_SWORD
+      4:
+        material: GOLD_SWORD
+      5:
+        material: IRON_SWORD
+      6:
+        material: STONE_SWORD
+      7:
+        material: WOOD_SWORD
+      8:
+        material: LEATHER_BOOTS
+      9:
+        material: LEATHER_CHESTPLATE
+      10:
+        material: LEATHER_HELMET
+      11:
+        material: LEATHER_LEGGINGS
+      12:
+        material: CHAINMAIL_BOOTS
+      13:
+        material: CHAINMAIL_CHESTPLATE
+      14:
+        material: CHAINMAIL_HELMET
+      15:
+        material: CHAINMAIL_LEGGINGS
+      16:
+        material: IRON_BOOTS
+      17:
+        material: IRON_CHESTPLATE
+      18:
+        material: IRON_HELMET
+      19:
+        material: IRON_LEGGINGS
+      20:
+        material: DIAMOND_BOOTS
+      21:
+        material: DIAMOND_CHESTPLATE
+      22:
+        material: DIAMOND_HELMET
+      23:
+        material: DIAMOND_LEGGINGS
+      24:
+        material: GOLD_BOOTS
+      25:
+        material: GOLD_CHESTPLATE
+      26:
+        material: GOLD_HELMET
+      27:
+        material: GOLD_LEGGINGS
+      28:
+        material: SPECTRAL_ARROW 
+      29:
+        material: TIPPED_ARROW
+      30:
+        material: SHIELD
+      31:
+        material: TOTEM
+      32:
+        material: ENCHANTED_BOOK
+  9:
+    name: "Brewing"
+    placeholder:
+      material: POTION
+      name: "&6&lBrewing"
+      slot: 23
+    items:
+      1:
+        material: GHAST_TEAR
+      2:
+        material: POTION
+      3:
+        material: SPLASH_POTION
+      4:
+        material: LINGERING_POTION
+      5:
+        material: GLASS_BOTTLE
+      6:
+        material: FERMENTED_SPIDER_EYE
+      7:
+        material: BLAZE_POWDER
+      8:
+        material: MAGMA_CREAM
+      9:
+        material: BREWING_STAND_ITEM 
+      10:
+        material: CAULDRON_ITEM 
+      11:
+        material: SPECKLED_MELON
+      12:
+        material: GOLDEN_CARROT
+      13:
+        material: RABBIT_FOOT
+      14:
+        material: DRAGONS_BREATH
+  10:
+    name: "Materials"
+    placeholder:
+      material: EMERALD
+      name: "&6&lMaterials"
+      slot: 24
+    items:
+      1:
+        material: COAL
+      2:
+        material: DIAMOND
+      3:
+        material: IRON_INGOT
+      4:
+        material: GOLD_INGOT
+      5:
+        material: STICK
+      6:
+        material: BOWL
+      7:
+        material: STRING
+      8:
+        material: FEATHER
+      9:
+        material: SULPHUR
+      10:
+        material: SEEDS
+      11:
+        material: WHEAT
+      12:
+        material: FLINT
+      13:
+        material: LEATHER
+      14:
+        material: CLAY_BRICK
+      15:
+        material: CLAY_BALL
+      16:
+        material: SUGAR_CANE
+      17:
+        material: EGG
+      18:
+        material: GLOWSTONE_DUST
+      19:
+        material: INK_SACK
+      20:
+        material: SUGAR
+      21:
+        material: MELON_SEEDS
+      22:
+        material: PUMPKIN_SEEDS
+      23:
+        material: BLAZE_ROD
+      24:
+        material: NETHER_STALK
+      25:
+        material: EMERALD
+      26:
+        material: NETHER_STAR
+      27:
+        material: NETHER_BRICK_ITEM 
+      28:
+        material: QUARTZ
+      29:
+        material: PRISMARINE_CRYSTALS
+      30:
+        material: PRISMARINE_SHARD
+      31:
+        material: RABBIT_HIDE
+      32:
+        material: CHORUS_FRUIT
+      33:
+        material: CHORUS_FRUIT_POPPED
+      34:
+        material: BEETROOT_SEEDS
+      35:
+        material: SHULKER_SHELL
+      36:
+        material: IRON_NUGGET
+  11:
+    name: "Other"
+    #Items without a category will be displayed in this one
+    default: true
+    placeholder:
+      material: PAPER
+      name: "&6&lOther"
+      slot: 31

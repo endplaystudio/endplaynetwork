@@ -1,0 +1,83 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Бустеры опыта'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'boosters'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+cw:
+  COMMAND: 'booster15'
+  NAME: '&cБустеры 1.5х'
+  LORE:
+    - 'Увеличьте получаемый опыт в 1.5 раза'
+  ID: 384
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+bedwars:
+  COMMAND: 'booster25'
+  NAME: '&cБустеры 2.5х'
+  LORE:
+    - 'Увеличьте получаемый опыт в 2.5 раз'
+  ID: 384
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+quests:
+  COMMAND: 'booster50'
+  NAME: '&cБустеры 5.0х'
+  LORE:
+    - 'Увеличьте получаемый опыт в 5.0 раз'
+  ID: 384
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+back:
+  COMMAND: 'player'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню игрока.'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

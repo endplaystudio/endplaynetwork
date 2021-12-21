@@ -1,0 +1,17 @@
+currentQuests:
+- Морковные дела
+currentStages:
+- 0
+quest-points: 5
+questData:
+  Морковные дела:
+    item-delivery-amounts:
+    - 1
+    citizen-ids-to-talk-to:
+    - 13
+    has-talked-to:
+    - false
+completed-Quests:
+- Странная Просьба
+hasJournal: false
+lastKnownName: MilkaMeow

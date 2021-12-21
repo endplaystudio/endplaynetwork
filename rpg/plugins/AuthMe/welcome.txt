@@ -1,0 +1,10 @@
+     
+  &8| &aПривет, &f{PLAYER}&a! Желаем тебе приятной игры!
+     
+  &8| &fПомощь новичкам: &chttps://goo.gl/CujTjF
+  &8| &fСайт и Вики: &chttps://goo.gl/WQaTm3
+  &8| &fЦентр поддержки: &chttps://goo.gl/EDVkNd
+   
+  &8| &fПривязка почты к аккаунту (&cВАЖНО!&f):
+  &8| &c/email add ВАШ_EMAIL ВАШ_EMAIL
+     

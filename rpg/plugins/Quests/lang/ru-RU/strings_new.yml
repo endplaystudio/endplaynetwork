@@ -1,0 +1,68 @@
+# Below are any new strings for your current version of Quests! Transfer them to the strings.yml of the same folder to stay up-to-date and suppress console warnings.
+questEditorOpts: Изменить опции
+questDungeonsCreate: Игроки, добавленные в эту группу, могут выполнять квесты вместе!
+questDungeonsDisband: Квестовая группа была расформирована.
+questDungeonsInvite: <player> теперь может выполнять квесты с вами!
+questDungeonsJoin: Теперь вы можете выполнять квесты с капитаном <player>.
+questDungeonsKicked: <player> больше не может выполнять квесты с вами.
+questDungeonsLeave: Вы больше не можете выполнять квесты с капитаном <player>.
+questPartiesCreate: Игроки, добавленные в этот отряд, могут выполнять задания вместе!
+questPartiesDelete: Отряд был распущен.
+questPartiesInvite: <player> теперь может выполнять задания с вами!
+questPartiesJoin: Вы теперь можете выполнять задания с <player>.
+questPartiesKicked: <player> больше не может выполнять задания с вами.
+questPartiesLeave: Вы больше не можете выполнять задания с <player>.
+stageEditorBlocks: Блоки
+stageEditorItems: Предметы
+stageEditorCraftItems: Создайте Предметы
+stageEditorSmeltItems: Приготовить в печи
+stageEditorBrewPotions: Варить зелья
+stageEditorNPCs: NPCs
+stageEditorMobs: Мобы
+stageEditorMilkCows: Доить коров
+stageEditorCows: коровы
+stageEditorEnterBlockAmounts: Введите количество блоков, <space>, <cancel>
+stageEditorMilkCowsPrompt: Введите количество коров в молоке, <clear>, <cancel>
+stageEditorNotSolid: не сплошной блок!
+stageEditorObjectiveCleared: Цель прояснена.
+stageEditorMessageCleared: Сообщение очищено.
+eventEditorPlayer: Проигрыватель
+eventEditorTimer: Таймер
+eventEditorEffect: Звук
+eventEditorWeather: Погода
+optGeneral: Общий
+optMultiplayer: Мультиплеер
+optBooleanPrompt: Введите '<true>' или '<false>', <clear>, <cancel>
+optNumberPrompt: Введите уровень (число) для отслеживания прогресса, <clear>, <cancel>
+optAllowCommands: Разрешить команды во время квеста
+optAllowQuitting: Разрешить выйти во время квеста
+optCommandsDenied: Вы не можете использовать команды во время <quest>.
+optUseDungeonsXLPlugin: Используйте плагин DungeonsXL
+optUsePartiesPlugin: Используйте плагин Parties
+optShareProgressLevel: Уровень прогресса обмена
+optRequireSameQuest: Требовать такой же квест
+rewCommandsCleared: Команды для награды очищены.
+rewNoCommands: Сначала вы должны установить команды!
+rewPermissions: Разрешения на награды
+rewSetPermissionWorlds: Установить разрешение миров
+rewPermissionsCleared: Разрешения на выдачу разрешены.
+rewPermissionsWorldPrompt: Введите разрешающие миры, <semicolon>, <clear>, <cancel>
+overrideCreateSet: Установить переопределение списка деталей
+overrideCreateEnter: Введите заменяемый текст, <clear>, <cancel>
+optionsTitle: '- <quest> | опции -'
+permissionRewardsTitle: '- Награды за Разрешения -'
+craft: Создайте
+smelt: Корюшка
+brew: Варка
+milkCow: Доить Корову
+compassSet: Установите цель для компаса на задание <quest>.
+compassReset: Сбросить цель компаса.
+cleared: Очищено
+listsNotSameSize: Все необходимые списки должны быть одинакового размера!
+objectives: Цели
+everything: Все
+timePrompt: Введите количество времени (в секундах), <clear>, <cancel>
+duplicateEditor: Вы уже используете редактор!
+difference: Разница заключается в '<data>'.
+notInstalled: Не установлено
+confirmDelete: Вы уверены?

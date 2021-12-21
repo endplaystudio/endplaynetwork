@@ -1,0 +1,349 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Главное меню'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 1
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+tip:
+  COMMAND: ''
+  NAME: '&6ℹ Подсказка'
+  LORE:
+    - 'Не забудьте обновить ресурспак'
+    - 'до версии 3.2, ведь там появились'
+    - 'звуковые эффекты и фоновые звуки'
+    - 'на разных локациях. Обязательно'
+    - 'скачайте новую версию, и переключитесь'
+    - 'на неё как можно скорее.'
+    - 'Ссылка во вкладке &aИнформация и Помощь'
+    - 'главного меню сервера (этого).'
+    - ''
+    - '&c⚠ &7Этот пункт меню автоматически'
+    - 'обновляется через некоторое время.'
+  ID: paper
+  ENCHANTMENT: 'silk touch'
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: true
+
+player:
+  COMMAND: 'open: player.yml'
+  NAME: '&bМеню игрока'
+  LORE:
+    - 'Меню управления персонажем'
+    - ''
+    - 'Тут можно:'
+    - ' • Посмотреть ачивки'
+    - ' • Активировать бустер'
+    - ' • Собрать ежедневный бонус'
+    - ''
+    - ' Уровень: &6%player_level%'
+    - ' Баланс: &6{money}'
+    - ' Пыль: &6%gadgetsmenu_mystery_dust%'
+    - ''
+    - '&e► Открыть меню игрока'
+  ID: head:3
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  SKULL-OWNER: '{player}'
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+market:
+  COMMAND: 'market'
+  NAME: '&bРынок'
+  LORE:
+    - 'Меню торговой площадки'
+    - ''
+    - 'Тут можно:'
+    - ' • Покупать предметы'
+    - ' • Продавать предметы'
+    - ' • Хранить предметы'
+    - ''
+    - ' Баланс: &6{money} LND'
+    - ''
+    - '&e► Открыть меню рынка'
+  ID: chest
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+
+guilds:
+  COMMAND: 'open: guilds.yml'
+  NAME: '&bГильдии'
+  LORE:
+    - 'Меню гильдий'
+    - ''
+    - 'Тут можно:'
+    - ' • Вступить в гильдию'
+    - ' • Управлять гильдией'
+    - ' • Перейти в чат гильдии'
+    - ''
+    - ' Баланс: &6{money} LND'
+    - ''
+    - '&e► Открыть меню гильдий'
+  ID: shield
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+info:
+  COMMAND: 'open: help.yml'
+  NAME: '&bИнформация и Помощь'
+  LORE:
+    - 'Игровое время: &6%player_world_time_24%'
+    - '&cОбновление времени работает'
+    - '&cс некоторой задержкой!'
+    - ''
+    - 'Полезная информация для игры на сервере.'
+    - 'Ссылки, команды, вики... Всё тут!'
+    - ''
+    - '&e► Открыть меню информации'
+  ID: book_and_quill
+  VIEW-PERMISSION: 'tutorial.completed.3'
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+stats:
+  COMMAND: 'open: stats.yml'
+  NAME: '&bСтатистика'
+  LORE:
+    - ' • Пинг: &6%player_ping%'
+    - ' • ID: &6%player_uuid%  '
+    - ' • IP: &6%player_ip%'
+    - ' • Дата первого входа: &6%player_first_join_date%'
+    - ' • Убийств: &6%statistic_player_kills%'
+    - ' • Смертей: &6%statistic_deaths%'
+    - ' • Сытость: &6%player_food_level%'
+    - ' • Макс HP: &6%player_max_health%'
+    - ' • Вы играли у нас: &6%statistic_time_played%'
+    - ''
+    - ' Для просмотра &cкраткой &7статистики'
+    - ' другого игрока напиши &c/stats ИГРОК&7.'
+    - ''
+    - '&e► Открыть меню статистики'
+  ID: paper
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+quests:
+#  COMMAND: 'tell: &e Квесты &8| &7Все квесты в процессе разработки, и сейчас недоступны.'
+  COMMAND: 'open: quests.yml'
+  NAME: '&bКвесты'
+  LORE:
+    - 'Меню выбора квестов'
+    - ''
+    - 'Проходите сюжетную кампанию,'
+    - 'или же выберите сайд-квесты, которые'
+    - 'будут интересны в первую очередь вам!'
+    - ''
+    - '&e► Открыть меню квестов'
+  ID: iron_sword
+  VIEW-PERMISSION: 'tutorial.completed.1'
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+
+marry:
+  COMMAND: 'open: marry.yml'
+  NAME: '&bБрак и отношения'
+  LORE:
+    - 'Меню брака'
+    - ''
+    - ' • Личный чат'
+    - ' • Отослать подарок'
+    - ' • Поделиться жизнями'
+    - ' • Развестись/Пожениться'
+    - ' • Выбрать пол'
+    - ''
+    - '&e► Открыть меню браков'
+  ID: red_rose
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+bank:
+  COMMAND: 'open: bank.yml'
+  NAME: '&bБанк'
+  LORE:
+    - 'Банковское меню'
+    - ''
+    - ' • Внести'
+    - ' • Обналичить'
+    - ' • Текущий баланс'
+    - ''
+    - '&e► Открыть банк'
+  ID: emerald
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+warps:
+  COMMAND: 'open: warps.yml'
+  NAME: '&bТелепортатор'
+  LORE:
+    - 'Отправься к любым местам сервера'
+    - 'Таверна, Ксиуденские О-ва, Дольчедонна'
+    - ''
+    - '&e► Открыть телепортатор'
+  ID: compass
+  VIEW-PERMISSION: 'tutorial.completed.2'
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+warps-pro:
+  COMMAND: 'open: opwarps.yml'
+  NAME: '&bТелепортатор &6PRO'
+  LORE:
+    - 'Отправься к абсолютно любым местам сервера'
+    - 'Шахты, ферма, порт, хаб и многое другое'
+    - ''
+    - '&e► Открыть телепортатор'
+  ID: compass
+  ENCHANTMENT: 'silk touch'
+  PERMISSION: 'menus.staff'
+  VIEW-PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Это меню для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+activity:
+  COMMAND: 'open: activity.yml'
+  NAME: '&bАктивности'
+  LORE:
+    - 'Отправляйтесь в увлекательный мир'
+    - 'развлечений и чистого веселья!'
+    - ''
+    - '&e► Открыть меню активностей'
+  ID: skull:3
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  SKULL-OWNER: 'zachwarnerHD'
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+settings:
+  COMMAND: 'open: settings.yml'
+  NAME: '&bНастройки'
+  LORE:
+    - 'Настрой всё под себя.'
+    - 'Выключи то, что не нужно,'
+    - 'или активируй то, в чём нуждаешься.'
+    - ''
+    - '&e► Открыть меню настроек'
+  ID: comparator
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+op-settings:
+  COMMAND: 'open: op-menu.yml'
+  NAME: '&bПанель управления'
+  LORE:
+    - 'Управляй миром и настройками.'
+    - 'Выключи то, что не нужно,'
+    - 'или активируй то, в чём нуждаешься.'
+    - 'Можно перезапускать сервер и управлять миром.'
+    - ''
+    - '&e► Открыть панель управления'
+  ID: comparator
+  ENCHANTMENT: 'silk touch'
+  PERMISSION: 'menus.staff'
+  VIEW-PERMISSION: 'menus.staff'
+  PERMISSION-MESSAGE: ' &6Телепортатор &8| &7Это меню для удобства разработчиков. Сходи-ка на место ножками &a:)'
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+radio:
+  COMMAND: 'open: music.yml'
+  NAME: '&bМузыка и радио'
+  LORE:
+    - 'Включи радио или поставь любимый трек'
+    - ''
+    - 'Тут много всего!'
+    - 'От современной музыки, до средневековых'
+    - 'маршей и гимнов для предания большей'
+    - 'атмосферности во время игры.'
+    - ''
+    - '&e► Открыть меню музыки'
+  ID: jukebox
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+customization:
+  COMMAND: 'gmenu menu main'
+  NAME: '&bКастомизация'
+  LORE:
+    - 'Добавь шапку, включи эффекты, выбери гаджеты'
+    - 'Превратись в курицу, в конце то концов!'
+    - ''
+    - '&e► Открыть меню кастомизации'
+  ID: skull:3
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  SKULL-OWNER: 'c418'
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+effects:
+  COMMAND: 'gmenu menu particles'
+  NAME: '&bЭффекты'
+  LORE:
+    - 'Добавь шапку, включи эффекты, выбери гаджеты'
+    - 'Превратись в курицу, в конце то концов!'
+    - ''
+    - '&e► Открыть меню эффектов'
+  ID: nether_star
+  VIEW-PERMISSION: 'tutorial.completed.all'
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true  

@@ -1,0 +1,137 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explaination; https://github.com/RockinChaos/ItemJoin/wiki
+items-Version: 6
+items-Delay: 2
+items-Overwrite: true
+items-Spamming: false
+items-RestrictCount: false
+
+items:
+  menu:
+    id: SKULL_ITEM
+    slot: 8
+    name: '&eГлавное меню'
+    lore:
+      - ' &7Уровень: &6%player_level%'
+      - ' &7Баланс: &6%vault_eco_balance_formatted% LND'
+      - ' &7Пыль: &6%gadgetsmenu_mystery_dust%'
+      - ''
+      - '&e► Открыть главное меню'
+    skull-owner: '%player%'
+    data-value: 3
+    itemflags: item-store, unbreakable, hide-attributes, death-drops, self-drops, CreativeBypass, placement, inventory-modify, overwrite
+    triggers: join, respawn, world-change
+    permission-node: 'itemjoin.menu'
+    enabled-worlds: map_main, cw_clay, cw_castle, islands, Tavern, cw_foxenstein, cw_sand, cw_forest, travel_water, Building, Air_Islands
+    disabled-worlds: bw_mines, bw_mines_lobby
+    commands:
+      right-click:
+        - 'player: menu'
+  builder-menu:
+    id: 404
+    slot: 8
+    name: '&eМеню строителя'
+    lore:
+      - ' &7Уровень: &6%player_level%'
+      - ' &7Баланс: &6%vault_eco_balance_formatted% LND'
+      - ' &7Пыль: &6%gadgetsmenu_mystery_dust%'
+      - ''
+      - '&e► Открыть меню строителя'
+    itemflags: item-store, unbreakable, hide-attributes, death-drops, self-drops, CreativeBypass, placement, inventory-modify, overwrite
+    triggers: join, respawn, world-change
+    permission-node: 'itemjoin.builder-menu'
+    enabled-worlds: map_main, cw_clay, cw_castle, islands, Tavern, cw_foxenstein, cw_sand, cw_forest, travel_water, Building, Air_Islands
+    disabled-worlds: bw_mines, bw_mines_lobby
+    commands:
+      right-click:
+        - 'player: bmenu'
+        #- 'console: cc open %player% bmenu.yml'
+  tutorial:
+    id: EMERALD
+    slot: 1
+    name: '&eНачать обучение'
+    lore:
+      - ' &7Уже играли на сервере?'
+      - ' &7Просто пропустите обучение.'
+      - ' &7Также используйте если был вылет во'
+      - ' &7время обучения.'
+      - ''
+      - '&e► Пропустить обучение'
+    itemflags: item-store, unbreakable, hide-attributes, death-drops, self-drops, CreativeBypass, placement, inventory-modify, overwrite
+    triggers: join, respawn, world-change
+    permission-node: 'itemjoin.tutorial'
+    enabled-worlds: map_main
+    commands:
+      right-click:
+        - 'player: st play guide'
+        - 'console: ij remove tutorial %player%'
+  fixer-8:
+    id: BARRIER
+    slot: 7
+    name: '&eПропуск обучения'
+    lore:
+      - ' &7Уже играли на сервере?'
+      - ' &7Просто пропустите обучение.'
+      - ' &7Также используйте если был вылет во'
+      - ' &7время обучения.'
+      - ''
+      - '&e► Пропустить обучение'
+    itemflags: item-store, unbreakable, hide-attributes, death-drops, self-drops, CreativeBypass, placement, inventory-modify, overwrite
+    triggers: join, respawn, world-change
+    enabled-worlds: map_main
+    permission-node: 'itemjoin.fixer-8'
+    commands:
+      right-click:
+        - 'console: pex user %player% group set main'
+        - 'player: st quit'
+        - 'console: pex user %player% group remove tutorial'
+        - 'console: ij remove fixer-8 %player%'
+        - 'console: ij remove tutorial %player%'
+        - 'console: ij get menu %player%'
+        - 'console: gps stop %player%'
+        - 'console: pex user %player% remove itemjoin.fixer-9'
+        - 'console: pex user %player% remove itemjoin.fixer-8'
+        - 'player: hub'
+  fixer-9:
+    id: BARRIER
+    slot: 8
+    name: '&eПропуск обучения'
+    lore:
+      - ' &7Уже играли на сервере?'
+      - ' &7Просто пропустите обучение.'
+      - ' &7Также используйте если был вылет во'
+      - ' &7время обучения.'
+      - ''
+      - '&e► Пропустить обучение'
+    itemflags: item-store, unbreakable, hide-attributes, death-drops, self-drops, CreativeBypass, placement, inventory-modify, overwrite
+    triggers: join, respawn, world-change
+    enabled-worlds: map_main
+    permission-node: 'itemjoin.fixer-9'
+    commands:
+      right-click:
+        - 'console: pex user %player% group set main'
+        - 'player: st quit'
+        - 'console: pex user %player% group remove tutorial'
+        - 'console: ij remove fixer-9 %player%'
+        - 'console: ij remove tutorial %player%'
+        - 'console: ij get menu %player%'
+        - 'console: gps stop %player%'
+        - 'console: pex user %player% remove itemjoin.fixer-9'
+        - 'console: pex user %player% remove itemjoin.fixer-8'
+        - 'player: hub'
+  flour:
+    id: SUGAR
+    slot: 3
+    name: '&rМука'
+  baguette:
+    id: SUGAR
+    slot: 3
+    name: '&rЗаготовка багета'
+  bread_blank:
+    id: SUGAR
+    slot: 3
+    name: '&rЗаготовка хлеба'
+  flapjack:
+    id: SUGAR
+    slot: 3
+    name: '&rТесто'

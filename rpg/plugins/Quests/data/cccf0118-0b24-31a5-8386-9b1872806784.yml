@@ -1,0 +1,27 @@
+currentQuests:
+- Водка "Столичная"
+- Морковные дела
+currentStages:
+- 0
+- 0
+quest-points: 1
+questData:
+  Водка "Столичная":
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 32
+    has-talked-to:
+    - true
+  Морковные дела:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 13
+    has-talked-to:
+    - false
+completed-Quests:
+- Все женщины - ведьмы
+- Халявный ключик
+hasJournal: false
+lastKnownName: keks_legend

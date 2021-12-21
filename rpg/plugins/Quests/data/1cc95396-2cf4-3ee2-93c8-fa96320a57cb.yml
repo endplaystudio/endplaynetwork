@@ -1,0 +1,52 @@
+currentQuests:
+- Странная Просьба
+- Все женщины - ведьмы
+- Доставка оружия
+- Пропитые яйца
+- Морковные дела
+- Доставка удочки
+currentStages:
+- 2
+- 1
+- 0
+- 0
+- 0
+- 1
+quest-points: 0
+questData:
+  Странная Просьба:
+    citizen-ids-to-talk-to:
+    - 35
+    has-talked-to:
+    - false
+  Все женщины - ведьмы:
+    citizen-ids-to-talk-to:
+    - 36
+    has-talked-to:
+    - false
+  Доставка оружия:
+    item-delivery-amounts:
+    - 0
+  Пропитые яйца:
+    citizen-ids-to-talk-to:
+    - 14
+    has-talked-to:
+    - false
+  Морковные дела:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 13
+    has-talked-to:
+    - false
+  Доставка удочки:
+    citizen-ids-to-talk-to:
+    - 33
+    - 2
+    has-talked-to:
+    - false
+    - false
+completed-Quests:
+- Халявный ключик
+hasJournal: false
+lastKnownName: SEKSI123

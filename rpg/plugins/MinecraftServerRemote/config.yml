@@ -1,0 +1,11 @@
+Webserver:
+  users:
+    Profitroll: Bogdan_219_a092
+  permissions:
+    Profitroll:
+    - kick
+    - ban
+    - op
+    - console
+    - log
+Port: 55000

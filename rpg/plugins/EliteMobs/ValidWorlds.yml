@@ -1,0 +1,23 @@
+Valid worlds:
+  map_main: true
+  DIM-1: true
+  Air_Islands: true
+  Building: true
+  Buildings: true
+  Mr_Cronix: true
+  Sky: true
+  Tavern: true
+  bw_mines: true
+  bw_mines_lobby: true
+  cw_castle: true
+  cw_clay: true
+  cw_forest: true
+  cw_foxenstein: true
+  cw_sand: true
+  cw_village: true
+  islands: true
+  map_main_nether: true
+  map_main_the_end: true
+  survival: true
+  test: true
+  travel_water: true

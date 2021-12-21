@@ -1,0 +1,50 @@
+Weapons:
+  One: SWORD
+  Two: BOW
+  Three: RED_ROSE
+  Four: PAPER
+  Five: HOE
+  Six: FLINT
+  Seven: YELLOW_FLOWER
+  Eight: AXE
+  Nine: SWORD
+  Select: SLIME_BALL
+Class:
+  One: Warrior
+  Two: Archer
+  Three: Priest
+  Four: Wizard
+  Five: Vampire
+  Six: Necromancer
+  Seven: Druid
+  Eight: Butcher
+  Nine: Assassin
+  Deleted: Deleted
+  List: Warrior | Archer | Priest | Wizard | Vampire | Necromancer | Druid | Butcher
+    | Assassin | Deleted
+French:
+  change: ' est devenu '
+  be: 'Maintenant vous êtes un '
+  nopermittobe: 'Vous n''avez pas la permission de devenir un '
+  nopermittostuff: Vous n'avez pas la permission d'avoir votre équipement.
+  nohaveclass: Vous n'avez pas de classe.
+  alreadyclass: Vous avez déjà une classe !
+  recharge: Chargé !
+  warning: Vous ne pourrez plus changer de classe après.
+  worldtrue: Dans le monde dans lequel vous êtes, le plugin NirvaEx est actif.
+  worldfalse: Dans le monde dans lequel vous êtes, le plugin NirvaEx est inactif.
+  locationtrue: Là où vous êtes situé, le plugin NirvaEx est actif.
+  locationfalse: Là où vous êtes situé, le plugin NirvaEx est inactif.
+English:
+  change: ' become '
+  be: 'Now you are a '
+  nopermittobe: 'You don''t have any permission to be a '
+  nopermittostuff: You don't have any permission to have your stuff.
+  nohaveclass: You don't have any class.
+  alreadyclass: You have already a class !
+  recharge: Loaded !
+  warning: You won't to change your class after.
+  worldtrue: In this world, the plugin NirvaEx is actived.
+  worldfalse: In this world, the plugin NirvaEx is disactived.
+  locationtrue: At your location, the plugin NirvaEx is actived.
+  locationfalse: At your location, the plugin NirvaEx is disactived.

@@ -1,0 +1,86 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Игровые предметы'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'items'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+fruits:
+  COMMAND: 'open: fruits.yml'
+  NAME: '§rФрукты'
+  ID: apple
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+bakery:
+  COMMAND: 'open: bakery.yml'
+  NAME: '§rВыпечка'
+  ID: bread
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+grocery:
+  COMMAND: 'open: grocery.yml'
+  NAME: '§rБакалея'
+  ID: egg
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+other:
+  COMMAND: 'open: other.yml'
+  NAME: '&rДругое'
+  ID: banner
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+back:
+  COMMAND: 'open: help.yml'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню помощи'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  #VIEW-PERMISSION: 'menus.staff'
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

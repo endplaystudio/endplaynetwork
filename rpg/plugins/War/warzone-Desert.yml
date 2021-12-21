@@ -1,0 +1,66 @@
+set:
+  warzone:
+    Desert:
+      info:
+        authors:
+        - Profitroll
+        teleport:
+          x: -50
+          y: 96
+          z: -56
+          yaw: 90
+        world: cw_sand
+        lobby:
+          orientation: south
+          world: cw_sand
+          materials:
+            floor:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLASS
+            outline:
+              ==: org.bukkit.inventory.ItemStack
+              type: WOOD
+            gate:
+              ==: org.bukkit.inventory.ItemStack
+              type: OBSIDIAN
+            light:
+              ==: org.bukkit.inventory.ItemStack
+              type: GLOWSTONE
+        materials:
+          main:
+            ==: org.bukkit.inventory.ItemStack
+            type: OBSIDIAN
+          stand:
+            ==: org.bukkit.inventory.ItemStack
+            type: FENCE
+          light:
+            ==: org.bukkit.inventory.ItemStack
+            type: GLOWSTONE
+  team:
+    names:
+    - red
+    - blue
+    red:
+      info:
+        spawns:
+        - x: -92
+          y: 58
+          z: -102
+          yaw: 312
+        flag:
+          x: -92
+          y: 62
+          z: -102
+          yaw: 320
+    blue:
+      info:
+        spawns:
+        - x: -4
+          y: 56
+          z: -6
+          yaw: 179
+        flag:
+          x: -5
+          y: 62
+          z: -4
+          yaw: 130

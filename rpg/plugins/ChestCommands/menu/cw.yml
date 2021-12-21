@@ -1,0 +1,141 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Castle Wars'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'cw'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+clay:
+  COMMAND: 'warzone Clay'
+  NAME: '&6Clay'
+  LORE:
+    - 'Карта схожа с пустыней в неваде.'
+    - 'Множество гор из глины и разделяющая их речка.'
+    - 'Карта подходит для игры 2-6 человек.'
+    - ''
+    - ' • Размер карты: &c99x108'
+    - ' • Игроки: &c5 vs 5'
+    - ' • Время суток: &cДинамическое'
+    - ' '
+    - '&e► Войти на карту'
+  ID: hardened_clay
+  POSITION-X: 3
+  POSITION-Y: 2
+
+castle:
+  COMMAND: 'warzone Castle'
+  NAME: '&cCastle &8| &e&lUPDATED!'
+  LORE:
+    - 'Два замка друг напротив друга.'
+    - 'Один - &cкрасные&7; Второй - &9синие'
+    - 'Сражайтесь используя укрытия и башни'
+    - ''
+    - ' • Размер карты: &c108x103'
+    - ' • Игроки: &c5 vs 5'
+    - ' • Время суток: &cДинамическое'
+    - ' '
+    - '&e► Войти на карту'
+  ID: cobblestone
+  POSITION-X: 4
+  POSITION-Y: 2
+  
+foxenstein:
+  COMMAND: 'war zone Foxenstein'
+  NAME: '&aFoxenstein &8| &c&lNEW!'
+  LORE:
+    - 'Два замка разделены на две части.'
+    - 'Один - &cкрасные&7; Второй - &9синие'
+    - 'Используйте укрытия, проходы под землёй,'
+    - 'ломайте ковры, и активируйте ловушки.'
+    - 'Цель - победа любой ценой.'
+    - ''
+    - ' • Размер карты: &c99x110'
+    - ' • Игроки: &c5 vs 5'
+    - ' • Время суток: &cНочь'
+    - ' '
+    - '&e► Войти на карту'
+  ID: stonebrick:3
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+sand:
+  COMMAND: 'war zone Desert'
+  NAME: '&eDesert &8| &c&lNEW!'
+  LORE:
+    - 'Большая пустыня наполненная кактусами.'
+    - 'Используйте воду и ландшафт,'
+    - 'подрывайте пески и сражайтесь до последнего'
+    - ''
+    - ' • Размер карты: &c99x110'
+    - ' • Игроки: &c5 vs 5'
+    - ' • Время суток: &cДень'
+    - ' '
+    - '&e► Войти на карту'
+  ID: sand
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+in-development:
+  COMMAND: 'war zone Forest'
+  NAME: '&2Forest &8| &c&lNEW!'
+  LORE:
+    - 'Эта локация создана опираясь на'
+    - 'одну из карты "Метро: Исход".'
+    - 'Атмосфера безысходности, дождь,'
+    - 'большое пространство, лес и многое'
+    - 'другое для фанатов такой атмосферы.'
+    - ''
+    - ' • Размер карты: &c170x151'
+    - ' • Игроки: &c5 vs 5'
+    - ' • Время суток: &cСумерки &7(&c18:45&7)'
+    - ''
+    - '&e► Войти на карту'
+  ID: log
+  POSITION-X: 7
+  POSITION-Y: 2
+
+back:
+  COMMAND: 'activity'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню активностей.'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

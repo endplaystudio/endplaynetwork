@@ -1,0 +1,18 @@
+# ======================================================
+# 
+# DailyBonus Version: 2.2.1.6 build: zmrdezkurvenej
+# Created by: JC_Plays_MC
+# 
+# ======================================================
+# 
+# Player File
+# 
+# This file is used to store all player data based on their UUID.
+# If the server is ever stopped or restarted it will save all of
+# the current players delay times whether it be the day timer or
+# the waiting timer and restart all of them upon starting the server.
+# 
+# Because the plugin depends on this file to save vital data on stops/restarts
+# it is highly recommended that you DO NOT edit this fie while the server is on!
+# 
+# ======================================================

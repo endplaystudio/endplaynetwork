@@ -1,0 +1,22 @@
+currentQuests:
+- Жестокое заключение
+currentStages:
+- 1
+quest-points: 23
+questData:
+  Жестокое заключение:
+    item-delivery-amounts:
+    - 0
+    citizen-ids-to-talk-to:
+    - 37
+    has-talked-to:
+    - false
+completed-Quests:
+- Доставка удочки
+- Морковные дела
+- Водка "Столичная"
+- Рыцарские делишки
+- Доставка оружия
+- Странная Просьба
+hasJournal: false
+lastKnownName: Sunkro

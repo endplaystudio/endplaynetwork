@@ -1,0 +1,32 @@
+# Ceci est le fichier de langue Francais que Navigator utilise pour formuler ses instructions de navigation.
+# CARDINALDIR sera remplacé par une direction cardinale. Par exemple, "Allez vers le CARDINALDIR" deviendra "Allez vers le Nord".
+# DESTRNAME sera remplacé par le nom de la destination.
+# WORLDNAME sera remplacé par, évidemment, le nom du monde en question..
+# Le remplacement de mots est uniquement valable pour les phrases qui comportent actuellement des mots remplacés.
+# /nl Cree une nouvelle ligne,
+# Compatible avec Navigator v1.5.2
+North: Nord
+East: Est
+South: Sud
+West: Ouest
+North_East: Nord-Est
+North_West: Nord-Ouest
+South_East: Sud-Est
+South_West: Sud-Ouest
+
+Start: Commencez par aller vers le CARDINALDIR.
+End: Vous êtes a votre destination!
+Go_Straight: Allez tout droit, vers le CARDINALDIR.
+Turn_Left: Tournez a gauche, vers le CARDINALDIR.
+Turn_Right: Tournez a droite, vers le CARDINALDIR.
+Turn_Around: Faites demi-tour, vers le CARDINALDIR.
+OffrouteA: Vous vous êtes légerement écartés de la route plannifiée./nlAvis-vous pris un mauvais chemin?/nlUstilisez "/nav compass" pour vous orienter.
+OffrouteB: Vous vous êtes fortement écartés de la route plannifiée./nlLa navigation est annullée./nlUtilisez "/nav go <destination>" pour réesayer./nlUstilizez "/nav compass" pour vous orienter.
+NoRoute: Impossible de trouver une route vers DESTNAME.
+NavStart: Navigation vers DESTNAME commencée.
+NoMapOfWorld: Pas de carte de "WORLDNAME" disponible, navigation impossible.
+TooFarFromRoad: Vous n'êtes pas sur une route cartographiée.
+InGameOnlyCommand: Cette commande fonctionne uniquement dans le jeu.
+RouteCalc: Route en train d'être calculée vers DESTNAME.
+DestCoordsFarFromRoad: Attention! Les coordonnées sont a DISTANCE /nlblocs de la route la plus proche cartographiée.
+DestinationExists: Erreur! La destination "DESTNAME" existe déja, destination pas ajoutée.

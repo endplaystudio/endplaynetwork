@@ -1,0 +1,76 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&0Свадьба/Развод'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'marrychoise'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  
+  KEEP-OPEN: true
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+deposit:
+  COMMAND: ''
+  NAME: '&aСделать предложение'
+  LORE:
+    - 'Для этого вам нужно ввести команду:'
+    - '&c/marry НИК &7(заплатив &a50LND&7)'
+    - 'и в случае если ваша вторая половинка тоже напишет'
+    - '&c/marry {player}&7, то вы станете парой.'
+  ID: red_rose
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+withdraw:
+  COMMAND: 'open: marry-accept.yml'
+  NAME: '&cПодать на развод'
+  LORE:
+    - 'Развестись с вашей второй половинкой'
+  ID: tnt
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+back:
+  COMMAND: 'marry'
+  NAME: '&cНазад'
+  LORE:
+    - 'В меню отношений'
+  ID: skull:3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true
